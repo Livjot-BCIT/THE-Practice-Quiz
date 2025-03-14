@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+
+  <body>
+        <!-- Main Page -->
+        <div id="mainPage" class="container">
+        <h1>1510 Quiz Website</h1>
+
+        <!-- Which exam are they studying for -->
+        <label>Exam:</label>
+        <ul class="exams" id="examsList"></ul>
+        
+        <!-- Which chapters -->
+        <div id="chapters">
+            <label>Chapters:</label>
+            <ul class="chapters" id="chaptersList"></ul>
+
+        <!-- Q# -->
+        <div id="questions">
+            <label>Questions per attempt</label>
+            <select id="questionCount">
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            </select>
+        </div>
+
+        <button onclick="startQuiz()">Start Quiz</button>
+        </div>
+
+    <div id="quizScreen" class="container hidden">
+      <h2>Quiz</h2>
+      <div id="quizContainer"></div>
+      <br />
+      <button onclick="submitQuiz()">Submit Quiz</button>
+    </div>
+
+    <div id="resultsScreen" class="container hidden">
+      <h2>Quiz complete</h2>
+      <p id="scoreText"></p>
+      <button onclick="restartQuiz()">Restart</button>
+    </div>
+
+    <script src="./questiondata/test.js"></script>
+    <script src="./questiondata/test2.js"></script>
+    <script src="./scripts/generator.js"></script>
+  </body>
+</html>

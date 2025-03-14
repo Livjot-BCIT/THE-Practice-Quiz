@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- <link rel="stylesheet" href="./styles/main.css" /> -->
+    <title>1510 Quiz Website</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="content-wrapper">
+        <!-- Background video -->
+        <video
+          class="background-video"
+          src="./images/catalystBackground.mp4"
+          autoplay
+          loop
+          muted
+        ></video>
+
+        <!-- Left column -->
+        <div class="side left"></div>
+
+        <!-- Main Page -->
+        <div id="mainPage" class="container">
+          <h1>1510 Quiz Website</h1>
+
+          <!-- Which exam are they studying for -->
+          <label>Exam:</label>
+          <ul class="exams" id="examsList"></ul>
+
+          <!-- Which chapters -->
+          <div id="chapters">
+            <label>Chapters:</label>
+            <ul class="chapters" id="chaptersList"></ul>
+          </div>
+
+          <!-- Q# -->
+          <div id="questions">
+            <label>Questions per attempt</label>
+            <select id="questionCount">
+              <option value="3">3</option>
+              <option value="5">5</option>
+              <option value="7">7</option>
+            </select>
+          </div>
+          <button onclick="startQuiz()">Start Quiz</button>
+
+          <footer>
+            <hr />
+            <div id="footer">
+              <div id="links">
+                <a
+                  href="https://docs.google.com/document/d/1MOVpEVdHEbigwvpJk2h_6VJ49L0uOAlseSyCwteGMNc/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Placerholder 1
+                </a>
+                <a
+                  href="https://docs.google.com/document/d/1te3-P5Rm_u4fdDsJFVOWigXhoSgLdk8tMQN2CvaR7pk/edit?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Placeholder 2
+                </a>
+              </div>
+              <div id="dark-mode-toggle-container">
+                <span>Placeholder 3</span>
+                <label>
+                  <input type="checkbox" id="dark-mode-toggle" />
+                  <span id="slider"></span>
+                </label>
+              </div>
+              <div id="github">
+                <a
+                  href="https://github.com/pnguyen72/1712quiz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="bx bxl-github"></i>
+                </a>
+              </div>
+            </div>
+          </footer>
+        </div>
+
+        <!-- Right column -->
+        <div class="side right"></div>
+      </div>
+      <div id="quizScreen" class="container hidden">
+        <h2>Quiz</h2>
+        <div id="quizContainer"></div>
+        <br />
+        <button onclick="submitQuiz()">Submit Quiz</button>
+      </div>
+
+      <!-- Quiz Completion Page -->
+      <div id="resultsScreen" class="container hidden">
+        <h2>Quiz complete</h2>
+        <p id="scoreText"></p>
+        <button onclick="restartQuiz()">Restart</button>
+      </div>
+
+      <!-- Navbar Footer -->
+      <div class="navbar">
+        <ul></ul>
+        <span class="navbar-text">Slider</span>
+        <!-- This is the centered text -->
+        <ul>
+          <li class="slider-item">
+            <div class="slider" id="toggleSlider" onclick="toggleBackground()">
+              <div class="slider-btn"></div>
+            </div>
+          </li>
+          <li><a href="#">A</a></li>
+          <li><a href="#">B</a></li>
+          <li><a href="#">C</a></li>
+        </ul>
+      </div>
+    </div>
+
+    
+
+    <script src="./questiondata/test.js"></script>
+    <script src="./questiondata/test2.js"></script>
+    <script src="./scripts/generator.js"></script>
+
+    <script>
+      function toggleBackground() {
+        // Toggle the class for background video visibility
+        document.querySelector(".content-wrapper").classList.toggle("video-bg");
+        document.getElementById("toggleSlider").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
