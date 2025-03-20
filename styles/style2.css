@@ -51,8 +51,7 @@ body {
   z-index: 2;
   text-align: left; /* Align text to left */
   position: relative;
-  background-color: rgba(0, 0, 0, 0.3);
-  /* background-color: #293165; */
+  background-color: #293165;
   display: flex;
   flex-direction: column;
   justify-content: flex-start; /* Align items at the top of the container */
@@ -61,7 +60,7 @@ body {
 } 
 
 .bg {
-    /* background-color: #293165; */
+    background-color: #293165;
     background-image: 
       radial-gradient(circle at 15% 25%, #323C6F 40px, transparent 0),
       radial-gradient(circle at 75% 20%, #323C6F 50px, transparent 0),
@@ -148,11 +147,14 @@ body {
 .shape-x.four { top: 10%; left: 10%; }
 
 
-@media (max-width: 650px) {
-  .container {
-    width: 100vw;
+@media (max-width: 769px) {
+    .container {
+      width: 90vw; /* Make container narrower for margin */
+      margin: 20px auto; /* Center and add margin on all sides */
+      padding: 15px; /* Adjust padding for better spacing */
+    }
   }
-}
+  
 
 button {
   width: auto;
@@ -318,4 +320,19 @@ input {
   border-radius: 4px;
 }
 
+/* Ensure radio buttons and labels appear in the same line */
+.question label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Space between each question's choices */
+  }
+  
+  .question input[type="radio"] {
+    margin-right: 10px; /* Space between the radio button and the label */
+  }
+  
 
+  #quizContainer {
+    max-height: 80vh; /* Adjust this depending on how much space you want for scrolling */
+    overflow-y: auto;
+}

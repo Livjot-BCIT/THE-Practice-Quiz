@@ -1,0 +1,1353 @@
+{
+  "02_01": {
+    "chapter": "2",
+    "question": "What is a program?",
+    "choices": {
+      "A": {
+        "choice": "A series of instructions that the hardware executes one after another.",
+        "correct": true
+      },
+      "B": {
+        "choice": "A set of rules for communication between computers."
+      },
+      "C": {
+        "choice": "A type of memory used by the CPU."
+      },
+      "D": {
+        "choice": "A high-level programming language."
+      }
+    }
+  },
+  "02_02": {
+    "chapter": "2",
+    "question": "What is software?",
+    "choices": {
+      "A": {
+        "choice": "A collection of hardware components in a computer."
+      },
+      "B": {
+        "choice": "A program paired with the data the program uses.",
+        "correct": true
+      },
+      "C": {
+        "choice": "An operating system used for managing hardware."
+      },
+      "D": {
+        "choice": "A tool used to debug a program."
+      }
+    }
+  },
+  "02_03": {
+    "chapter": "2",
+    "question": "What is the difference between print and println methods?",
+    "choices": {
+      "A": {
+        "choice": "The print method does not advance to the next line after printing the string.",
+        "correct": true
+      },
+      "B": {
+        "choice": "The println method prints without advancing to the next line."
+      },
+      "C": {
+        "choice": "The print method prints to a different output stream."
+      },
+      "D": {
+        "choice": "The println method does not print anything."
+      }
+    }
+  },
+  "02_04": {
+    "chapter": "2",
+    "question": "In one line, use the println method to print 'hello world'.",
+    "choices": {
+      "A": {
+        "choice": "System.out.println('hello world');",
+        "correct": true
+      },
+      "B": {
+        "choice": "print('hello world');"
+      },
+      "C": {
+        "choice": "println('hello world');"
+      },
+      "D": {
+        "choice": "System.out.print('hello world');"
+      }
+    }
+  },
+  "02_05": {
+    "chapter": "2",
+    "question": "The string concatenation operator (+) is used to {{c1::append one string to the end of another}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_06": {
+    "chapter": "2",
+    "question": "What happens when an int is added to a string using the + operator?",
+    "choices": {
+      "A": {
+        "choice": "It is promoted to a string and then concatenated.",
+        "correct": true
+      },
+      "B": {
+        "choice": "The int is discarded."
+      },
+      "C": {
+        "choice": "The result is an integer value."
+      },
+      "D": {
+        "choice": "A syntax error occurs."
+      }
+    }
+  },
+  "02_07": {
+    "chapter": "2",
+    "question": "True or false: A string can be broken across two lines in Java.",
+    "choices": {
+      "A": {
+        "choice": "True"
+      },
+      "B": {
+        "choice": "False",
+        "correct": true
+      }
+    }
+  },
+  "02_08": {
+    "chapter": "2",
+    "question": "The behavior of the + operator depends on {{c1::whether at least one of the operands is a string}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_09": {
+    "chapter": "2",
+    "question": "A variable is a {{c1::name for a location in memory that holds a value.}}",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_10": {
+    "chapter": "2",
+    "question": "A variable declaration specifies {{c1::the variable's name and the type of information that it will hold.}}",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_11": {
+    "chapter": "2",
+    "question": "What primitive type represents characters?",
+    "choices": {
+      "A": {
+        "choice": "int"
+      },
+      "B": {
+        "choice": "char",
+        "correct": true
+      },
+      "C": {
+        "choice": "boolean"
+      },
+      "D": {
+        "choice": "String"
+      }
+    }
+  },
+  "02_12": {
+    "chapter": "2",
+    "question": "What primitive type represents true or false values?",
+    "choices": {
+      "A": {
+        "choice": "int"
+      },
+      "B": {
+        "choice": "char"
+      },
+      "C": {
+        "choice": "boolean",
+        "correct": true
+      },
+      "D": {
+        "choice": "String"
+      }
+    }
+  },
+  "02_13": {
+    "chapter": "2",
+    "question": "The suffix for long number is {{c1::L or l}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_14": {
+    "chapter": "2",
+    "question": "Numbers consisting of an optional sign followed by digits have type {{c1::int}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_15": {
+    "chapter": "2",
+    "question": "What is the prefix for a hexadecimal number?",
+    "choices": {
+      "A": {
+        "choice": "0b or 0B"
+      },
+      "B": {
+        "choice": "0x or 0X",
+        "correct": true
+      },
+      "C": {
+        "choice": "0d or 0D"
+      },
+      "D": {
+        "choice": "0h or 0H"
+      }
+    }
+  },
+  "02_16": {
+    "chapter": "2",
+    "question": "What is the prefix for a binary number?",
+    "choices": {
+      "A": {
+        "choice": "0x or 0X"
+      },
+      "B": {
+        "choice": "0b or 0B",
+        "correct": true
+      },
+      "C": {
+        "choice": "0d or 0D"
+      },
+      "D": {
+        "choice": "0h or 0H"
+      }
+    }
+  },
+  "02_17": {
+    "chapter": "2",
+    "question": "Floating point numbers can use scientific notation by {{c1::using E or e followed by the exponent}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_18": {
+    "chapter": "2",
+    "question": "What character is used in a number for readability?",
+    "choices": {
+      "A": {
+        "choice": "Comma"
+      },
+      "B": {
+        "choice": "Dot"
+      },
+      "C": {
+        "choice": "Underscore",
+        "correct": true
+      },
+      "D": {
+        "choice": "Space"
+      }
+    }
+  },
+  "02_19": {
+    "chapter": "2",
+    "question": "Character literals are declared by using {{c1::single quotes}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_20": {
+    "chapter": "2",
+    "question": "Char variables in Java can store any character from the {{c1::Unicode}} character set.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_21": {
+    "chapter": "2",
+    "question": "What is an {{c1::expression}}?",
+    "choices": {
+      "A": {
+        "choice": "A combination of one or more operators and operands.",
+        "correct": true
+      },
+      "B": {
+        "choice": "A type of function in Java."
+      },
+      "C": {
+        "choice": "A special kind of method."
+      },
+      "D": {
+        "choice": "An event handler in Java."
+      }
+    }
+  },
+  "02_22": {
+    "chapter": "2",
+    "question": "The result of an arithmetic expression will be a floating point value if {{c1::either or both operands are floating point values}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_23": {
+    "chapter": "2",
+    "question": "The decimal results of an arithmetic expression are lost if {{c1::both operands are integers}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_24": {
+    "chapter": "2",
+    "question": "The remainder operator uses the {{c1::%}} character.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_25": {
+    "chapter": "2",
+    "question": "If a and b are both integers, the sign of a % b is always the sign of {{c1::a}}.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_26": {
+    "chapter": "2",
+    "question": "The order of operations for arithmetic operators is: {{c1::Any expression in parentheses. Multiplication, division and remainder Addition and subtraction Assignment (ie storing the value calculated by the expression)}}",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_27": {
+    "chapter": "2",
+    "question": "The statement {{c1::count++;}} is functionally equivalent to {{c2::count = count + 1;}}",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_28": {
+    "chapter": "2",
+    "question": "The difference between ++count and count++ is that ++count increments the value before it is used in the expression, whereas count++ does so after.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_29": {
+    "chapter": "2",
+    "question": "List all assignment operators.",
+    "choices": {
+      "A": {
+        "choice": "+= -= *= /= %="
+      },
+      "B": {
+        "choice": "-= += /= *= %=^"
+      },
+      "C": {
+        "choice": "+-= %*= ^= ^="
+      },
+      "D": {
+        "choice": "+= -= *= /= %=",
+        "correct": true
+      }
+    }
+  },
+  "02_30": {
+    "chapter": "2",
+    "question": "What does an assignment statement do?",
+    "choices": {
+      "A": {
+        "choice": "It changes the value of a variable.",
+        "correct": true
+      },
+      "B": {
+        "choice": "It adds two values together."
+      },
+      "C": {
+        "choice": "It declares a variable."
+      },
+      "D": {
+        "choice": "It displays a value on the screen."
+      }
+    }
+  },
+  "02_31": {
+    "chapter": "2",
+    "question": "An initialization statement gives a variable its initial value.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_32": {
+    "chapter": "2",
+    "question": "What type of value does an int hold?",
+    "choices": {
+      "A": {
+        "choice": "Decimal value"
+      },
+      "B": {
+        "choice": "Whole number",
+        "correct": true
+      },
+      "C": {
+        "choice": "Character"
+      },
+      "D": {
+        "choice": "Boolean"
+      }
+    }
+  },
+  "02_33": {
+    "chapter": "2",
+    "question": "In Java, an expression is a combination of one or more operators and operands.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_34": {
+    "chapter": "2",
+    "question": "What method do you use to read input from the user in Java?",
+    "choices": {
+      "A": {
+        "choice": "System.out.println"
+      },
+      "B": {
+        "choice": "Scanner.read()"
+      },
+      "C": {
+        "choice": "System.in.read()"
+      },
+      "D": {
+        "choice": "Scanner.nextLine()",
+        "correct": true
+      }
+    }
+  },
+  "02_35": {
+    "chapter": "2",
+    "question": "The suffix for a float number is F or f.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_36": {
+    "chapter": "2",
+    "question": "What is used to denote a character literal in Java?",
+    "choices": {
+      "A": {
+        "choice": "Double quotes"
+      },
+      "B": {
+        "choice": "Single quotes",
+        "correct": true
+      },
+      "C": {
+        "choice": "Backticks"
+      },
+      "D": {
+        "choice": "Angle brackets"
+      }
+    }
+  },
+  "02_37": {
+    "chapter": "2",
+    "question": "The boolean data type in Java represents only true and false values.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_38": {
+    "chapter": "2",
+    "question": "In Java, floating point numbers have type float or double.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_39": {
+    "chapter": "2",
+    "question": "The result of an expression is promoted to float if any operand in the expression is a float or double.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_40": {
+    "chapter": "2",
+    "question": "Which of the following is a valid way to declare a constant in Java?",
+    "choices": {
+      "A": {
+        "choice": "final int x = 10;",
+        "correct": true
+      },
+      "B": {
+        "choice": "const int x = 10;"
+      },
+      "C": {
+        "choice": "static final var x = 10;"
+      },
+      "D": {
+        "choice": "final variable x = 10;"
+      }
+    }
+  },
+  "02_41": {
+    "chapter": "2",
+    "question": "What is the default value of an uninitialized int in Java?",
+    "choices": {
+      "A": {
+        "choice": "0",
+        "correct": true
+      },
+      "B": {
+        "choice": "null"
+      },
+      "C": {
+        "choice": "undefined"
+      },
+      "D": {
+        "choice": "NaN"
+      }
+    }
+  },
+  "02_42": {
+    "chapter": "2",
+    "question": "What primitive data type is used to represent characters in Java?",
+    "choices": {
+      "A": {
+        "choice": "char",
+        "correct": true
+      },
+      "B": {
+        "choice": "string"
+      },
+      "C": {
+        "choice": "int"
+      },
+      "D": {
+        "choice": "boolean"
+      }
+    }
+  },
+  "02_43": {
+    "chapter": "2",
+    "question": "The result of an arithmetic expression will be a floating point value if either or both operands are floating point values.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_44": {
+    "chapter": "2",
+    "question": "What happens if both operands of an arithmetic expression are integers?",
+    "choices": {
+      "A": {
+        "choice": "The result will be an integer.",
+        "correct": true
+      },
+      "B": {
+        "choice": "The result will be a floating point number."
+      },
+      "C": {
+        "choice": "The result will be an error."
+      },
+      "D": {
+        "choice": "The result will be converted to a boolean."
+      }
+    }
+  },
+  "02_45": {
+    "chapter": "2",
+    "question": "Which operator is used to calculate the remainder in Java?",
+    "choices": {
+      "A": {
+        "choice": "%",
+        "correct": true
+      },
+      "B": {
+        "choice": "/"
+      },
+      "C": {
+        "choice": "+"
+      },
+      "D": {
+        "choice": "-"
+      }
+    }
+  },
+  "02_46": {
+    "chapter": "2",
+    "question": "What is the order of operations in arithmetic expressions in Java?",
+    "choices": {
+      "A": {
+        "choice": "Parentheses, Multiplication, Division, Addition, Subtraction, Assignment",
+        "correct": true
+      },
+      "B": {
+        "choice": "Multiplication, Addition, Parentheses, Division, Subtraction"
+      },
+      "C": {
+        "choice": "Division, Addition, Subtraction, Multiplication, Parentheses"
+      },
+      "D": {
+        "choice": "Addition, Subtraction, Division, Multiplication, Parentheses"
+      }
+    }
+  },
+  "02_47": {
+    "chapter": "2",
+    "question": "What is the difference between the ++count and count++ operators?",
+    "choices": {
+      "A": {
+        "choice": "++count increments the value before it is used in the expression, whereas count++ increments it after.",
+        "correct": true
+      },
+      "B": {
+        "choice": "++count increments the value after it is used in the expression, whereas count++ increments it before."
+      },
+      "C": {
+        "choice": "Both are exactly the same."
+      },
+      "D": {
+        "choice": "None of the above."
+      }
+    }
+  },
+  "02_48": {
+    "chapter": "2",
+    "question": "Which data type can store boolean values?",
+    "choices": {
+      "A": {
+        "choice": "boolean",
+        "correct": true
+      },
+      "B": {
+        "choice": "int"
+      },
+      "C": {
+        "choice": "char"
+      },
+      "D": {
+        "choice": "float"
+      }
+    }
+  },
+  "02_49": {
+    "chapter": "2",
+    "question": "In Java, which of the following is used for reading keyboard input?",
+    "choices": {
+      "A": {
+        "choice": "Scanner",
+        "correct": true
+      },
+      "B": {
+        "choice": "System.out"
+      },
+      "C": {
+        "choice": "Console"
+      },
+      "D": {
+        "choice": "InputReader"
+      }
+    }
+  },
+  "02_50": {
+    "chapter": "2",
+    "question": "Which operator is used for division in Java?",
+    "choices": {
+      "A": {
+        "choice": "/",
+        "correct": true
+      },
+      "B": {
+        "choice": "*"
+      },
+      "C": {
+        "choice": "+"
+      },
+      "D": {
+        "choice": "-"
+      }
+    }
+  },
+  "02_51": {
+    "chapter": "2",
+    "question": "The int data type in Java can represent both positive and negative whole numbers.",
+    "choices": {
+      "A": {
+        "choice": "True",
+        "correct": true
+      },
+      "B": {
+        "choice": "False"
+      }
+    }
+  },
+  "02_52": {
+    "chapter": "2",
+    "question": "Which of the following is the correct way to create a constant in Java?",
+    "choices": {
+      "A": {
+        "choice": "final int x = 10;",
+        "correct": true
+      },
+      "B": {
+        "choice": "const int x = 10;"
+      },
+      "C": {
+        "choice": "static final x = 10;"
+      },
+      "D": {
+        "choice": "final constant x = 10;"
+      }
+    }
+  },
+  "02_53": {
+    "chapter": "2",
+    "question": "What is the result of dividing two integers in Java?",
+    "choices": {
+      "A": {
+        "choice": "An integer value",
+        "correct": true
+      },
+      "B": {
+        "choice": "A floating point value"
+      },
+      "C": {
+        "choice": "A boolean value"
+      },
+      "D": {
+        "choice": "A character value"
+      }
+    }
+  },
+  "02_54": {
+    "chapter": "2",
+    "question": "What is the default value of a boolean variable in Java?",
+    "choices": {
+      "A": {
+        "choice": "false",
+        "correct": true
+      },
+      "B": {
+        "choice": "true"
+      },
+      "C": {
+        "choice": "null"
+      },
+      "D": {
+        "choice": "0"
+      }
+    }
+  },
+  "02_55": {
+    "chapter": "2",
+    "question": "Which of the following is true about floating point numbers in Java?",
+    "choices": {
+      "A": {
+        "choice": "They can store decimals.",
+        "correct": true
+      },
+      "B": {
+        "choice": "They cannot store decimals."
+      },
+      "C": {
+        "choice": "They are used to represent integers."
+      },
+      "D": {
+        "choice": "They represent character values."
+      }
+    }
+  },
+  "02_56": {
+    "chapter": "2",
+    "question": "Which operator is used to calculate the quotient of two numbers in Java?",
+    "choices": {
+      "A": {
+        "choice": "/",
+        "correct": true
+      },
+      "B": {
+        "choice": "*"
+      },
+      "C": {
+        "choice": "+"
+      },
+      "D": {
+        "choice": "-"
+      }
+    }
+  },
+  "02_57": {
+    "chapter": "2",
+    "question": "Which type of operator is used to perform mathematical operations on numbers?",
+    "choices": {
+      "A": {
+        "choice": "Arithmetic operators",
+        "correct": true
+      },
+      "B": {
+        "choice": "Relational operators"
+      },
+      "C": {
+        "choice": "Logical operators"
+      },
+      "D": {
+        "choice": "Assignment operators"
+      }
+    }
+  },
+  "02_58": {
+    "chapter": "2",
+    "question": "What does the modulus operator (%) do in Java?",
+    "choices": {
+      "A": {
+        "choice": "Returns the remainder of a division operation.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Divides two numbers."
+      },
+      "C": {
+        "choice": "Adds two numbers."
+      },
+      "D": {
+        "choice": "Subtracts one number from another."
+      }
+    }
+  },
+  "02_59": {
+    "chapter": "2",
+    "question": "Which of the following is used to get input from the user in Java?",
+    "choices": {
+      "A": {
+        "choice": "Scanner",
+        "correct": true
+      },
+      "B": {
+        "choice": "System.out"
+      },
+      "C": {
+        "choice": "InputStream"
+      },
+      "D": {
+        "choice": "Console"
+      }
+    }
+  },
+  "02_60": {
+    "chapter": "2",
+    "question": "What is the purpose of a constant in Java?",
+    "choices": {
+      "A": {
+        "choice": "To store values that cannot be changed after initialization.",
+        "correct": true
+      },
+      "B": {
+        "choice": "To store values that can be changed anytime."
+      },
+      "C": {
+        "choice": "To store input values from users."
+      },
+      "D": {
+        "choice": "To store temporary variables during method execution."
+      }
+    }
+  },
+  "02_61": {
+    "chapter": "2",
+    "question": "Which of the following are the primitive types in Java?",
+    "choices": {
+      "A": {
+        "choice": "int, float, double, boolean, char, short, long, byte",
+        "correct": true
+      },
+      "B": {
+        "choice": "Integer, String, Char, Float"
+      },
+      "C": {
+        "choice": "boolean, int, String, char"
+      },
+      "D": {
+        "choice": "byte, String, Object, long"
+      }
+    }
+  },
+  "02_62": {
+    "chapter": "2",
+    "question": "What is the correct syntax to declare a constant variable in Java?",
+    "choices": {
+      "A": {
+        "choice": "final int x = 10;",
+        "correct": true
+      },
+      "B": {
+        "choice": "const int x = 10;"
+      },
+      "C": {
+        "choice": "int final x = 10;"
+      },
+      "D": {
+        "choice": "x final int = 10;"
+      }
+    }
+  },
+  "02_63": {
+    "chapter": "2",
+    "question": "Which of the following is a valid variable declaration in Java?",
+    "choices": {
+      "A": {
+        "choice": "int number = 5;",
+        "correct": true
+      },
+      "B": {
+        "choice": "number = int 5;"
+      },
+      "C": {
+        "choice": "5 int number =;"
+      },
+      "D": {
+        "choice": "float int = 5;"
+      }
+    }
+  },
+  "02_64": {
+    "chapter": "2",
+    "question": "What is the default value of a float variable in Java?",
+    "choices": {
+      "A": {
+        "choice": "0.0",
+        "correct": true
+      },
+      "B": {
+        "choice": "null"
+      },
+      "C": {
+        "choice": "0"
+      },
+      "D": {
+        "choice": "undefined"
+      }
+    }
+  },
+  "02_65": {
+    "chapter": "2",
+    "question": "What does the String class in Java represent?",
+    "choices": {
+      "A": {
+        "choice": "A sequence of characters.",
+        "correct": true
+      },
+      "B": {
+        "choice": "A primitive data type."
+      },
+      "C": {
+        "choice": "A type of integer."
+      },
+      "D": {
+        "choice": "A data type for storing floating point numbers."
+      }
+    }
+  },
+  "02_66": {
+    "chapter": "2",
+    "question": "How do you create an array of integers in Java?",
+    "choices": {
+      "A": {
+        "choice": "int[] arr = new int[5];",
+        "correct": true
+      },
+      "B": {
+        "choice": "int arr = new int[5];"
+      },
+      "C": {
+        "choice": "int arr = new array[5];"
+      },
+      "D": {
+        "choice": "array int[] = new array[5];"
+      }
+    }
+  },
+  "02_67": {
+    "chapter": "2",
+    "question": "What is the output of the following code: System.out.println(5 + 3 * 2);",
+    "choices": {
+      "A": {
+        "choice": "11",
+        "correct": true
+      },
+      "B": {
+        "choice": "16"
+      },
+      "C": {
+        "choice": "13"
+      },
+      "D": {
+        "choice": "8"
+      }
+    }
+  },
+  "02_68": {
+    "chapter": "2",
+    "question": "Which of the following is true about the '==' operator in Java?",
+    "choices": {
+      "A": {
+        "choice": "It compares two primitive values.",
+        "correct": true
+      },
+      "B": {
+        "choice": "It compares two objects based on their memory location."
+      },
+      "C": {
+        "choice": "It compares two objects based on their content."
+      },
+      "D": {
+        "choice": "It always returns false."
+      }
+    }
+  },
+  "02_69": {
+    "chapter": "2",
+    "question": "What will be the output of the following code: System.out.println('A' + 1);",
+    "choices": {
+      "A": {
+        "choice": "66",
+        "correct": true
+      },
+      "B": {
+        "choice": "A1"
+      },
+      "C": {
+        "choice": "65"
+      },
+      "D": {
+        "choice": "Error"
+      }
+    }
+  },
+  "02_70": {
+    "chapter": "2",
+    "question": "Which of the following is a valid way to create a new instance of the Scanner class in Java?",
+    "choices": {
+      "A": {
+        "choice": "Scanner scan = new Scanner(System.in);",
+        "correct": true
+      },
+      "B": {
+        "choice": "Scanner scan = Scanner(System.in);"
+      },
+      "C": {
+        "choice": "Scanner scan = new Scanner();"
+      },
+      "D": {
+        "choice": "Scanner scan = new scan(System.in);"
+      }
+    }
+  },
+  "02_71": {
+    "chapter": "2",
+    "question": "What will be the output of the following code: System.out.println(10 % 3);",
+    "choices": {
+      "A": {
+        "choice": "1",
+        "correct": true
+      },
+      "B": {
+        "choice": "3"
+      },
+      "C": {
+        "choice": "0"
+      },
+      "D": {
+        "choice": "10"
+      }
+    }
+  },
+  "02_72": {
+    "chapter": "2",
+    "question": "Which of the following is the correct way to declare a method in Java?",
+    "choices": {
+      "A": {
+        "choice": "public void methodName() {}",
+        "correct": true
+      },
+      "B": {
+        "choice": "method void public methodName() {}"
+      },
+      "C": {
+        "choice": "void public methodName() {}"
+      },
+      "D": {
+        "choice": "method void methodName() {}"
+      }
+    }
+  },
+  "02_73": {
+    "chapter": "2",
+    "question": "What is the correct syntax for a for loop in Java?",
+    "choices": {
+      "A": {
+        "choice": "for (int i = 0; i < 10; i++) {}",
+        "correct": true
+      },
+      "B": {
+        "choice": "for (int i = 0; i < 10) {}"
+      },
+      "C": {
+        "choice": "for (int i = 0; i++) {}"
+      },
+      "D": {
+        "choice": "for (int i = 0) {}"
+      }
+    }
+  },
+  "02_74": {
+    "chapter": "2",
+    "question": "Which of the following is the correct way to comment in Java?",
+    "choices": {
+      "A": {
+        "choice": "// This is a comment",
+        "correct": true
+      },
+      "B": {
+        "choice": "# This is a comment"
+      },
+      "C": {
+        "choice": "<!-- This is a comment -->"
+      },
+      "D": {
+        "choice": "/* This is a comment */"
+      }
+    }
+  },
+  "02_75": {
+    "chapter": "2",
+    "question": "Which of the following data types is used to store decimal numbers in Java?",
+    "choices": {
+      "A": {
+        "choice": "float, double",
+        "correct": true
+      },
+      "B": {
+        "choice": "int, long"
+      },
+      "C": {
+        "choice": "char, boolean"
+      },
+      "D": {
+        "choice": "String, Object"
+      }
+    }
+  },
+  "02_76": {
+    "chapter": "2",
+    "question": "What is the default value of an uninitialized boolean variable in Java?",
+    "choices": {
+      "A": {
+        "choice": "false",
+        "correct": true
+      },
+      "B": {
+        "choice": "null"
+      },
+      "C": {
+        "choice": "true"
+      },
+      "D": {
+        "choice": "undefined"
+      }
+    }
+  },
+  "02_77": {
+    "chapter": "2",
+    "question": "What will the following code output: System.out.println(5 + 2 + \"Hello\");",
+    "choices": {
+      "A": {
+        "choice": "7Hello",
+        "correct": true
+      },
+      "B": {
+        "choice": "Hello7"
+      },
+      "C": {
+        "choice": "5Hello2"
+      },
+      "D": {
+        "choice": "Hello5"
+      }
+    }
+  },
+  "02_78": {
+    "chapter": "2",
+    "question": "What will the following code output: System.out.println(\"Hello\" + 3 + 2);",
+    "choices": {
+      "A": {
+        "choice": "Hello32",
+        "correct": true
+      },
+      "B": {
+        "choice": "Hello5"
+      },
+      "C": {
+        "choice": "5Hello"
+      },
+      "D": {
+        "choice": "3Hello2"
+      }
+    }
+  },
+  "02_79": {
+    "chapter": "2",
+    "question": "Which of the following will be the output of the following code: System.out.println(\"Java\".charAt(2));",
+    "choices": {
+      "A": {
+        "choice": "v",
+        "correct": true
+      },
+      "B": {
+        "choice": "a"
+      },
+      "C": {
+        "choice": "J"
+      },
+      "D": {
+        "choice": "Error"
+      }
+    }
+  }
+}

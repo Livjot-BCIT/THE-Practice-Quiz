@@ -11,15 +11,10 @@
   <body>
     <div class="main">
       <div class="content-wrapper">
-        <!-- Background video -->
-         <img src="./images/catalyst.jpg" alt="" class="background-video">
-        <!-- <video
-          class="background-video"
-          src="./images/catalystBackground.mp4"
-          autoplay
-          loop
-          muted
-        ></video> -->
+
+        <!-- Catalyst Background -->
+        <canvas id="canvas" class="background-video"></canvas>
+        <img src="./images/AstrageldonBackgroundMask.png" class="background-video" >
 
         <!-- Left column -->
         <div class="side left"></div>
@@ -58,9 +53,12 @@
           <div id="questions">
             <label>Questions per attempt</label>
             <select id="questionCount">
-              <option value="3">3</option>
-              <option value="5">5</option>
-              <option value="7">7</option>
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="40">40</option>
+              <option value="60">60</option>
+              <option value="80">80</option>
+              <option value="42069696661337">All the questions!</option> <!-- Yes I'm a mature responsible adult -->
             </select>
           </div>
           <button onclick="startQuiz()">Start Quiz</button>
@@ -104,22 +102,24 @@
           </footer>
         </div>
 
+        <div id="quizScreen" class="container bg hidden">
+            <h2>Quiz</h2>
+            <div id="quizContainer"></div>
+            <br />
+            <button onclick="submitQuiz()">Submit Quiz</button>
+          </div>
+    
+          <!-- Quiz Completion Page -->
+          <div id="resultsScreen" class="container bg hidden">
+            <h2>Quiz complete</h2>
+            <p id="scoreText"></p>
+            <button onclick="restartQuiz()">Restart</button>
+          </div>
+
         <!-- Right column -->
         <div class="side right"></div>
       </div>
-      <div id="quizScreen" class="container hidden">
-        <h2>Quiz</h2>
-        <div id="quizContainer"></div>
-        <br />
-        <button onclick="submitQuiz()">Submit Quiz</button>
-      </div>
-
-      <!-- Quiz Completion Page -->
-      <div id="resultsScreen" class="container hidden">
-        <h2>Quiz complete</h2>
-        <p id="scoreText"></p>
-        <button onclick="restartQuiz()">Restart</button>
-      </div>
+      
 
       <!-- Navbar Footer -->
       <div class="navbar">
@@ -141,9 +141,11 @@
 
     
 
-    <script src="./questiondata/test.js"></script>
+    <!-- <script src="./questiondata/test.js"></script> -->
     <script src="./questiondata/test2.js"></script>
+    <script src="./questiondata/test3.js"></script>
     <script src="./scripts/generator.js"></script>
+    <script src="./scripts/loadQuestions.js"></script>
 
     <script>
       function toggleBackground() {

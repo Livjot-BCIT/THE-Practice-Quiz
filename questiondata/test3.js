@@ -5,10 +5,13 @@ const { random, sin, cos, PI } = Math;
 
 // Load the background image
 const backgroundImage = new Image();
-backgroundImage.src = "AstrageldonBackground.png"; // Path to your image
+backgroundImage.src = "images/AstrageldonBackground.png"; // Path to your image
 
+let stars = [];
+
+// Initialize stars
 function initStars() {
-    return many(1000, () => { // Increased the number of stars to 1000
+    stars = many(1000, () => { // Increased the number of stars to 1000
         const isStationary = random() < 0.2;
         return {
             x: random() * innerWidth,
@@ -25,13 +28,20 @@ function initStars() {
     });
 }
 
-let stars = initStars();
+// Initialize canvas size
+function resizeCanvas() {
+    w = canvas.width = innerWidth;
+    h = canvas.height = innerHeight;
+}
 
+// Draw stars efficiently
 function anim(t) {
-    if (w !== innerWidth) w = canvas.width = innerWidth;
-    if (h !== innerHeight) h = canvas.height = innerHeight;
+    // Resize the canvas when the window is resized
+    if (w !== innerWidth || h !== innerHeight) {
+        resizeCanvas();
+    }
 
-    // Clear the canvas
+    // Clear the canvas only if necessary
     ctx.clearRect(0, 0, w, h);
 
     // Draw the background image
@@ -39,7 +49,7 @@ function anim(t) {
         ctx.drawImage(backgroundImage, 0, 0, w, h);
     }
 
-    // Draw the stars
+    // Update and draw each star
     stars.forEach(star => {
         star.brightness = 0.5 + 0.5 * sin(t * star.brightnessSpeed);
         star.rotation += star.rotationSpeed;
@@ -48,6 +58,7 @@ function anim(t) {
             star.y -= star.ySpeed;
             star.x += star.xSpeed;
 
+            // Reset star position if it moves off-screen
             if (star.y + star.size < 0) {
                 star.y = h + star.size;
                 star.x = random() * w;
@@ -59,18 +70,21 @@ function anim(t) {
             if (star.x < -star.size) star.x = w + star.size;
         }
 
+        // Draw star
         drawX(star.x, star.y, star.size, star.brightness, star.rotation);
     });
 
+    // Request next animation frame
     requestAnimationFrame(anim);
 }
 
+// Draw a single star as an X
 function drawX(x, y, size, brightness, rotation) {
     ctx.save();
     ctx.translate(x, y);
     ctx.rotate(rotation);
     ctx.globalAlpha = brightness;
-    ctx.strokeStyle = "#FFF";
+    ctx.strokeStyle = "#FFFF00";
 
     ctx.beginPath();
     ctx.moveTo(-size, -size);
@@ -82,10 +96,14 @@ function drawX(x, y, size, brightness, rotation) {
     ctx.restore();
 }
 
+// Utility functions
 function rnd(x = 1, dx = 0) { return random() * x + dx; }
 function many(n, f) { return Array.from({ length: n }, (_, i) => f(i)); }
 
-// Start the animation once the image is loaded
+// Initialize stars and start animation once the image is loaded
 backgroundImage.onload = () => {
+    initStars();
+    resizeCanvas();
     requestAnimationFrame(anim);
 };
+        

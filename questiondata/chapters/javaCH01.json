@@ -1,0 +1,853 @@
+{
+  "01_01": {
+    "chapter": "1",
+    "question": "What is a program?",
+    "choices": {
+      "A": {
+        "choice": "A series of instructions that the hardware executes one after another.",
+        "correct": true
+      },
+      "B": { "choice": "A set of rules for communication between computers." },
+      "C": { "choice": "A type of memory used by the CPU." },
+      "D": { "choice": "A high-level programming language." }
+    }
+  },
+  "01_02": {
+    "chapter": "1",
+    "question": "What is software?",
+    "choices": {
+      "A": { "choice": "A collection of hardware components in a computer." },
+      "B": {
+        "choice": "A program paired with the data the program uses.",
+        "correct": true
+      },
+      "C": { "choice": "An operating system used for managing hardware." },
+      "D": { "choice": "A tool used to debug a program." }
+    }
+  },
+  "01_03": {   
+    "chapter": "1",
+    "question": "What is the CPU?",
+    "choices": {
+      "A": {
+        "choice": "A device that executes the individual commands of a program.",
+        "correct": true
+      },
+      "B": { "choice": "A memory chip used for storing data." },
+      "C": { "choice": "A network that connects computers together." },
+      "D": { "choice": "A device used to interact with the computer." }
+    }
+  },
+  "01_04": {   
+    "chapter": "1",
+    "question": "What are I/O Devices?",
+    "choices": {
+      "A": { "choice": "Devices that process data in a computer." },
+      "B": {
+        "choice": "Devices like a mouse, keyboard, and monitor that allow a human being to interact with the program.",
+        "correct": true
+      },
+      "C": { "choice": "Parts of the CPU used to store information." },
+      "D": { "choice": "Devices used for cooling the CPU." }
+    }
+  },
+  "01_05": {   
+    "chapter": "1",
+    "question": "What does Main Memory (RAM) do?",
+    "choices": {
+      "A": {
+        "choice": "Stores the software and data that is used by the CPU while it is being processed.",
+        "correct": true
+      },
+      "B": { "choice": "Translates source code into machine language." },
+      "C": { "choice": "Helps the CPU manage resources and tasks." },
+      "D": {
+        "choice": "Stores permanent software for use when the computer is off."
+      }
+    }
+  },
+  "01_06": {   
+    "chapter": "1",
+    "question": "What is Secondary Memory?",
+    "choices": {
+      "A": {
+        "choice": "A small, fast memory close to the CPU for quicker data retrieval."
+      },
+      "B": { "choice": "Temporary memory used by the CPU." },
+      "C": {
+        "choice": "A type of storage that stores software and data in a relatively permanent manner.",
+        "correct": true
+      },
+      "D": {
+        "choice": "A device that interacts with the CPU to provide input."
+      }
+    }
+  },
+  "01_07": {   
+    "chapter": "1",
+    "question": "What is the Operating System?",
+    "choices": {
+      "A": {
+        "choice": "A program that provides a user interface and manages resources like the CPU and main memory.",
+        "correct": true
+      },
+      "B": { "choice": "A system that connects multiple computers together." },
+      "C": { "choice": "A type of network used to connect the Internet." },
+      "D": { "choice": "A programming language used to create applications." }
+    }
+  },
+  "01_08": {   
+    "chapter": "1",
+    "question": "What is an Application?",
+    "choices": {
+      "A": {
+        "choice": "A type of software used to manage the operating system."
+      },
+      "B": {
+        "choice": "A program that provides a UI to interact with the program and is not an operating system.",
+        "correct": true
+      },
+      "C": { "choice": "A type of database for storing information." },
+      "D": {
+        "choice": "A device that allows users to input data into the computer."
+      }
+    }
+  },
+  "01_09": {   
+    "chapter": "1",
+    "question": "What is an Analogue system?",
+    "choices": {
+      "A": {
+        "choice": "A system that stores and manages information continuously, such as with an alcohol thermometer.",
+        "correct": true
+      },
+      "B": {
+        "choice": "A system that stores data in discrete pieces using binary code."
+      },
+      "C": { "choice": "A memory system used by the CPU." },
+      "D": {
+        "choice": "A type of programming language used for system design."
+      }
+    }
+  },
+  "01_10": {   
+    "chapter": "1",
+    "question": "What is Digital system?",
+    "choices": {
+      "A": {
+        "choice": "A system that stores and manages information continuously."
+      },
+      "B": {
+        "choice": "A system that breaks information into discrete pieces and represents them as numbers.",
+        "correct": true
+      },
+      "C": {
+        "choice": "A system that translates binary data into machine-readable code."
+      },
+      "D": { "choice": "A type of memory storage system." }
+    }
+  },
+  "01_11": {   
+    "chapter": "1",
+    "question": "What is a bit?",
+    "choices": {
+      "A": { "choice": "A single binary digit.", "correct": true },
+      "B": { "choice": "A unit of memory in the CPU." },
+      "C": {
+        "choice": "A type of network used to communicate between devices."
+      },
+      "D": { "choice": "A programming language used in high-level coding." }
+    }
+  },
+  "01_12": {   
+    "chapter": "1",
+    "question": "What is the base of binary?",
+    "choices": {
+      "A": { "choice": "2", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "8" },
+      "D": { "choice": "16" }
+    }
+  },
+  "01_13": {   
+    "chapter": "1",
+    "question": "What is computer architecture?",
+    "choices": {
+      "A": {
+        "choice": "How the hardware components of a computer are organized.",
+        "correct": true
+      },
+      "B": { "choice": "A set of instructions that the CPU follows." },
+      "C": { "choice": "The organization of memory systems in a computer." },
+      "D": {
+        "choice": "The communication protocols between networked devices."
+      }
+    }
+  },
+  "01_14": {   
+    "chapter": "1",
+    "question": "What is a bus in computer systems?",
+    "choices": {
+      "A": {
+        "choice": "A group of wires that transfers information between components.",
+        "correct": true
+      },
+      "B": { "choice": "A type of memory used for fast data access." },
+      "C": { "choice": "A processor that handles high-level operations." },
+      "D": { "choice": "A device that handles input/output for peripherals." }
+    }
+  },
+  "01_15": {   
+    "chapter": "1",
+    "question": "What are controllers in computer systems?",
+    "choices": {
+      "A": {
+        "choice": "Devices that coordinate the activities of specific peripherals.",
+        "correct": true
+      },
+      "B": { "choice": "Parts of the CPU that manage data processing." },
+      "C": { "choice": "The software components that run a program." },
+      "D": { "choice": "The memory locations that store important data." }
+    }
+  },
+  "01_16": {   
+    "chapter": "1",
+    "question": "What is the role of addresses in main memory?",
+    "choices": {
+      "A": {
+        "choice": "They identify the memory locations in main memory.",
+        "correct": true
+      },
+      "B": { "choice": "They store software programs in the memory." },
+      "C": { "choice": "They allow the CPU to perform arithmetic operations." },
+      "D": {
+        "choice": "They provide a unique identifier for each input device."
+      }
+    }
+  },
+  "01_17": {   
+    "chapter": "1",
+    "question": "How many bits are in one byte?",
+    "choices": {
+      "A": { "choice": "8", "correct": true },
+      "B": { "choice": "4" },
+      "C": { "choice": "16" },
+      "D": { "choice": "32" }
+    }
+  },
+  "01_18": {   
+    "chapter": "1",
+    "question": "What is meant by volatile memory?",
+    "choices": {
+      "A": {
+        "choice": "The data is lost when the power is turned off.",
+        "correct": true
+      },
+      "B": { "choice": "The memory is used for long-term storage." },
+      "C": { "choice": "It can be accessed quickly by the CPU." },
+      "D": { "choice": "It stores software that operates without an OS." }
+    }
+  },
+  "01_19": {   
+    "chapter": "1",
+    "question": "What is a cache in computer systems?",
+    "choices": {
+      "A": {
+        "choice": "A small, fast memory that stores frequently used data from the main memory.",
+        "correct": true
+      },
+      "B": { "choice": "A storage system used to hold permanent data." },
+      "C": { "choice": "A CPU component used to execute instructions." },
+      "D": { "choice": "A device that manages network connections." }
+    }
+  },
+  "01_20": {   
+    "chapter": "1",
+    "question": "What does a ROM chip store?",
+    "choices": {
+      "A": {
+        "choice": "Software called the BIOS, which is needed when the computer is turned on.",
+        "correct": true
+      },
+      "B": { "choice": "Data related to ongoing programs." },
+      "C": { "choice": "Temporary data used by the CPU." },
+      "D": { "choice": "Programs to manage the operating system." }
+    }
+  },
+  "01_21": {   
+    "chapter": "1",
+    "question": "What is a network?",
+    "choices": {
+      "A": {
+        "choice": "A group of two or more computers connected together to exchange information.",
+        "correct": true
+      },
+      "B": { "choice": "A device used to increase memory performance." },
+      "C": { "choice": "A program that stores data for later use." },
+      "D": { "choice": "A unit within the CPU that processes data." }
+    }
+  },
+  "01_22": {   
+    "chapter": "1",
+    "question": "What is a network address?",
+    "choices": {
+      "A": {
+        "choice": "A unique identifier for each computer on a network.",
+        "correct": true
+      },
+      "B": { "choice": "An IP address used for system identification." },
+      "C": { "choice": "A phone number used for internet communication." },
+      "D": { "choice": "A device used to connect two networks." }
+    }
+  },
+  "01_23": {   
+    "chapter": "1",
+    "question": "What is a point-to-point connection?",
+    "choices": {
+      "A": {
+        "choice": "A connection that physically connects two computers with wires.",
+        "correct": true
+      },
+      "B": { "choice": "A wireless connection between multiple devices." },
+      "C": { "choice": "A type of storage used for data backup." },
+      "D": { "choice": "A software protocol used for data transmission." }
+    }
+  },
+  "01_24": {   
+    "chapter": "1",
+    "question": "What is a packet in network communication?",
+    "choices": {
+      "A": {
+        "choice": "A large message divided into smaller pieces to reduce delays.",
+        "correct": true
+      },
+      "B": { "choice": "A device used to connect multiple computers." },
+      "C": { "choice": "A data structure used by the CPU to manage tasks." },
+      "D": { "choice": "A high-level programming function used in networking." }
+    }
+  },
+  "01_25": {   
+    "chapter": "1",
+    "question": "What is a local area network (LAN)?",
+    "choices": {
+      "A": {
+        "choice": "A network that connects a relatively small number of computers over short distances.",
+        "correct": true
+      },
+      "B": { "choice": "A type of memory used in the CPU." },
+      "C": {
+        "choice": "A large global network that connects many computers together."
+      },
+      "D": { "choice": "A protocol used to manage network traffic." }
+    }
+  },
+  "01_26": {   
+    "chapter": "1",
+    "question": "What is the Internet?",
+    "choices": {
+      "A": {
+        "choice": "A global WAN that connects many small networks together.",
+        "correct": true
+      },
+      "B": { "choice": "A set of devices used to connect computers." },
+      "C": { "choice": "A protocol used to ensure secure data transmission." },
+      "D": { "choice": "A type of database used for data storage." }
+    }
+  },
+  "01_27": {   
+    "chapter": "1",
+    "question": "What is a protocol?",
+    "choices": {
+      "A": {
+        "choice": "A set of rules that governs how computers communicate over a network.",
+        "correct": true
+      },
+      "B": { "choice": "A type of network used for data storage." },
+      "C": { "choice": "A device used to monitor network traffic." },
+      "D": { "choice": "A program used to encrypt data." }
+    }
+  },
+  "01_28": {   
+    "chapter": "1",
+    "question": "What is an IP address?",
+    "choices": {
+      "A": {
+        "choice": "A unique identifier for each computer on the Internet.",
+        "correct": true
+      },
+      "B": { "choice": "A protocol used to send data between devices." },
+      "C": { "choice": "A device used to connect to a network." },
+      "D": { "choice": "A function used to encode data." }
+    }
+  },
+  "01_29": {   
+    "chapter": "1",
+    "question": "What is a URL?",
+    "choices": {
+      "A": {
+        "choice": "A unique address used by a browser to access documents on the web.",
+        "correct": true
+      },
+      "B": { "choice": "A protocol used to send emails." },
+      "C": { "choice": "A network address used for secure communication." },
+      "D": { "choice": "A program used to develop websites." }
+    }
+  },
+  "01_30": {   
+    "chapter": "1",
+    "question": "What does URL stand for?",
+    "choices": {
+      "A": { "choice": "Uniform Resource Locator", "correct": true },
+      "B": { "choice": "Universal Resource Locator" },
+      "C": { "choice": "Uniform Reallocation of Links" },
+      "D": { "choice": "Universal Retrieval of Links" }
+    }
+  },
+  "01_31": {   
+    "chapter": "1",
+    "question": "What is a programming language?",
+    "choices": {
+      "A": {
+        "choice": "A set of rules that dictate how symbols can be arranged to form valid statements.",
+        "correct": true
+      },
+      "B": { "choice": "A tool used to debug a program." },
+      "C": { "choice": "A memory location used for storing data." },
+      "D": { "choice": "A high-level language used for system management." }
+    }
+  },
+  "01_32": {   
+    "chapter": "1",
+    "question": "What is a class in Java?",
+    "choices": {
+      "A": { "choice": "A blueprint for creating objects.", "correct": true },
+      "B": { "choice": "A variable used to store data." },
+      "C": { "choice": "A statement that performs an operation." },
+      "D": { "choice": "A device used to execute code." }
+    }
+  },
+  "01_33": {   
+    "chapter": "1",
+    "question": "What does a method in Java contain?",
+    "choices": {
+      "A": { "choice": "Expressions and statements.", "correct": true },
+      "B": { "choice": "Only variables." },
+      "C": { "choice": "Data for processing." },
+      "D": { "choice": "A set of instructions to be executed by the CPU." }
+    }
+  },
+  "01_34": {   
+    "chapter": "1",
+    "question": "What is a statement in Java?",
+    "choices": {
+      "A": {
+        "choice": "A piece of code that performs an operation.",
+        "correct": true
+      },
+      "B": { "choice": "A part of the method used for data processing." },
+      "C": { "choice": "A declaration of variables." },
+      "D": { "choice": "A conditional expression." }
+    }
+  },
+  "01_35": {   
+    "chapter": "1",
+    "question": "What does a Java statement not evaluate to?",
+    "choices": {
+      "A": { "choice": "A value.", "correct": true },
+      "B": { "choice": "An operation." },
+      "C": { "choice": "An object." },
+      "D": { "choice": "A condition." }
+    }
+  },
+  "01_36": {   
+    "chapter": "1",
+    "question": "What does the Java API provide?",
+    "choices": {
+      "A": {
+        "choice": "Important functionality for Java programs.",
+        "correct": true
+      },
+      "B": { "choice": "A set of guidelines for program design." },
+      "C": { "choice": "A method for debugging programs." },
+      "D": { "choice": "A network management system." }
+    }
+  },
+  "01_37": {   
+    "chapter": "1",
+    "question": "What is a main method in Java?",
+    "choices": {
+      "A": {
+        "choice": "A method required in every Java program and executed when the program runs.",
+        "correct": true
+      },
+      "B": { "choice": "A method that handles input and output operations." },
+      "C": { "choice": "A method for debugging errors." },
+      "D": { "choice": "A method used to store data." }
+    }
+  },
+  "01_38": {   
+    "chapter": "1",
+    "question": "What is an identifier in Java?",
+    "choices": {
+      "A": {
+        "choice": "A word used in a program, such as class names, variables, or functions.",
+        "correct": true
+      },
+      "B": { "choice": "A function that manages program flow." },
+      "C": { "choice": "A type of memory used by the CPU." },
+      "D": { "choice": "A device used to debug a program." }
+    }
+  },
+  "01_39": {   
+    "chapter": "1",
+    "question": "What must the main method in Java include?",
+    "choices": {
+      "A": { "choice": "The keywords public static void.", "correct": true },
+      "B": { "choice": "A return statement." },
+      "C": { "choice": "A conditional expression." },
+      "D": { "choice": "A list of variables." }
+    }
+  },
+  "01_40": {   
+    "chapter": "1",
+    "question": "What is machine language written in?",
+    "choices": {
+      "A": { "choice": "Binary, and is not human-readable.", "correct": true },
+      "B": { "choice": "Assembly code." },
+      "C": { "choice": "Java source code." },
+      "D": { "choice": "High-level programming languages." }
+    }
+  },
+  "01_41": {   
+    "chapter": "1",
+    "question": "What is assembly language?",
+    "choices": {
+      "A": {
+        "choice": "A human-readable version of machine language.",
+        "correct": true
+      },
+      "B": { "choice": "A programming language used for data management." },
+      "C": { "choice": "A high-level language used to create applications." },
+      "D": { "choice": "A type of system memory." }
+    }
+  },
+  "01_42": {   
+    "chapter": "1",
+    "question": "What type of language is Java?",
+    "choices": {
+      "A": {
+        "choice": "A high-level language that uses English-like phrases to express complex logic.",
+        "correct": true
+      },
+      "B": {
+        "choice": "A low-level language used to communicate with hardware."
+      },
+      "C": { "choice": "A network protocol used for data transmission." },
+      "D": { "choice": "A database query language." }
+    }
+  },
+  "01_43": {   
+    "chapter": "1",
+    "question": "What are fourth-generation languages?",
+    "choices": {
+      "A": {
+        "choice": "Languages that feature more abstraction and automation than high-level languages.",
+        "correct": true
+      },
+      "B": { "choice": "Languages used for operating system management." },
+      "C": { "choice": "Languages used to compile Java code." },
+      "D": { "choice": "Low-level languages used for hardware management." }
+    }
+  },
+  "01_44": {   
+    "chapter": "1",
+    "question": "What does a compiler do?",
+    "choices": {
+      "A": {
+        "choice": "Translates source code into machine language or bytecode.",
+        "correct": true
+      },
+      "B": { "choice": "Executes a program's logic in real time." },
+      "C": { "choice": "Manages memory allocation during program execution." },
+      "D": { "choice": "Converts high-level code into assembly language." }
+    }
+  },
+  "01_45": {   
+    "chapter": "1",
+    "question": "What is bytecode in Java?",
+    "choices": {
+      "A": {
+        "choice": "System-neutral code that can be run on any system with a Java Virtual Machine (JVM).",
+        "correct": true
+      },
+      "B": { "choice": "Human-readable code that the compiler generates." },
+      "C": { "choice": "Machine code that directly interacts with the CPU." },
+      "D": { "choice": "A set of instructions for network communication." }
+    }
+  },
+  "01_46": {   
+    "chapter": "1",
+    "question": "What do interpreters do?",
+    "choices": {
+      "A": {
+        "choice": "Combine compiling and execution, translating code as it runs.",
+        "correct": true
+      },
+      "B": { "choice": "Convert source code into bytecode." },
+      "C": { "choice": "Execute compiled code directly on the CPU." },
+      "D": { "choice": "Break down machine code for human understanding." }
+    }
+  },
+  "01_47": {   
+    "chapter": "1",
+    "question": "What kind of programming language is Java?",
+    "choices": {
+      "A": {
+        "choice": "An object-oriented programming language.",
+        "correct": true
+      },
+      "B": { "choice": "A procedural programming language." },
+      "C": { "choice": "A functional programming language." },
+      "D": { "choice": "A low-level programming language." }
+    }
+  },
+  "01_48": {   
+    "chapter": "1",
+    "question": "What does encapsulation in Java mean?",
+    "choices": {
+      "A": {
+        "choice": "Java objects protect and manage their own information.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Objects can inherit attributes and methods from other objects."
+      },
+      "C": { "choice": "Methods can access data from any part of a program." },
+      "D": { "choice": "Variables and methods are declared globally." }
+    }
+  },
+  "01_49": {   
+    "chapter": "1",
+    "question": "What is polymorphism in Java?",
+    "choices": {
+      "A": {
+        "choice": "Allows an object to be used in place of its parent class.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Allows a method to be overloaded with different parameters."
+      },
+      "C": {
+        "choice": "Hides the internal workings of an object from other parts of the program."
+      },
+      "D": {
+        "choice": "Ensures that objects cannot inherit attributes from more than one class."
+      }
+    }
+  },
+  "01_50": {   
+    "chapter": "1",
+    "question": "In Java, how many parents can a class inherit from?",
+    "choices": {
+      "A": { "choice": "Only one parent.", "correct": true },
+      "B": { "choice": "An unlimited number of parents." },
+      "C": { "choice": "Two parents, one for attributes and one for methods." },
+      "D": { "choice": "Zero parents, inheritance is not allowed." }
+    }
+  },
+  "01_51": {   
+    "chapter": "1",
+    "question": "What are the steps in problem-solving for programming?",
+    "choices": {
+      "A": {
+        "choice": "Understanding the problem, designing a solution, testing the solution.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Analyzing the problem, solving it, debugging the solution."
+      },
+      "C": { "choice": "Writing code, testing the code, debugging errors." },
+      "D": {
+        "choice": "Planning the problem, solving the problem, creating documentation."
+      }
+    }
+  },
+  "01_52": {   
+    "chapter": "1",
+    "question": "What is the domain of a problem in programming?",
+    "choices": {
+      "A": {
+        "choice": "The necessary information needed to understand the problem.",
+        "correct": true
+      },
+      "B": {
+        "choice": "A subset of the programming language that helps solve the problem."
+      },
+      "C": { "choice": "The environment where the program will run." },
+      "D": { "choice": "The requirements for the program's functionality." }
+    }
+  },
+  "01_53": {   
+    "chapter": "1",
+    "question": "What is a valid identifier in Java?",
+    "choices": {
+      "A": {
+        "choice": "A word that starts with a letter, underscore, or dollar sign.",
+        "correct": true
+      },
+      "B": { "choice": "Any word or number that is used in the program." },
+      "C": { "choice": "A special character followed by numbers." },
+      "D": { "choice": "A sequence of spaces or symbols." }
+    }
+  },
+  "01_54": {   
+    "chapter": "1",
+    "question": "What can an identifier in Java not begin with?",
+    "choices": {
+      "A": { "choice": "A digit.", "correct": true },
+      "B": { "choice": "An underscore." },
+      "C": { "choice": "A letter." },
+      "D": { "choice": "A dollar sign." }
+    }
+  },
+  "01_55": {   
+    "chapter": "1",
+    "question": "What is the maximum length of an identifier in Java?",
+    "choices": {
+      "A": {
+        "choice": "Unlimited, but readability should be prioritized.",
+        "correct": true
+      },
+      "B": { "choice": "255 characters." },
+      "C": { "choice": "50 characters." },
+      "D": { "choice": "10 characters." }
+    }
+  },
+  "01_56": {   
+    "chapter": "1",
+    "question": "What is the naming convention for Java variables?",
+    "choices": {
+      "A": {
+        "choice": "CamelCase, where the first word is lowercase and subsequent words are capitalized.",
+        "correct": true
+      },
+      "B": {
+        "choice": "All lowercase letters with underscores between words."
+      },
+      "C": {
+        "choice": "PascalCase, where all words start with uppercase letters."
+      },
+      "D": { "choice": "All uppercase letters." }
+    }
+  },
+  "01_57": {   
+    "chapter": "1",
+    "question": "What can Java identifiers contain?",
+    "choices": {
+      "A": {
+        "choice": "Letters, digits, underscores, and dollar signs, but not spaces or other special characters.",
+        "correct": true
+      },
+      "B": { "choice": "Only letters and digits." },
+      "C": { "choice": "Any printable characters." },
+      "D": { "choice": "Letters, digits, spaces, and punctuation." }
+    }
+  },
+  "01_58": {   
+    "chapter": "1",
+    "question": "What does the ALU (Arithmetic Logic Unit) in the CPU do?",
+    "choices": {
+      "A": {
+        "choice": "Performs arithmetic and logical operations, such as addition, subtraction, and comparison.",
+        "correct": true
+      },
+      "B": { "choice": "Handles input and output operations." },
+      "C": { "choice": "Manages memory allocation for programs." },
+      "D": { "choice": "Fetches and decodes instructions from memory." }
+    }
+  },
+  "01_59": {   
+    "chapter": "1",
+    "question": "How does the CPU interact with the main memory?",
+    "choices": {
+      "A": {
+        "choice": "It fetches instructions and data, decodes, and executes them.",
+        "correct": true
+      },
+      "B": { "choice": "It performs arithmetic operations on the data." },
+      "C": { "choice": "It stores data and instructions in long-term memory." },
+      "D": { "choice": "It manages the network traffic between devices." }
+    }
+  },
+  "01_60": {   
+    "chapter": "1",
+    "question": "What is cache memory?",
+    "choices": {
+      "A": {
+        "choice": "A small, fast type of memory located close to the CPU to store frequently accessed data.",
+        "correct": true
+      },
+      "B": { "choice": "A type of memory that stores large amounts of data." },
+      "C": {
+        "choice": "A memory used for error checking during data processing."
+      },
+      "D": { "choice": "A secondary storage used for backing up data." }
+    }
+  },
+  "01_61": {   
+    "chapter": "1",
+    "question": "What is parallel processing?",
+    "choices": {
+      "A": {
+        "choice": "When each core in a multi-core processor processes instructions independently.",
+        "correct": true
+      },
+      "B": {
+        "choice": "The process of breaking down a program into smaller tasks."
+      },
+      "C": { "choice": "A method of caching frequently used data in memory." },
+      "D": {
+        "choice": "When multiple programs are executed on the same core simultaneously."
+      }
+    }
+  },
+  "01_62": {   
+    "chapter": "1",
+    "question": "What is a class in Java?",
+    "choices": {
+      "A": {
+        "choice": "A blueprint for creating objects in Java.",
+        "correct": true
+      },
+      "B": { "choice": "A type of data structure used to store variables." },
+      "C": { "choice": "A function that performs a specific task." },
+      "D": { "choice": "A storage unit for data in Java." }
+    }
+  },
+  "01_63": {   
+    "chapter": "1",
+    "question": "What is inheritance in Java?",
+    "choices": {
+      "A": {
+        "choice": "When one class inherits attributes and methods from another class.",
+        "correct": true
+      },
+      "B": { "choice": "When a class is created without a constructor." },
+      "C": { "choice": "When a class accesses data from external files." },
+      "D": { "choice": "When a method is called from within the same class." }
+    }
+  },
+  "01_64": {   
+    "chapter": "1",
+    "question": "Which of the following is NOT an example of polymorphism in Java?",
+    "choices": {
+      "A": {
+        "choice": "An object being used in place of its parent class.",
+        "correct": true
+      },
+      "B": { "choice": "Overloading a method with different parameter types." },
+      "C": { "choice": "A class inheriting from multiple parent classes." },
+      "D": { "choice": "A method being overridden in a subclass." }
+    }
+  }
+}
