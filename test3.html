@@ -14,7 +14,7 @@
 
         <!-- Catalyst Background -->
         <canvas id="canvas" class="background-video"></canvas>
-        <img src="./images/AstrageldonBackgroundMask.png" class="background-video" >
+        <img src="./images/AstrageldonBackgroundMask.png" class="background-video" alt ="galaxy">
 
         <!-- Left column -->
         <div class="side left"></div>
@@ -103,7 +103,7 @@
         </div>
 
         <div id="quizScreen" class="container bg hidden">
-            <h2>Quiz</h2>
+            <!-- <h2>Quiz</h2 -->
             <div id="quizContainer"></div>
             <br />
             <button onclick="submitQuiz()">Submit Quiz</button>
@@ -146,13 +146,5 @@
     <script src="./questiondata/test3.js"></script>
     <script src="./scripts/generator.js"></script>
     <script src="./scripts/loadQuestions.js"></script>
-
-    <script>
-      function toggleBackground() {
-        // Toggle the class for background video visibility
-        document.querySelector(".content-wrapper").classList.toggle("video-bg");
-        document.getElementById("toggleSlider").classList.toggle("active");
-      }
-    </script>
   </body>
 </html>

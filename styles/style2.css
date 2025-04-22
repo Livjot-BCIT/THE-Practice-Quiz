@@ -65,8 +65,8 @@ body {
       radial-gradient(circle at 15% 25%, #323C6F 40px, transparent 0),
       radial-gradient(circle at 75% 20%, #323C6F 50px, transparent 0),
       radial-gradient(circle at 50% 95%, #323C6F 30px, transparent 0),
-      radial-gradient(circle at 20% 65%, #323C6F 100px, transparent 0),  /* New Large Circle */
-      radial-gradient(circle at 95% 70%, #323C6F 120px, transparent 0); /* New Large Circle */
+      radial-gradient(circle at 20% 65%, #323C6F 100px, transparent 0),  
+      radial-gradient(circle at 95% 70%, #323C6F 120px, transparent 0); 
     background-size: cover;
   }
   
@@ -148,17 +148,33 @@ body {
 
 
 @media (max-width: 769px) {
+  
     .container {
+      
       width: 90vw; /* Make container narrower for margin */
-      margin: 20px auto; /* Center and add margin on all sides */
+      margin-top: 0px !important;
+      margin: 20px auto; 
       padding: 15px; /* Adjust padding for better spacing */
+      font-size: 1.2rem;
     }
+
+    .bg {
+    background-color: #293165;
+    background-image: 
+      radial-gradient(circle at 15% 25%, #323C6F 40px, transparent 0),
+      radial-gradient(circle at 75% 20%, #323C6F 50px, transparent 0),
+      radial-gradient(circle at 50% 92%, #323C6F 30px, transparent 0),
+      radial-gradient(circle at 20% 65%, #323C6F 100px, transparent 0),  
+      radial-gradient(circle at 95% 70%, #323C6F 120px, transparent 0); 
+    background-size: cover;
+  }
   }
   
 
 button {
   width: auto;
   margin: 10px auto;
+  margin-bottom: 0.9rem !important;
   padding: 10px 15px;
   cursor: pointer;
 }
@@ -332,7 +348,30 @@ input {
   }
   
 
-  #quizContainer {
-    max-height: 80vh; /* Adjust this depending on how much space you want for scrolling */
-    overflow-y: auto;
+/* Fix the quiz screen container */
+#quizScreen {
+  position: relative;
+  padding-bottom: 4rem; /* Add padding at bottom to make room for button */
+}
+
+/* Make quiz container take full height with scrolling */
+#quizContainer {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 20px; /* Space between questions and button */
+  position: relative;
+  z-index: 2; /* Ensure this is above background elements */
+}
+
+/* Style the submit button and its area */
+#quizScreen button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10; 
+  background-color: #4a4a4a; 
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
 }

@@ -77,7 +77,7 @@
   },
   "02_05": {
     "chapter": "2",
-    "question": "The string concatenation operator (+) is used to {{c1::append one string to the end of another}}.",
+    "question": "The string concatenation operator (+) is used to append one string to the end of another.",
     "choices": {
       "A": {
         "choice": "True",
@@ -122,7 +122,7 @@
   },
   "02_08": {
     "chapter": "2",
-    "question": "The behavior of the + operator depends on {{c1::whether at least one of the operands is a string}}.",
+    "question": "The behavior of the + operator depends on whether at least one of the operands is a string.",
     "choices": {
       "A": {
         "choice": "True",
@@ -135,7 +135,7 @@
   },
   "02_09": {
     "chapter": "2",
-    "question": "A variable is a {{c1::name for a location in memory that holds a value.}}",
+    "question": "A variable is a name for a location in memory that holds a value",
     "choices": {
       "A": {
         "choice": "True",
@@ -148,7 +148,7 @@
   },
   "02_10": {
     "chapter": "2",
-    "question": "A variable declaration specifies {{c1::the variable's name and the type of information that it will hold.}}",
+    "question": "A variable declaration specifies the variable's name and the type of information that it will hold",
     "choices": {
       "A": {
         "choice": "True",
@@ -199,7 +199,7 @@
   },
   "02_13": {
     "chapter": "2",
-    "question": "The suffix for long number is {{c1::L or l}}.",
+    "question": "The suffix for long number is L or l.",
     "choices": {
       "A": {
         "choice": "True",
@@ -212,7 +212,7 @@
   },
   "02_14": {
     "chapter": "2",
-    "question": "Numbers consisting of an optional sign followed by digits have type {{c1::int}}.",
+    "question": "Numbers consisting of an optional sign followed by digits have type int.",
     "choices": {
       "A": {
         "choice": "True",
@@ -308,7 +308,7 @@
   },
   "02_20": {
     "chapter": "2",
-    "question": "Char variables in Java can store any character from the {{c1::Unicode}} character set.",
+    "question": "Char variables in Java can store any character from the Unicode character set.",
     "choices": {
       "A": {
         "choice": "True",
@@ -321,7 +321,7 @@
   },
   "02_21": {
     "chapter": "2",
-    "question": "What is an {{c1::expression}}?",
+    "question": "What is an expression?",
     "choices": {
       "A": {
         "choice": "A combination of one or more operators and operands.",
@@ -340,7 +340,7 @@
   },
   "02_22": {
     "chapter": "2",
-    "question": "The result of an arithmetic expression will be a floating point value if {{c1::either or both operands are floating point values}}.",
+    "question": "The result of an arithmetic expression will be a floating point value if either or both operands are floating point values.",
     "choices": {
       "A": {
         "choice": "True",
@@ -353,7 +353,7 @@
   },
   "02_23": {
     "chapter": "2",
-    "question": "The decimal results of an arithmetic expression are lost if {{c1::both operands are integers}}.",
+    "question": "The decimal results of an arithmetic expression are lost if both operands are integers.",
     "choices": {
       "A": {
         "choice": "True",
@@ -366,7 +366,7 @@
   },
   "02_24": {
     "chapter": "2",
-    "question": "The remainder operator uses the {{c1::%}} character.",
+    "question": "The remainder operator uses the % character.",
     "choices": {
       "A": {
         "choice": "True",
@@ -379,7 +379,7 @@
   },
   "02_25": {
     "chapter": "2",
-    "question": "If a and b are both integers, the sign of a % b is always the sign of {{c1::a}}.",
+    "question": "If a and b are both integers, the sign of a % b is always the sign of a.",
     "choices": {
       "A": {
         "choice": "True",
@@ -392,7 +392,7 @@
   },
   "02_26": {
     "chapter": "2",
-    "question": "The order of operations for arithmetic operators is: {{c1::Any expression in parentheses. Multiplication, division and remainder Addition and subtraction Assignment (ie storing the value calculated by the expression)}}",
+    "question": "The order of operations for arithmetic operators is: Any expression in parentheses. Multiplication, division and remainder Addition and subtraction Assignment (ie storing the value calculated by the expression)",
     "choices": {
       "A": {
         "choice": "True",
@@ -405,7 +405,7 @@
   },
   "02_27": {
     "chapter": "2",
-    "question": "The statement {{c1::count++;}} is functionally equivalent to {{c2::count = count + 1;}}",
+    "question": "The statement count++; is functionally equivalent to count = count + 1;",
     "choices": {
       "A": {
         "choice": "True",
