@@ -54,6 +54,23 @@
 
 /* ---- <= 391px tweaks ---- */
 @media (max-width: 391px) {
+
+  .custom-option.disabled {
+    font-size: 0.8em;
+  }
+
+  #term {
+    font-size: 0.9em !important;
+  }
+
+  #indexTab ul {
+    padding-left: 0.6em !important;
+  }
+
+  #helpTab ul {
+    padding-left: 0.3em !important;
+  }
+
   .devnotes-col {
     display: flex !important;
   }
@@ -72,14 +89,24 @@
     padding: 1px 4px !important;
   }
   .notes-date {
-    font-size: 0.6em;
+    font-size: 0.6em !important;
   }
   .notes-entry {
-    font-size: 0.7em;
+    font-size: 0.9em !important;
   }
 
   .large-modal-content {
     margin-top: 14vh !important;
+  }
+}
+
+/* mom's phone */
+@media (min-width: 410px) and (max-width: 424px) {
+  #indexTab ul {
+    padding-left: 0.6em !important;
+  }
+  #helpTab ul {
+    padding-left: 0.3em !important;
   }
 }
 
@@ -103,6 +130,18 @@
   }
 
   #mainPage {
+    padding-bottom: 20dvh !important;
+  }
+
+  #quizContainer {
+    padding-bottom: 8dvh !important;
+  }
+
+  #resultsScreen {
+    padding-bottom: 8dvh !important;
+  }
+
+  #reviewScreen {
     padding-bottom: 20dvh !important;
   }
 
@@ -346,6 +385,7 @@
     width: 85%;
     max-width: 700px;
     min-height: 350px;
+    max-height: 500px;
     box-shadow: 0 4px 32px 0 #111b;
     position: relative;
     display: flex;
@@ -355,8 +395,12 @@
   }
 
   .tag {
-    font-size: 0.75em;
+    font-size: 0.6em;
     padding: 1px 7px;
+  }
+
+  .notes-date {
+    font-size: 0.8em;
   }
 
   .navbar-right,
