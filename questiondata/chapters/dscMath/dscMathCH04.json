@@ -1,0 +1,362 @@
+{
+  "04_01": {
+    "question": "Which of the following defines a function from A to B?",
+    "choices": {
+      "A": { "choice": "Each element of A is paired with exactly one element of B.", "correct": true },
+      "B": { "choice": "Each element of B is paired with exactly one element of A." },
+      "C": { "choice": "Elements of A can be paired with zero or more elements of B." },
+      "D": { "choice": "Every element of B must be paired with at least one element of A." }
+    }
+  },
+  "04_02": {
+    "question": "A function f: A → B is called injective if:",
+    "choices": {
+      "A": { "choice": "Every element of B is mapped to by some element of A." },
+      "B": { "choice": "No two elements of A map to the same element of B.", "correct": true },
+      "C": { "choice": "Every element of B is mapped to by exactly one element of A." },
+      "D": { "choice": "Every element of A maps to every element of B." }
+    }
+  },
+  "04_03": {
+    "question": "What does it mean for a function to be surjective?",
+    "choices": {
+      "A": { "choice": "Every element of A maps to a unique element of B." },
+      "B": { "choice": "Every element of B is the image of some element in A.", "correct": true },
+      "C": { "choice": "No two elements of A have the same image in B." },
+      "D": { "choice": "The function is its own inverse." }
+    }
+  },
+  "04_04": {
+    "question": "Which of the following best describes a bijection?",
+    "choices": {
+      "A": { "choice": "A function that is injective and surjective.", "correct": true },
+      "B": { "choice": "A function with only one output." },
+      "C": { "choice": "A function that is neither injective nor surjective." },
+      "D": { "choice": "A function with a finite domain." }
+    }
+  },
+  "04_05": {
+    "question": "If f(x) = 2x and g(x) = x + 1, what is (f ∘ g)(x)?",
+    "choices": {
+      "A": { "choice": "2x + 1" },
+      "B": { "choice": "2(x + 1)", "correct": true },
+      "C": { "choice": "2x - 1" },
+      "D": { "choice": "x + 2" }
+    }
+  },
+  "04_06": {
+    "question": "A relation R on set A is called reflexive if:",
+    "choices": {
+      "A": { "choice": "For all a in A, (a, a) is in R.", "correct": true },
+      "B": { "choice": "For all a, b in A, (a, b) is in R." },
+      "C": { "choice": "For all a, b in A, (b, a) is in R." },
+      "D": { "choice": "No element of A is related to itself." }
+    }
+  },
+  "04_07": {
+    "question": "Which of the following relations on ℝ (the real numbers) is symmetric?",
+    "choices": {
+      "A": { "choice": "x ≤ y" },
+      "B": { "choice": "x = y", "correct": true },
+      "C": { "choice": "x < y" },
+      "D": { "choice": "x > y" }
+    }
+  },
+  "04_08": {
+    "question": "A relation R on A is transitive if:",
+    "choices": {
+      "A": { "choice": "If (a, b) and (b, c) in R, then (a, c) is in R.", "correct": true },
+      "B": { "choice": "If (a, b) in R, then (b, a) is in R." },
+      "C": { "choice": "If (a, b) in R, then (a, a) is in R." },
+      "D": { "choice": "If (a, a) in R, then (b, b) is in R." }
+    }
+  },
+  "04_09": {
+    "question": "Which of the following is NOT an equivalence relation?",
+    "choices": {
+      "A": { "choice": "Equality on integers" },
+      "B": { "choice": "Congruence mod n" },
+      "C": { "choice": "The 'divides' relation on positive integers", "correct": true },
+      "D": { "choice": "Having the same birthday" }
+    }
+  },
+  "04_10": {
+    "question": "If a relation is reflexive, symmetric, and transitive, it is called:",
+    "choices": {
+      "A": { "choice": "A partial order" },
+      "B": { "choice": "An equivalence relation", "correct": true },
+      "C": { "choice": "A function" },
+      "D": { "choice": "An injection" }
+    }
+  },
+  "04_11": {
+    "question": "The inverse of a function f: A → B is a function g: B → A if and only if:",
+    "choices": {
+      "A": { "choice": "f is injective" },
+      "B": { "choice": "f is surjective" },
+      "C": { "choice": "f is bijective", "correct": true },
+      "D": { "choice": "A and B are finite" }
+    }
+  },
+  "04_12": {
+    "question": "The domain of the function f(x) = 1/x is:",
+    "choices": {
+      "A": { "choice": "All real numbers" },
+      "B": { "choice": "All real numbers except 0", "correct": true },
+      "C": { "choice": "All positive numbers" },
+      "D": { "choice": "All negative numbers" }
+    }
+  },
+  "04_13": {
+    "question": "The image of the set S under the function f is:",
+    "choices": {
+      "A": { "choice": "All x such that f(x) ∈ S" },
+      "B": { "choice": "All f(x) for x in S", "correct": true },
+      "C": { "choice": "All x in the domain" },
+      "D": { "choice": "The preimage of S" }
+    }
+  },
+  "04_14": {
+    "question": "What is the definition of a partial order?",
+    "choices": {
+      "A": { "choice": "A relation that is reflexive, symmetric, and transitive" },
+      "B": { "choice": "A relation that is reflexive, antisymmetric, and transitive", "correct": true },
+      "C": { "choice": "A relation that is symmetric and transitive" },
+      "D": { "choice": "A relation that is transitive and antisymmetric" }
+    }
+  },
+  "04_15": {
+    "question": "Which property must an equivalence relation NOT have?",
+    "choices": {
+      "A": { "choice": "Reflexivity" },
+      "B": { "choice": "Transitivity" },
+      "C": { "choice": "Antisymmetry", "correct": true },
+      "D": { "choice": "Symmetry" }
+    }
+  },
+  "04_16": {
+    "question": "If f(n) = f(n-1) + 2 with f(1) = 3, what is f(3)?",
+    "choices": {
+      "A": { "choice": "5" },
+      "B": { "choice": "7", "correct": true },
+      "C": { "choice": "6" },
+      "D": { "choice": "9" }
+    }
+  },
+  "04_17": {
+    "question": "Which of the following is a recursive definition?",
+    "choices": {
+      "A": { "choice": "f(n) = 2n + 1 for n ≥ 1" },
+      "B": { "choice": "f(1) = 1; f(n) = f(n-1) + 2", "correct": true },
+      "C": { "choice": "f(n) = n^2" },
+      "D": { "choice": "f(n) = 2^n" }
+    }
+  },
+  "04_18": {
+    "question": "The base case in a recursive definition is necessary to:",
+    "choices": {
+      "A": { "choice": "Make the recursion start" },
+      "B": { "choice": "Prevent infinite recursion", "correct": true },
+      "C": { "choice": "Double the output" },
+      "D": { "choice": "Ensure surjectivity" }
+    }
+  },
+  "04_19": {
+    "question": "Which of the following relations is antisymmetric?",
+    "choices": {
+      "A": { "choice": "x = y" },
+      "B": { "choice": "x ≤ y", "correct": true },
+      "C": { "choice": "x ~ y if x and y have the same remainder mod 5" },
+      "D": { "choice": "x and y are both prime" }
+    }
+  },
+  "04_20": {
+    "question": "The preimage of the set T under a function f is:",
+    "choices": {
+      "A": { "choice": "All x such that f(x) ∈ T", "correct": true },
+      "B": { "choice": "All f(x) for x in T" },
+      "C": { "choice": "All x in the domain" },
+      "D": { "choice": "The image of T" }
+    }
+  },
+  "04_21": {
+    "question": "A function that assigns every real number its square is:",
+    "choices": {
+      "A": { "choice": "Injective" },
+      "B": { "choice": "Surjective" },
+      "C": { "choice": "Not injective", "correct": true },
+      "D": { "choice": "Bijective" }
+    }
+  },
+  "04_22": {
+    "question": "Which of the following relations is an equivalence relation on ℝ?",
+    "choices": {
+      "A": { "choice": "x ≤ y" },
+      "B": { "choice": "x = y", "correct": true },
+      "C": { "choice": "x < y" },
+      "D": { "choice": "x ≠ y" }
+    }
+  },
+  "04_23": {
+    "question": "Which function is bijective from ℝ to ℝ?",
+    "choices": {
+      "A": { "choice": "f(x) = x^2" },
+      "B": { "choice": "f(x) = x + 2", "correct": true },
+      "C": { "choice": "f(x) = |x|" },
+      "D": { "choice": "f(x) = x^3" }
+    }
+  },
+  "04_24": {
+    "question": "Which of the following relations on a set is NOT reflexive?",
+    "choices": {
+      "A": { "choice": "x ≤ y" },
+      "B": { "choice": "x = y" },
+      "C": { "choice": "x ≠ y", "correct": true },
+      "D": { "choice": "x ~ y if x and y are both even" }
+    }
+  },
+  "04_25": {
+    "question": "A function from a set A to set B with |A| < |B| can be:",
+    "choices": {
+      "A": { "choice": "Surjective" },
+      "B": { "choice": "Injective", "correct": true },
+      "C": { "choice": "Bijective" },
+      "D": { "choice": "Not defined" }
+    }
+  },
+  "04_26": {
+    "question": "A function with the property f(x) = f(y) only if x = y is called:",
+    "choices": {
+      "A": { "choice": "Surjective" },
+      "B": { "choice": "Injective", "correct": true },
+      "C": { "choice": "Reflexive" },
+      "D": { "choice": "Equivalence" }
+    }
+  },
+  "04_27": {
+    "question": "A relation R on set A is symmetric if:",
+    "choices": {
+      "A": { "choice": "For all a, b in A, if (a, b) is in R, then (b, a) is in R.", "correct": true },
+      "B": { "choice": "For all a in A, (a, a) is in R." },
+      "C": { "choice": "For all a, b in A, if (a, b) is in R, then (a, a) is in R." },
+      "D": { "choice": "For all a, b in A, (a, b) and (b, a) are not both in R." }
+    }
+  },
+  "04_28": {
+    "question": "What does it mean for a function f: A → B to be total?",
+    "choices": {
+      "A": { "choice": "Every element of B is the image of some element in A." },
+      "B": { "choice": "Every element of A has an image in B.", "correct": true },
+      "C": { "choice": "f is injective and surjective." },
+      "D": { "choice": "Every element of A is mapped to itself." }
+    }
+  },
+  "04_29": {
+    "question": "Which of these is a recursive function definition?",
+    "choices": {
+      "A": { "choice": "f(n) = n^2" },
+      "B": { "choice": "f(1) = 2; f(n) = f(n-1) + 3", "correct": true },
+      "C": { "choice": "f(n) = 2n + 1" },
+      "D": { "choice": "f(n) = n - 1" }
+    }
+  },
+  "04_30": {
+    "question": "Which is true for a partial order?",
+    "choices": {
+      "A": { "choice": "It is reflexive, symmetric, and transitive." },
+      "B": { "choice": "It is reflexive, antisymmetric, and transitive.", "correct": true },
+      "C": { "choice": "It is symmetric and transitive only." },
+      "D": { "choice": "It is antisymmetric and symmetric only." }
+    }
+  },
+  "04_31": {
+    "question": "A set with a partial order is called a:",
+    "choices": {
+      "A": { "choice": "Lattice" },
+      "B": { "choice": "Poset", "correct": true },
+      "C": { "choice": "Field" },
+      "D": { "choice": "Group" }
+    }
+  },
+  "04_32": {
+    "question": "If f: A → B is surjective and |A| = |B| (both finite), what can you conclude?",
+    "choices": {
+      "A": { "choice": "f is injective and bijective", "correct": true },
+      "B": { "choice": "f is not injective" },
+      "C": { "choice": "f is not bijective" },
+      "D": { "choice": "f is not defined" }
+    }
+  },
+  "04_33": {
+    "question": "Which of these is NOT a property required for a relation to be an equivalence relation?",
+    "choices": {
+      "A": { "choice": "Reflexivity" },
+      "B": { "choice": "Antisymmetry", "correct": true },
+      "C": { "choice": "Symmetry" },
+      "D": { "choice": "Transitivity" }
+    }
+  },
+  "04_34": {
+    "question": "Which type of recursion occurs when a function calls itself only once in each step?",
+    "choices": {
+      "A": { "choice": "Linear recursion", "correct": true },
+      "B": { "choice": "Binary recursion" },
+      "C": { "choice": "Tail recursion" },
+      "D": { "choice": "Multiple recursion" }
+    }
+  },
+  "04_35": {
+    "question": "Which of these relations is not transitive?",
+    "choices": {
+      "A": { "choice": "x = y" },
+      "B": { "choice": "x < y", "correct": true },
+      "C": { "choice": "x ~ y if x and y are both even" },
+      "D": { "choice": "x ≥ y" }
+    }
+  },
+  "04_36": {
+    "question": "What property must a function f: A → B have to be invertible?",
+    "choices": {
+      "A": { "choice": "It must be injective and surjective.", "correct": true },
+      "B": { "choice": "It must be reflexive." },
+      "C": { "choice": "It must be symmetric." },
+      "D": { "choice": "It must be transitive." }
+    }
+  },
+  "04_37": {
+    "question": "Which of the following is the set of all possible ordered pairs from A = {1,2} and B = {a, b}?",
+    "choices": {
+      "A": { "choice": "{(1,a), (1,b), (2,a), (2,b)}", "correct": true },
+      "B": { "choice": "{(a,1), (b,2)}" },
+      "C": { "choice": "{(1,2), (a,b)}" },
+      "D": { "choice": "{(1,a), (2,b)}" }
+    }
+  },
+  "04_38": {
+    "question": "A recursive function without a base case will:",
+    "choices": {
+      "A": { "choice": "Return 0" },
+      "B": { "choice": "Run forever", "correct": true },
+      "C": { "choice": "Return 1" },
+      "D": { "choice": "Throw a syntax error" }
+    }
+  },
+  "04_39": {
+    "question": "Which function property ensures every element in the domain maps to only one element in the codomain?",
+    "choices": {
+      "A": { "choice": "Well-defined", "correct": true },
+      "B": { "choice": "Surjective" },
+      "C": { "choice": "Symmetric" },
+      "D": { "choice": "Bijective" }
+    }
+  },
+  "04_40": {
+    "question": "A function f is defined recursively by f(0) = 2, f(n) = 3·f(n-1). What is f(2)?",
+    "choices": {
+      "A": { "choice": "6" },
+      "B": { "choice": "12" },
+      "C": { "choice": "18", "correct": true },
+      "D": { "choice": "8" }
+    }
+  }
+}

@@ -1,0 +1,423 @@
+{
+  "01_01": {
+    "question": "Which protocol is commonly used to transfer web content over the internet?",
+    "choices": {
+      "A": { "choice": "FTP" },
+      "B": { "choice": "HTML" },
+      "C": { "choice": "HTTP", "correct": true },
+      "D": { "choice": "RTP" },
+      "E": { "choice": "SSL" }
+    }
+  },
+  "01_02": {
+    "question": "Which of the following languages is used to apply styles like color and layout in an HTML document?",
+    "choices": {
+      "A": { "choice": "CSS", "correct": true },
+      "B": { "choice": "HTML" },
+      "C": { "choice": "JavaScript" },
+      "D": { "choice": "SQL" },
+      "E": { "choice": "XML" }
+    }
+  },
+  "01_03": {
+    "question": "Which of the following elements is the correct element for creating a hyperlink?",
+    "choices": {
+      "A": { "choice": "&lt;a&gt;", "correct": true },
+      "B": { "choice": "&lt;div&gt;" },
+      "C": { "choice": "&lt;img&gt;" },
+      "D": { "choice": "&lt;p&gt;" },
+      "E": { "choice": "&lt;span&gt;" }
+    }
+  },
+  "01_04": {
+    "question": "What attribute is used in the <img> tag to specify the path to an image?",
+    "choices": {
+      "A": { "choice": "alt" },
+      "B": { "choice": "href" },
+      "C": { "choice": "id" },
+      "D": { "choice": "src", "correct": true },
+      "E": { "choice": "title" }
+    }
+  },
+  "01_05": {
+    "question": "Which of the following best describes HTML 5?",
+    "choices": {
+      "A": { "choice": "A database management language" },
+      "B": {
+        "choice": "A markup language used to structure web content",
+        "correct": true
+      },
+      "C": { "choice": "A programming language" },
+      "D": { "choice": "A styling language for web pages" },
+      "E": { "choice": "A version of JavaScript" }
+    }
+  },
+  "01_06": {
+    "question": "What is the purpose of the <title> element in an HTML document?",
+    "choices": {
+      "A": { "choice": "Defines the webpage's header" },
+      "B": {
+        "choice": "Displays text in the browser's title bar",
+        "correct": true
+      },
+      "C": { "choice": "Embeds an image into the webpage" },
+      "D": { "choice": "Links the webpage to a CSS file" },
+      "E": { "choice": "Specifies metadata for search engines" }
+    }
+  },
+  "01_07": {
+    "question": "Which HTML element is used to create an ordered list?",
+    "choices": {
+      "A": { "choice": "&lt;dl&gt;" },
+      "B": { "choice": "&lt;dt&gt;" },
+      "C": { "choice": "&lt;li&gt;" },
+      "D": { "choice": "&lt;ol&gt;", "correct": true },
+      "E": { "choice": "&lt;ul&gt;" }
+    }
+  },
+  "01_08": {
+    "question": "Which of the following CSS properties is used to add an image to the background of an element?",
+    "choices": {
+      "A": { "choice": "background-image", "correct": true },
+      "B": { "choice": "border-color" },
+      "C": { "choice": "image" },
+      "D": { "choice": "image-background" },
+      "E": { "choice": "image-src" }
+    }
+  },
+  "01_09": {
+    "question": "Which CSS property controls the space between an element's border and its content?",
+    "choices": {
+      "A": { "choice": "border-spacing" },
+      "B": { "choice": "content-spacing" },
+      "C": { "choice": "gap" },
+      "D": { "choice": "margin" },
+      "E": { "choice": "padding", "correct": true }
+    }
+  },
+  "01_10": {
+    "question": "In HTML, the <br/> element is used to:",
+    "choices": {
+      "A": { "choice": "Bold text" },
+      "B": { "choice": "Break out of a loop" },
+      "C": { "choice": "Insert a horizontal line" },
+      "D": { "choice": "Insert a line break", "correct": true },
+      "E": { "choice": "Start a new paragraph" }
+    }
+  },
+  "01_11": {
+    "question": "Which CSS property is used to change the text color of an element?",
+    "choices": {
+      "A": { "choice": "color", "correct": true },
+      "B": { "choice": "font-color" },
+      "C": { "choice": "foreground-color" },
+      "D": { "choice": "highlight-color" },
+      "E": { "choice": "text-color" }
+    }
+  },
+  "01_12": {
+    "question": "Which element is considered an empty element in HTML?",
+    "choices": {
+      "A": { "choice": "&lt;br&gt;", "correct": true },
+      "B": { "choice": "&lt;div&gt;" },
+      "C": { "choice": "&lt;h1&gt;" },
+      "D": { "choice": "&lt;p&gt;" },
+      "E": { "choice": "&lt;span&gt;" }
+    }
+  },
+  "01_13": {
+    "question": "What is the CSS box model comprised of (from inside to out)?",
+    "choices": {
+      "A": { "choice": "Content, padding, border, margin", "correct": true },
+      "B": { "choice": "Margin, padding, content, height" },
+      "C": { "choice": "Padding, border, margin, content" },
+      "D": { "choice": "Padding, font, display, border" },
+      "E": { "choice": "Width, height, margin, background" }
+    }
+  },
+  "01_14": {
+    "question": "What does the term 'cascading' refer to in CSS?",
+    "choices": {
+      "A": {
+        "choice": "Applying styles such as font sizes, colors and positions to a single element",
+        "correct": true
+      },
+      "B": { "choice": "Embedding external stylesheets" },
+      "C": { "choice": "The inheritance of styles from parent elements" },
+      "D": { "choice": "The ability to group elements" },
+      "E": { "choice": "The order of specificity in styling rules" }
+    }
+  },
+  "01_15": {
+    "question": "Which CSS property would you use to hide an element, including removing any space that it requires on the page?",
+    "choices": {
+      "A": { "choice": "display: block" },
+      "B": { "choice": "display: image" },
+      "C": { "choice": "display: none", "correct": true },
+      "D": { "choice": "opacity: 0" },
+      "E": { "choice": "visibility: hidden" }
+    }
+  },
+  "01_16": {
+    "question": "What does the transform property in CSS allow you to do?",
+    "choices": {
+      "A": { "choice": "Gradually changes a DOM element's style(s) over time" },
+      "B": { "choice": "Change text alignment" },
+      "C": { "choice": "Define media queries" },
+      "D": {
+        "choice": "Apply 2D or 3D transformations like rotate, scale, and skew",
+        "correct": true
+      }
+    }
+  },
+  "01_17": {
+    "question": "Which layout strategy primarily uses percentages to define the size of containers and adjusts with browser resizing?",
+    "choices": {
+      "A": { "choice": "Adaptive layout" },
+      "B": { "choice": "Fixed layout" },
+      "C": { "choice": "Liquid layout", "correct": true },
+      "D": { "choice": "Responsive Web Design (RWD)" },
+      "E": { "choice": "Static layout" }
+    }
+  },
+  "01_18": {
+    "question": "Which layout strategy primarily uses percentages to define the size of containers and adjusts with browser resizing?",
+    "choices": {
+      "A": { "choice": "Adaptive layout" },
+      "B": { "choice": "Fixed layout" },
+      "C": { "choice": "Liquid layout", "correct": true },
+      "D": { "choice": "Responsive Web Design (RWD)" },
+      "E": { "choice": "Static layout" }
+    }
+  },
+  "01_19": {
+    "question": "Which of the following is a disadvantage of Responsive Web Design (RWD)?",
+    "choices": {
+      "A": { "choice": "It requires JavaScript for the layout support" },
+      "B": { "choice": "It requires server-side detection of the device" },
+      "C": { "choice": "It requires the use of fixed widths" },
+      "D": { "choice": "All CSS units of measure use pixel values" },
+      "E": {
+        "choice": "All assets are downloaded regardless of the device",
+        "correct": true
+      }
+    }
+  },
+  "01_20": {
+    "question": "What CSS property is used to make elements invisible in the browser without removing them from the document layout?",
+    "choices": {
+      "A": { "choice": "block" },
+      "B": { "choice": "inline" },
+      "C": { "choice": "list-item" },
+      "D": { "choice": "hidden", "correct": true },
+      "E": { "choice": "none" }
+    }
+  },
+  "01_21": {
+    "question": "What does the float property do in CSS?",
+    "choices": {
+      "A": {
+        "choice": "Specifies how other floating elements are to be placed against it",
+        "correct": true
+      },
+      "B": { "choice": "Aligns an element in the center" },
+      "C": { "choice": "Changes the z-index of an element" },
+      "D": { "choice": "Positions an element relative to its parent" },
+      "E": {
+        "choice": "Removes an element from regular text flow and places it left or right"
+      }
+    }
+  },
+  "01_22": {
+    "question": "Which CSS property defines the columns in a grid container?",
+    "choices": {
+      "A": { "choice": "grid-area" },
+      "B": { "choice": "grid-column" },
+      "C": { "choice": "grid-row" },
+      "D": { "choice": "grid-template-columns", "correct": true },
+      "E": { "choice": "grid-template-rows" }
+    }
+  },
+  "01_23": {
+    "question": "Media queries can be used to apply different CSS styles based on which of the following condition?",
+    "choices": {
+      "A": { "choice": "animation-duration" },
+      "B": { "choice": "min-width", "correct": true },
+      "C": { "choice": "font-size" },
+      "D": { "choice": "grid-template" },
+      "E": { "choice": "transform" }
+    }
+  },
+  "01_24": {
+    "question": "What is a primary feature of adaptive web design?",
+    "choices": {
+      "A": {
+        "choice": "Multiple templates for different screen sizes",
+        "correct": true
+      },
+      "B": { "choice": "Fixed layouts with pixel-defined sizes" },
+      "C": { "choice": "Fluid compartments" },
+      "D": { "choice": "One template for all devices with media queries" },
+      "E": { "choice": "Use of percentages for element dimensions" }
+    }
+  },
+  "01_25": {
+    "question": "Which CSS display value makes an element take up the entire width of its container?",
+    "choices": {
+      "A": { "choice": "inherit" },
+      "B": { "choice": "list-item" },
+      "C": { "choice": "block", "correct": true },
+      "D": { "choice": "inline" },
+      "E": { "choice": "none" }
+    }
+  },
+  "01_26": {
+    "question": "The CSS Grid property that defines how many rows a specific element spans is called:",
+    "choices": {
+      "A": { "choice": "grid-template-columns" },
+      "B": { "choice": "grid-template-rows" },
+      "C": { "choice": "grid-area" },
+      "D": { "choice": "grid-column" },
+      "E": { "choice": "grid-row", "correct": true }
+    }
+  },
+  "01_27": {
+    "question": "To change an HTML form input's type (e.g., checkbox, hidden, etc.), use the ________.",
+    "choices": {
+      "A": { "choice": "fieldset attribute" },
+      "B": { "choice": "form element" },
+      "C": { "choice": "input element" },
+      "D": { "choice": "type attribute", "correct": true },
+      "E": { "choice": "type element" }
+    }
+  },
+  "01_28": {
+    "question": "The RGB triplet value rgb(255, 0, 0) is:",
+    "choices": {
+      "A": { "choice": "Blue" },
+      "B": { "choice": "Green" },
+      "C": { "choice": "Magenta" },
+      "D": { "choice": "Orange" },
+      "E": { "choice": "Red", "correct": true }
+    }
+  },
+  "01_29": {
+    "question": "The following is an example of a CSS descendent selector.",
+    "choices": {
+      "A": { "choice": "#p" },
+      "B": { "choice": "p > a" },
+      "C": { "choice": "p a", "correct": true },
+      "D": { "choice": "p, a" }
+    }
+  },
+  "01_30": {
+    "question": "Which of the following elements is the correct element to use for items in either an ordered or unordered list?",
+    "choices": {
+      "A": { "choice": "li", "correct": true },
+      "B": { "choice": "p" },
+      "C": { "choice": "span" },
+      "D": { "choice": "td" },
+      "E": { "choice": "tr" }
+    }
+  },
+  "01_31": {
+    "question": "The ________ attribute is used to constrain number types for inputs.",
+    "choices": {
+      "A": { "choice": "min" },
+      "B": { "choice": "placeholder" },
+      "C": { "choice": "readonly" },
+      "D": { "choice": "required", "correct": true },
+      "E": { "choice": "value" }
+    }
+  },
+  "01_32": {
+    "question": "A ________ layout uses media queries.",
+    "choices": {
+      "A": { "choice": "Adaptive" },
+      "B": { "choice": "Fixed" },
+      "C": { "choice": "Liquid" },
+      "D": { "choice": "Mobile" },
+      "E": { "choice": "Responsive", "correct": true }
+    }
+  },
+  "01_33": {
+    "question": "To create some text within an HTML input that gives the user a hint as to what input should be given, use the ________ attribute.",
+    "choices": {
+      "A": { "choice": "checked" },
+      "B": { "choice": "hint" },
+      "C": { "choice": "placeholder", "correct": true },
+      "D": { "choice": "text" },
+      "E": { "choice": "value" }
+    }
+  },
+  "01_34": {
+    "question": "The following is an example of a CSS class selector.",
+    "choices": {
+      "A": { "choice": "#firstParagraph:hover" },
+      "B": { "choice": "#firstParagraph" },
+      "C": { "choice": ".firstParagraph", "correct": true },
+      "D": { "choice": "firstParagraph" },
+      "E": { "choice": "p a" }
+    }
+  },
+  "01_35": {
+    "question": "In HTML, div and p elements have the default ________ display property value.",
+    "choices": {
+      "A": { "choice": "block", "correct": true },
+      "B": { "choice": "inline" },
+      "C": { "choice": "inline-block" },
+      "D": { "choice": "list-item" },
+      "E": { "choice": "table" }
+    }
+  },
+  "01_36": {
+    "question": "The following is an example of a CSS pseudo selector.",
+    "choices": {
+      "A": { "choice": "#highlight, hover" },
+      "B": { "choice": "#hilight" },
+      "C": { "choice": ".highlight", "correct": true },
+      "D": { "choice": ".highlight p" },
+      "E": { "choice": ".highlight:hover" }
+    }
+  },
+  "01_37": {
+    "question": "To give space around the outside of a container (e.g., div), CSS uses the:",
+    "choices": {
+      "A": { "choice": "Border" },
+      "B": { "choice": "Content" },
+      "C": { "choice": "Em space" },
+      "D": { "choice": "Margin", "correct": true },
+      "E": { "choice": "Padding" }
+    }
+  },
+  "01_38": {
+    "question": "To embed CSS into a web page, use the __________ element.",
+    "choices": {
+      "A": { "choice": "body" },
+      "B": { "choice": "head" },
+      "C": { "choice": "meta" },
+      "D": { "choice": "p" },
+      "E": { "choice": "style", "correct": true }
+    }
+  },
+  "01_39": {
+    "question": "To create a numbered list in HTML, use the __________ element.",
+    "choices": {
+      "A": { "choice": "body" },
+      "B": { "choice": "ol", "correct": true },
+      "C": { "choice": "tbody" },
+      "D": { "choice": "td" },
+      "E": { "choice": "ul" }
+    }
+  },
+  "01_40": {
+    "question": "The following is an example of a CSS child selector.",
+    "choices": {
+      "A": { "choice": "#p" },
+      "B": { "choice": ".p" },
+      "C": { "choice": "p > a", "correct": true },
+      "D": { "choice": "p a" },
+      "E": { "choice": "p, a" }
+    }
+  }
+}

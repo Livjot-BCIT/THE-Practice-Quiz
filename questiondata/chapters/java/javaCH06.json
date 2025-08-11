@@ -1,0 +1,519 @@
+{
+  "06_01": {
+    "chapter": "6",
+    "question": "What is an array in Java?",
+    "choices": {
+      "A": {
+        "choice": "A collection of elements of the same type stored in contiguous memory locations.",
+        "correct": true
+      },
+      "B": { "choice": "A collection of elements of different types." },
+      "C": { "choice": "A single variable storing one value." },
+      "D": { "choice": "A sequence of characters." }
+    }
+  },
+  "06_02": {
+    "chapter": "6",
+    "question": "Which of the following correctly declares and initializes an array of 5 integers?",
+    "choices": {
+      "A": { "choice": "int[] numbers = new int[5];", "correct": true },
+      "B": { "choice": "int numbers = new int[5];" },
+      "C": { "choice": "int[5] numbers;" },
+      "D": { "choice": "int[] numbers = {5};" }
+    }
+  },
+  "06_03": {
+    "chapter": "6",
+    "question": "What is the valid index range for an array of size 10 in Java?",
+    "choices": {
+      "A": { "choice": "0 to 9", "correct": true },
+      "B": { "choice": "1 to 10" },
+      "C": { "choice": "0 to 10" },
+      "D": { "choice": "1 to 9" }
+    }
+  },
+  "06_04": {
+    "chapter": "6",
+    "question": "How do you access the third element of an array named data?",
+    "choices": {
+      "A": { "choice": "data[2]", "correct": true },
+      "B": { "choice": "data(3)" },
+      "C": { "choice": "data.3" },
+      "D": { "choice": "data[3]" }
+    }
+  },
+  "06_05": {
+    "chapter": "6",
+    "question": "What is the default value of an int array element in Java?",
+    "choices": {
+      "A": { "choice": "0", "correct": true },
+      "B": { "choice": "null" },
+      "C": { "choice": "undefined" },
+      "D": { "choice": "1" }
+    }
+  },
+  "06_06": {
+    "chapter": "6",
+    "question": "Which statement correctly gets the length of an array named nums?",
+    "choices": {
+      "A": { "choice": "nums.length", "correct": true },
+      "B": { "choice": "nums.length()" },
+      "C": { "choice": "length(nums)" },
+      "D": { "choice": "nums.size()" }
+    }
+  },
+  "06_07": {
+    "chapter": "6",
+    "question": "What happens if you try to access an index outside the bounds of an array in Java?",
+    "choices": {
+      "A": {
+        "choice": "An ArrayIndexOutOfBoundsException is thrown.",
+        "correct": true
+      },
+      "B": { "choice": "The last element is returned." },
+      "C": { "choice": "It wraps around to the first element." },
+      "D": { "choice": "It returns 0." }
+    }
+  },
+  "06_08": {
+    "chapter": "6",
+    "question": "Which loop is commonly used to process all elements of an array?",
+    "choices": {
+      "A": { "choice": "for loop", "correct": true },
+      "B": { "choice": "do-while loop" },
+      "C": { "choice": "switch statement" },
+      "D": { "choice": "goto statement" }
+    }
+  },
+  "06_09": {
+    "chapter": "6",
+    "question": "How can you initialize an array of doubles with values 1.1, 2.2, and 3.3?",
+    "choices": {
+      "A": { "choice": "double[] arr = {1.1, 2.2, 3.3};", "correct": true },
+      "B": { "choice": "double arr = [1.1, 2.2, 3.3];" },
+      "C": { "choice": "double arr[] = new double(1.1, 2.2, 3.3);" },
+      "D": { "choice": "double[] arr = new double{1.1, 2.2, 3.3};" }
+    }
+  },
+  "06_10": {
+    "chapter": "6",
+    "question": "What does the following code output?\nint[] a = {2, 4, 6};\nSystem.out.println(a.length);",
+    "choices": {
+      "A": { "choice": "3", "correct": true },
+      "B": { "choice": "2" },
+      "C": { "choice": "6" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "06_11": {
+    "chapter": "6",
+    "question": "Which of the following best describes the relationship between arrays and methods?",
+    "choices": {
+      "A": {
+        "choice": "Arrays can be passed to methods as arguments.",
+        "correct": true
+      },
+      "B": { "choice": "Arrays cannot be used with methods." },
+      "C": { "choice": "Methods can only return arrays of primitives." },
+      "D": { "choice": "Arrays cannot be returned from methods." }
+    }
+  },
+  "06_12": {
+    "chapter": "6",
+    "question": "When you pass an array to a method in Java, what is actually passed?",
+    "choices": {
+      "A": { "choice": "A reference to the array.", "correct": true },
+      "B": { "choice": "A copy of all its elements." },
+      "C": { "choice": "Only the first element." },
+      "D": { "choice": "Nothing is passed." }
+    }
+  },
+  "06_13": {
+    "chapter": "6",
+    "question": "What is the output?\nint[] nums = {1, 2, 3};\nnums[1] = 10;\nSystem.out.println(nums[1]);",
+    "choices": {
+      "A": { "choice": "10", "correct": true },
+      "B": { "choice": "2" },
+      "C": { "choice": "1" },
+      "D": { "choice": "3" }
+    }
+  },
+  "06_14": {
+    "chapter": "6",
+    "question": "Which statement correctly copies an array arr1 into arr2 (with the same length)?",
+    "choices": {
+      "A": {
+        "choice": "System.arraycopy(arr1, 0, arr2, 0, arr1.length);",
+        "correct": true
+      },
+      "B": { "choice": "arr2 = arr1;" },
+      "C": { "choice": "arr2.copy(arr1);" },
+      "D": { "choice": "arr2 == arr1;" }
+    }
+  },
+  "06_15": {
+    "chapter": "6",
+    "question": "What is the result of the following code?\nint[] x = new int[3];\nSystem.out.println(x[2]);",
+    "choices": {
+      "A": { "choice": "0", "correct": true },
+      "B": { "choice": "null" },
+      "C": { "choice": "Error" },
+      "D": { "choice": "3" }
+    }
+  },
+  "06_16": {
+    "chapter": "6",
+    "question": "Which method is used to find the largest element in an int array arr?",
+    "choices": {
+      "A": {
+        "choice": "Iterate through arr and keep track of the maximum.",
+        "correct": true
+      },
+      "B": { "choice": "Use arr.max();" },
+      "C": { "choice": "Use Arrays.maximum(arr);" },
+      "D": { "choice": "Call arr.largest();" }
+    }
+  },
+  "06_17": {
+    "chapter": "6",
+    "question": "What does arr[arr.length - 1] give you?",
+    "choices": {
+      "A": { "choice": "The last element of the array.", "correct": true },
+      "B": { "choice": "The first element of the array." },
+      "C": { "choice": "The size of the array." },
+      "D": { "choice": "An ArrayIndexOutOfBoundsException." }
+    }
+  },
+  "06_18": {
+    "chapter": "6",
+    "question": "Which of the following correctly creates a 2D array of ints with 4 rows and 3 columns?",
+    "choices": {
+      "A": { "choice": "int[][] matrix = new int[4][3];", "correct": true },
+      "B": { "choice": "int[4][3] matrix;" },
+      "C": { "choice": "int matrix = new int[4,3];" },
+      "D": { "choice": "int matrix[][] = new int[3][4];" }
+    }
+  },
+  "06_19": {
+    "chapter": "6",
+    "question": "What is the result of 'String[] s = new String[2]; System.out.println(s[0]);'?",
+    "choices": {
+      "A": { "choice": "null", "correct": true },
+      "B": { "choice": "0" },
+      "C": { "choice": "\"\"" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "06_20": {
+    "chapter": "6",
+    "question": "Which of the following statements about arrays in Java is FALSE?",
+    "choices": {
+      "A": { "choice": "Arrays are dynamically resized.", "correct": true },
+      "B": { "choice": "Arrays are objects." },
+      "C": { "choice": "Arrays have a fixed length." },
+      "D": { "choice": "Array elements are indexed from 0." }
+    }
+  },
+  "06_21": {
+    "chapter": "6",
+    "question": "What is an enhanced for loop useful for?",
+    "choices": {
+      "A": {
+        "choice": "Iterating through all elements of an array easily.",
+        "correct": true
+      },
+      "B": { "choice": "Declaring a new array." },
+      "C": { "choice": "Copying arrays." },
+      "D": { "choice": "Creating a new array." }
+    }
+  },
+  "06_22": {
+    "chapter": "6",
+    "question": "How would you declare an array of 5 booleans and initialize all to true?",
+    "choices": {
+      "A": {
+        "choice": "boolean[] arr = {true, true, true, true, true};",
+        "correct": true
+      },
+      "B": { "choice": "boolean arr[5] = true;" },
+      "C": { "choice": "boolean[] arr = new boolean[5];" },
+      "D": { "choice": "boolean[] arr = true[5];" }
+    }
+  },
+  "06_23": {
+    "chapter": "6",
+    "question": "Given: double[] vals = new double[4]; What is vals.length?",
+    "choices": {
+      "A": { "choice": "4", "correct": true },
+      "B": { "choice": "3" },
+      "C": { "choice": "0" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "06_24": {
+    "chapter": "6",
+    "question": "What is the output?\nint[] arr = {5, 6, 7};\nfor(int n : arr) System.out.print(n + \" \");",
+    "choices": {
+      "A": { "choice": "5 6 7 ", "correct": true },
+      "B": { "choice": "5 7 6 " },
+      "C": { "choice": "6 7 5 " },
+      "D": { "choice": "Error" }
+    }
+  },
+  "06_25": {
+    "chapter": "6",
+    "question": "Which is NOT a valid array type?",
+    "choices": {
+      "A": { "choice": "int[5] arr;", "correct": true },
+      "B": { "choice": "double[] arr;" },
+      "C": { "choice": "String[] arr;" },
+      "D": { "choice": "char[] arr;" }
+    }
+  },
+  "06_26": {
+    "chapter": "6",
+    "question": "How can you fill every element of an int array with the value 9?",
+    "choices": {
+      "A": {
+        "choice": "Use a for loop to assign 9 to each element.",
+        "correct": true
+      },
+      "B": { "choice": "int[] arr = 9;" },
+      "C": { "choice": "arr.fill(9);" },
+      "D": { "choice": "Arrays.fillEach(arr, 9);" }
+    }
+  },
+  "06_27": {
+    "chapter": "6",
+    "question": "Which of the following finds the sum of all elements in an int array arr?",
+    "choices": {
+      "A": {
+        "choice": "int sum = 0;\nfor(int i=0;i<arr.length;i++) sum += arr[i];",
+        "correct": true
+      },
+      "B": { "choice": "int sum = arr[0] + arr[arr.length];" },
+      "C": { "choice": "int sum = sum(arr);" },
+      "D": { "choice": "int sum = arr.sum();" }
+    }
+  },
+  "06_28": {
+    "chapter": "6",
+    "question": "Which is a correct way to declare an array and set its first element to 100?",
+    "choices": {
+      "A": {
+        "choice": "int[] arr = new int[3]; arr[0] = 100;",
+        "correct": true
+      },
+      "B": { "choice": "int arr = new int[3]; arr[1] = 100;" },
+      "C": { "choice": "arr[0] = 100; int[] arr = new int[3];" },
+      "D": { "choice": "arr = 100[0];" }
+    }
+  },
+  "06_29": {
+    "chapter": "6",
+    "question": "What is the output?\nint[] arr = {7, 8, 9};\nSystem.out.println(arr[1] + arr[2]);",
+    "choices": {
+      "A": { "choice": "17", "correct": true },
+      "B": { "choice": "8" },
+      "C": { "choice": "16" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "06_30": {
+    "chapter": "6",
+    "question": "How do you declare an array of 3 Strings and assign values?",
+    "choices": {
+      "A": { "choice": "String[] s = {\"a\", \"b\", \"c\"};", "correct": true },
+      "B": { "choice": "String s[] = new String(3);" },
+      "C": { "choice": "String s[3] = {\"a\", \"b\", \"c\"};" },
+      "D": { "choice": "String[3] s = {\"a\", \"b\", \"c\"};" }
+    }
+  },
+  "06_31": {
+    "chapter": "6",
+    "question": "What does the enhanced for loop 'for(int x : arr)' do?",
+    "choices": {
+      "A": {
+        "choice": "Loops through each element of arr, assigning its value to x.",
+        "correct": true
+      },
+      "B": { "choice": "Assigns x as the index of arr." },
+      "C": { "choice": "Creates a new array named x." },
+      "D": { "choice": "Assigns arr to x." }
+    }
+  },
+  "06_32": {
+    "chapter": "6",
+    "question": "Which is the correct way to create an array of 10 doubles all set to 0?",
+    "choices": {
+      "A": { "choice": "double[] arr = new double[10];", "correct": true },
+      "B": { "choice": "double[] arr = {0};" },
+      "C": { "choice": "double arr = new double[10];" },
+      "D": { "choice": "double[] arr = new double(10);" }
+    }
+  },
+  "06_33": {
+    "chapter": "6",
+    "question": "What is the result of the following code?\nint[] arr = new int[2];\nSystem.out.println(arr);",
+    "choices": {
+      "A": {
+        "choice": "It prints something like '[I@15db9742' (the array’s memory address).",
+        "correct": true
+      },
+      "B": { "choice": "It prints '0 0'." },
+      "C": { "choice": "It prints 'null'." },
+      "D": { "choice": "It prints '2'." }
+    }
+  },
+  "06_34": {
+    "chapter": "6",
+    "question": "Which of the following is TRUE about array lengths in Java?",
+    "choices": {
+      "A": {
+        "choice": "Once created, an array's length cannot be changed.",
+        "correct": true
+      },
+      "B": {
+        "choice": "You can increase the length by assigning to a new index."
+      },
+      "C": { "choice": "Arrays are always dynamically resized." },
+      "D": { "choice": "Arrays can only have a length of 10." }
+    }
+  },
+  "06_35": {
+    "chapter": "6",
+    "question": "Given:\nint[] arr = {1,2,3,4};\nWhich statement will reverse the array?",
+    "choices": {
+      "A": {
+        "choice": "Use a for loop to swap elements from both ends towards the center.",
+        "correct": true
+      },
+      "B": { "choice": "arr.reverse();" },
+      "C": { "choice": "arr = arr[::-1];" },
+      "D": { "choice": "for(int i:arr) arr[i]=arr[arr.length-i-1];" }
+    }
+  },
+  "06_36": {
+    "chapter": "6",
+    "question": "Select all valid ways to iterate through an int array arr. (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "for (int i = 0; i < arr.length; i++)",
+        "correct": true
+      },
+      "B": { "choice": "for (int x : arr)", "correct": true },
+      "C": { "choice": "foreach (int x in arr);" },
+      "D": { "choice": "arr.forEach(x -> ...);" }
+    }
+  },
+  "06_37": {
+    "chapter": "6",
+    "question": "Which is the correct way to create a ragged (non-rectangular) 2D array?",
+    "choices": {
+      "A": { "choice": "int[][] arr = new int[3][];", "correct": true },
+      "B": { "choice": "int[3][] arr;" },
+      "C": { "choice": "int arr[][] = new int[][3];" },
+      "D": { "choice": "int arr[3][*];" }
+    }
+  },
+  "06_38": {
+    "chapter": "6",
+    "question": "How do you print all elements of a 2D int array arr?",
+    "choices": {
+      "A": {
+        "choice": "Use nested loops: for(int i=0;i&lt;arr.length;i++) for(int j=0;j&lt;arr[i].length;j++) System.out.print(arr[i][j]);",
+        "correct": true
+      },
+      "B": { "choice": "System.out.print(arr);" },
+      "C": { "choice": "arr.printAll();" },
+      "D": { "choice": "print(arr);" }
+    }
+  },
+  "06_39": {
+    "chapter": "6",
+    "question": "Which of the following is NOT a valid way to declare an array?",
+    "choices": {
+      "A": { "choice": "int arr[3];", "correct": true },
+      "B": { "choice": "int[] arr;" },
+      "C": { "choice": "double[] arr = new double[4];" },
+      "D": { "choice": "String arr[] = new String[2];" }
+    }
+  },
+  "06_40": {
+    "chapter": "6",
+    "question": "What happens if you assign arr2 = arr1; where both are arrays?",
+    "choices": {
+      "A": {
+        "choice": "arr2 now refers to the same array as arr1.",
+        "correct": true
+      },
+      "B": { "choice": "arr2 becomes a copy of arr1's values." },
+      "C": { "choice": "arr2 is unchanged." },
+      "D": { "choice": "A runtime error occurs." }
+    }
+  },
+  "06_41": {
+    "chapter": "6",
+    "question": "What is the difference between method overloading and method overriding in Java?",
+    "choices": {
+      "A": {
+        "choice": "Overloading means having multiple methods with the same name but different parameter lists in the same class, while overriding means redefining a method from a superclass in a subclass.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Overloading means redefining a method from a superclass, while overriding means changing parameter lists in the same class."
+      },
+      "C": { "choice": "They are the same thing in Java." },
+      "D": { "choice": "Overriding only applies to constructors." }
+    }
+  },
+  "06_42": {
+    "chapter": "6",
+    "question": "Which access modifier makes a class member accessible to all other classes?",
+    "choices": {
+      "A": { "choice": "public", "correct": true },
+      "B": { "choice": "private" },
+      "C": { "choice": "protected" },
+      "D": { "choice": "default" }
+    }
+  },
+  "06_43": {
+    "chapter": "6",
+    "question": "When is the 'this' keyword used in Java?",
+    "choices": {
+      "A": {
+        "choice": "To refer to the current object instance.",
+        "correct": true
+      },
+      "B": { "choice": "To refer to the superclass." },
+      "C": { "choice": "To call static methods." },
+      "D": { "choice": "To declare a class." }
+    }
+  },
+  "06_44": {
+    "chapter": "6",
+    "question": "What is constructor chaining in Java?",
+    "choices": {
+      "A": {
+        "choice": "Calling one constructor from another constructor in the same class.",
+        "correct": true
+      },
+      "B": { "choice": "Calling a method from another class." },
+      "C": { "choice": "Creating objects in a loop." },
+      "D": { "choice": "Overriding a superclass constructor." }
+    }
+  },
+  "06_45": {
+    "chapter": "6",
+    "question": "What does the keyword 'final' mean when applied to a method?",
+    "choices": {
+      "A": {
+        "choice": "The method cannot be overridden by subclasses.",
+        "correct": true
+      },
+      "B": { "choice": "The method can be called only once." },
+      "C": { "choice": "The method must return a value." },
+      "D": { "choice": "The method is a static method." }
+    }
+  }
+}

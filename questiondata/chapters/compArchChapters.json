@@ -1,0 +1,13 @@
+{
+    "chapters": [
+      { "id": 1, "name": "Chapter 1", "topic": "Introduction to Computer Organization"},
+      { "id": 2, "name": "Chapter 2", "topic": "CPU Org, RISC/CISC, Design"},
+      { "id": 3, "name": "Chapter 3", "topic": "Parallelism, Pipelining, Error Codes"},
+      { "id": 4, "name": "Chapter 4", "topic": "Cache Memory"},
+      { "id": 5, "name": "Chapter 5", "topic": "Buses, Interrupts, and Timing Sequences"},
+      { "id": 6, "name": "Chapter 6", "topic": "Encoder, Decoder, (De)Multiplexers"},
+      { "id": 7, "name": "Chapter 7", "topic": "Assembly Language"},
+      { "id": 8, "name": "Chapter 8", "topic": "Integrated Problem Solving"}
+    ]
+  }
+  

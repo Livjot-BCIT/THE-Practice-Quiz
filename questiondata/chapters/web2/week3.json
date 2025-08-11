@@ -1,0 +1,272 @@
+{
+  "03_01": {
+    "question": "What is authentication in web applications?",
+    "choices": {
+      "A": { "choice": "Granting access to specific resources" },
+      "B": { "choice": "Verifying user identity", "correct": true },
+      "C": { "choice": "Encrypting data" },
+      "D": { "choice": "Logging errors" }
+    }
+  },
+  "03_02": {
+    "question": "Which module is commonly used for hashing passwords in Node.js?",
+    "choices": {
+      "A": { "choice": "bcrypt", "correct": true },
+      "B": { "choice": "crypto-js" },
+      "C": { "choice": "jsonwebtoken" },
+      "D": { "choice": "cookie-parser" }
+    }
+  },
+  "03_03": {
+    "question": "What does the 'bcrypt.hash()' function do?",
+    "choices": {
+      "A": { "choice": "Encrypts data using JWT" },
+      "B": { "choice": "Hashes a password for secure storage", "correct": true },
+      "C": { "choice": "Validates a user session" },
+      "D": { "choice": "Deletes a cookie" }
+    }
+  },
+  "03_04": {
+    "question": "Which function would you use to compare a plaintext password with a hashed one?",
+    "choices": {
+      "A": { "choice": "bcrypt.compare()", "correct": true },
+      "B": { "choice": "bcrypt.validate()" },
+      "C": { "choice": "bcrypt.match()" },
+      "D": { "choice": "bcrypt.check()" }
+    }
+  },
+  "03_05": {
+    "question": "What is the purpose of using environment variables (e.g., .env files)?",
+    "choices": {
+      "A": { "choice": "To store configuration values securely", "correct": true },
+      "B": { "choice": "To store user passwords" },
+      "C": { "choice": "To improve page loading speed" },
+      "D": { "choice": "To host static files" }
+    }
+  },
+  "03_06": {
+    "question": "Which package is commonly used to load environment variables in Node.js?",
+    "choices": {
+      "A": { "choice": "config-loader" },
+      "B": { "choice": "dotenv", "correct": true },
+      "C": { "choice": "env-vars" },
+      "D": { "choice": "session-env" }
+    }
+  },
+  "03_07": {
+    "question": "Which Express middleware is typically used to manage sessions?",
+    "choices": {
+      "A": { "choice": "express-session", "correct": true },
+      "B": { "choice": "cookie-parser" },
+      "C": { "choice": "morgan" },
+      "D": { "choice": "sessionify" }
+    }
+  },
+  "03_08": {
+    "question": "What is stored in a session?",
+    "choices": {
+      "A": { "choice": "HTML templates" },
+      "B": { "choice": "Temporary user data between requests", "correct": true },
+      "C": { "choice": "Static files" },
+      "D": { "choice": "Database connection strings" }
+    }
+  },
+  "03_09": {
+    "question": "What does 'authorization' refer to?",
+    "choices": {
+      "A": { "choice": "Verifying user identity" },
+      "B": { "choice": "Granting or denying access to resources", "correct": true },
+      "C": { "choice": "Hashing passwords" },
+      "D": { "choice": "Parsing cookies" }
+    }
+  },
+  "03_10": {
+    "question": "Which is a secure practice for storing session secrets?",
+    "choices": {
+      "A": { "choice": "In the source code" },
+      "B": { "choice": "In a .env file", "correct": true },
+      "C": { "choice": "On the client side" },
+      "D": { "choice": "Inside HTML files" }
+    }
+  },
+  "03_11": {
+    "question": "Which property stores the session data in an Express request?",
+    "choices": {
+      "A": { "choice": "req.cookie" },
+      "B": { "choice": "req.body" },
+      "C": { "choice": "req.session", "correct": true },
+      "D": { "choice": "req.header" }
+    }
+  },
+  "03_12": {
+    "question": "How can you destroy a session in Express?",
+    "choices": {
+      "A": { "choice": "req.session.destroy()", "correct": true },
+      "B": { "choice": "req.session.end()" },
+      "C": { "choice": "req.destroySession()" },
+      "D": { "choice": "session.delete()" }
+    }
+  },
+  "03_13": {
+    "question": "What is the purpose of setting the 'HttpOnly' flag on a session cookie?",
+    "choices": {
+      "A": { "choice": "It can only be accessed via JavaScript" },
+      "B": { "choice": "It can only be accessed by the server", "correct": true },
+      "C": { "choice": "It is sent only over HTTPS" },
+      "D": { "choice": "It allows longer expiration" }
+    }
+  },
+  "03_14": {
+    "question": "Which flag ensures cookies are sent only over HTTPS?",
+    "choices": {
+      "A": { "choice": "Secure", "correct": true },
+      "B": { "choice": "Private" },
+      "C": { "choice": "HttpOnly" },
+      "D": { "choice": "SessionOnly" }
+    }
+  },
+  "03_15": {
+    "question": "What is the risk if you do not hash user passwords before storing them?",
+    "choices": {
+      "A": { "choice": "Passwords can be easily stolen if the database is compromised", "correct": true },
+      "B": { "choice": "Faster login times" },
+      "C": { "choice": "Passwords are automatically encrypted" },
+      "D": { "choice": "Users can log in with any password" }
+    }
+  },
+  "03_16": {
+    "question": "What does 'salting' a password mean?",
+    "choices": {
+      "A": { "choice": "Adding random data to the password before hashing", "correct": true },
+      "B": { "choice": "Encrypting passwords with SSL" },
+      "C": { "choice": "Deleting old passwords" },
+      "D": { "choice": "Using a short password" }
+    }
+  },
+  "03_17": {
+    "question": "What is the main reason to use salting with hashes?",
+    "choices": {
+      "A": { "choice": "To improve database performance" },
+      "B": { "choice": "To make hash values unique, even for identical passwords", "correct": true },
+      "C": { "choice": "To compress data" },
+      "D": { "choice": "To store user emails" }
+    }
+  },
+  "03_18": {
+    "question": "Which middleware is used to parse cookies in Express?",
+    "choices": {
+      "A": { "choice": "cookie-parser", "correct": true },
+      "B": { "choice": "express-session" },
+      "C": { "choice": "morgan" },
+      "D": { "choice": "bcrypt" }
+    }
+  },
+  "03_19": {
+    "question": "What does 'req.isAuthenticated()' check in Passport.js?",
+    "choices": {
+      "A": { "choice": "If a session exists" },
+      "B": { "choice": "If a user is logged in", "correct": true },
+      "C": { "choice": "If cookies are set" },
+      "D": { "choice": "If the request has a token" }
+    }
+  },
+  "03_20": {
+    "question": "Which module provides local and OAuth authentication strategies in Node.js?",
+    "choices": {
+      "A": { "choice": "passport", "correct": true },
+      "B": { "choice": "express-session" },
+      "C": { "choice": "bcrypt" },
+      "D": { "choice": "jsonwebtoken" }
+    }
+  },
+  "03_21": {
+    "question": "What does 'serializeUser' do in Passport.js?",
+    "choices": {
+      "A": { "choice": "Creates a new cookie" },
+      "B": { "choice": "Stores user data in the session", "correct": true },
+      "C": { "choice": "Encrypts user credentials" },
+      "D": { "choice": "Removes session data" }
+    }
+  },
+  "03_22": {
+    "question": "How do you restrict access to a route for logged-in users only?",
+    "choices": {
+      "A": { "choice": "Check if req.session contains user data", "correct": true },
+      "B": { "choice": "Send a POST request" },
+      "C": { "choice": "Hash the user's password" },
+      "D": { "choice": "Use res.cookie()" }
+    }
+  },
+  "03_23": {
+    "question": "What is a CSRF token used for?",
+    "choices": {
+      "A": { "choice": "To prevent cross-site request forgery attacks", "correct": true },
+      "B": { "choice": "To hash passwords" },
+      "C": { "choice": "To parse cookies" },
+      "D": { "choice": "To compress files" }
+    }
+  },
+  "03_24": {
+    "question": "What is a common practice to prevent brute-force login attacks?",
+    "choices": {
+      "A": { "choice": "Limiting login attempts", "correct": true },
+      "B": { "choice": "Sending passwords by email" },
+      "C": { "choice": "Storing passwords in plaintext" },
+      "D": { "choice": "Disabling session cookies" }
+    }
+  },
+  "03_25": {
+    "question": "Why should you use HTTPS in web applications?",
+    "choices": {
+      "A": { "choice": "To increase loading speed" },
+      "B": { "choice": "To encrypt data between client and server", "correct": true },
+      "C": { "choice": "To store data locally" },
+      "D": { "choice": "To avoid using cookies" }
+    }
+  },
+  "03_26": {
+    "question": "Which option helps protect against session fixation?",
+    "choices": {
+      "A": { "choice": "Rotate session IDs after login", "correct": true },
+      "B": { "choice": "Set the cookie path to /" },
+      "C": { "choice": "Store session IDs in localStorage" },
+      "D": { "choice": "Use 'var' instead of 'let'" }
+    }
+  },
+  "03_27": {
+    "question": "What does 'passport.authenticate()' do?",
+    "choices": {
+      "A": { "choice": "Checks if a user is authorized" },
+      "B": { "choice": "Authenticates a user using a specified strategy", "correct": true },
+      "C": { "choice": "Deletes a session" },
+      "D": { "choice": "Generates a session ID" }
+    }
+  },
+  "03_28": {
+    "question": "What is the role of the 'secret' property in session middleware?",
+    "choices": {
+      "A": { "choice": "It stores hashed passwords" },
+      "B": { "choice": "It signs the session ID cookie", "correct": true },
+      "C": { "choice": "It logs session activity" },
+      "D": { "choice": "It provides HTTPS" }
+    }
+  },
+  "03_29": {
+    "question": "Which HTTP header helps prevent clickjacking attacks?",
+    "choices": {
+      "A": { "choice": "X-Frame-Options", "correct": true },
+      "B": { "choice": "Content-Type" },
+      "C": { "choice": "Set-Cookie" },
+      "D": { "choice": "Strict-Transport-Security" }
+    }
+  },
+  "03_30": {
+    "question": "What does the 'maxAge' property in cookie/session configuration control?",
+    "choices": {
+      "A": { "choice": "The maximum length of the cookie value" },
+      "B": { "choice": "The expiration time of the cookie", "correct": true },
+      "C": { "choice": "The user's session ID" },
+      "D": { "choice": "The path for static files" }
+    }
+  }
+}

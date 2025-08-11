@@ -1,0 +1,362 @@
+{
+  "02_01": {
+    "question": "Which proof method assumes the opposite of what you want to prove?",
+    "choices": {
+      "A": { "choice": "Proof by direct argument" },
+      "B": { "choice": "Proof by contradiction", "correct": true },
+      "C": { "choice": "Proof by induction" },
+      "D": { "choice": "Proof by construction" }
+    }
+  },
+  "02_02": {
+    "question": "What is the contrapositive of 'If n is even, then n^2 is even'?",
+    "choices": {
+      "A": { "choice": "If n^2 is not even, then n is not even", "correct": true },
+      "B": { "choice": "If n is odd, then n^2 is odd" },
+      "C": { "choice": "If n^2 is even, then n is even" },
+      "D": { "choice": "If n is not even, then n^2 is not even" }
+    }
+  },
+  "02_03": {
+    "question": "If A = {1, 2, 3} and B = {2, 3, 4}, what is A ∩ B?",
+    "choices": {
+      "A": { "choice": "{1, 4}" },
+      "B": { "choice": "{2, 3}", "correct": true },
+      "C": { "choice": "{1, 2, 3, 4}" },
+      "D": { "choice": "{1, 2}" }
+    }
+  },
+  "02_04": {
+    "question": "Which of the following is the empty set?",
+    "choices": {
+      "A": { "choice": "{0}" },
+      "B": { "choice": "0" },
+      "C": { "choice": "∅", "correct": true },
+      "D": { "choice": "{}" }
+    }
+  },
+  "02_05": {
+    "question": "What is the cardinality of the set P = {a, b, c}?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "3", "correct": true },
+      "C": { "choice": "6" },
+      "D": { "choice": "8" }
+    }
+  },
+  "02_06": {
+    "question": "If X = {1, 2}, what is the power set of X?",
+    "choices": {
+      "A": { "choice": "{{1}, {2}}" },
+      "B": { "choice": "{{}, {1}, {2}, {1,2}}", "correct": true },
+      "C": { "choice": "{{1,2}, {2,1}}" },
+      "D": { "choice": "{{1}, {2}, {2,1}}" }
+    }
+  },
+  "02_07": {
+    "question": "Which symbol means 'is a subset of'?",
+    "choices": {
+      "A": { "choice": "∈" },
+      "B": { "choice": "⊆", "correct": true },
+      "C": { "choice": "∪" },
+      "D": { "choice": "∩" }
+    }
+  },
+  "02_08": {
+    "question": "Which of the following is true for all sets A?",
+    "choices": {
+      "A": { "choice": "A ∪ ∅ = A", "correct": true },
+      "B": { "choice": "A ∩ A = ∅" },
+      "C": { "choice": "A \\ A = A" },
+      "D": { "choice": "A ∪ U = ∅" }
+    }
+  },
+  "02_09": {
+    "question": "If U is the universal set, what is the complement of U?",
+    "choices": {
+      "A": { "choice": "U" },
+      "B": { "choice": "∅", "correct": true },
+      "C": { "choice": "{U}" },
+      "D": { "choice": "Depends on A" }
+    }
+  },
+  "02_10": {
+    "question": "Which of the following statements is true?",
+    "choices": {
+      "A": { "choice": "{a, b} ⊆ {a, b, c}", "correct": true },
+      "B": { "choice": "{a, b, c} ⊆ {a, b}" },
+      "C": { "choice": "{a} ⊆ ∅" },
+      "D": { "choice": "{a, b} ∈ {a, b, c}" }
+    }
+  },
+  "02_11": {
+    "question": "What is A ∪ (B ∩ C) called?",
+    "choices": {
+      "A": { "choice": "Associative law" },
+      "B": { "choice": "Distributive law", "correct": true },
+      "C": { "choice": "Complement law" },
+      "D": { "choice": "DeMorgan’s law" }
+    }
+  },
+  "02_12": {
+    "question": "If A and B are disjoint, what is A ∩ B?",
+    "choices": {
+      "A": { "choice": "A" },
+      "B": { "choice": "B" },
+      "C": { "choice": "∅", "correct": true },
+      "D": { "choice": "A ∪ B" }
+    }
+  },
+  "02_13": {
+    "question": "What does x ∈ A mean?",
+    "choices": {
+      "A": { "choice": "x is a member of set A", "correct": true },
+      "B": { "choice": "x is not in set A" },
+      "C": { "choice": "x is a subset of A" },
+      "D": { "choice": "x is equal to A" }
+    }
+  },
+  "02_14": {
+    "question": "Which of the following illustrates proof by contrapositive?",
+    "choices": {
+      "A": { "choice": "Assume the opposite and show a contradiction" },
+      "B": { "choice": "Prove 'if not Q then not P' instead of 'if P then Q'", "correct": true },
+      "C": { "choice": "Prove a special case and generalize" },
+      "D": { "choice": "Assume statement is true and prove it directly" }
+    }
+  },
+  "02_15": {
+    "question": "If A = {x | x is an even number}, what is 4 ∈ A?",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" },
+      "C": { "choice": "Undefined" },
+      "D": { "choice": "Depends on A" }
+    }
+  },
+  "02_16": {
+    "question": "Which of the following is an identity law for sets?",
+    "choices": {
+      "A": { "choice": "A ∪ ∅ = A", "correct": true },
+      "B": { "choice": "A ∩ U = ∅" },
+      "C": { "choice": "A ∪ A = ∅" },
+      "D": { "choice": "A \\ A = U" }
+    }
+  },
+  "02_17": {
+    "question": "How many subsets does a set with n elements have?",
+    "choices": {
+      "A": { "choice": "n" },
+      "B": { "choice": "2n" },
+      "C": { "choice": "2^n", "correct": true },
+      "D": { "choice": "n^2" }
+    }
+  },
+  "02_18": {
+    "question": "Which Venn diagram area represents A ∩ B'?",
+    "choices": {
+      "A": { "choice": "Elements in A but not in B", "correct": true },
+      "B": { "choice": "Elements in B but not in A" },
+      "C": { "choice": "Elements in both A and B" },
+      "D": { "choice": "Elements not in A or B" }
+    }
+  },
+  "02_19": {
+    "question": "What is a valid method for proving set equality A = B?",
+    "choices": {
+      "A": { "choice": "Show A ⊆ B and B ⊆ A", "correct": true },
+      "B": { "choice": "Check if A and B have the same number of elements" },
+      "C": { "choice": "Check if A ∪ B = U" },
+      "D": { "choice": "Show A = B' " }
+    }
+  },
+  "02_20": {
+    "question": "If A ⊆ B and B ⊆ C, what is true?",
+    "choices": {
+      "A": { "choice": "A ⊆ C", "correct": true },
+      "B": { "choice": "C ⊆ B" },
+      "C": { "choice": "C ⊆ A" },
+      "D": { "choice": "A = C" }
+    }
+  },
+  "02_21": {
+    "question": "Which of the following best describes a proof by contradiction?",
+    "choices": {
+      "A": { "choice": "You assume the statement is false and show this leads to a contradiction.", "correct": true },
+      "B": { "choice": "You show the statement is true directly." },
+      "C": { "choice": "You use examples to prove the statement." },
+      "D": { "choice": "You prove a similar but unrelated statement." }
+    }
+  },
+  "02_22": {
+    "question": "Which is the symbol for the empty set?",
+    "choices": {
+      "A": { "choice": "{}" },
+      "B": { "choice": "∅", "correct": true },
+      "C": { "choice": "Ø" },
+      "D": { "choice": "()" }
+    }
+  },
+  "02_23": {
+    "question": "Which of these is true for all sets A and B: A ⊆ B if and only if",
+    "choices": {
+      "A": { "choice": "Every element of A is also an element of B.", "correct": true },
+      "B": { "choice": "A and B are equal." },
+      "C": { "choice": "B has more elements than A." },
+      "D": { "choice": "A contains all possible elements." }
+    }
+  },
+  "02_24": {
+    "question": "If A = {1, 2}, what is the power set of A?",
+    "choices": {
+      "A": { "choice": "{∅, {1}, {2}, {1,2}}", "correct": true },
+      "B": { "choice": "{1, 2, {1,2}}" },
+      "C": { "choice": "{1, {1,2}}" },
+      "D": { "choice": "{∅, {1}, {2}}" }
+    }
+  },
+  "02_25": {
+    "question": "How many subsets does a set with 4 elements have?",
+    "choices": {
+      "A": { "choice": "8" },
+      "B": { "choice": "16", "correct": true },
+      "C": { "choice": "4" },
+      "D": { "choice": "12" }
+    }
+  },
+  "02_26": {
+    "question": "Which of the following is always true for any set A?",
+    "choices": {
+      "A": { "choice": "A ⊆ A", "correct": true },
+      "B": { "choice": "A = ∅" },
+      "C": { "choice": "A = U" },
+      "D": { "choice": "A = {A}" }
+    }
+  },
+  "02_27": {
+    "question": "If A = {1, 2, 3}, which of the following is not a subset of A?",
+    "choices": {
+      "A": { "choice": "{1}" },
+      "B": { "choice": "{1, 2}" },
+      "C": { "choice": "{2, 4}", "correct": true },
+      "D": { "choice": "∅" }
+    }
+  },
+  "02_28": {
+    "question": "What is A ∪ ∅ (the union of any set A and the empty set)?",
+    "choices": {
+      "A": { "choice": "A", "correct": true },
+      "B": { "choice": "∅" },
+      "C": { "choice": "{∅}" },
+      "D": { "choice": "{A, ∅}" }
+    }
+  },
+  "02_29": {
+    "question": "What is the intersection of a set A with the universal set U?",
+    "choices": {
+      "A": { "choice": "A", "correct": true },
+      "B": { "choice": "U" },
+      "C": { "choice": "∅" },
+      "D": { "choice": "A ∪ U" }
+    }
+  },
+  "02_30": {
+    "question": "If A ⊆ B and B ⊆ C, which of the following is always true?",
+    "choices": {
+      "A": { "choice": "A ⊆ C", "correct": true },
+      "B": { "choice": "C ⊆ A" },
+      "C": { "choice": "A = B" },
+      "D": { "choice": "B = C" }
+    }
+  },
+  "02_31": {
+    "question": "Which of the following is the set difference A \\ B?",
+    "choices": {
+      "A": { "choice": "The set of elements in A but not in B.", "correct": true },
+      "B": { "choice": "The set of elements in both A and B." },
+      "C": { "choice": "The set of elements in B but not in A." },
+      "D": { "choice": "The set of all elements." }
+    }
+  },
+  "02_32": {
+    "question": "DeMorgan’s Law for sets states: (A ∪ B)’ = ?",
+    "choices": {
+      "A": { "choice": "A’ ∩ B’", "correct": true },
+      "B": { "choice": "A’ ∪ B’" },
+      "C": { "choice": "A ∩ B" },
+      "D": { "choice": "A ∪ B" }
+    }
+  },
+  "02_33": {
+    "question": "What is the complement of the universal set U?",
+    "choices": {
+      "A": { "choice": "U" },
+      "B": { "choice": "∅", "correct": true },
+      "C": { "choice": "{U}" },
+      "D": { "choice": "{∅}" }
+    }
+  },
+  "02_34": {
+    "question": "A proof that assumes the opposite of what is to be proved is known as?",
+    "choices": {
+      "A": { "choice": "Proof by contradiction", "correct": true },
+      "B": { "choice": "Proof by construction" },
+      "C": { "choice": "Direct proof" },
+      "D": { "choice": "Counterexample" }
+    }
+  },
+  "02_35": {
+    "question": "If A = {x ∈ N | x < 3}, what is A?",
+    "choices": {
+      "A": { "choice": "{1, 2}", "correct": true },
+      "B": { "choice": "{2, 3}" },
+      "C": { "choice": "{0, 1, 2}" },
+      "D": { "choice": "{3, 4}" }
+    }
+  },
+  "02_36": {
+    "question": "Which statement is true about the empty set?",
+    "choices": {
+      "A": { "choice": "It is a subset of every set.", "correct": true },
+      "B": { "choice": "It contains every element." },
+      "C": { "choice": "It has infinite elements." },
+      "D": { "choice": "It is not a set." }
+    }
+  },
+  "02_37": {
+    "question": "If A and B are disjoint sets, what is true about A ∩ B?",
+    "choices": {
+      "A": { "choice": "A ∩ B = ∅", "correct": true },
+      "B": { "choice": "A ∩ B = A" },
+      "C": { "choice": "A ∩ B = B" },
+      "D": { "choice": "A ∩ B = U" }
+    }
+  },
+  "02_38": {
+    "question": "What is the cardinality of the set {1, 2, 3, 4, 5}?",
+    "choices": {
+      "A": { "choice": "4" },
+      "B": { "choice": "5", "correct": true },
+      "C": { "choice": "6" },
+      "D": { "choice": "10" }
+    }
+  },
+  "02_39": {
+    "question": "A proof that establishes a statement by showing a single example is a:",
+    "choices": {
+      "A": { "choice": "Counterexample" },
+      "B": { "choice": "Existence proof", "correct": true },
+      "C": { "choice": "Direct proof" },
+      "D": { "choice": "Contradiction" }
+    }
+  },
+  "02_40": {
+    "question": "If A = {1,2,3} and B = {2,3,4}, what is A ∩ B?",
+    "choices": {
+      "A": { "choice": "{2,3}", "correct": true },
+      "B": { "choice": "{1,2,3,4}" },
+      "C": { "choice": "{1,4}" },
+      "D": { "choice": "{1,3}" }
+    }
+  }
+}

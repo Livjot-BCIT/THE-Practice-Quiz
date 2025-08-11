@@ -1,0 +1,519 @@
+{
+  "07_01": {
+    "chapter": "7",
+    "question": "What is an ArrayList in Java?",
+    "choices": {
+      "A": {
+        "choice": "A resizable array-like data structure from the Java Collections Framework.",
+        "correct": true
+      },
+      "B": { "choice": "A fixed-size array." },
+      "C": { "choice": "A type of primitive array." },
+      "D": { "choice": "A two-dimensional array." }
+    }
+  },
+  "07_02": {
+    "chapter": "7",
+    "question": "Which import statement do you need to use ArrayList?",
+    "choices": {
+      "A": { "choice": "import java.util.ArrayList;", "correct": true },
+      "B": { "choice": "import java.ArrayList;" },
+      "C": { "choice": "import java.collections.ArrayList;" },
+      "D": { "choice": "import ArrayList.util;" }
+    }
+  },
+  "07_03": {
+    "chapter": "7",
+    "question": "Which of the following declares an ArrayList of Strings?",
+    "choices": {
+      "A": {
+        "choice": "ArrayList&lt;String&gt; list = new ArrayList&lt;&gt;();",
+        "correct": true
+      },
+      "B": { "choice": "ArrayList list = new ArrayList&lt;String&gt;();" },
+      "C": {
+        "choice": "ArrayList&lt;String&gt; list = new ArrayList(String);"
+      },
+      "D": { "choice": "String[] list = new ArrayList&lt;&gt;();" }
+    }
+  },
+  "07_04": {
+    "chapter": "7",
+    "question": "Which method adds an element to the end of an ArrayList?",
+    "choices": {
+      "A": { "choice": "add()", "correct": true },
+      "B": { "choice": "insert()" },
+      "C": { "choice": "append()" },
+      "D": { "choice": "push()" }
+    }
+  },
+  "07_05": {
+    "chapter": "7",
+    "question": "How do you get the number of elements in an ArrayList named list?",
+    "choices": {
+      "A": { "choice": "list.size()", "correct": true },
+      "B": { "choice": "list.length" },
+      "C": { "choice": "size(list)" },
+      "D": { "choice": "list.length()" }
+    }
+  },
+  "07_06": {
+    "chapter": "7",
+    "question": "What happens if you try to get an element at an invalid index in an ArrayList?",
+    "choices": {
+      "A": {
+        "choice": "An IndexOutOfBoundsException is thrown.",
+        "correct": true
+      },
+      "B": { "choice": "The last element is returned." },
+      "C": { "choice": "The first element is returned." },
+      "D": { "choice": "null is returned." }
+    }
+  },
+  "07_07": {
+    "chapter": "7",
+    "question": "Which statement removes the element at index 2 from an ArrayList named data?",
+    "choices": {
+      "A": { "choice": "data.remove(2);", "correct": true },
+      "B": { "choice": "data.delete(2);" },
+      "C": { "choice": "remove(data, 2);" },
+      "D": { "choice": "data.removeElement(2);" }
+    }
+  },
+  "07_08": {
+    "chapter": "7",
+    "question": "Which method replaces the element at index i in an ArrayList named items?",
+    "choices": {
+      "A": { "choice": "items.set(i, value);", "correct": true },
+      "B": { "choice": "items.replace(i, value);" },
+      "C": { "choice": "items.put(i, value);" },
+      "D": { "choice": "items.update(i, value);" }
+    }
+  },
+  "07_09": {
+    "chapter": "7",
+    "question": "Which is the correct way to retrieve the third element from an ArrayList<String> names?",
+    "choices": {
+      "A": { "choice": "names.get(2)", "correct": true },
+      "B": { "choice": "names[2]" },
+      "C": { "choice": "names.get(3)" },
+      "D": { "choice": "names[3]" }
+    }
+  },
+  "07_10": {
+    "chapter": "7",
+    "question": "What is a major advantage of ArrayLists over arrays?",
+    "choices": {
+      "A": {
+        "choice": "ArrayLists can grow and shrink dynamically as needed.",
+        "correct": true
+      },
+      "B": { "choice": "ArrayLists use less memory." },
+      "C": { "choice": "ArrayLists work with primitive types." },
+      "D": { "choice": "ArrayLists are faster to access." }
+    }
+  },
+  "07_11": {
+    "chapter": "7",
+    "question": "Which is a valid way to create an ArrayList of integers?",
+    "choices": {
+      "A": {
+        "choice": "ArrayList&lt;Integer&gt; nums = new ArrayList&lt;&gt;();",
+        "correct": true
+      },
+      "B": { "choice": "ArrayList&lt;int&gt; nums = new ArrayList&lt;&gt;();" },
+      "C": { "choice": "ArrayList numbers = new ArrayList&lt;Integer&gt;();" },
+      "D": { "choice": "ArrayList&lt;Integer&gt; nums = new ArrayList(int);" }
+    }
+  },
+  "07_12": {
+    "chapter": "7",
+    "question": "Why can't you use primitive types like int directly in an ArrayList?",
+    "choices": {
+      "A": {
+        "choice": "ArrayList requires objects, so you must use wrapper classes like Integer.",
+        "correct": true
+      },
+      "B": { "choice": "Primitive types are too slow." },
+      "C": { "choice": "Primitive types can't be stored in memory." },
+      "D": { "choice": "There is no way to convert int to an object." }
+    }
+  },
+  "07_13": {
+    "chapter": "7",
+    "question": "What is autoboxing in Java?",
+    "choices": {
+      "A": {
+        "choice": "Automatic conversion between primitive types and their wrapper classes.",
+        "correct": true
+      },
+      "B": { "choice": "Converting arrays to ArrayLists." },
+      "C": { "choice": "Converting Strings to integers." },
+      "D": { "choice": "A method for sorting ArrayLists." }
+    }
+  },
+  "07_14": {
+    "chapter": "7",
+    "question": "What does the following code do?\nArrayList<String> words = new ArrayList<>();\nwords.add(\"cat\");\nwords.add(\"dog\");\nSystem.out.println(words.size());",
+    "choices": {
+      "A": { "choice": "Prints 2", "correct": true },
+      "B": { "choice": "Prints 1" },
+      "C": { "choice": "Prints catdog" },
+      "D": { "choice": "Prints 0" }
+    }
+  },
+  "07_15": {
+    "chapter": "7",
+    "question": "What is the output?\nArrayList<Integer> nums = new ArrayList<>();\nnums.add(5);\nnums.add(10);\nSystem.out.println(nums.get(1));",
+    "choices": {
+      "A": { "choice": "10", "correct": true },
+      "B": { "choice": "5" },
+      "C": { "choice": "1" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "07_16": {
+    "chapter": "7",
+    "question": "Which of the following is true about ArrayLists?",
+    "choices": {
+      "A": {
+        "choice": "They can only store objects, not primitive types.",
+        "correct": true
+      },
+      "B": { "choice": "They are always sorted." },
+      "C": { "choice": "They have a fixed length." },
+      "D": { "choice": "They use square brackets for access." }
+    }
+  },
+  "07_17": {
+    "chapter": "7",
+    "question": "How do you remove all elements from an ArrayList named data?",
+    "choices": {
+      "A": { "choice": "data.clear();", "correct": true },
+      "B": { "choice": "data.removeAll();" },
+      "C": { "choice": "data.empty();" },
+      "D": { "choice": "data.clearAll();" }
+    }
+  },
+  "07_18": {
+    "chapter": "7",
+    "question": "Which loop is typically used to process every element in an ArrayList?",
+    "choices": {
+      "A": { "choice": "Enhanced for loop (for-each)", "correct": true },
+      "B": { "choice": "do-while loop" },
+      "C": { "choice": "switch loop" },
+      "D": { "choice": "goto loop" }
+    }
+  },
+  "07_19": {
+    "chapter": "7",
+    "question": "Which method would you use to check if an ArrayList contains a certain value?",
+    "choices": {
+      "A": { "choice": "contains()", "correct": true },
+      "B": { "choice": "has()" },
+      "C": { "choice": "find()" },
+      "D": { "choice": "includes()" }
+    }
+  },
+  "07_20": {
+    "chapter": "7",
+    "question": "What happens to the indices of elements after you remove an item from an ArrayList?",
+    "choices": {
+      "A": {
+        "choice": "Indices of later elements decrease by 1.",
+        "correct": true
+      },
+      "B": { "choice": "Indices remain the same." },
+      "C": { "choice": "All indices are set to zero." },
+      "D": { "choice": "The ArrayList is destroyed." }
+    }
+  },
+  "07_21": {
+    "chapter": "7",
+    "question": "How do you iterate over an ArrayList<Integer> nums and print each value?",
+    "choices": {
+      "A": {
+        "choice": "for (int n : nums) System.out.println(n);",
+        "correct": true
+      },
+      "B": { "choice": "for (n in nums) print n;" },
+      "C": { "choice": "print(nums);" },
+      "D": { "choice": "System.out.println(nums[0]);" }
+    }
+  },
+  "07_22": {
+    "chapter": "7",
+    "question": "Which is the correct way to create an empty ArrayList of Doubles?",
+    "choices": {
+      "A": {
+        "choice": "ArrayList&lt;Double&gt; dubs = new ArrayList&lt;&gt;();",
+        "correct": true
+      },
+      "B": { "choice": "ArrayList&lt;Double&gt; dubs = {};" },
+      "C": { "choice": "ArrayList&lt;Double&gt; dubs = new Double[0];" },
+      "D": {
+        "choice": "ArrayList&lt;double&gt; dubs = new ArrayList&lt;&gt;();"
+      }
+    }
+  },
+  "07_23": {
+    "chapter": "7",
+    "question": "Which of the following will create an ArrayList of 10 default values?",
+    "choices": {
+      "A": {
+        "choice": "None. ArrayLists are empty when created,\nyou must add values yourself.",
+        "correct": true
+      },
+      "B": {
+        "choice": "ArrayList&lt;Integer&gt; a = new ArrayList&lt;&gt;(10);"
+      },
+      "C": {
+        "choice": "ArrayList&lt;Integer&gt; a = new ArrayList&lt;&gt;(\nArrays.asList(0,0,0,0,0,0,0,0,0,0));"
+      },
+      "D": {
+        "choice": "ArrayList&lt;Integer&gt; a = new ArrayList&lt;&gt;(\n[0,0,0,0,0,0,0,0,0,0]);"
+      }
+    }
+  },
+  "07_24": {
+    "chapter": "7",
+    "question": "What is a key difference between ArrayLists and arrays?",
+    "choices": {
+      "A": {
+        "choice": "ArrayLists can only store objects, arrays can store both primitives and objects.",
+        "correct": true
+      },
+      "B": { "choice": "Arrays grow automatically, ArrayLists do not." },
+      "C": { "choice": "ArrayLists are always faster than arrays." },
+      "D": { "choice": "Arrays allow more methods than ArrayLists." }
+    }
+  },
+  "07_25": {
+    "chapter": "7",
+    "question": "Which method would you use to replace the value at a specific index in an ArrayList?",
+    "choices": {
+      "A": { "choice": "set(index, value)", "correct": true },
+      "B": { "choice": "put(index, value)" },
+      "C": { "choice": "replace(index, value)" },
+      "D": { "choice": "update(index, value)" }
+    }
+  },
+  "07_26": {
+    "chapter": "7",
+    "question": "Which statement removes the value 10 (not the element at index 10) from ArrayList<Integer> nums?",
+    "choices": {
+      "A": { "choice": "nums.remove(Integer.valueOf(10));", "correct": true },
+      "B": { "choice": "nums.remove(10);" },
+      "C": { "choice": "nums.delete(10);" },
+      "D": { "choice": "nums.removeAtValue(10);" }
+    }
+  },
+  "07_27": {
+    "chapter": "7",
+    "question": "Which of the following can you NOT do with an ArrayList?",
+    "choices": {
+      "A": {
+        "choice": "Use square brackets to access elements.",
+        "correct": true
+      },
+      "B": { "choice": "Store null values." },
+      "C": { "choice": "Add duplicate elements." },
+      "D": { "choice": "Remove elements by index." }
+    }
+  },
+  "07_28": {
+    "chapter": "7",
+    "question": "How do you find the index of the value \"cat\" in ArrayList<String> words?",
+    "choices": {
+      "A": { "choice": "words.indexOf(\"cat\")", "correct": true },
+      "B": { "choice": "words.find(\"cat\")" },
+      "C": { "choice": "words.locate(\"cat\")" },
+      "D": { "choice": "words.getIndex(\"cat\")" }
+    }
+  },
+  "07_29": {
+    "chapter": "7",
+    "question": "What is unboxing in Java?",
+    "choices": {
+      "A": {
+        "choice": "Automatic conversion from a wrapper class to its primitive type.",
+        "correct": true
+      },
+      "B": { "choice": "Converting an array to an ArrayList." },
+      "C": { "choice": "Removing the first element of an ArrayList." },
+      "D": { "choice": "Creating a primitive array from objects." }
+    }
+  },
+  "07_30": {
+    "chapter": "7",
+    "question": "If you call list.add(0, \"hello\") on an ArrayList, what happens?",
+    "choices": {
+      "A": {
+        "choice": "\"hello\" is inserted at the start of the list.",
+        "correct": true
+      },
+      "B": { "choice": "\"hello\" replaces the first element." },
+      "C": { "choice": "\"hello\" is ignored." },
+      "D": { "choice": "An error is thrown." }
+    }
+  },
+
+  "07_31": {
+    "chapter": "7",
+    "question": "Which method checks if an ArrayList is empty?",
+    "choices": {
+      "A": { "choice": "isEmpty()", "correct": true },
+      "B": { "choice": "empty()" },
+      "C": { "choice": "size() == 0" },
+      "D": { "choice": "hasNoElements()" }
+    }
+  },
+  "07_32": {
+    "chapter": "7",
+    "question": "What value does list.get(list.size() - 1) return?",
+    "choices": {
+      "A": { "choice": "The last element in the ArrayList.", "correct": true },
+      "B": { "choice": "The first element." },
+      "C": { "choice": "An error." },
+      "D": { "choice": "null." }
+    }
+  },
+  "07_33": {
+    "chapter": "7",
+    "question": "Which of the following statements about ArrayLists is FALSE?",
+    "choices": {
+      "A": {
+        "choice": "They cannot store primitive types directly.",
+        "correct": false
+      },
+      "B": {
+        "choice": "You can add elements at any position.",
+        "correct": false
+      },
+      "C": {
+        "choice": "ArrayLists use square brackets for access.",
+        "correct": true
+      },
+      "D": { "choice": "They can grow and shrink in size.", "correct": false }
+    }
+  },
+  "07_34": {
+    "chapter": "7",
+    "question": "When iterating and removing items from an ArrayList, what should you do?",
+    "choices": {
+      "A": {
+        "choice": "Use a standard for loop and iterate backward.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Use an enhanced for loop and remove elements directly."
+      },
+      "C": { "choice": "Use a while loop that never ends." },
+      "D": { "choice": "Call clear() inside the loop." }
+    }
+  },
+  "07_35": {
+    "chapter": "7",
+    "question": "Why might you use an ArrayList instead of an array for managing a changing list of objects?",
+    "choices": {
+      "A": {
+        "choice": "Because ArrayLists can change size and offer convenient methods for adding/removing items.",
+        "correct": true
+      },
+      "B": { "choice": "Because ArrayLists use less memory." },
+      "C": {
+        "choice": "Because ArrayLists store primitives more efficiently."
+      },
+      "D": { "choice": "Because arrays are obsolete." }
+    }
+  },
+  "07_36": {
+    "chapter": "7",
+    "question": "Which method returns the index of the first occurrence of a value in an ArrayList, or -1 if not found?",
+    "choices": {
+      "A": { "choice": "indexOf()", "correct": true },
+      "B": { "choice": "findIndex()" },
+      "C": { "choice": "getIndex()" },
+      "D": { "choice": "firstIndex()" }
+    }
+  },
+  "07_37": {
+    "chapter": "7",
+    "question": "What happens if you add more elements to an ArrayList than its initial capacity?",
+    "choices": {
+      "A": {
+        "choice": "The ArrayList automatically grows to accommodate new elements.",
+        "correct": true
+      },
+      "B": { "choice": "An error occurs." },
+      "C": { "choice": "Old elements are overwritten." },
+      "D": { "choice": "Nothing happens; extra elements are ignored." }
+    }
+  },
+  "07_38": {
+    "chapter": "7",
+    "question": "What is returned by list.remove(0) for ArrayList<String> list = new ArrayList<>(List.of(\"a\",\"b\",\"c\"));?",
+    "choices": {
+      "A": { "choice": "\"a\"", "correct": true },
+      "B": { "choice": "\"b\"" },
+      "C": { "choice": "\"c\"" },
+      "D": { "choice": "null" }
+    }
+  },
+  "07_39": {
+    "chapter": "7",
+    "question": "What happens if you try to access an array index that is out of bounds in Java?",
+    "choices": {
+      "A": {
+        "choice": "An ArrayIndexOutOfBoundsException is thrown.",
+        "correct": true
+      },
+      "B": { "choice": "The array is resized automatically." },
+      "C": { "choice": "The index wraps around to the start of the array." },
+      "D": { "choice": "The program ignores the statement and continues." }
+    }
+  },
+  "07_40": {
+    "chapter": "7",
+    "question": "Which method returns the number of elements in an ArrayList named 'list'?",
+    "choices": {
+      "A": { "choice": "list.size()", "correct": true },
+      "B": { "choice": "list.length()" },
+      "C": { "choice": "list.getSize()" },
+      "D": { "choice": "list.count()" }
+    }
+  },
+  "07_41": {
+    "chapter": "7",
+    "question": "What is the default value of an int array element in Java if not initialized?",
+    "choices": {
+      "A": { "choice": "0", "correct": true },
+      "B": { "choice": "null" },
+      "C": { "choice": "undefined" },
+      "D": { "choice": "1" }
+    }
+  },
+  "07_42": {
+    "chapter": "7",
+    "question": "Which of the following is true about the enhanced for loop in Java?",
+    "choices": {
+      "A": {
+        "choice": "It cannot change the size of an array or ArrayList.",
+        "correct": true
+      },
+      "B": { "choice": "It can remove elements from an ArrayList." },
+      "C": { "choice": "It is used only for int arrays." },
+      "D": { "choice": "It can add new elements to an array." }
+    }
+  },
+  "07_43": {
+    "chapter": "7",
+    "question": "Which of the following correctly creates a two-dimensional array of integers with 3 rows and 4 columns?",
+    "choices": {
+      "A": { "choice": "int[][] arr = new int[3][4];", "correct": true },
+      "B": { "choice": "int[3][4] arr = new int[][];" },
+      "C": { "choice": "int arr = new int[3][4];" },
+      "D": { "choice": "int arr[][] = int[3][4];" }
+    }
+  }
+}

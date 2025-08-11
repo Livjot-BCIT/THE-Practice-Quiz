@@ -1,0 +1,768 @@
+{
+  "03_01": {
+    "chapter": "3",
+    "question": "Which of the following statements creates a new String object in Java?",
+    "choices": {
+      "A": { "choice": "String s = new String(\"Hello\");", "correct": true },
+      "B": { "choice": "String s = String();" },
+      "C": { "choice": "String s = Hello;" },
+      "D": { "choice": "String s = int(\"Hello\");" }
+    }
+  },
+  "03_02": {
+    "chapter": "3",
+    "question": "Which of the following are valid ways to create an Integer object in Java? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "new Integer(5)", "correct": true },
+      "B": { "choice": "Integer.valueOf(5)", "correct": true },
+      "C": { "choice": "5.Integer()" },
+      "D": { "choice": "Integer int = 5;" }
+    }
+  },
+  "03_03": {
+    "chapter": "3",
+    "question": "What does the Math.random() method return?",
+    "choices": {
+      "A": {
+        "choice": "A random double between 0.0 (inclusive) and 1.0 (exclusive)",
+        "correct": true
+      },
+      "B": { "choice": "A random int between 0 and 100" },
+      "C": { "choice": "A random float between 0 and 1 (inclusive)" },
+      "D": { "choice": "A random boolean value" }
+    }
+  },
+  "03_04": {
+    "chapter": "3",
+    "question": "Which of the following are valid wrapper classes in Java? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "Integer", "correct": true },
+      "B": { "choice": "Character", "correct": true },
+      "C": { "choice": "String" },
+      "D": { "choice": "Double", "correct": true }
+    }
+  },
+  "03_05": {
+    "chapter": "3",
+    "question": "Which of the following statements about the 'new' operator in Java are true? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "It is used to create new objects.", "correct": true },
+      "B": { "choice": "It is used to declare variables." },
+      "C": {
+        "choice": "It allocates memory for a new object.",
+        "correct": true
+      },
+      "D": { "choice": "It is used to import classes from packages." }
+    }
+  },
+  "03_06": {
+    "chapter": "3",
+    "question": "Which method would you use to get the length of a String called s?",
+    "choices": {
+      "A": { "choice": "s.length()", "correct": true },
+      "B": { "choice": "length(s)" },
+      "C": { "choice": "s.size()" },
+      "D": { "choice": "size(s)" }
+    }
+  },
+  "03_07": {
+    "chapter": "3",
+    "question": "Which of the following are true about the Math class in Java? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "It provides static methods for mathematical operations.",
+        "correct": true
+      },
+      "B": { "choice": "You need to create a Math object to use its methods." },
+      "C": { "choice": "Math.abs(-5) returns 5.", "correct": true },
+      "D": {
+        "choice": "Math.PI is a constant representing the value of pi.",
+        "correct": true
+      }
+    }
+  },
+  "03_08": {
+    "chapter": "3",
+    "question": "What is the output of the following code?\n\nString str = \"hello\";\nSystem.out.println(str.toUpperCase());",
+    "choices": {
+      "A": { "choice": "hello" },
+      "B": { "choice": "HELLO", "correct": true },
+      "C": { "choice": "Hello" },
+      "D": { "choice": "str" }
+    }
+  },
+  "03_09": {
+    "chapter": "3",
+    "question": "What is the value of x after the following code runs?\n\nint x = (int) Math.floor(4.8);",
+    "choices": {
+      "A": { "choice": "4", "correct": true },
+      "B": { "choice": "5" },
+      "C": { "choice": "4.8" },
+      "D": { "choice": "0" }
+    }
+  },
+  "03_10": {
+    "chapter": "3",
+    "question": "Which of the following is true about String objects in Java?",
+    "choices": {
+      "A": { "choice": "String objects are immutable.", "correct": true },
+      "B": {
+        "choice": "You can change the contents of a String after it is created."
+      },
+      "C": { "choice": "Strings are primitive types." },
+      "D": { "choice": "String objects can only be compared with '=='." }
+    }
+  },
+  "03_11": {
+    "chapter": "3",
+    "question": "Given String s = \"Java\";, what is the value of s.length()?",
+    "choices": {
+      "A": { "choice": "4", "correct": true },
+      "B": { "choice": "3" },
+      "C": { "choice": "5" },
+      "D": { "choice": "0" }
+    }
+  },
+  "03_12": {
+    "chapter": "3",
+    "question": "Which of the following correctly declares and initializes a Scanner object to read input from the console?",
+    "choices": {
+      "A": {
+        "choice": "Scanner sc = new Scanner(System.in);",
+        "correct": true
+      },
+      "B": { "choice": "Scanner sc = Scanner(System.in);" },
+      "C": { "choice": "Scanner sc = new Scanner();" },
+      "D": { "choice": "Scanner sc = Scanner.new(System.in);" }
+    }
+  },
+  "03_13": {
+    "chapter": "3",
+    "question": "Which of the following is NOT a valid method for the String class?",
+    "choices": {
+      "A": { "choice": "substring()" },
+      "B": { "choice": "toUpperCase()" },
+      "C": { "choice": "parseInt()", "correct": true },
+      "D": { "choice": "charAt()" }
+    }
+  },
+  "03_14": {
+    "chapter": "3",
+    "question": "Which of the following statements best describes a wrapper class in Java?",
+    "choices": {
+      "A": {
+        "choice": "A class that wraps a primitive value in an object.",
+        "correct": true
+      },
+      "B": { "choice": "A class used to handle exceptions." },
+      "C": { "choice": "A class for input/output operations." },
+      "D": { "choice": "A class that manages the main memory." }
+    }
+  },
+  "03_15": {
+    "chapter": "3",
+    "question": "What is autoboxing in Java?",
+    "choices": {
+      "A": {
+        "choice": "Automatic conversion of a primitive to its corresponding wrapper class.",
+        "correct": true
+      },
+      "B": { "choice": "Automatically importing Java libraries." },
+      "C": { "choice": "Converting a String to an int." },
+      "D": { "choice": "Wrapping a class with another class." }
+    }
+  },
+  "03_16": {
+    "chapter": "3",
+    "question": "Which of the following methods would you use to convert a String s = \"10\" to an int?",
+    "choices": {
+      "A": { "choice": "Integer.parseInt(s)", "correct": true },
+      "B": { "choice": "s.toInt()" },
+      "C": { "choice": "int.parse(s)" },
+      "D": { "choice": "Integer.valueOf(s).toInt()" }
+    }
+  },
+  "03_17": {
+    "chapter": "3",
+    "question": "What does the term 'immutable' mean when referring to String objects?",
+    "choices": {
+      "A": {
+        "choice": "Their value cannot be changed once created.",
+        "correct": true
+      },
+      "B": { "choice": "They can be modified using methods like append()." },
+      "C": { "choice": "They are garbage collected immediately." },
+      "D": { "choice": "They can only be compared using ==." }
+    }
+  },
+  "03_18": {
+    "chapter": "3",
+    "question": "Which of the following will result in an error when working with String objects?",
+    "choices": {
+      "A": { "choice": "String s = \"Java\"; s.charAt(4);", "correct": true },
+      "B": { "choice": "String s = \"Java\"; s.charAt(3);" },
+      "C": { "choice": "String s = \"Java\"; s.substring(1,3);" },
+      "D": { "choice": "String s = \"Java\"; s.toLowerCase();" }
+    }
+  },
+  "03_19": {
+    "chapter": "3",
+    "question": "Which of the following statements about the equals() method for Strings is true?",
+    "choices": {
+      "A": {
+        "choice": "equals() compares the content of two Strings.",
+        "correct": true
+      },
+      "B": { "choice": "equals() compares the memory addresses." },
+      "C": { "choice": "equals() only works for int values." },
+      "D": { "choice": "equals() is used to check if a String is null." }
+    }
+  },
+  "03_20": {
+    "chapter": "3",
+    "question": "What is the result of the following code?\n\nInteger x = 5;\nInteger y = 5;\nSystem.out.println(x == y);",
+    "choices": {
+      "A": {
+        "choice": "true (because of integer caching for small values)",
+        "correct": true
+      },
+      "B": { "choice": "false" },
+      "C": { "choice": "Compilation error" },
+      "D": { "choice": "An exception is thrown" }
+    }
+  },
+  "03_21": {
+    "chapter": "3",
+    "question": "Which of the following statements about the Scanner class are correct? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "Scanner can read input from System.in.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Scanner can parse input into different types like int or double.",
+        "correct": true
+      },
+      "C": {
+        "choice": "Scanner requires java.util to be imported.",
+        "correct": true
+      },
+      "D": {
+        "choice": "Scanner objects are created with 'Scanner sc = new Scanner();'"
+      }
+    }
+  },
+  "03_22": {
+    "chapter": "3",
+    "question": "Which of the following best describes the relationship between a class and an object in Java?",
+    "choices": {
+      "A": {
+        "choice": "A class is a blueprint; an object is an instance of a class.",
+        "correct": true
+      },
+      "B": { "choice": "An object defines the methods for a class." },
+      "C": { "choice": "A class and an object are always the same." },
+      "D": { "choice": "A class is a variable that stores data." }
+    }
+  },
+  "03_23": {
+    "chapter": "3",
+    "question": "Which of the following correctly declares a reference variable for an object in Java?",
+    "choices": {
+      "A": { "choice": "Rectangle box;", "correct": true },
+      "B": { "choice": "Rectangle = box;" },
+      "C": { "choice": "box : Rectangle;" },
+      "D": { "choice": "Rectangle box = Rectangle();" }
+    }
+  },
+  "03_24": {
+    "chapter": "3",
+    "question": "Which of the following statements are true about object references in Java? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "Object references store the memory address of the object.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Multiple variables can refer to the same object.",
+        "correct": true
+      },
+      "C": {
+        "choice": "You can copy an object reference to another variable.",
+        "correct": true
+      },
+      "D": { "choice": "An object reference cannot be reassigned." }
+    }
+  },
+  "03_25": {
+    "chapter": "3",
+    "question": "What happens if an object no longer has any valid references?",
+    "choices": {
+      "A": {
+        "choice": "It becomes eligible for garbage collection.",
+        "correct": true
+      },
+      "B": { "choice": "It is deleted immediately." },
+      "C": { "choice": "It is stored in the stack memory." },
+      "D": { "choice": "It throws a NullPointerException." }
+    }
+  },
+  "03_26": {
+    "chapter": "3",
+    "question": "Which method call correctly creates a random integer between 0 and 9 (inclusive) in Java?",
+    "choices": {
+      "A": { "choice": "(int)(Math.random() * 10)", "correct": true },
+      "B": { "choice": "(int)Math.random(10)" },
+      "C": { "choice": "Math.random().nextInt(10)" },
+      "D": { "choice": "random(0,9)" }
+    }
+  },
+  "03_27": {
+    "chapter": "3",
+    "question": "Which of the following are methods of the Math class? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "Math.abs(-8)", "correct": true },
+      "B": { "choice": "Math.round(5.4)", "correct": true },
+      "C": { "choice": "Math.toUpperCase()" },
+      "D": { "choice": "Math.random()", "correct": true }
+    }
+  },
+  "03_28": {
+    "chapter": "3",
+    "question": "Which statement is true about the use of the '.' (dot) operator in Java?",
+    "choices": {
+      "A": {
+        "choice": "It is used to access fields and methods of an object.",
+        "correct": true
+      },
+      "B": { "choice": "It is used to declare a new class." },
+      "C": { "choice": "It is used to create an object." },
+      "D": { "choice": "It is used to assign a value to a variable." }
+    }
+  },
+  "03_29": {
+    "chapter": "3",
+    "question": "Given Rectangle box = new Rectangle();\nWhich of the following is the correct way to call a method named 'setWidth' on the box object?",
+    "choices": {
+      "A": { "choice": "box.setWidth(10);", "correct": true },
+      "B": { "choice": "Rectangle.setWidth(10);" },
+      "C": { "choice": "setWidth.box(10);" },
+      "D": { "choice": "box = setWidth(10);" }
+    }
+  },
+  "03_30": {
+    "chapter": "3",
+    "question": "Which of the following is the purpose of a constructor in Java?",
+    "choices": {
+      "A": {
+        "choice": "To initialize a new object's state when it is created.",
+        "correct": true
+      },
+      "B": { "choice": "To delete an object from memory." },
+      "C": { "choice": "To run before the main method starts." },
+      "D": { "choice": "To assign a value to a primitive variable." }
+    }
+  },
+  "03_31": {
+    "chapter": "3",
+    "question": "Which of the following are valid ways to create a String object? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "String s = \"hello\";", "correct": true },
+      "B": { "choice": "String s = new String(\"hello\");", "correct": true },
+      "C": { "choice": "String s = String(\"hello\");" },
+      "D": { "choice": "String s = int(\"hello\");" }
+    }
+  },
+  "03_32": {
+    "chapter": "3",
+    "question": "What happens when the following code is executed?\n\nString s1 = \"abc\";\nString s2 = s1;\ns1 = \"def\";",
+    "choices": {
+      "A": { "choice": "s2 still refers to \"abc\"", "correct": true },
+      "B": { "choice": "s2 now refers to \"def\"" },
+      "C": { "choice": "s2 is set to null" },
+      "D": { "choice": "s2 is deleted" }
+    }
+  },
+  "03_33": {
+    "chapter": "3",
+    "question": "What is the result of calling Integer.parseInt(\"42\")?",
+    "choices": {
+      "A": { "choice": "The int value 42", "correct": true },
+      "B": { "choice": "The String \"42\"" },
+      "C": { "choice": "A runtime error" },
+      "D": { "choice": "A double value 42.0" }
+    }
+  },
+  "03_34": {
+    "chapter": "3",
+    "question": "Which statement will print a random integer between 1 and 10 (inclusive)?",
+    "choices": {
+      "A": {
+        "choice": "System.out.println((int)\n(Math.random()*10)+1);",
+        "correct": true
+      },
+      "B": { "choice": "System.out.println\n(Math.random(1,10));" }
+    }
+  },
+  "03_35": {
+    "chapter": "3",
+    "question": "What will the following code print?\n\nString s = \"hello\";\nSystem.out.println(s.substring(1, 4));",
+    "choices": {
+      "A": { "choice": "ell", "correct": true },
+      "B": { "choice": "hel" },
+      "C": { "choice": "hello" },
+      "D": { "choice": "llo" }
+    }
+  },
+  "03_36": {
+    "chapter": "3",
+    "question": "Which of the following statements about wrapper classes is true?",
+    "choices": {
+      "A": {
+        "choice": "They provide a way to use primitive data types as objects.",
+        "correct": true
+      },
+      "B": { "choice": "They are only available for int and double." },
+      "C": { "choice": "They cannot be used in collections." },
+      "D": { "choice": "They can change the value of primitives directly." }
+    }
+  },
+  "03_37": {
+    "chapter": "3",
+    "question": "What does the equals() method do when comparing two String objects?",
+    "choices": {
+      "A": {
+        "choice": "Compares their actual contents for equality.",
+        "correct": true
+      },
+      "B": { "choice": "Compares their memory addresses." },
+      "C": { "choice": "Returns their hash codes." },
+      "D": { "choice": "Converts both Strings to lowercase first." }
+    }
+  },
+  "03_38": {
+    "chapter": "3",
+    "question": "Which of the following are valid uses of the Scanner class? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "Reading user input from the console.",
+        "correct": true
+      },
+      "B": { "choice": "Reading from a file.", "correct": true },
+      "C": { "choice": "Converting integers to Strings." },
+      "D": {
+        "choice": "Parsing input into int or double types.",
+        "correct": true
+      }
+    }
+  },
+  "03_39": {
+    "chapter": "3",
+    "question": "What is the default value of an uninitialized String reference variable in Java?",
+    "choices": {
+      "A": { "choice": "null", "correct": true },
+      "B": { "choice": "\"\"" },
+      "C": { "choice": "0" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_40": {
+    "chapter": "3",
+    "question": "What will happen if you try to use a reference variable that does not point to any object?",
+    "choices": {
+      "A": {
+        "choice": "A NullPointerException will be thrown.",
+        "correct": true
+      },
+      "B": { "choice": "It will return 0." },
+      "C": { "choice": "It will create a new object automatically." },
+      "D": { "choice": "Nothing will happen." }
+    }
+  },
+  "03_41": {
+    "chapter": "3",
+    "question": "Which method can be used to compare two String objects for lexicographical order?",
+    "choices": {
+      "A": { "choice": "compareTo()", "correct": true },
+      "B": { "choice": "equals()" },
+      "C": { "choice": "compare()" },
+      "D": { "choice": "compareStrings()" }
+    }
+  },
+  "03_42": {
+    "chapter": "3",
+    "question": "What is the result of the following code?\n\nString s = \"Java\";\nSystem.out.println(s.charAt(2));",
+    "choices": {
+      "A": { "choice": "v", "correct": true },
+      "B": { "choice": "a" },
+      "C": { "choice": "J" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "03_43": {
+    "chapter": "3",
+    "question": "How can you read a whole line of input using Scanner?",
+    "choices": {
+      "A": { "choice": "nextLine()", "correct": true },
+      "B": { "choice": "readLine()" },
+      "C": { "choice": "getLine()" },
+      "D": { "choice": "input()" }
+    }
+  },
+  "03_44": {
+    "chapter": "3",
+    "question": "What is unboxing in Java?",
+    "choices": {
+      "A": {
+        "choice": "Automatic conversion of a wrapper object to its corresponding primitive type.",
+        "correct": true
+      },
+      "B": { "choice": "Converting a String to an object." },
+      "C": { "choice": "Converting a primitive to a String." },
+      "D": { "choice": "Wrapping an object inside another object." }
+    }
+  },
+  "03_45": {
+    "chapter": "3",
+    "question": "Which of the following are immutable in Java? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "String", "correct": true },
+      "B": { "choice": "Integer", "correct": true },
+      "C": { "choice": "StringBuilder" },
+      "D": { "choice": "Double", "correct": true }
+    }
+  },
+  "03_46": {
+    "chapter": "3",
+    "question": "What does the Scanner method nextInt() do?",
+    "choices": {
+      "A": {
+        "choice": "Reads the next int value from the input.",
+        "correct": true
+      },
+      "B": { "choice": "Reads the next double value from the input." },
+      "C": { "choice": "Reads the next token as a String." },
+      "D": { "choice": "Reads the next line of text." }
+    }
+  },
+  "03_47": {
+    "chapter": "3",
+    "question": "Which of the following best describes method overloading?",
+    "choices": {
+      "A": {
+        "choice": "Defining multiple methods with the same name but different parameter lists.",
+        "correct": true
+      },
+      "B": { "choice": "Using multiple classes in one file." },
+      "C": { "choice": "Calling a method from another class." },
+      "D": { "choice": "Using a method inside a loop." }
+    }
+  },
+  "03_48": {
+    "chapter": "3",
+    "question": "Which of the following would create a Double object with the value 3.14?",
+    "choices": {
+      "A": { "choice": "Double d = new Double(3.14);", "correct": true },
+      "B": { "choice": "Double d = Double(3.14);" },
+      "C": { "choice": "Double d = 3.14;" },
+      "D": { "choice": "Double d = Double.valueOf(\"3.14\");", "correct": true }
+    }
+  },
+  "03_49": {
+    "chapter": "3",
+    "question": "What will the following code output?\n\nString s = \"Banana\";\nSystem.out.println(s.indexOf('a'));",
+    "choices": {
+      "A": { "choice": "1", "correct": true },
+      "B": { "choice": "0" },
+      "C": { "choice": "2" },
+      "D": { "choice": "-1" }
+    }
+  },
+  "03_50": {
+    "chapter": "3",
+    "question": "How do you compare two Integer objects for value equality?",
+    "choices": {
+      "A": { "choice": "use .equals()", "correct": true },
+      "B": { "choice": "use ==" },
+      "C": { "choice": "use compare()" },
+      "D": { "choice": "use .toString()" }
+    }
+  },
+  "03_51": {
+    "chapter": "3",
+    "question": "What does the following code print?\n\nSystem.out.println(\"Java\".substring(1, 3));",
+    "choices": {
+      "A": { "choice": "av", "correct": true },
+      "B": { "choice": "Ja" },
+      "C": { "choice": "va" },
+      "D": { "choice": "Jav" }
+    }
+  },
+  "03_52": {
+    "chapter": "3",
+    "question": "Which of the following statements are true about primitive types in Java? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "They are not objects.", "correct": true },
+      "B": { "choice": "They are stored directly in memory.", "correct": true },
+      "C": { "choice": "They can be used as generic type arguments." },
+      "D": { "choice": "They are automatically converted to objects." }
+    }
+  },
+  "03_53": {
+    "chapter": "3",
+    "question": "Which of the following are static methods of the Math class? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "sqrt()", "correct": true },
+      "B": { "choice": "pow()", "correct": true },
+      "C": { "choice": "toString()" },
+      "D": { "choice": "random()", "correct": true }
+    }
+  },
+  "03_54": {
+    "chapter": "3",
+    "question": "If you want to convert a double to an int, which of the following statements would do so?",
+    "choices": {
+      "A": { "choice": "int x = (int) 4.5;", "correct": true },
+      "B": { "choice": "int x = int(4.5);" },
+      "C": { "choice": "int x = 4.5;" },
+      "D": { "choice": "int x = parseInt(4.5);" }
+    }
+  },
+  "03_55": {
+    "chapter": "3",
+    "question": "Which method would you use to convert a String s = \"42\" to a double?",
+    "choices": {
+      "A": { "choice": "Double.parseDouble(s)", "correct": true },
+      "B": { "choice": "s.toDouble()" },
+      "C": { "choice": "Double(s)" },
+      "D": { "choice": "Double.valueOf(s).toDouble()" }
+    }
+  },
+  "03_56": {
+    "chapter": "3",
+    "question": "What does the 'null' keyword represent in Java?",
+    "choices": {
+      "A": {
+        "choice": "A reference that points to no object.",
+        "correct": true
+      },
+      "B": { "choice": "The default value for all primitive types." },
+      "C": { "choice": "A value of 0 for int variables." },
+      "D": { "choice": "A reference to the first object in memory." }
+    }
+  },
+  "03_57": {
+    "chapter": "3",
+    "question": "Which of the following statements about object instantiation is true?",
+    "choices": {
+      "A": {
+        "choice": "The new operator allocates memory for the object.",
+        "correct": true
+      },
+      "B": { "choice": "The constructor deletes old objects from memory." },
+      "C": {
+        "choice": "You must always use the new operator to call methods."
+      },
+      "D": { "choice": "Objects are stored on the stack, not the heap." }
+    }
+  },
+  "03_58": {
+    "chapter": "3",
+    "question": "Which of the following statements are true about reference variables in Java? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "They store memory addresses, not actual objects.",
+        "correct": true
+      },
+      "B": {
+        "choice": "They can refer to objects of their declared type.",
+        "correct": true
+      },
+      "C": { "choice": "They cannot be assigned null." },
+      "D": { "choice": "They are used only for primitive types." }
+    }
+  },
+  "03_59": {
+    "chapter": "3",
+    "question": "How do you access the length of an array called arr?",
+    "choices": {
+      "A": { "choice": "arr.length", "correct": true },
+      "B": { "choice": "arr.length()" },
+      "C": { "choice": "length(arr)" },
+      "D": { "choice": "arr.size()" }
+    }
+  },
+  "03_60": {
+    "chapter": "3",
+    "question": "Which of the following are reasons to use wrapper classes? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "To store primitive values in collections.",
+        "correct": true
+      },
+      "B": {
+        "choice": "To use methods for converting and parsing.",
+        "correct": true
+      },
+      "C": { "choice": "To directly manipulate the value of primitives." },
+      "D": { "choice": "To enable autoboxing and unboxing.", "correct": true }
+    }
+  },
+  "03_61": {
+    "chapter": "3",
+    "question": "Which of the following variable names is valid in Java? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "πValue", "correct": true },
+      "B": { "choice": "1stName" },
+      "C": { "choice": "_privateVar", "correct": true },
+      "D": { "choice": "void" }
+    }
+  },
+  "03_62": {
+    "chapter": "3",
+    "question": "What will happen if you try to use a variable outside of its declared scope?",
+    "choices": {
+      "A": { "choice": "The program will not compile.", "correct": true },
+      "B": { "choice": "The variable is automatically initialized to zero." },
+      "C": {
+        "choice": "The program ignores the variable and continues running."
+      },
+      "D": { "choice": "The variable will be set to null." }
+    }
+  },
+  "03_63": {
+    "chapter": "3",
+    "question": "Given the code: int a = 7; double b = 2; System.out.println(a / b); what is the output?",
+    "choices": {
+      "A": { "choice": "3.5", "correct": true },
+      "B": { "choice": "3" },
+      "C": { "choice": "3.0" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "03_64": {
+    "chapter": "3",
+    "question": "Which method would you use to get the length of a String variable called message?",
+    "choices": {
+      "A": { "choice": "message.length()", "correct": true },
+      "B": { "choice": "length(message)" },
+      "C": { "choice": "message.size()" },
+      "D": { "choice": "size(message)" }
+    }
+  },
+  "03_65": {
+    "chapter": "3",
+    "question": "Why should you use named constants (final variables) in Java code?",
+    "choices": {
+      "A": {
+        "choice": "To make the code more readable and easier to maintain.",
+        "correct": true
+      },
+      "B": { "choice": "To save memory at runtime." },
+      "C": { "choice": "To prevent compilation errors." },
+      "D": {
+        "choice": "Because constants are faster to execute than variables."
+      }
+    }
+  }
+}

@@ -1,0 +1,433 @@
+{
+  "01_01": {
+    "question": "Which of the following is a statement (in logic)?",
+    "choices": {
+      "A": { "choice": "What time is it?" },
+      "B": { "choice": "x + 2 > 7" },
+      "C": { "choice": "The sky is blue.", "correct": true },
+      "D": { "choice": "Run faster!" }
+    }
+  },
+  "01_02": {
+    "question": "Which of these is the correct negation of: 'If it is raining, then the ground is wet'?",
+    "choices": {
+      "A": { "choice": "If it is not raining, then the ground is not wet." },
+      "B": {
+        "choice": "It is raining and the ground is not wet.",
+        "correct": true
+      },
+      "C": { "choice": "If the ground is not wet, it is not raining." },
+      "D": { "choice": "It is not raining or the ground is wet." }
+    }
+  },
+  "01_03": {
+    "question": "Which of the following best describes a logically equivalent pair?",
+    "choices": {
+      "A": {
+        "choice": "Two statements that are always both true or both false.",
+        "correct": true
+      },
+      "B": { "choice": "Two statements that never have the same truth value." },
+      "C": { "choice": "One statement is the negation of the other." },
+      "D": { "choice": "Both statements are true in at least one scenario." }
+    }
+  },
+  "01_04": {
+    "question": "Which form is logically equivalent to 'p → q'?",
+    "choices": {
+      "A": { "choice": "~q → ~p", "correct": true },
+      "B": { "choice": "~p → ~q" },
+      "C": { "choice": "p ↔ q" },
+      "D": { "choice": "~p ∨ q" }
+    }
+  },
+  "01_05": {
+    "question": "What is the truth value of the statement 'p ∧ ~p'?",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "Sometimes true, sometimes false" },
+      "C": { "choice": "Always false", "correct": true },
+      "D": { "choice": "Cannot be determined" }
+    }
+  },
+  "01_06": {
+    "question": "Given 'If I eat pizza, then I am happy', what is the converse?",
+    "choices": {
+      "A": { "choice": "If I am happy, then I eat pizza.", "correct": true },
+      "B": { "choice": "If I don't eat pizza, then I am not happy." },
+      "C": { "choice": "If I am not happy, then I don't eat pizza." },
+      "D": { "choice": "I eat pizza and I am happy." }
+    }
+  },
+  "01_07": {
+    "question": "Which argument form is valid?",
+    "choices": {
+      "A": { "choice": "If p then q. p. Therefore, q.", "correct": true },
+      "B": { "choice": "If p then q. q. Therefore, p." },
+      "C": { "choice": "If p then q. Not p. Therefore, not q." },
+      "D": { "choice": "p or q. Therefore, p." }
+    }
+  },
+  "01_08": {
+    "question": "Which of the following is the contrapositive of 'If you study, you pass'?",
+    "choices": {
+      "A": {
+        "choice": "If you do not pass, you did not study.",
+        "correct": true
+      },
+      "B": { "choice": "If you do not study, you do not pass." },
+      "C": { "choice": "If you pass, you studied." },
+      "D": { "choice": "You study and you pass." }
+    }
+  },
+  "01_09": {
+    "question": "What does it mean for two statements to be logically equivalent?",
+    "choices": {
+      "A": {
+        "choice": "They are true at the same time in every situation.",
+        "correct": true
+      },
+      "B": { "choice": "They are always false together." },
+      "C": { "choice": "Their negations are equivalent." },
+      "D": { "choice": "They have opposite truth values." }
+    }
+  },
+  "01_10": {
+    "question": "What is the negation of 'p ∨ q'?",
+    "choices": {
+      "A": { "choice": "~p ∨ ~q" },
+      "B": { "choice": "~p ∧ ~q", "correct": true },
+      "C": { "choice": "~(p ∧ q)" },
+      "D": { "choice": "p ∧ q" }
+    }
+  },
+  "01_11": {
+    "question": "Which of these is a valid application of Modus Tollens?",
+    "choices": {
+      "A": { "choice": "If p then q. Not p. Therefore, not q." },
+      "B": {
+        "choice": "If p then q. Not q. Therefore, not p.",
+        "correct": true
+      },
+      "C": { "choice": "p or q. Not p. Therefore, q." },
+      "D": { "choice": "If q then p. Not p. Therefore, not q." }
+    }
+  },
+  "01_12": {
+    "question": "Which of the following is a disjunction?",
+    "choices": {
+      "A": { "choice": "p ∧ q" },
+      "B": { "choice": "p → q" },
+      "C": { "choice": "p ∨ q", "correct": true },
+      "D": { "choice": "~p" }
+    }
+  },
+  "01_13": {
+    "question": "Which of these is a valid argument form?",
+    "choices": {
+      "A": { "choice": "If p then q. p. Therefore, q.", "correct": true },
+      "B": { "choice": "If p then q. q. Therefore, p." },
+      "C": { "choice": "If p then q. Not p. Therefore, not q." },
+      "D": { "choice": "p. Not p. Therefore, q." }
+    }
+  },
+  "01_14": {
+    "question": "What is the biconditional of statements p and q?",
+    "choices": {
+      "A": { "choice": "p → q" },
+      "B": { "choice": "p ∧ q" },
+      "C": { "choice": "p ↔ q", "correct": true },
+      "D": { "choice": "~p ∨ q" }
+    }
+  },
+  "01_15": {
+    "question": "Which of these statements is always true (a tautology)?",
+    "choices": {
+      "A": { "choice": "p ∨ ~p", "correct": true },
+      "B": { "choice": "p ∧ ~p" },
+      "C": { "choice": "~(p ∨ q)" },
+      "D": { "choice": "p → ~p" }
+    }
+  },
+  "01_16": {
+    "question": "Which of these is the correct converse of 'If it is sunny, I will go running'?",
+    "choices": {
+      "A": { "choice": "If I go running, then it is sunny.", "correct": true },
+      "B": { "choice": "If it is not sunny, then I will not go running." },
+      "C": { "choice": "If I do not go running, then it is not sunny." },
+      "D": { "choice": "If it is sunny, then I do not go running." }
+    }
+  },
+  "01_17": {
+    "question": "Which of these is NOT a statement form?",
+    "choices": {
+      "A": { "choice": "p ∧ q" },
+      "B": { "choice": "If p, then q" },
+      "C": { "choice": "Jump over the fence", "correct": true },
+      "D": { "choice": "p ∨ q" }
+    }
+  },
+  "01_18": {
+    "question": "Which inference rule is described by: 'p ∨ q, ~p, therefore q'?",
+    "choices": {
+      "A": { "choice": "Modus Ponens" },
+      "B": { "choice": "Modus Tollens" },
+      "C": { "choice": "Disjunctive Syllogism", "correct": true },
+      "D": { "choice": "Hypothetical Syllogism" }
+    }
+  },
+  "01_19": {
+    "question": "What is the logical form of: 'If I pass the test, then I studied'?",
+    "choices": {
+      "A": { "choice": "pass → study", "correct": true },
+      "B": { "choice": "study → pass" },
+      "C": { "choice": "~pass → study" },
+      "D": { "choice": "study ∧ pass" }
+    }
+  },
+  "01_20": {
+    "question": "If the statement 'If I am not tired, then I will study' is true, which of the following must also be true?",
+    "choices": {
+      "A": { "choice": "If I do not study, then I am tired.", "correct": true },
+      "B": { "choice": "If I study, then I am not tired." },
+      "C": { "choice": "If I am tired, then I will not study." },
+      "D": { "choice": "If I study, then I am tired." }
+    }
+  },
+  "01_21": {
+    "question": "What is the inverse of 'If it rains, then I bring an umbrella'?",
+    "choices": {
+      "A": {
+        "choice": "If it does not rain, then I do not bring an umbrella.",
+        "correct": true
+      },
+      "B": { "choice": "If I bring an umbrella, then it rains." },
+      "C": { "choice": "If it does not rain, then I bring an umbrella." },
+      "D": { "choice": "If I do not bring an umbrella, then it does not rain." }
+    }
+  },
+  "01_22": {
+    "question": "What is the error in this argument? 'If it is snowing, the ground is cold. It is not snowing. Therefore, the ground is not cold.'",
+    "choices": {
+      "A": { "choice": "Affirming the consequent" },
+      "B": { "choice": "Denying the antecedent", "correct": true },
+      "C": { "choice": "Affirming the antecedent" },
+      "D": { "choice": "Begging the question" }
+    }
+  },
+  "01_23": {
+    "question": "Which of these forms is always false (a contradiction)?",
+    "choices": {
+      "A": { "choice": "p ∨ ~p" },
+      "B": { "choice": "p ∧ ~p", "correct": true },
+      "C": { "choice": "p → p" },
+      "D": { "choice": "p ↔ p" }
+    }
+  },
+  "01_24": {
+    "question": "Which of the following is a necessary condition for p → q to be true?",
+    "choices": {
+      "A": {
+        "choice": "If p is true and q is false, the statement is false.",
+        "correct": true
+      },
+      "B": { "choice": "If p and q are both false, the statement is true." },
+      "C": { "choice": "If q is false, p must be true." },
+      "D": { "choice": "If p is true, q must be false." }
+    }
+  },
+  "01_25": {
+    "question": "Which inference rule justifies the conclusion: 'If p then q, q, therefore p'?",
+    "choices": {
+      "A": { "choice": "Modus Ponens" },
+      "B": { "choice": "Converse Error", "correct": true },
+      "C": { "choice": "Modus Tollens" },
+      "D": { "choice": "Contrapositive" }
+    }
+  },
+  "01_26": {
+    "question": "Which of the following is logically equivalent to '~(p ∧ q)'?",
+    "choices": {
+      "A": { "choice": "~p ∨ ~q", "correct": true },
+      "B": { "choice": "~p ∧ q" },
+      "C": { "choice": "p ∨ ~q" },
+      "D": { "choice": "~p ∨ q" }
+    }
+  },
+  "01_27": {
+    "question": "If 'Either I will study or I will fail', which is the correct logical form?",
+    "choices": {
+      "A": { "choice": "study ∧ fail" },
+      "B": { "choice": "study ∨ fail", "correct": true },
+      "C": { "choice": "~study ∨ fail" },
+      "D": { "choice": "study → fail" }
+    }
+  },
+  "01_28": {
+    "question": "A truth table for 'p ∨ q' will be false in which cases?",
+    "choices": {
+      "A": { "choice": "When p and q are both true" },
+      "B": { "choice": "When p is true and q is false" },
+      "C": { "choice": "When both p and q are false", "correct": true },
+      "D": { "choice": "When either p or q is true" }
+    }
+  },
+  "01_29": {
+    "question": "Which of these is NOT a valid logical inference?",
+    "choices": {
+      "A": { "choice": "If p then q. p. Therefore, q." },
+      "B": { "choice": "If p then q. Not q. Therefore, not p." },
+      "C": {
+        "choice": "If p then q. Not p. Therefore, not q.",
+        "correct": true
+      },
+      "D": { "choice": "p or q. Not p. Therefore, q." }
+    }
+  },
+  "01_30": {
+    "question": "What is the main connective in the statement '~p ∧ (q ∨ r)'?",
+    "choices": {
+      "A": { "choice": "~" },
+      "B": { "choice": "∨" },
+      "C": { "choice": "∧", "correct": true },
+      "D": { "choice": "→" }
+    }
+  },
+  "01_31": {
+    "question": "Which symbol is commonly used for logical negation?",
+    "choices": {
+      "A": { "choice": "~", "correct": true },
+      "B": { "choice": "^" },
+      "C": { "choice": "v" },
+      "D": { "choice": "→" }
+    }
+  },
+  "01_32": {
+    "question": "Which of the following represents logical conjunction?",
+    "choices": {
+      "A": { "choice": "v" },
+      "B": { "choice": "^", "correct": true },
+      "C": { "choice": "→" },
+      "D": { "choice": "~" }
+    }
+  },
+  "01_33": {
+    "question": "What is the symbol for logical disjunction?",
+    "choices": {
+      "A": { "choice": "^" },
+      "B": { "choice": "→" },
+      "C": { "choice": "v", "correct": true },
+      "D": { "choice": "~" }
+    }
+  },
+  "01_34": {
+    "question": "What does the statement ~(p ∧ q) mean in English?",
+    "choices": {
+      "A": { "choice": "Neither p nor q is true", "correct": true },
+      "B": { "choice": "Both p and q are true" },
+      "C": { "choice": "Either p or q is true, but not both" },
+      "D": { "choice": "p and q are both false" }
+    }
+  },
+  "01_35": {
+    "question": "Which logical operation is true if at least one statement is true?",
+    "choices": {
+      "A": { "choice": "Conjunction" },
+      "B": { "choice": "Negation" },
+      "C": { "choice": "Disjunction", "correct": true },
+      "D": { "choice": "Biconditional" }
+    }
+  },
+  "01_36": {
+    "question": "What is a tautology?",
+    "choices": {
+      "A": { "choice": "A statement that is always true", "correct": true },
+      "B": { "choice": "A statement that is always false" },
+      "C": {
+        "choice": "A statement that is sometimes true and sometimes false"
+      },
+      "D": { "choice": "A contradiction" }
+    }
+  },
+  "01_37": {
+    "question": "Which is the correct form of Modus Tollens?",
+    "choices": {
+      "A": { "choice": "If p→q and p, then q" },
+      "B": { "choice": "If p→q and ~q, then ~p", "correct": true },
+      "C": { "choice": "If p→q and q, then p" },
+      "D": { "choice": "If p and q, then p→q" }
+    }
+  },
+  "01_38": {
+    "question": "Which is an example of the converse error?",
+    "choices": {
+      "A": { "choice": "If p→q, and ~q, then ~p" },
+      "B": { "choice": "If p→q, and q, then p", "correct": true },
+      "C": { "choice": "If p→q, and ~p, then ~q" },
+      "D": { "choice": "If p, then q" }
+    }
+  },
+  "01_39": {
+    "question": "Which logical equivalence is given by DeMorgan’s Law?",
+    "choices": {
+      "A": { "choice": "~(p ∧ q) ≡ ~p ∨ ~q", "correct": true },
+      "B": { "choice": "~(p ∧ q) ≡ ~p ∧ ~q" },
+      "C": { "choice": "p ∧ q ≡ p ∨ q" },
+      "D": { "choice": "~(p ∨ q) ≡ ~p ∨ ~q" }
+    }
+  },
+  "01_40": {
+    "question": "If p is true and q is false, what is the truth value of (p → q)?",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true },
+      "C": { "choice": "Cannot be determined" },
+      "D": { "choice": "Both true and false" }
+    }
+  },
+  "01_41": {
+    "question": "Which of the following is a valid argument form?",
+    "choices": {
+      "A": { "choice": "p, q, therefore p→q" },
+      "B": { "choice": "p→q, p, therefore q", "correct": true },
+      "C": { "choice": "p→q, ~q, therefore p" },
+      "D": { "choice": "p, p→q, therefore ~q" }
+    }
+  },
+  "01_42": {
+    "question": "What is the truth value of ~(p v q) if both p and q are false?",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" },
+      "C": { "choice": "Cannot be determined" },
+      "D": { "choice": "Both true and false" }
+    }
+  },
+  "01_43": {
+    "question": "Which of the following best describes a contradiction?",
+    "choices": {
+      "A": { "choice": "A statement that is always false", "correct": true },
+      "B": { "choice": "A statement that is sometimes true" },
+      "C": { "choice": "A statement that is always true" },
+      "D": { "choice": "A statement that is never used in logic" }
+    }
+  },
+  "01_44": {
+    "question": "What is the converse of the statement 'If it rains, then the ground is wet'?",
+    "choices": {
+      "A": { "choice": "If the ground is wet, then it rains", "correct": true },
+      "B": { "choice": "If it does not rain, then the ground is not wet" },
+      "C": { "choice": "If the ground is not wet, then it does not rain" },
+      "D": { "choice": "If it rains, then the ground is wet" }
+    }
+  },
+  "01_45": {
+    "question": "What error occurs if one assumes that the inverse of a conditional statement is logically equivalent to the original?",
+    "choices": {
+      "A": { "choice": "Converse error" },
+      "B": { "choice": "Contrapositive error" },
+      "C": { "choice": "Inverse error", "correct": true },
+      "D": { "choice": "Tautology error" }
+    }
+  }
+}

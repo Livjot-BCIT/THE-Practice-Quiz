@@ -1,0 +1,473 @@
+{
+  "06_01": {
+    "question": "Which device converts active input signals into a coded binary output?",
+    "choices": {
+      "A": { "choice": "Decoder" },
+      "B": { "choice": "Encoder", "correct": true },
+      "C": { "choice": "Multiplexer" },
+      "D": { "choice": "Demultiplexer" }
+    }
+  },
+  "06_02": {
+    "question": "True or False: An encoder has fewer output lines than input lines.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_03": {
+    "question": "In a 4-to-2 binary encoder, how many output lines are there?",
+    "choices": {
+      "A": { "choice": "2", "correct": true },
+      "B": { "choice": "4" },
+      "C": { "choice": "8" },
+      "D": { "choice": "16" }
+    }
+  },
+  "06_04": {
+    "question": "Which type of encoder outputs the code for the highest-priority active input?",
+    "choices": {
+      "A": { "choice": "Standard encoder" },
+      "B": { "choice": "Priority encoder", "correct": true },
+      "C": { "choice": "Decimal encoder" },
+      "D": { "choice": "Multiplexed encoder" }
+    }
+  },
+  "06_05": {
+    "question": "True or False: A decimal-to-binary encoder can be used to convert keypad inputs to binary form.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_06": {
+    "question": "Select all correct statements about encoders.",
+    "choices": {
+      "A": {
+        "choice": "They reduce the number of output lines compared to input lines",
+        "correct": true
+      },
+      "B": {
+        "choice": "They can use priority logic to resolve conflicts",
+        "correct": true
+      },
+      "C": {
+        "choice": "They directly select one output line from many inputs"
+      },
+      "D": {
+        "choice": "They can be combined with decoders in communication systems",
+        "correct": true
+      }
+    }
+  },
+  "06_07": {
+    "question": "Which device performs the reverse operation of an encoder?",
+    "choices": {
+      "A": { "choice": "Multiplexer" },
+      "B": { "choice": "Decoder", "correct": true },
+      "C": { "choice": "Demultiplexer" },
+      "D": { "choice": "Priority encoder" }
+    }
+  },
+  "06_08": {
+    "question": "True or False: A 3-to-8 decoder has 3 input lines and 8 output lines.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_09": {
+    "question": "In a decoder, what does an 'enable' input do?",
+    "choices": {
+      "A": { "choice": "Selects which input is active" },
+      "B": { "choice": "Activates the decoder’s output", "correct": true },
+      "C": { "choice": "Increases the number of outputs" },
+      "D": { "choice": "Inverts the output lines" }
+    }
+  },
+  "06_10": {
+    "question": "Select all examples of decoder applications.",
+    "choices": {
+      "A": { "choice": "Memory address decoding", "correct": true },
+      "B": { "choice": "Seven-segment display control", "correct": true },
+      "C": { "choice": "Data compression" },
+      "D": { "choice": "Instruction decoding in CPUs", "correct": true }
+    }
+  },
+  "06_11": {
+    "question": "True or False: A 2-to-4 decoder can be constructed using basic logic gates.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_12": {
+    "question": "Which device selects one data input from many and forwards it to a single output line?",
+    "choices": {
+      "A": { "choice": "Demultiplexer" },
+      "B": { "choice": "Multiplexer", "correct": true },
+      "C": { "choice": "Encoder" },
+      "D": { "choice": "Decoder" }
+    }
+  },
+  "06_13": {
+    "question": "In a multiplexer, what determines which input is sent to the output?",
+    "choices": {
+      "A": { "choice": "Priority logic" },
+      "B": { "choice": "Select lines", "correct": true },
+      "C": { "choice": "Enable lines" },
+      "D": { "choice": "Clock signals" }
+    }
+  },
+  "06_14": {
+    "question": "True or False: A multiplexer can be used to implement logic functions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_15": {
+    "question": "Select all correct statements about multiplexers.",
+    "choices": {
+      "A": {
+        "choice": "They reduce the number of data lines required",
+        "correct": true
+      },
+      "B": { "choice": "They can be used in data routing", "correct": true },
+      "C": { "choice": "They generate binary codes from inputs" },
+      "D": {
+        "choice": "They use select lines to choose inputs",
+        "correct": true
+      }
+    }
+  },
+  "06_16": {
+    "question": "Which device performs the opposite function of a multiplexer?",
+    "choices": {
+      "A": { "choice": "Encoder" },
+      "B": { "choice": "Demultiplexer", "correct": true },
+      "C": { "choice": "Decoder" },
+      "D": { "choice": "Priority encoder" }
+    }
+  },
+  "06_17": {
+    "question": "True or False: A demultiplexer takes one input and channels it to one of several outputs based on select lines.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_18": {
+    "question": "Select all examples of demultiplexer applications.",
+    "choices": {
+      "A": { "choice": "Serial-to-parallel data conversion", "correct": true },
+      "B": {
+        "choice": "Data distribution to multiple destinations",
+        "correct": true
+      },
+      "C": { "choice": "Memory chip selection", "correct": true },
+      "D": { "choice": "Binary to decimal conversion" }
+    }
+  },
+  "06_19": {
+    "question": "In a 1-to-4 demultiplexer, how many select lines are needed?",
+    "choices": {
+      "A": { "choice": "1" },
+      "B": { "choice": "2", "correct": true },
+      "C": { "choice": "3" },
+      "D": { "choice": "4" }
+    }
+  },
+  "06_20": {
+    "question": "True or False: Multiplexers and demultiplexers can be combined for bidirectional data transmission.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_21": {
+    "question": "Which logic family component is often used to implement multiplexers in digital systems?",
+    "choices": {
+      "A": { "choice": "555 Timer" },
+      "B": { "choice": "74xx series ICs", "correct": true },
+      "C": { "choice": "Operational amplifiers" },
+      "D": { "choice": "Diodes" }
+    }
+  },
+  "06_22": {
+    "question": "Select all correct statements about cascading multiplexers.",
+    "choices": {
+      "A": {
+        "choice": "Used to create larger multiplexers from smaller ones",
+        "correct": true
+      },
+      "B": {
+        "choice": "Requires additional select lines for expansion",
+        "correct": true
+      },
+      "C": { "choice": "Cannot be done with standard ICs" },
+      "D": { "choice": "Allows more inputs to be handled", "correct": true }
+    }
+  },
+  "06_23": {
+    "question": "True or False: In digital communication, multiplexers are often used to share a single communication line among multiple signals.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_24": {
+    "question": "Which device is commonly used in address decoding for memory selection?",
+    "choices": {
+      "A": { "choice": "Encoder" },
+      "B": { "choice": "Decoder", "correct": true },
+      "C": { "choice": "Multiplexer" },
+      "D": { "choice": "Demultiplexer" }
+    }
+  },
+  "06_25": {
+    "question": "Select all correct differences between decoders and demultiplexers.",
+    "choices": {
+      "A": {
+        "choice": "Decoders have no data input; demultiplexers have one data input",
+        "correct": true
+      },
+      "B": {
+        "choice": "Decoders activate a specific output based on inputs",
+        "correct": true
+      },
+      "C": {
+        "choice": "Demultiplexers require data and select inputs",
+        "correct": true
+      },
+      "D": { "choice": "Both require enable signals" }
+    }
+  },
+  "06_26": {
+    "question": "True or False: Encoders are typically used at the input stage of digital systems, while decoders are used at the output stage.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_27": {
+    "question": "Which of the following is NOT a common use of a priority encoder?",
+    "choices": {
+      "A": { "choice": "Interrupt handling" },
+      "B": { "choice": "Keyboard encoding" },
+      "C": { "choice": "Error detection", "correct": true },
+      "D": { "choice": "Data compression" }
+    }
+  },
+  "06_28": {
+    "question": "In a 4-to-16 decoder, how many input lines are there?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "4", "correct": true },
+      "C": { "choice": "8" },
+      "D": { "choice": "16" }
+    }
+  },
+  "06_29": {
+    "question": "Select all correct statements about decoder enable inputs.",
+    "choices": {
+      "A": {
+        "choice": "They allow multiple decoders to be connected in parallel",
+        "correct": true
+      },
+      "B": {
+        "choice": "They can disable the decoder outputs when inactive",
+        "correct": true
+      },
+      "C": { "choice": "They determine the number of output lines" },
+      "D": { "choice": "They are always active-low" }
+    }
+  },
+  "06_30": {
+    "question": "True or False: A demultiplexer can function as a decoder when its data input is held constant.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_31": {
+    "question": "Which device allows multiple input signals to share a single output channel by selecting one at a time?",
+    "choices": {
+      "A": { "choice": "Multiplexer", "correct": true },
+      "B": { "choice": "Demultiplexer" },
+      "C": { "choice": "Encoder" },
+      "D": { "choice": "Decoder" }
+    }
+  },
+  "06_32": {
+    "question": "True or False: The outputs of a decoder are mutually exclusive, meaning only one output is active at a time.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_33": {
+    "question": "In a multiplexer, the number of select lines (n) is related to the number of input lines by which formula?",
+    "choices": {
+      "A": { "choice": "n = 2^inputs" },
+      "B": { "choice": "inputs = 2^n", "correct": true },
+      "C": { "choice": "inputs = n^2" },
+      "D": { "choice": "n = inputs/2" }
+    }
+  },
+  "06_34": {
+    "question": "Select all correct uses for multiplexers.",
+    "choices": {
+      "A": { "choice": "Implementing combinational logic", "correct": true },
+      "B": { "choice": "Data routing in CPUs", "correct": true },
+      "C": { "choice": "Generating binary codes" },
+      "D": {
+        "choice": "Signal selection in communication systems",
+        "correct": true
+      }
+    }
+  },
+  "06_35": {
+    "question": "True or False: Multiplexers can be used in time-division multiplexing for digital communication.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_36": {
+    "question": "Which of the following best describes the main purpose of a demultiplexer?",
+    "choices": {
+      "A": { "choice": "To select one of many inputs" },
+      "B": {
+        "choice": "To route a single input to one of many outputs",
+        "correct": true
+      },
+      "C": { "choice": "To encode data" },
+      "D": { "choice": "To decode addresses" }
+    }
+  },
+  "06_37": {
+    "question": "True or False: A 3-to-8 decoder can be implemented using only NAND gates.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_38": {
+    "question": "Which device is most suitable for selecting between analog signals before they are digitized?",
+    "choices": {
+      "A": { "choice": "Encoder" },
+      "B": { "choice": "Multiplexer", "correct": true },
+      "C": { "choice": "Decoder" },
+      "D": { "choice": "Demultiplexer" }
+    }
+  },
+  "06_39": {
+    "question": "Select all statements that are true for priority encoders.",
+    "choices": {
+      "A": { "choice": "They assign priority to inputs", "correct": true },
+      "B": {
+        "choice": "They ignore all lower-priority inputs if a higher-priority input is active",
+        "correct": true
+      },
+      "C": { "choice": "They activate multiple outputs simultaneously" },
+      "D": { "choice": "They are used in interrupt systems", "correct": true }
+    }
+  },
+  "06_40": {
+    "question": "True or False: The output of a multiplexer is always equal to one of its inputs.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_41": {
+    "question": "In a decoder, the number of outputs is determined by which formula?",
+    "choices": {
+      "A": { "choice": "outputs = n^2" },
+      "B": { "choice": "outputs = 2^n", "correct": true },
+      "C": { "choice": "outputs = n/2" },
+      "D": { "choice": "outputs = log2(n)" }
+    }
+  },
+  "06_42": {
+    "question": "True or False: A demultiplexer requires both data input and select inputs to operate.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "06_43": {
+    "question": "Select all correct statements about combining encoders and decoders.",
+    "choices": {
+      "A": {
+        "choice": "Used in digital communication to encode and decode data",
+        "correct": true
+      },
+      "B": {
+        "choice": "The encoder compresses the signal; the decoder reconstructs it",
+        "correct": true
+      },
+      "C": { "choice": "They are only used in analog systems" },
+      "D": {
+        "choice": "They can be used for keyboard input processing",
+        "correct": true
+      }
+    }
+  },
+  "06_44": {
+    "question": "True or False: Encoders always require an enable input to function.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "06_45": {
+    "question": "Which of the following is a key similarity between multiplexers and decoders?",
+    "choices": {
+      "A": { "choice": "Both use select lines", "correct": true },
+      "B": { "choice": "Both generate binary codes" },
+      "C": { "choice": "Both reduce the number of lines" },
+      "D": { "choice": "Both require data inputs" }
+    }
+  },
+  "06_46": {
+    "question": "True or False: A multiplexer can act as a demultiplexer without modification.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "06_47": {
+    "question": "Select all components that can be implemented using multiplexers.",
+    "choices": {
+      "A": { "choice": "Logic gates", "correct": true },
+      "B": { "choice": "Arithmetic circuits", "correct": true },
+      "C": { "choice": "Encoders" },
+      "D": { "choice": "Signal selectors", "correct": true }
+    }
+  },
+  "06_48": {
+    "question": "True or False: The function of a demultiplexer is identical to that of a decoder.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "06_49": {
+    "question": "Which type of encoder would be most useful for resolving simultaneous input requests in a CPU's interrupt system?",
+    "choices": {
+      "A": { "choice": "Binary encoder" },
+      "B": { "choice": "Priority encoder", "correct": true },
+      "C": { "choice": "Decimal encoder" },
+      "D": { "choice": "Multiplexed encoder" }
+    }
+  },
+  "06_50": {
+    "question": "True or False: The terms 'selector' and 'multiplexer' are often used interchangeably in digital design.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  }
+}

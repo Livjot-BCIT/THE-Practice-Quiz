@@ -1,0 +1,567 @@
+{
+  "03_01": {
+    "question": "Which statement best distinguishes Instruction-Level Parallelism (ILP) from Data-Level Parallelism (DLP)?",
+    "choices": {
+      "A": { "choice": "ILP uses multiple cores; DLP uses one core only" },
+      "B": {
+        "choice": "ILP overlaps independent instructions; DLP applies one instruction to many data elements",
+        "correct": true
+      },
+      "C": { "choice": "ILP is only for GPUs; DLP is only for CPUs" },
+      "D": { "choice": "ILP is software-only; DLP is hardware-only" }
+    }
+  },
+  "03_02": {
+    "question": "Using Amdahl's Law, what is the speedup when 70% of a program is parallelizable and we use 8 processors?",
+    "choices": {
+      "A": { "choice": "7.00×" },
+      "B": { "choice": "5.60×" },
+      "C": { "choice": "3.30×" },
+      "D": { "choice": "≈2.58×", "correct": true }
+    }
+  },
+  "03_03": {
+    "question": "Select all correct consequences of Amdahl's Law as N → ∞ for a program with parallel fraction p.",
+    "choices": {
+      "A": {
+        "choice": "Maximum speedup approaches 1 / (1 - p)",
+        "correct": true
+      },
+      "B": { "choice": "Serial portion caps overall speedup", "correct": true },
+      "C": { "choice": "Speedup grows linearly with N without bound" },
+      "D": {
+        "choice": "If p < 1, adding cores eventually has diminishing returns",
+        "correct": true
+      }
+    }
+  },
+  "03_04": {
+    "question": "In a classic 5-stage pipeline (F, D, E, M, WB), the ideal total cycles to complete 10 independent instructions is:",
+    "choices": {
+      "A": { "choice": "10" },
+      "B": { "choice": "5" },
+      "C": { "choice": "14", "correct": true },
+      "D": { "choice": "50" }
+    }
+  },
+  "03_05": {
+    "question": "Which pipeline hazard arises when an instruction needs a result that a prior instruction hasn't produced yet?",
+    "choices": {
+      "A": { "choice": "Control hazard" },
+      "B": { "choice": "Data hazard", "correct": true },
+      "C": { "choice": "Structural hazard" },
+      "D": { "choice": "Decode hazard" }
+    }
+  },
+  "03_06": {
+    "question": "A structural hazard occurs when:",
+    "choices": {
+      "A": { "choice": "The wrong path is fetched after a branch" },
+      "B": {
+        "choice": "Two stages simultaneously need the same hardware resource",
+        "correct": true
+      },
+      "C": { "choice": "There is a RAW data dependency" },
+      "D": { "choice": "Execution units retire out of order" }
+    }
+  },
+  "03_07": {
+    "question": "Given a 5-stage pipeline and 3 instructions with a single 1-cycle data hazard between I1 and I2, what total cycles does your course material use?",
+    "choices": {
+      "A": { "choice": "7" },
+      "B": { "choice": "8" },
+      "C": { "choice": "9", "correct": true },
+      "D": { "choice": "10" }
+    }
+  },
+  "03_08": {
+    "question": "Select all techniques that mitigate data hazards in pipelines.",
+    "choices": {
+      "A": { "choice": "Operand forwarding (bypassing)", "correct": true },
+      "B": { "choice": "Compiler reordering (scheduling)", "correct": true },
+      "C": { "choice": "Branch prediction" },
+      "D": { "choice": "Pipeline stalls (inserting bubbles)", "correct": true }
+    }
+  },
+  "03_09": {
+    "question": "Which method primarily mitigates control hazards?",
+    "choices": {
+      "A": { "choice": "Widening the ALU" },
+      "B": { "choice": "Increasing cache associativity" },
+      "C": { "choice": "Branch prediction", "correct": true },
+      "D": { "choice": "Using only immediate operands" }
+    }
+  },
+  "03_10": {
+    "question": "True or False: In an ideal long pipeline with independent instructions, CPI approaches 1.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_11": {
+    "question": "In Hamming (7,4) with even parity, parity bits occupy which positions?",
+    "choices": {
+      "A": { "choice": "1, 2, 4", "correct": true },
+      "B": { "choice": "1, 3, 5" },
+      "C": { "choice": "2, 4, 6" },
+      "D": { "choice": "4, 5, 6" }
+    }
+  },
+  "03_12": {
+    "question": "For Hamming (7,4) even parity, which positions does parity bit P2 cover?",
+    "choices": {
+      "A": { "choice": "1, 3, 5, 7" },
+      "B": { "choice": "2, 3, 6, 7", "correct": true },
+      "C": { "choice": "4, 5, 6, 7" },
+      "D": { "choice": "1, 2, 4, 6" }
+    }
+  },
+  "03_13": {
+    "question": "How many parity bits r are required to protect k = 11 data bits with single-bit error correction (Hamming)?",
+    "choices": {
+      "A": { "choice": "r = 3" },
+      "B": { "choice": "r = 4" },
+      "C": { "choice": "r = 5", "correct": true },
+      "D": { "choice": "r = 6" }
+    }
+  },
+  "03_14": {
+    "question": "Select all true statements about even vs. odd parity in Hamming codes.",
+    "choices": {
+      "A": {
+        "choice": "Even parity sets the parity bit so the total 1s in its group is even",
+        "correct": true
+      },
+      "B": {
+        "choice": "Odd parity sets the parity bit so the total 1s in its group is odd",
+        "correct": true
+      },
+      "C": {
+        "choice": "Parity selection (even/odd) changes which bit positions are covered"
+      },
+      "D": {
+        "choice": "Parity selection does not change coverage sets, only the bit value rule",
+        "correct": true
+      }
+    }
+  },
+  "03_15": {
+    "question": "For data D = 1011 mapped to Hamming (7,4) with even parity (positions: 1=P1,2=P2,3=D1,4=P3,5=D2,6=D3,7=D4), the codeword is:",
+    "choices": {
+      "A": { "choice": "1110011" },
+      "B": { "choice": "0110011", "correct": true },
+      "C": { "choice": "0101110" },
+      "D": { "choice": "1010110" }
+    }
+  },
+  "03_16": {
+    "question": "In Hamming (7,4), a non-zero syndrome indicates:",
+    "choices": {
+      "A": { "choice": "No error is present" },
+      "B": {
+        "choice": "There is an error, and the syndrome value gives the bit position",
+        "correct": true
+      },
+      "C": { "choice": "Only multi-bit errors occurred" },
+      "D": { "choice": "Only a parity bit flipped" }
+    }
+  },
+  "03_17": {
+    "question": "Select all correct properties of Hamming (7,4).",
+    "choices": {
+      "A": {
+        "choice": "Detects and corrects any single-bit error",
+        "correct": true
+      },
+      "B": {
+        "choice": "Detects (but doesn't correct) some double-bit errors",
+        "correct": true
+      },
+      "C": { "choice": "Requires 4 parity bits" },
+      "D": { "choice": "Codeword length is 7 bits", "correct": true }
+    }
+  },
+  "03_18": {
+    "question": "In CRC, which step is performed first to compute the checksum?",
+    "choices": {
+      "A": {
+        "choice": "Append k zeros to the data, where k is the generator degree",
+        "correct": true
+      },
+      "B": { "choice": "Invert all data bits" },
+      "C": { "choice": "Pad with ones until byte boundary" },
+      "D": { "choice": "XOR data with random seed" }
+    }
+  },
+  "03_19": {
+    "question": "Compute CRC for data 1101 using generator 1011 (x^3 + x + 1). What remainder do you append?",
+    "choices": {
+      "A": { "choice": "000" },
+      "B": { "choice": "001", "correct": true },
+      "C": { "choice": "010" },
+      "D": { "choice": "111" }
+    }
+  },
+  "03_20": {
+    "question": "For data 1101101011 and generator 11001 (x^4 + x^3 + 1), what CRC remainder is obtained?",
+    "choices": {
+      "A": { "choice": "0000" },
+      "B": { "choice": "0110" },
+      "C": { "choice": "1111", "correct": true },
+      "D": { "choice": "1001" }
+    }
+  },
+  "03_21": {
+    "question": "Select all correct statements comparing CRC and parity/Hamming.",
+    "choices": {
+      "A": {
+        "choice": "CRC detects many burst errors more reliably than single-bit parity",
+        "correct": true
+      },
+      "B": {
+        "choice": "Hamming can correct single-bit errors; CRC generally focuses on detection",
+        "correct": true
+      },
+      "C": { "choice": "CRC does not require polynomial arithmetic" },
+      "D": {
+        "choice": "Parity has weaker detection capability than CRC for burst errors",
+        "correct": true
+      }
+    }
+  },
+  "03_22": {
+    "question": "True or False: When verifying a CRC at the receiver, dividing the received (data + CRC) by the same generator yields zero remainder if no detectable error occurred.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_23": {
+    "question": "Which memory hierarchy level typically has the lowest latency?",
+    "choices": {
+      "A": { "choice": "Main memory" },
+      "B": { "choice": "L3 cache" },
+      "C": { "choice": "L1 cache", "correct": true },
+      "D": { "choice": "Disk storage" }
+    }
+  },
+  "03_24": {
+    "question": "True or False: Temporal locality refers to reusing the same memory location within a short time period.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_25": {
+    "question": "Select all correct matches between cache mapping type and description.",
+    "choices": {
+      "A": {
+        "choice": "Direct-mapped: each block maps to exactly one cache line",
+        "correct": true
+      },
+      "B": {
+        "choice": "Fully associative: any block can go in any line",
+        "correct": true
+      },
+      "C": {
+        "choice": "Set-associative: block maps to a set, can be placed in any line within that set",
+        "correct": true
+      },
+      "D": { "choice": "Direct-mapped: block can be placed anywhere in cache" }
+    }
+  },
+  "03_26": {
+    "question": "Which replacement policy tends to work well for programs with strong temporal locality?",
+    "choices": {
+      "A": { "choice": "FIFO" },
+      "B": { "choice": "LRU (Least Recently Used)", "correct": true },
+      "C": { "choice": "Random" },
+      "D": { "choice": "MRU (Most Recently Used)" }
+    }
+  },
+  "03_27": {
+    "question": "Given a direct-mapped cache with 16 lines, block size 8 bytes, and 32-bit addresses, how many index bits are there?",
+    "choices": {
+      "A": { "choice": "3" },
+      "B": { "choice": "4", "correct": true },
+      "C": { "choice": "5" },
+      "D": { "choice": "8" }
+    }
+  },
+  "03_28": {
+    "question": "For the same cache in 03_27, how many block offset bits are required?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "3" },
+      "C": { "choice": "4", "correct": true },
+      "D": { "choice": "8" }
+    }
+  },
+  "03_29": {
+    "question": "True or False: In a write-through policy, every write to cache is immediately written to main memory.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_30": {
+    "question": "Which advantage does write-back have over write-through?",
+    "choices": {
+      "A": { "choice": "Simpler implementation" },
+      "B": { "choice": "Lower memory write traffic", "correct": true },
+      "C": { "choice": "More predictable timing" },
+      "D": { "choice": "Eliminates need for dirty bits" }
+    }
+  },
+  "03_31": {
+    "question": "Select all correct statements about cache associativity.",
+    "choices": {
+      "A": {
+        "choice": "Higher associativity reduces conflict misses",
+        "correct": true
+      },
+      "B": {
+        "choice": "Fully associative caches have only one set",
+        "correct": true
+      },
+      "C": {
+        "choice": "Direct-mapped caches have associativity of one",
+        "correct": true
+      },
+      "D": {
+        "choice": "Increased associativity always improves performance regardless of access pattern"
+      }
+    }
+  },
+  "03_32": {
+    "question": "In a 2-way set associative cache with 64 lines, how many sets are there?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "16" },
+      "C": { "choice": "32", "correct": true },
+      "D": { "choice": "64" }
+    }
+  },
+  "03_33": {
+    "question": "True or False: Miss penalty includes both the time to fetch the block from the next memory level and the time to deliver it to the processor.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_34": {
+    "question": "Which type of cache miss is caused by the limited cache size?",
+    "choices": {
+      "A": { "choice": "Compulsory miss" },
+      "B": { "choice": "Capacity miss", "correct": true },
+      "C": { "choice": "Conflict miss" },
+      "D": { "choice": "Write miss" }
+    }
+  },
+  "03_35": {
+    "question": "Which type of cache miss can occur even if the cache is large enough to hold the working set?",
+    "choices": {
+      "A": { "choice": "Compulsory miss" },
+      "B": { "choice": "Capacity miss" },
+      "C": { "choice": "Conflict miss", "correct": true },
+      "D": { "choice": "Write miss" }
+    }
+  },
+  "03_36": {
+    "question": "Select all correct definitions in the context of cache performance.",
+    "choices": {
+      "A": {
+        "choice": "Hit rate: fraction of accesses found in cache",
+        "correct": true
+      },
+      "B": {
+        "choice": "Miss penalty: additional time to service a miss",
+        "correct": true
+      },
+      "C": {
+        "choice": "Average memory access time (AMAT) = Hit time + Miss rate × Miss penalty",
+        "correct": true
+      },
+      "D": { "choice": "Compulsory miss: caused by replacement policy" }
+    }
+  },
+  "03_37": {
+    "question": "True or False: Victim caches are small fully associative caches placed alongside L1 to reduce conflict misses.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_38": {
+    "question": "In virtual memory, which structure maps virtual addresses to physical addresses?",
+    "choices": {
+      "A": { "choice": "Translation Lookaside Buffer (TLB)" },
+      "B": { "choice": "Page table", "correct": true },
+      "C": { "choice": "Cache directory" },
+      "D": { "choice": "Stack pointer" }
+    }
+  },
+  "03_39": {
+    "question": "Select all correct statements about the TLB.",
+    "choices": {
+      "A": {
+        "choice": "Caches recent virtual-to-physical translations",
+        "correct": true
+      },
+      "B": {
+        "choice": "TLB misses require a page table lookup",
+        "correct": true
+      },
+      "C": { "choice": "Acts as the main memory for virtual addresses" },
+      "D": { "choice": "Typically small and very fast", "correct": true }
+    }
+  },
+  "03_40": {
+    "question": "True or False: In demand paging, a page is loaded into memory only when it is first accessed.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_41": {
+    "question": "Which replacement policy is often used in virtual memory systems?",
+    "choices": {
+      "A": { "choice": "LRU (Least Recently Used)", "correct": true },
+      "B": { "choice": "Random" },
+      "C": { "choice": "FIFO" },
+      "D": { "choice": "MRU" }
+    }
+  },
+  "03_42": {
+    "question": "Select all correct statements about page faults.",
+    "choices": {
+      "A": {
+        "choice": "Occur when the requested page is not in physical memory",
+        "correct": true
+      },
+      "B": { "choice": "Handled by the operating system", "correct": true },
+      "C": { "choice": "Always indicate a program error" },
+      "D": {
+        "choice": "Cause the CPU to stall while the page is fetched",
+        "correct": true
+      }
+    }
+  },
+  "03_43": {
+    "question": "True or False: Thrashing occurs when a process spends more time handling page faults than executing useful instructions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_44": {
+    "question": "Which factor does NOT typically influence effective memory access time?",
+    "choices": {
+      "A": { "choice": "Cache hit rate" },
+      "B": { "choice": "TLB hit rate" },
+      "C": { "choice": "Instruction pipeline depth", "correct": true },
+      "D": { "choice": "Miss penalties" }
+    }
+  },
+  "03_45": {
+    "question": "A processor has an L1 cache with a hit time of 1 ns and a miss rate of 5%. The L2 cache has a hit time of 5 ns and a miss rate of 20%. The main memory access time is 50 ns. What is the average memory access time (AMAT)?",
+    "choices": {
+      "A": {
+        "choice": "1 + (0.05 × (5 + (0.20 × 50))) = 6 ns",
+        "correct": true
+      },
+      "B": { "choice": "1 + (0.05 × 50) = 3.5 ns" },
+      "C": { "choice": "1 + (0.20 × 5) = 2 ns" },
+      "D": { "choice": "5 + (0.05 × 50) = 7.5 ns" }
+    }
+  },
+  "03_46": {
+    "question": "If the L1 miss penalty is 10 ns and the miss rate is reduced from 8% to 5% by doubling the cache size, how much AMAT improvement is achieved? (Assume L1 hit time = 1 ns.)",
+    "choices": {
+      "A": {
+        "choice": "From 1.8 ns to 1.5 ns, improvement of 0.3 ns",
+        "correct": true
+      },
+      "B": { "choice": "From 1.8 ns to 1.0 ns, improvement of 0.8 ns" },
+      "C": { "choice": "From 1.5 ns to 1.2 ns, improvement of 0.3 ns" },
+      "D": { "choice": "From 1.8 ns to 1.6 ns, improvement of 0.2 ns" }
+    }
+  },
+  "03_47": {
+    "question": "If a direct-mapped cache has 1024 lines and each line holds 64 bytes, how many bits are used for the block offset?",
+    "choices": {
+      "A": { "choice": "6 bits", "correct": true },
+      "B": { "choice": "10 bits" },
+      "C": { "choice": "16 bits" },
+      "D": { "choice": "64 bits" }
+    }
+  },
+  "03_48": {
+    "question": "A CPU has a 2% miss rate to main memory. The main memory access time is 100 ns. If the L1 hit time is 1 ns, what is the AMAT?",
+    "choices": {
+      "A": { "choice": "3 ns" },
+      "B": { "choice": "1 + (0.02 × 100) = 3 ns", "correct": true },
+      "C": { "choice": "1 + (0.02 × 50) = 2 ns" },
+      "D": { "choice": "1 + (0.05 × 100) = 6 ns" }
+    }
+  },
+  "03_49": {
+    "question": "True or False: Increasing cache size always reduces AMAT.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "03_50": {
+    "question": "If the block size in a cache is doubled while keeping total cache size constant, what is a likely effect?",
+    "choices": {
+      "A": {
+        "choice": "Reduced compulsory misses but increased conflict misses",
+        "correct": true
+      },
+      "B": {
+        "choice": "Increased compulsory misses but reduced conflict misses"
+      },
+      "C": { "choice": "Both compulsory and conflict misses are reduced" },
+      "D": { "choice": "No change in miss rates" }
+    }
+  },
+  "03_51": {
+    "question": "Which form of parallelism involves dividing a task into smaller subtasks that can be executed simultaneously?",
+    "choices": {
+      "A": { "choice": "Instruction-level parallelism" },
+      "B": { "choice": "Task-level parallelism", "correct": true },
+      "C": { "choice": "Data-level parallelism" },
+      "D": { "choice": "Bit-level parallelism" }
+    }
+  },
+  "03_52": {
+    "question": "True or False: Hamming codes are used to both detect and correct single-bit errors.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_53": {
+    "question": "Select all correct features of cyclic redundancy check (CRC).",
+    "choices": {
+      "A": {
+        "choice": "Uses polynomial division for error detection",
+        "correct": true
+      },
+      "B": { "choice": "Can detect burst errors", "correct": true },
+      "C": { "choice": "Automatically corrects errors" },
+      "D": { "choice": "Is often used in networking", "correct": true }
+    }
+  },
+  "03_54": {
+    "question": "Which pipeline hazard occurs when one instruction depends on the result of a previous instruction still in the pipeline?",
+    "choices": {
+      "A": { "choice": "Structural hazard" },
+      "B": { "choice": "Data hazard", "correct": true },
+      "C": { "choice": "Control hazard" },
+      "D": { "choice": "Throughput hazard" }
+    }
+  }
+}

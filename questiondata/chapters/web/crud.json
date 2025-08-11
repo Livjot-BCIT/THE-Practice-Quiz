@@ -1,0 +1,314 @@
+{
+  "08_01": {
+    "chapter": "8",
+    "question": "What does CRUD stand for in web development?",
+    "choices": {
+      "A": { "choice": "Create, Read, Update, Delete", "correct": true },
+      "B": { "choice": "Copy, Remove, Undo, Download" },
+      "C": { "choice": "Connect, Route, Update, Destroy" },
+      "D": { "choice": "Compute, Run, Upload, Deploy" }
+    }
+  },
+  "08_02": {
+    "chapter": "8",
+    "question": "Which HTTP method is commonly used for creating a new resource?",
+    "choices": {
+      "A": { "choice": "POST", "correct": true },
+      "B": { "choice": "GET" },
+      "C": { "choice": "PUT" },
+      "D": { "choice": "DELETE" }
+    }
+  },
+  "08_03": {
+    "chapter": "8",
+    "question": "Which HTTP method is typically used to retrieve data?",
+    "choices": {
+      "A": { "choice": "GET", "correct": true },
+      "B": { "choice": "POST" },
+      "C": { "choice": "PUT" },
+      "D": { "choice": "PATCH" }
+    }
+  },
+  "08_04": {
+    "chapter": "8",
+    "question": "Which HTTP method is typically used to update an existing resource?",
+    "choices": {
+      "A": { "choice": "PUT", "correct": true },
+      "B": { "choice": "GET" },
+      "C": { "choice": "DELETE" },
+      "D": { "choice": "OPTIONS" }
+    }
+  },
+  "08_05": {
+    "chapter": "8",
+    "question": "Which HTTP method is used to delete a resource?",
+    "choices": {
+      "A": { "choice": "DELETE", "correct": true },
+      "B": { "choice": "REMOVE" },
+      "C": { "choice": "POST" },
+      "D": { "choice": "GET" }
+    }
+  },
+  "08_06": {
+    "chapter": "8",
+    "question": "What is the main purpose of sessions in web applications?",
+    "choices": {
+      "A": {
+        "choice": "To keep users logged in across multiple requests",
+        "correct": true
+      },
+      "B": { "choice": "To speed up page loads" },
+      "C": { "choice": "To encrypt user passwords" },
+      "D": { "choice": "To store static files" }
+    }
+  },
+  "08_07": {
+    "chapter": "8",
+    "question": "Which Express middleware is commonly used to handle sessions?",
+    "choices": {
+      "A": { "choice": "express-session", "correct": true },
+      "B": { "choice": "body-parser" },
+      "C": { "choice": "cookie-parser" },
+      "D": { "choice": "morgan" }
+    }
+  },
+  "08_08": {
+    "chapter": "8",
+    "question": "Where is session data typically stored by default in express-session?",
+    "choices": {
+      "A": { "choice": "Memory (RAM)", "correct": true },
+      "B": { "choice": "Database" },
+      "C": { "choice": "Cookies only" },
+      "D": { "choice": "The user's browser storage" }
+    }
+  },
+  "08_09": {
+    "chapter": "8",
+    "question": "Which property of req in Express contains session data?",
+    "choices": {
+      "A": { "choice": "req.session", "correct": true },
+      "B": { "choice": "req.body" },
+      "C": { "choice": "req.data" },
+      "D": { "choice": "req.cookie" }
+    }
+  },
+  "08_10": {
+    "chapter": "8",
+    "question": "Which of the following is the correct way to destroy a session in Express?",
+    "choices": {
+      "A": { "choice": "req.session.destroy()", "correct": true },
+      "B": { "choice": "req.session.clear()" },
+      "C": { "choice": "req.destroySession()" },
+      "D": { "choice": "session.end()" }
+    }
+  },
+  "08_11": {
+    "chapter": "8",
+    "question": "Which HTTP status code is usually returned after a successful resource creation?",
+    "choices": {
+      "A": { "choice": "201", "correct": true },
+      "B": { "choice": "200" },
+      "C": { "choice": "204" },
+      "D": { "choice": "404" }
+    }
+  },
+  "08_12": {
+    "chapter": "8",
+    "question": "Which database operation retrieves all documents in a collection?",
+    "choices": {
+      "A": { "choice": "find()", "correct": true },
+      "B": { "choice": "insert()" },
+      "C": { "choice": "update()" },
+      "D": { "choice": "remove()" }
+    }
+  },
+  "08_13": {
+    "chapter": "8",
+    "question": "Which database operation adds a new document to a collection?",
+    "choices": {
+      "A": { "choice": "insertOne()", "correct": true },
+      "B": { "choice": "updateOne()" },
+      "C": { "choice": "deleteOne()" },
+      "D": { "choice": "findOne()" }
+    }
+  },
+  "08_14": {
+    "chapter": "8",
+    "question": "Which database operation modifies an existing document?",
+    "choices": {
+      "A": { "choice": "updateOne()", "correct": true },
+      "B": { "choice": "insertOne()" },
+      "C": { "choice": "findOne()" },
+      "D": { "choice": "drop()" }
+    }
+  },
+  "08_15": {
+    "chapter": "8",
+    "question": "Which MongoDB method deletes a document from a collection?",
+    "choices": {
+      "A": { "choice": "deleteOne()", "correct": true },
+      "B": { "choice": "remove()" },
+      "C": { "choice": "drop()" },
+      "D": { "choice": "updateOne()" }
+    }
+  },
+  "08_16": {
+    "chapter": "8",
+    "question": "Which property of req contains data sent by the client in a POST request?",
+    "choices": {
+      "A": { "choice": "req.body", "correct": true },
+      "B": { "choice": "req.query" },
+      "C": { "choice": "req.params" },
+      "D": { "choice": "req.data" }
+    }
+  },
+  "08_17": {
+    "chapter": "8",
+    "question": "How can you check if a user is authenticated in an Express route?",
+    "choices": {
+      "A": { "choice": "Check a property on req.session", "correct": true },
+      "B": { "choice": "Check req.body directly" },
+      "C": { "choice": "Use res.send()" },
+      "D": { "choice": "Call req.isAuthenticated() always" }
+    }
+  },
+  "08_18": {
+    "chapter": "8",
+    "question": "Which method would you use to hash a user's password before storing it?",
+    "choices": {
+      "A": { "choice": "bcrypt.hash()", "correct": true },
+      "B": { "choice": "md5()" },
+      "C": { "choice": "sha1()" },
+      "D": { "choice": "encodePassword()" }
+    }
+  },
+  "08_19": {
+    "chapter": "8",
+    "question": "Which middleware is commonly used to parse incoming JSON data in Express?",
+    "choices": {
+      "A": { "choice": "express.json()", "correct": true },
+      "B": { "choice": "express.urlencoded()" },
+      "C": { "choice": "body-parser.raw()" },
+      "D": { "choice": "cookie-parser()" }
+    }
+  },
+  "08_20": {
+    "chapter": "8",
+    "question": "Which property would you use to get the route parameter from '/user/:id'?",
+    "choices": {
+      "A": { "choice": "req.params.id", "correct": true },
+      "B": { "choice": "req.body.id" },
+      "C": { "choice": "req.query.id" },
+      "D": { "choice": "req.route.id" }
+    }
+  },
+  "08_21": {
+    "chapter": "8",
+    "question": "Which store is commonly used to persist session data in production?",
+    "choices": {
+      "A": { "choice": "MongoDB", "correct": true },
+      "B": { "choice": "MemoryStore" },
+      "C": { "choice": "FileSystem" },
+      "D": { "choice": "SessionCookie" }
+    }
+  },
+  "08_22": {
+    "chapter": "8",
+    "question": "What is a benefit of using JWT (JSON Web Token) authentication over sessions?",
+    "choices": {
+      "A": { "choice": "It is stateless and scales easily", "correct": true },
+      "B": { "choice": "It requires a server session store" },
+      "C": { "choice": "It encrypts cookies by default" },
+      "D": { "choice": "It cannot be stolen" }
+    }
+  },
+  "08_23": {
+    "chapter": "8",
+    "question": "How do you send a cookie to the client in Express?",
+    "choices": {
+      "A": { "choice": "res.cookie('name', 'value')", "correct": true },
+      "B": { "choice": "req.setCookie('name', 'value')" },
+      "C": { "choice": "res.sendCookie('name', 'value')" },
+      "D": { "choice": "cookie('name', 'value')" }
+    }
+  },
+  "08_24": {
+    "chapter": "8",
+    "question": "Which HTTP status code means 'No Content'?",
+    "choices": {
+      "A": { "choice": "204", "correct": true },
+      "B": { "choice": "200" },
+      "C": { "choice": "201" },
+      "D": { "choice": "404" }
+    }
+  },
+  "08_25": {
+    "chapter": "8",
+    "question": "Which property in a session object can you use to store a logged-in user's ID?",
+    "choices": {
+      "A": { "choice": "req.session.userId", "correct": true },
+      "B": { "choice": "req.body.id" },
+      "C": { "choice": "session.id" },
+      "D": { "choice": "req.cookie.userId" }
+    }
+  },
+  "08_26": {
+    "chapter": "8",
+    "question": "What is the purpose of flash messages in web applications?",
+    "choices": {
+      "A": {
+        "choice": "To temporarily display feedback to the user",
+        "correct": true
+      },
+      "B": { "choice": "To store long-term user data" },
+      "C": { "choice": "To refresh the page" },
+      "D": { "choice": "To delete user sessions" }
+    }
+  },
+  "08_27": {
+    "chapter": "8",
+    "question": "Which of these is a security measure for session cookies?",
+    "choices": {
+      "A": { "choice": "Set HttpOnly and Secure flags", "correct": true },
+      "B": { "choice": "Use GET instead of POST" },
+      "C": { "choice": "Disable cookies" },
+      "D": { "choice": "Send cookies over HTTP only" }
+    }
+  },
+  "08_28": {
+    "chapter": "8",
+    "question": "Which middleware is best for parsing URL-encoded form data in Express?",
+    "choices": {
+      "A": { "choice": "express.urlencoded()", "correct": true },
+      "B": { "choice": "express.json()" },
+      "C": { "choice": "body-parser.text()" },
+      "D": { "choice": "express.form()" }
+    }
+  },
+  "08_29": {
+    "chapter": "8",
+    "question": "How do you handle a 404 error in Express?",
+    "choices": {
+      "A": {
+        "choice": "Add a middleware with (req, res) as the last route",
+        "correct": true
+      },
+      "B": { "choice": "Use res.error(404)" },
+      "C": { "choice": "Set app.error = 404" },
+      "D": { "choice": "res.status(404).render('404')" }
+    }
+  },
+  "08_30": {
+    "chapter": "8",
+    "question": "What does 'soft delete' mean in CRUD applications?",
+    "choices": {
+      "A": {
+        "choice": "Marking a record as deleted without removing it",
+        "correct": true
+      },
+      "B": { "choice": "Permanently deleting a record" },
+      "C": { "choice": "Archiving a record" },
+      "D": { "choice": "Backing up a record" }
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "04_01": {
+    "question": "Which cache level typically has the lowest latency?",
+    "choices": {
+      "A": { "choice": "Main memory" },
+      "B": { "choice": "L3 cache" },
+      "C": { "choice": "L1 cache", "correct": true },
+      "D": { "choice": "Disk storage" }
+    }
+  },
+  "04_02": {
+    "question": "True or False: Temporal locality refers to reusing the same memory location within a short time period.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_03": {
+    "question": "Select all correct matches between cache mapping type and description.",
+    "choices": {
+      "A": {
+        "choice": "Direct-mapped: each block maps to exactly one cache line",
+        "correct": true
+      },
+      "B": {
+        "choice": "Fully associative: any block can go in any line",
+        "correct": true
+      },
+      "C": {
+        "choice": "Set-associative: block maps to a set, can be placed in any line within that set",
+        "correct": true
+      },
+      "D": { "choice": "Direct-mapped: block can be placed anywhere in cache" }
+    }
+  },
+  "04_04": {
+    "question": "Which replacement policy tends to work well for programs with strong temporal locality?",
+    "choices": {
+      "A": { "choice": "FIFO" },
+      "B": { "choice": "LRU (Least Recently Used)", "correct": true },
+      "C": { "choice": "Random" },
+      "D": { "choice": "MRU (Most Recently Used)" }
+    }
+  },
+  "04_05": {
+    "question": "Given a direct-mapped cache with 32 lines, block size 8 bytes, and 32-bit addresses, how many index bits are there?",
+    "choices": {
+      "A": { "choice": "3" },
+      "B": { "choice": "4" },
+      "C": { "choice": "5", "correct": true },
+      "D": { "choice": "8" }
+    }
+  },
+  "04_06": {
+    "question": "For the same cache in 04_05, how many block offset bits are required?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "3" },
+      "C": { "choice": "4", "correct": true },
+      "D": { "choice": "8" }
+    }
+  },
+  "04_07": {
+    "question": "True or False: In a write-through policy, every write to cache is immediately written to main memory.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_08": {
+    "question": "Which advantage does write-back have over write-through?",
+    "choices": {
+      "A": { "choice": "Simpler implementation" },
+      "B": { "choice": "Lower memory write traffic", "correct": true },
+      "C": { "choice": "More predictable timing" },
+      "D": { "choice": "Eliminates need for dirty bits" }
+    }
+  },
+  "04_09": {
+    "question": "Select all correct statements about cache associativity.",
+    "choices": {
+      "A": {
+        "choice": "Higher associativity reduces conflict misses",
+        "correct": true
+      },
+      "B": {
+        "choice": "Fully associative caches have only one set",
+        "correct": true
+      },
+      "C": {
+        "choice": "Direct-mapped caches have associativity of one",
+        "correct": true
+      },
+      "D": {
+        "choice": "Increased associativity always improves performance regardless of access pattern"
+      }
+    }
+  },
+  "04_10": {
+    "question": "In a 4-way set associative cache with 128 lines, how many sets are there?",
+    "choices": {
+      "A": { "choice": "4" },
+      "B": { "choice": "16" },
+      "C": { "choice": "32" },
+      "D": { "choice": "32", "correct": true }
+    }
+  },
+  "04_11": {
+    "question": "True or False: Miss penalty includes both the time to fetch the block from the next memory level and the time to deliver it to the processor.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_12": {
+    "question": "Which type of cache miss is caused by the limited cache size?",
+    "choices": {
+      "A": { "choice": "Compulsory miss" },
+      "B": { "choice": "Capacity miss", "correct": true },
+      "C": { "choice": "Conflict miss" },
+      "D": { "choice": "Write miss" }
+    }
+  },
+  "04_13": {
+    "question": "Which type of cache miss can occur even if the cache is large enough to hold the working set?",
+    "choices": {
+      "A": { "choice": "Compulsory miss" },
+      "B": { "choice": "Capacity miss" },
+      "C": { "choice": "Conflict miss", "correct": true },
+      "D": { "choice": "Write miss" }
+    }
+  },
+  "04_14": {
+    "question": "Select all correct definitions in the context of cache performance.",
+    "choices": {
+      "A": {
+        "choice": "Hit rate: fraction of accesses found in cache",
+        "correct": true
+      },
+      "B": {
+        "choice": "Miss penalty: additional time to service a miss",
+        "correct": true
+      },
+      "C": {
+        "choice": "Average memory access time (AMAT) = Hit time + Miss rate × Miss penalty",
+        "correct": true
+      },
+      "D": { "choice": "Compulsory miss: caused by replacement policy" }
+    }
+  },
+  "04_15": {
+    "question": "True or False: Victim caches are small fully associative caches placed alongside L1 to reduce conflict misses.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_16": {
+    "question": "Which locality principle explains why sequential memory access patterns often perform better?",
+    "choices": {
+      "A": { "choice": "Temporal locality" },
+      "B": { "choice": "Spatial locality", "correct": true },
+      "C": { "choice": "Functional locality" },
+      "D": { "choice": "Parallel locality" }
+    }
+  },
+  "04_17": {
+    "question": "If a direct-mapped cache has 512 lines and a block size of 16 bytes, how many index bits are used?",
+    "choices": {
+      "A": { "choice": "4" },
+      "B": { "choice": "5" },
+      "C": { "choice": "9", "correct": true },
+      "D": { "choice": "16" }
+    }
+  },
+  "04_18": {
+    "question": "In the cache configuration from 04_17, how many block offset bits are there?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "4", "correct": true },
+      "C": { "choice": "5" },
+      "D": { "choice": "8" }
+    }
+  },
+  "04_19": {
+    "question": "True or False: Multi-level caches reduce average memory access time by capturing misses from higher-level caches at lower levels.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_20": {
+    "question": "Which term refers to the portion of an address used to identify which block within a set in set-associative caches?",
+    "choices": {
+      "A": { "choice": "Tag" },
+      "B": { "choice": "Index", "correct": true },
+      "C": { "choice": "Offset" },
+      "D": { "choice": "Frame" }
+    }
+  },
+  "04_21": {
+    "question": "Select all correct statements about write-allocate and no-write-allocate policies.",
+    "choices": {
+      "A": {
+        "choice": "Write-allocate loads the block into cache on a write miss",
+        "correct": true
+      },
+      "B": {
+        "choice": "No-write-allocate writes directly to memory without loading into cache",
+        "correct": true
+      },
+      "C": {
+        "choice": "Write-allocate is typically paired with write-back",
+        "correct": true
+      },
+      "D": { "choice": "No-write-allocate is always paired with write-back" }
+    }
+  },
+  "04_22": {
+    "question": "True or False: Increasing block size always decreases miss rate.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "04_23": {
+    "question": "If L1 hit time is 1 ns, miss rate is 10%, and miss penalty is 20 ns, what is the AMAT?",
+    "choices": {
+      "A": { "choice": "1 + (0.1 × 20) = 3 ns", "correct": true },
+      "B": { "choice": "1 + (0.1 × 10) = 2 ns" },
+      "C": { "choice": "1 + (0.05 × 20) = 2 ns" },
+      "D": { "choice": "1 + (0.2 × 20) = 5 ns" }
+    }
+  },
+  "04_24": {
+    "question": "Which factor does NOT typically influence effective memory access time?",
+    "choices": {
+      "A": { "choice": "Cache hit rate" },
+      "B": { "choice": "TLB hit rate" },
+      "C": { "choice": "Instruction pipeline depth", "correct": true },
+      "D": { "choice": "Miss penalties" }
+    }
+  },
+  "04_25": {
+    "question": "True or False: In inclusive cache hierarchies, all data in L1 is also present in L2.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_26": {
+    "question": "Which of the following best describes an exclusive cache hierarchy?",
+    "choices": {
+      "A": { "choice": "L1 contents are also stored in L2" },
+      "B": {
+        "choice": "L1 and L2 contain entirely different data",
+        "correct": true
+      },
+      "C": { "choice": "Only one level of cache exists" },
+      "D": { "choice": "All caches share the same size" }
+    }
+  },
+  "04_27": {
+    "question": "True or False: The main goal of prefetching is to reduce compulsory misses by fetching data before it is requested.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_28": {
+    "question": "Select all correct strategies to reduce cache miss rate.",
+    "choices": {
+      "A": { "choice": "Increase cache size", "correct": true },
+      "B": { "choice": "Increase associativity", "correct": true },
+      "C": { "choice": "Use victim caches", "correct": true },
+      "D": { "choice": "Decrease block size to 1 byte regardless of workload" }
+    }
+  },
+  "04_29": {
+    "question": "Which type of cache miss is unavoidable, even with an infinitely large cache?",
+    "choices": {
+      "A": { "choice": "Capacity miss" },
+      "B": { "choice": "Conflict miss" },
+      "C": { "choice": "Compulsory miss", "correct": true },
+      "D": { "choice": "Write miss" }
+    }
+  },
+  "04_30": {
+    "question": "True or False: The tag field in a cache address uniquely identifies the memory block stored in a cache line.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_31": {
+    "question": "Which cache write policy can reduce main memory bandwidth usage but requires tracking dirty bits?",
+    "choices": {
+      "A": { "choice": "Write-through" },
+      "B": { "choice": "Write-back", "correct": true },
+      "C": { "choice": "No-write-allocate" },
+      "D": { "choice": "Write-around" }
+    }
+  },
+  "04_32": {
+    "question": "If a cache has a block size of 64 bytes, how many block offset bits are needed?",
+    "choices": {
+      "A": { "choice": "4" },
+      "B": { "choice": "5" },
+      "C": { "choice": "6", "correct": true },
+      "D": { "choice": "7" }
+    }
+  },
+  "04_33": {
+    "question": "True or False: Increasing cache size will always reduce average memory access time.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "04_34": {
+    "question": "Select all correct outcomes of increasing cache block size excessively.",
+    "choices": {
+      "A": { "choice": "Improved spatial locality usage", "correct": true },
+      "B": { "choice": "Potentially increased miss penalty", "correct": true },
+      "C": { "choice": "Reduced number of blocks in cache", "correct": true },
+      "D": {
+        "choice": "Guaranteed improved performance regardless of workload"
+      }
+    }
+  },
+  "04_35": {
+    "question": "Which factor primarily determines the number of tag bits in a cache address?",
+    "choices": {
+      "A": { "choice": "Block size" },
+      "B": { "choice": "Cache associativity" },
+      "C": {
+        "choice": "Total address size and number of index bits",
+        "correct": true
+      },
+      "D": { "choice": "Replacement policy" }
+    }
+  },
+  "04_36": {
+    "question": "True or False: Cache coherence protocols are primarily concerned with keeping data consistent between caches in multi-core systems.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_37": {
+    "question": "Which cache optimization technique loads multiple adjacent blocks into cache to exploit spatial locality?",
+    "choices": {
+      "A": { "choice": "Block prefetching", "correct": true },
+      "B": { "choice": "Write combining" },
+      "C": { "choice": "Cache partitioning" },
+      "D": { "choice": "Way prediction" }
+    }
+  },
+  "04_38": {
+    "question": "Select all correct statements about inclusive caches.",
+    "choices": {
+      "A": {
+        "choice": "They store all higher-level cache data in lower-level caches",
+        "correct": true
+      },
+      "B": {
+        "choice": "Evicting from L2 may require evicting from L1",
+        "correct": true
+      },
+      "C": { "choice": "They reduce duplication of data across levels" },
+      "D": {
+        "choice": "They simplify multi-core cache coherence",
+        "correct": true
+      }
+    }
+  },
+  "04_39": {
+    "question": "True or False: Non-blocking caches allow the CPU to continue processing other instructions during a cache miss.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_40": {
+    "question": "If a system's L1 cache hit rate is 95% and its L2 hit rate for L1 misses is 90%, what is the overall hit rate?",
+    "choices": {
+      "A": { "choice": "95%" },
+      "B": { "choice": "90%" },
+      "C": { "choice": "99.5%", "correct": true },
+      "D": { "choice": "85.5%" }
+    }
+  },
+  "04_41": {
+    "question": "True or False: TLB (Translation Lookaside Buffer) is considered part of the cache hierarchy.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "04_42": {
+    "question": "Which of the following does NOT reduce cache miss penalty?",
+    "choices": {
+      "A": { "choice": "Critical word first" },
+      "B": { "choice": "Early restart" },
+      "C": { "choice": "Increasing associativity", "correct": true },
+      "D": { "choice": "Multi-level caching" }
+    }
+  },
+  "04_43": {
+    "question": "Select all correct techniques for reducing cache hit time.",
+    "choices": {
+      "A": { "choice": "Use smaller caches", "correct": true },
+      "B": { "choice": "Use simpler replacement policies", "correct": true },
+      "C": { "choice": "Increase block size" },
+      "D": {
+        "choice": "Employ banking to allow parallel access",
+        "correct": true
+      }
+    }
+  },
+  "04_44": {
+    "question": "True or False: Increasing associativity always improves cache hit time.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "04_45": {
+    "question": "In a direct-mapped cache, a conflict miss occurs because:",
+    "choices": {
+      "A": { "choice": "The cache is too small to hold the working set" },
+      "B": {
+        "choice": "Multiple blocks map to the same cache line",
+        "correct": true
+      },
+      "C": { "choice": "The program accesses a block for the first time" },
+      "D": {
+        "choice": "Data is written directly to memory without updating the cache"
+      }
+    }
+  },
+  "04_46": {
+    "question": "True or False: Split caches separate instruction and data caches to allow simultaneous access.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_47": {
+    "question": "Which cache mapping type minimizes the chance of conflict misses but increases tag comparison complexity?",
+    "choices": {
+      "A": { "choice": "Direct-mapped" },
+      "B": { "choice": "Fully associative", "correct": true },
+      "C": { "choice": "Set-associative" },
+      "D": { "choice": "Two-level" }
+    }
+  },
+  "04_48": {
+    "question": "Select all correct examples of temporal locality.",
+    "choices": {
+      "A": {
+        "choice": "Accessing the same variable inside a loop",
+        "correct": true
+      },
+      "B": { "choice": "Accessing consecutive elements of an array" },
+      "C": {
+        "choice": "Re-accessing recently used instructions",
+        "correct": true
+      },
+      "D": { "choice": "Reading random blocks of a file with no repeats" }
+    }
+  },
+  "04_49": {
+    "question": "True or False: Cache lines are always 64 bytes long in all architectures.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "04_50": {
+    "question": "Which cache performance metric is calculated as 1 − miss rate?",
+    "choices": {
+      "A": { "choice": "Miss penalty" },
+      "B": { "choice": "Hit time" },
+      "C": { "choice": "Hit rate", "correct": true },
+      "D": { "choice": "Access latency" }
+    }
+  },
+  "04_51": {
+    "question": "Which type of cache mapping allows a block of memory to be placed in any cache line?",
+    "choices": {
+      "A": { "choice": "Direct-mapped cache" },
+      "B": { "choice": "Fully associative cache", "correct": true },
+      "C": { "choice": "Set-associative cache" },
+      "D": { "choice": "Mapped cache" }
+    }
+  },
+  "04_52": {
+    "question": "True or False: Write-back caching reduces memory write operations by updating main memory only when a cache block is replaced.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "04_53": {
+    "question": "Select all correct benefits of using multi-level caches (L1, L2, L3).",
+    "choices": {
+      "A": { "choice": "Lower average memory access time", "correct": true },
+      "B": { "choice": "Reduced CPU idle time", "correct": true },
+      "C": { "choice": "Completely eliminates cache misses" },
+      "D": {
+        "choice": "Better utilization of different cache speeds",
+        "correct": true
+      }
+    }
+  },
+  "04_54": {
+    "question": "Which cache replacement policy replaces the cache block that has not been used for the longest time?",
+    "choices": {
+      "A": { "choice": "First-In-First-Out (FIFO)" },
+      "B": { "choice": "Random" },
+      "C": { "choice": "Least Recently Used (LRU)", "correct": true },
+      "D": { "choice": "Most Recently Used (MRU)" }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "01_01": {
+    "question": "Which command initializes a new Node.js project and creates a package.json file?",
+    "choices": {
+      "A": { "choice": "node init" },
+      "B": { "choice": "npm start" },
+      "C": { "choice": "npm init", "correct": true },
+      "D": { "choice": "npm create" }
+    }
+  },
+  "01_02": {
+    "question": "Which method is used to import built-in modules like 'fs' or 'path' in Node.js?",
+    "choices": {
+      "A": { "choice": "require()", "correct": true },
+      "B": { "choice": "importModule()" },
+      "C": { "choice": "include()" },
+      "D": { "choice": "use()" }
+    }
+  },
+  "01_03": {
+    "question": "What is Express?",
+    "choices": {
+      "A": { "choice": "A database for Node.js" },
+      "B": { "choice": "A front-end JavaScript framework" },
+      "C": { "choice": "A web framework for Node.js", "correct": true },
+      "D": { "choice": "A package manager" }
+    }
+  },
+  "01_04": {
+    "question": "Which of the following is the correct way to create a new Express application?",
+    "choices": {
+      "A": { "choice": "const app = require('express')()", "correct": true },
+      "B": { "choice": "let app = new ExpressApp()" },
+      "C": { "choice": "const app = createExpress()" },
+      "D": { "choice": "app = express.create()" }
+    }
+  },
+  "01_05": {
+    "question": "Which statement starts an HTTP server with Express?",
+    "choices": {
+      "A": { "choice": "app.run(3000);" },
+      "B": { "choice": "app.listen(3000);", "correct": true },
+      "C": { "choice": "server.start(3000);" },
+      "D": { "choice": "startServer(app, 3000);" }
+    }
+  },
+  "01_06": {
+    "question": "What does the res.send() method do in an Express route?",
+    "choices": {
+      "A": { "choice": "Sends a response to the client", "correct": true },
+      "B": { "choice": "Renders a template" },
+      "C": { "choice": "Parses request data" },
+      "D": { "choice": "Starts the server" }
+    }
+  },
+  "01_07": {
+    "question": "Which method is used to define a route for HTTP GET requests?",
+    "choices": {
+      "A": { "choice": "app.post()" },
+      "B": { "choice": "app.get()", "correct": true },
+      "C": { "choice": "app.route()" },
+      "D": { "choice": "app.send()" }
+    }
+  },
+  "01_08": {
+    "question": "How do you serve static files (like images, CSS, JS) in an Express app?",
+    "choices": {
+      "A": { "choice": "app.static('public')" },
+      "B": { "choice": "app.use(express.static('public'))", "correct": true },
+      "C": { "choice": "app.files('public')" },
+      "D": { "choice": "express.staticFiles('public')" }
+    }
+  },
+  "01_09": {
+    "question": "Which middleware is used to parse incoming JSON payloads in Express?",
+    "choices": {
+      "A": { "choice": "express.json()", "correct": true },
+      "B": { "choice": "bodyParser.text()" },
+      "C": { "choice": "express.urlencoded()" },
+      "D": { "choice": "app.jsonParser()" }
+    }
+  },
+  "01_10": {
+    "question": "Which global variable gives you the absolute path of the directory containing the current Node.js file?",
+    "choices": {
+      "A": { "choice": "__file" },
+      "B": { "choice": "__dirname", "correct": true },
+      "C": { "choice": "__path" },
+      "D": { "choice": "process.dir" }
+    }
+  },
+  "01_11": {
+    "question": "What is middleware in Express?",
+    "choices": {
+      "A": { "choice": "A function that handles errors only" },
+      "B": { "choice": "A function that runs during request processing", "correct": true },
+      "C": { "choice": "A database connection" },
+      "D": { "choice": "A method for sending responses" }
+    }
+  },
+  "01_12": {
+    "question": "Which of the following will log every request made to your server?",
+    "choices": {
+      "A": { "choice": "app.get('/log', ...);" },
+      "B": { "choice": "app.use((req, res, next) =&gt; { console.log(req.url); next(); });", "correct": true },
+      "C": { "choice": "app.logAll();" },
+      "D": { "choice": "app.useLogger();" }
+    }
+  },
+  "01_13": {
+    "question": "In Express, how do you access a URL parameter from a route like /user/:id?",
+    "choices": {
+      "A": { "choice": "req.body.id" },
+      "B": { "choice": "req.query.id" },
+      "C": { "choice": "req.params.id", "correct": true },
+      "D": { "choice": "req.route.id" }
+    }
+  },
+  "01_14": {
+    "question": "Which built-in module is commonly used for working with file paths in Node.js?",
+    "choices": {
+      "A": { "choice": "fs" },
+      "B": { "choice": "path", "correct": true },
+      "C": { "choice": "os" },
+      "D": { "choice": "http" }
+    }
+  },
+  "01_15": {
+    "question": "What does module.exports do in a Node.js file?",
+    "choices": {
+      "A": { "choice": "Exports values for use in other files", "correct": true },
+      "B": { "choice": "Imports a module" },
+      "C": { "choice": "Starts the server" },
+      "D": { "choice": "Declares a global variable" }
+    }
+  },
+  "01_16": {
+    "question": "Which of the following will cause the Express server to listen on port 8080?",
+    "choices": {
+      "A": { "choice": "app.listen(8080);", "correct": true },
+      "B": { "choice": "app.listen(80);" },
+      "C": { "choice": "app.listen(3000);" },
+      "D": { "choice": "app.start(8080);" }
+    }
+  },
+  "01_17": {
+    "question": "Which object contains information about the current Node.js process?",
+    "choices": {
+      "A": { "choice": "global" },
+      "B": { "choice": "os" },
+      "C": { "choice": "process", "correct": true },
+      "D": { "choice": "proc" }
+    }
+  },
+  "01_18": {
+    "question": "Which property gives you query string parameters in Express?",
+    "choices": {
+      "A": { "choice": "req.body" },
+      "B": { "choice": "req.query", "correct": true },
+      "C": { "choice": "req.params" },
+      "D": { "choice": "req.url" }
+    }
+  },
+  "01_19": {
+    "question": "What is the correct way to export a function named add() from a Node.js module?",
+    "choices": {
+      "A": { "choice": "exports.add = add;", "correct": true },
+      "B": { "choice": "module.add = add;" },
+      "C": { "choice": "require.add = add;" },
+      "D": { "choice": "export add;" }
+    }
+  },
+  "01_20": {
+    "question": "Which statement is used to require your own file named 'utils.js' in Node.js?",
+    "choices": {
+      "A": { "choice": "import 'utils.js';" },
+      "B": { "choice": "require('./utils');", "correct": true },
+      "C": { "choice": "require('utils');" },
+      "D": { "choice": "get('utils.js');" }
+    }
+  },
+  "01_21": {
+    "question": "What is Node.js?",
+    "choices": {
+      "A": { "choice": "A JavaScript runtime built on Chrome's V8 engine", "correct": true },
+      "B": { "choice": "A database management system" },
+      "C": { "choice": "A CSS preprocessor" },
+      "D": { "choice": "A static website generator" }
+    }
+  },
+  "01_22": {
+    "question": "Which function is used to include built-in modules in Node.js?",
+    "choices": {
+      "A": { "choice": "require()", "correct": true },
+      "B": { "choice": "importModule()" },
+      "C": { "choice": "include()" },
+      "D": { "choice": "use()" }
+    }
+  },
+  "01_23": {
+    "question": "What does the 'npm' command do?",
+    "choices": {
+      "A": { "choice": "Installs and manages packages for Node.js", "correct": true },
+      "B": { "choice": "Starts the Node.js REPL" },
+      "C": { "choice": "Creates an HTTP server" },
+      "D": { "choice": "Defines middleware in Express" }
+    }
+  },
+  "01_24": {
+    "question": "What is the default filename for a Node.js package manifest?",
+    "choices": {
+      "A": { "choice": "manifest.json" },
+      "B": { "choice": "package.json", "correct": true },
+      "C": { "choice": "npm.json" },
+      "D": { "choice": "node.json" }
+    }
+  },
+  "01_25": {
+    "question": "Which built-in Node.js module is commonly used to work with files?",
+    "choices": {
+      "A": { "choice": "fs", "correct": true },
+      "B": { "choice": "os" },
+      "C": { "choice": "http" },
+      "D": { "choice": "url" }
+    }
+  }
+}

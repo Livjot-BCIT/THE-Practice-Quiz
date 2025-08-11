@@ -1,0 +1,769 @@
+{
+  "04_01": {
+    "chapter": "4",
+    "question": "What is the purpose of an if statement in Java?",
+    "choices": {
+      "A": {
+        "choice": "To execute code only if a condition is true.",
+        "correct": true
+      },
+      "B": { "choice": "To create a new variable." },
+      "C": { "choice": "To repeat a block of code a fixed number of times." },
+      "D": { "choice": "To import a package." }
+    }
+  },
+  "04_02": {
+    "chapter": "4",
+    "question": "Which of the following expressions evaluates to true?",
+    "choices": {
+      "A": { "choice": "5 > 3", "correct": true },
+      "B": { "choice": "7 == 9" },
+      "C": { "choice": "4 != 4" },
+      "D": { "choice": "2 < 1" }
+    }
+  },
+  "04_03": {
+    "chapter": "4",
+    "question": "What will this code output?\n\nint x = 5;\nif (x > 0) {\n  System.out.println(\"Positive\");\n} else {\n  System.out.println(\"Non-positive\");\n}",
+    "choices": {
+      "A": { "choice": "Positive", "correct": true },
+      "B": { "choice": "Non-positive" },
+      "C": { "choice": "0" },
+      "D": { "choice": "Nothing" }
+    }
+  },
+  "04_04": {
+    "chapter": "4",
+    "question": "What does an else clause do in an if-else statement?",
+    "choices": {
+      "A": {
+        "choice": "It executes if the if condition is false.",
+        "correct": true
+      },
+      "B": { "choice": "It always executes." },
+      "C": { "choice": "It only executes if the if is true." },
+      "D": { "choice": "It can only be used with loops." }
+    }
+  },
+  "04_05": {
+    "chapter": "4",
+    "question": "Which of the following is a valid syntax for a switch statement in Java?",
+    "choices": {
+      "A": {
+        "choice": "switch(x) { case 1: ... break; default: ... }",
+        "correct": true
+      },
+      "B": { "choice": "switch x: { case 1; break; }" },
+      "C": { "choice": "if switch(x) { ... }" },
+      "D": { "choice": "switch { case x = 1; }" }
+    }
+  },
+  "04_06": {
+    "chapter": "4",
+    "question": "What is the value of result after the following code?\n\nint result = 10;\nif (result == 10) {\n  result = 20;\n}",
+    "choices": {
+      "A": { "choice": "20", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "0" },
+      "D": { "choice": "NullPointerException" }
+    }
+  },
+  "04_07": {
+    "chapter": "4",
+    "question": "Which of the following is the correct way to write a boolean expression?",
+    "choices": {
+      "A": { "choice": "(x > 10) && (y < 5)", "correct": true },
+      "B": { "choice": "(x => 10) and (y <= 5)" },
+      "C": { "choice": "x and y" },
+      "D": { "choice": "(x plus y == 15)" }
+    }
+  },
+  "04_08": {
+    "chapter": "4",
+    "question": "What does the break statement do inside a loop?",
+    "choices": {
+      "A": { "choice": "It immediately exits the loop.", "correct": true },
+      "B": { "choice": "It skips the rest of the current iteration." },
+      "C": { "choice": "It exits the entire method." },
+      "D": { "choice": "It restarts the loop." }
+    }
+  },
+  "04_09": {
+    "chapter": "4",
+    "question": "Which of the following is a valid while loop?",
+    "choices": {
+      "A": { "choice": "while (i < 10) { i++; }", "correct": true },
+      "B": { "choice": "while i < 10 { i++; }" },
+      "C": { "choice": "while (i < 10) i++;" },
+      "D": { "choice": "loop while (i < 10): i++;" }
+    }
+  },
+  "04_10": {
+    "chapter": "4",
+    "question": "What is the output of this code?\n\nint i = 0;\ndo {\n  i++;\n} while (i < 3);\nSystem.out.println(i);",
+    "choices": {
+      "A": { "choice": "3", "correct": true },
+      "B": { "choice": "2" },
+      "C": { "choice": "0" },
+      "D": { "choice": "4" }
+    }
+  },
+  "04_11": {
+    "chapter": "4",
+    "question": "Which of the following are entry-controlled loops in Java? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "for loop", "correct": true },
+      "B": { "choice": "while loop", "correct": true },
+      "C": { "choice": "do-while loop" },
+      "D": { "choice": "switch statement" }
+    }
+  },
+  "04_12": {
+    "chapter": "4",
+    "question": "What is the output of this code?\n\nfor (int j = 1; j <= 3; j++) {\n  System.out.print(j + \" \");\n}",
+    "choices": {
+      "A": { "choice": "1 2 3 ", "correct": true },
+      "B": { "choice": "1 2 3 4 " },
+      "C": { "choice": "0 1 2 3 " },
+      "D": { "choice": "3 2 1 " }
+    }
+  },
+  "04_13": {
+    "chapter": "4",
+    "question": "Which operator means 'not equal to' in Java?",
+    "choices": {
+      "A": { "choice": "!=", "correct": true },
+      "B": { "choice": "==" },
+      "C": { "choice": "<>" },
+      "D": { "choice": "!" }
+    }
+  },
+  "04_14": {
+    "chapter": "4",
+    "question": "What happens if you omit the break statement in a switch case?",
+    "choices": {
+      "A": {
+        "choice": "The next case(s) execute as well (fall-through).",
+        "correct": true
+      },
+      "B": { "choice": "The code after the switch runs immediately." },
+      "C": { "choice": "The switch statement ends." },
+      "D": { "choice": "You get a compile error." }
+    }
+  },
+  "04_15": {
+    "chapter": "4",
+    "question": "Which of these is a valid infinite loop in Java?",
+    "choices": {
+      "A": { "choice": "while (true) {}", "correct": true },
+      "B": { "choice": "while (false) {}" },
+      "C": { "choice": "for ( ; ; ) {}", "correct": true },
+      "D": { "choice": "loop {}" }
+    }
+  },
+  "04_16": {
+    "chapter": "4",
+    "question": "Which of the following for loop headers is correct for counting down from 10 to 1?",
+    "choices": {
+      "A": { "choice": "for (int i = 10; i >= 1; i--)", "correct": true },
+      "B": { "choice": "for (int i = 1; i <= 10; i--)" },
+      "C": { "choice": "for (int i = 10; i <= 1; i++)" },
+      "D": { "choice": "for (int i = 10; i == 1; i--)" }
+    }
+  },
+  "04_17": {
+    "chapter": "4",
+    "question": "What is the output of the following code?\n\nint x = 7;\nif (x % 2 == 0) {\n  System.out.print(\"Even\");\n} else {\n  System.out.print(\"Odd\");\n}",
+    "choices": {
+      "A": { "choice": "Odd", "correct": true },
+      "B": { "choice": "Even" },
+      "C": { "choice": "7" },
+      "D": { "choice": "Nothing" }
+    }
+  },
+  "04_18": {
+    "chapter": "4",
+    "question": "What does the continue statement do in a loop?",
+    "choices": {
+      "A": {
+        "choice": "Skips the rest of the current iteration and proceeds to the next one.",
+        "correct": true
+      },
+      "B": { "choice": "Exits the loop immediately." },
+      "C": { "choice": "Restarts the loop from the beginning." },
+      "D": { "choice": "Ends the entire method." }
+    }
+  },
+  "04_19": {
+    "chapter": "4",
+    "question": "Which of the following are valid uses of the conditional (ternary) operator in Java? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "Assign a value based on a boolean condition.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Return different values from a method based on a condition.",
+        "correct": true
+      },
+      "C": {
+        "choice": "Initialize variables based on input.",
+        "correct": true
+      },
+      "D": { "choice": "Declare new methods." }
+    }
+  },
+  "04_20": {
+    "chapter": "4",
+    "question": "Which of these expressions will be true if either x > 5 or y < 2?",
+    "choices": {
+      "A": { "choice": "(x > 5) || (y < 2)", "correct": true },
+      "B": { "choice": "(x > 5) && (y < 2)" },
+      "C": { "choice": "x > 5 | y < 2" },
+      "D": { "choice": "x > 5 & y < 2" }
+    }
+  },
+  "04_24": {
+    "chapter": "4",
+    "question": "Which statement correctly uses a for-each loop to sum elements in an array named arr?",
+    "choices": {
+      "A": {
+        "choice": "int sum = 0; for (int x : arr) { sum += x; }",
+        "correct": true
+      },
+      "B": { "choice": "for (x in arr) sum += x;" },
+      "C": { "choice": "foreach (int x in arr) sum += arr[x];" },
+      "D": { "choice": "int sum = 0; for arr as x { sum += x; }" }
+    }
+  },
+  "04_25": {
+    "chapter": "4",
+    "question": "Which of the following best describes a nested loop?",
+    "choices": {
+      "A": {
+        "choice": "A loop that contains another loop inside its body.",
+        "correct": true
+      },
+      "B": { "choice": "A loop with multiple conditions." },
+      "C": { "choice": "A loop that is inside a method." },
+      "D": { "choice": "Two loops in the same class." }
+    }
+  },
+  "04_26": {
+    "chapter": "4",
+    "question": "What is printed by the following code?\n\nfor (int i = 1; i <= 2; i++) {\n  for (int j = 1; j <= 2; j++) {\n    System.out.print(i + j);\n  }\n}",
+    "choices": {
+      "A": { "choice": "2345" },
+      "B": { "choice": "2233" },
+      "C": { "choice": "2334", "correct": true },
+      "D": { "choice": "1234" }
+    }
+  },
+  "04_27": {
+    "chapter": "4",
+    "question": "Which of these is the correct output for the code:\n\nint n = 2;\nswitch(n) {\n  case 1:\n    System.out.print(\"A\");\n    break;\n  case 2:\n    System.out.print(\"B\");\n  default:\n    System.out.print(\"C\");\n}",
+    "choices": {
+      "A": { "choice": "A" },
+      "B": { "choice": "BC", "correct": true },
+      "C": { "choice": "B" },
+      "D": { "choice": "C" }
+    }
+  },
+  "04_28": {
+    "chapter": "4",
+    "question": "Which of the following is NOT a valid use of a boolean variable in a conditional?",
+    "choices": {
+      "A": { "choice": "if (done) {...}" },
+      "B": { "choice": "if (done == true) {...}" },
+      "C": { "choice": "if (done = true) {...}", "correct": true },
+      "D": { "choice": "while (!done) {...}" }
+    }
+  },
+  "04_29": {
+    "chapter": "4",
+    "question": "Which statement best describes a for-each loop?",
+    "choices": {
+      "A": {
+        "choice": "It iterates over each element in a collection or array.",
+        "correct": true
+      },
+      "B": { "choice": "It repeats a block a fixed number of times." },
+      "C": { "choice": "It always counts up from zero." },
+      "D": { "choice": "It can only be used with integers." }
+    }
+  },
+  "04_30": {
+    "chapter": "4",
+    "question": "What is the effect of this code?\n\nfor (int i = 1; i <= 10; i++) {\n  if (i % 2 == 0) continue;\n  System.out.print(i + \" \");\n}",
+    "choices": {
+      "A": { "choice": "Prints all even numbers from 1 to 10" },
+      "B": { "choice": "Prints all odd numbers from 1 to 10", "correct": true },
+      "C": { "choice": "Prints numbers 1 through 10 in reverse" },
+      "D": { "choice": "Nothing is printed" }
+    }
+  },
+  "04_31": {
+    "chapter": "4",
+    "question": "Which of the following is a potential error in the following code?\n\nint x = 0;\nwhile (x < 5) {\n  System.out.println(x);\n}",
+    "choices": {
+      "A": { "choice": "Infinite loop", "correct": true },
+      "B": { "choice": "x is decremented instead of incremented" },
+      "C": { "choice": "Loop never executes" },
+      "D": { "choice": "Syntax error" }
+    }
+  },
+  "04_32": {
+    "chapter": "4",
+    "question": "What is the difference between == and .equals() when comparing strings in Java?",
+    "choices": {
+      "A": {
+        "choice": "== compares references, .equals() compares actual content.",
+        "correct": true
+      },
+      "B": { "choice": "== is used for numbers only." },
+      "C": { "choice": ".equals() can only compare primitive types." },
+      "D": { "choice": "They are functionally identical." }
+    }
+  },
+  "04_33": {
+    "chapter": "4",
+    "question": "What does the following code output?\n\nint i = 1;\ndo {\n  System.out.print(i + \" \");\n  i++;\n} while (i <= 3);",
+    "choices": {
+      "A": { "choice": "1 2 3 ", "correct": true },
+      "B": { "choice": "0 1 2 " },
+      "C": { "choice": "1 2 " },
+      "D": { "choice": "1 2 3 4 " }
+    }
+  },
+  "04_34": {
+    "chapter": "4",
+    "question": "Which code will print \"Java is fun\" exactly 5 times?",
+    "choices": {
+      "A": {
+        "choice": "for (int i = 0; i < 5; i++) { System.out.println(\"Java is fun\"); }",
+        "correct": true
+      },
+      "B": {
+        "choice": "while (i < 5) { System.out.println(\"Java is fun\"); }"
+      },
+      "C": {
+        "choice": "do { System.out.println(\"Java is fun\"); } while (i < 5);"
+      },
+      "D": {
+        "choice": "for (int i = 1; i <= 5; i++) { System.out.println(); }"
+      }
+    }
+  },
+  "04_35": {
+    "chapter": "4",
+    "question": "Which of the following statements is true about the break and continue statements?",
+    "choices": {
+      "A": {
+        "choice": "break exits the entire loop; continue skips to the next iteration.",
+        "correct": true
+      },
+      "B": { "choice": "break only works in while loops." },
+      "C": { "choice": "continue ends the program." },
+      "D": {
+        "choice": "break and continue can only be used in switch statements."
+      }
+    }
+  },
+  "04_36": {
+    "chapter": "4",
+    "question": "What is the result of the following expression?\n\ntrue && false || true",
+    "choices": {
+      "A": { "choice": "true", "correct": true },
+      "B": { "choice": "false" },
+      "C": { "choice": "Syntax error" },
+      "D": { "choice": "Depends on variable values" }
+    }
+  },
+  "04_37": {
+    "chapter": "4",
+    "question": "Which of the following expressions is equivalent to !(a || b)?",
+    "choices": {
+      "A": { "choice": "!a && !b", "correct": true },
+      "B": { "choice": "!a || !b" },
+      "C": { "choice": "!(a && b)" },
+      "D": { "choice": "a && b" }
+    }
+  },
+  "04_38": {
+    "chapter": "4",
+    "question": "How many times will the following loop execute?\n\nfor (int i = 0; i < 4; i += 2) {\n  System.out.println(i);\n}",
+    "choices": {
+      "A": { "choice": "2", "correct": true },
+      "B": { "choice": "3" },
+      "C": { "choice": "4" },
+      "D": { "choice": "Infinite loop" }
+    }
+  },
+  "04_39": {
+    "chapter": "4",
+    "question": "Which of the following will cause a NullPointerException?",
+    "choices": {
+      "A": {
+        "choice": "Calling a method on a null object reference.",
+        "correct": true
+      },
+      "B": { "choice": "Accessing an array with index 0." },
+      "C": { "choice": "Using a variable with value 0." },
+      "D": { "choice": "Comparing two primitive types." }
+    }
+  },
+  "04_40": {
+    "chapter": "4",
+    "question": "What does the following code output?\n\nint count = 0;\nfor (int i = 2; i <= 8; i += 2) {\n  count += i;\n}\nSystem.out.println(count);",
+    "choices": {
+      "A": { "choice": "8" },
+      "B": { "choice": "12" },
+      "C": { "choice": "20", "correct": true },
+      "D": { "choice": "18" }
+    }
+  },
+  "04_41": {
+    "chapter": "4",
+    "question": "Which of the following best describes the purpose of the default case in a switch statement?",
+    "choices": {
+      "A": {
+        "choice": "It handles cases that match none of the explicit case labels.",
+        "correct": true
+      },
+      "B": { "choice": "It is required for every switch statement." },
+      "C": { "choice": "It stops the switch from executing further cases." },
+      "D": { "choice": "It always executes before any case labels." }
+    }
+  },
+  "04_42": {
+    "chapter": "4",
+    "question": "Which of the following is a valid way to declare and initialize an array of 5 integers?",
+    "choices": {
+      "A": { "choice": "int[] arr = new int[5];", "correct": true },
+      "B": { "choice": "int arr = [5]int;" },
+      "C": { "choice": "array int arr[5];" },
+      "D": { "choice": "int arr = new int{5};" }
+    }
+  },
+  "04_43": {
+    "chapter": "4",
+    "question": "What is the output of the following code?\n\nString s = \"Hello\";\nSystem.out.println(s.length());",
+    "choices": {
+      "A": { "choice": "4" },
+      "B": { "choice": "5", "correct": true },
+      "C": { "choice": "6" },
+      "D": { "choice": "0" }
+    }
+  },
+  "04_44": {
+    "chapter": "4",
+    "question": "Which of the following would you use to compare two strings for content equality in Java?",
+    "choices": {
+      "A": { "choice": "==" },
+      "B": { "choice": ".equals()", "correct": true },
+      "C": { "choice": ".compareTo()" },
+      "D": { "choice": ".isEqualTo()" }
+    }
+  },
+  "04_45": {
+    "chapter": "4",
+    "question": "Which of these best demonstrates a logical error?",
+    "choices": {
+      "A": {
+        "choice": "Writing x = x + 1 instead of x = x - 1",
+        "correct": true
+      },
+      "B": { "choice": "Forgetting a semicolon" },
+      "C": { "choice": "Misspelling a variable name so code won’t compile" },
+      "D": { "choice": "Missing a closing parenthesis so code won’t run" }
+    }
+  },
+  "04_46": {
+    "chapter": "4",
+    "question": "If an array arr has 6 elements, what is the index of its last element?",
+    "choices": {
+      "A": { "choice": "5", "correct": true },
+      "B": { "choice": "6" },
+      "C": { "choice": "0" },
+      "D": { "choice": "Depends on array type" }
+    }
+  },
+  "04_47": {
+    "chapter": "4",
+    "question": "What will happen if you try to access arr[6] in an array arr with length 6?",
+    "choices": {
+      "A": {
+        "choice": "An ArrayIndexOutOfBoundsException is thrown.",
+        "correct": true
+      },
+      "B": { "choice": "It returns 0." },
+      "C": { "choice": "It accesses the last element." },
+      "D": { "choice": "It gives a warning but continues running." }
+    }
+  },
+  "04_48": {
+    "chapter": "4",
+    "question": "Which statement about the enhanced for (for-each) loop is TRUE?",
+    "choices": {
+      "A": { "choice": "It allows you to modify array elements directly." },
+      "B": {
+        "choice": "It can be used to iterate over both arrays and ArrayLists.",
+        "correct": true
+      },
+      "C": { "choice": "It can only be used with primitive data types." },
+      "D": { "choice": "It does not work with arrays." }
+    }
+  },
+  "04_49": {
+    "chapter": "4",
+    "question": "What is the main advantage of using a do-while loop over a while loop?",
+    "choices": {
+      "A": {
+        "choice": "A do-while loop always executes at least once.",
+        "correct": true
+      },
+      "B": { "choice": "A do-while loop is more efficient." },
+      "C": { "choice": "A while loop cannot use break." },
+      "D": { "choice": "A do-while loop does not require a condition." }
+    }
+  },
+  "04_50": {
+    "chapter": "4",
+    "question": "How many times will the following code print \"hi\"?\n\nfor (int i = 0; i < 10; i += 3) {\n  System.out.println(\"hi\");\n}",
+    "choices": {
+      "A": { "choice": "3", "correct": true },
+      "B": { "choice": "4" },
+      "C": { "choice": "10" },
+      "D": { "choice": "Infinite" }
+    }
+  },
+  "04_51": {
+    "chapter": "4",
+    "question": "Which code will correctly reverse the order of elements in an array arr?",
+    "choices": {
+      "A": {
+        "choice": "for (int i = 0; i < arr.length / 2; i++) { int temp = arr[i]; arr[i] = arr[arr.length - 1 - i]; arr[arr.length - 1 - i] = temp; }",
+        "correct": true
+      },
+      "B": {
+        "choice": "for (int i = 0; i < arr.length; i++) { arr[i] = arr[arr.length - i]; }"
+      },
+      "C": {
+        "choice": "for (int i = 0; i < arr.length; i++) { arr[arr.length - 1] = arr[i]; }"
+      },
+      "D": {
+        "choice": "for (int i = 0; i < arr.length; i++) { arr[i] = arr[i]; }"
+      }
+    }
+  },
+  "04_52": {
+    "chapter": "4",
+    "question": "When does a for loop execute its initialization section?",
+    "choices": {
+      "A": { "choice": "Once, before the loop starts", "correct": true },
+      "B": { "choice": "At the end of every iteration" },
+      "C": { "choice": "Each time the condition is checked" },
+      "D": { "choice": "After the loop ends" }
+    }
+  },
+  "04_53": {
+    "chapter": "4",
+    "question": "What is the output of the following code?\n\nint sum = 0;\nfor (int i = 0; i < 4; i++) {\n  sum += i;\n}\nSystem.out.println(sum);",
+    "choices": {
+      "A": { "choice": "10" },
+      "B": { "choice": "6", "correct": true },
+      "C": { "choice": "4" },
+      "D": { "choice": "0" }
+    }
+  },
+  "04_54": {
+    "chapter": "4",
+    "question": "Which of the following expressions is always true if x is an int and x > 0?",
+    "choices": {
+      "A": { "choice": "x != 0", "correct": true },
+      "B": { "choice": "x < 0" },
+      "C": { "choice": "x == 0" },
+      "D": { "choice": "x <= 0" }
+    }
+  },
+  "04_55": {
+    "chapter": "4",
+    "question": "Which operator has the highest precedence in Java?",
+    "choices": {
+      "A": { "choice": "* (multiplication)", "correct": true },
+      "B": { "choice": "+ (addition)" },
+      "C": { "choice": "&& (logical AND)" },
+      "D": { "choice": "== (equality)" }
+    }
+  },
+  "04_56": {
+    "chapter": "4",
+    "question": "Which code snippet demonstrates a nested for loop?",
+    "choices": {
+      "A": {
+        "choice": "for (int i = 0; i < 2; i++) { for (int j = 0; j < 2; j++) { System.out.println(i + j); } }",
+        "correct": true
+      },
+      "B": {
+        "choice": "for (int i = 0; i < 2; i++) { System.out.println(i); }"
+      },
+      "C": { "choice": "while (i < 2) { System.out.println(i); }" },
+      "D": { "choice": "do { System.out.println(i); } while (i < 2);" }
+    }
+  },
+  "04_57": {
+    "chapter": "4",
+    "question": "Which of the following will always result in a syntax error?",
+    "choices": {
+      "A": { "choice": "if (x = 5) { ... }", "correct": true },
+      "B": { "choice": "while (true) { ... }" },
+      "C": { "choice": "for (int i = 0; i < 5; i++) { ... }" },
+      "D": { "choice": "if (x == 5) { ... }" }
+    }
+  },
+  "04_58": {
+    "chapter": "4",
+    "question": "How can you exit a loop early in Java?",
+    "choices": {
+      "A": { "choice": "Using the break statement", "correct": true },
+      "B": { "choice": "Using continue" },
+      "C": { "choice": "Using return only in a class" },
+      "D": { "choice": "By incrementing the loop counter" }
+    }
+  },
+  "04_59": {
+    "chapter": "4",
+    "question": "Which of these will evaluate to true if x = 4 and y = 6?",
+    "choices": {
+      "A": { "choice": "x < y && y > 2", "correct": true },
+      "B": { "choice": "x > y" },
+      "C": { "choice": "x == y" },
+      "D": { "choice": "x > 6 || y < 4" }
+    }
+  },
+  "04_60": {
+    "chapter": "4",
+    "question": "Which loop is guaranteed to execute at least once?",
+    "choices": {
+      "A": { "choice": "do-while", "correct": true },
+      "B": { "choice": "for" },
+      "C": { "choice": "while" },
+      "D": { "choice": "for-each" }
+    }
+  },
+  "04_61": {
+    "chapter": "4",
+    "question": "Given the following code, what is printed?\n\nint i = 0;\nwhile (i < 3) {\n  if (i == 1) break;\n  System.out.print(i + \" \");\n  i++;\n}",
+    "choices": {
+      "A": { "choice": "0 1 2" },
+      "B": { "choice": "0 1 " },
+      "C": { "choice": "0 ", "correct": true },
+      "D": { "choice": "1 2 " }
+    }
+  },
+  "04_62": {
+    "chapter": "4",
+    "question": "Which of the following conditions will create an infinite loop? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "while (true) {}", "correct": true },
+      "B": { "choice": "while (x > 0) {}" },
+      "C": { "choice": "while (1 == 1) {}", "correct": true },
+      "D": { "choice": "while (x < 10) {}" }
+    }
+  },
+  "04_63": {
+    "chapter": "4",
+    "question": "What will the following code output?\n\nfor (int i = 10; i > 0; i -= 4) {\n  System.out.print(i + \" \");\n}",
+    "choices": {
+      "A": { "choice": "10 6 2 ", "correct": true },
+      "B": { "choice": "10 7 4 1 " },
+      "C": { "choice": "10 6 2 -2 " },
+      "D": { "choice": "10 6 2 0 " }
+    }
+  },
+  "04_64": {
+    "chapter": "4",
+    "question": "What is the output of this code?\n\nint[] arr = {2, 4, 6};\nint sum = 0;\nfor (int val : arr) {\n  if (val % 4 == 0) continue;\n  sum += val;\n}\nSystem.out.println(sum);",
+    "choices": {
+      "A": { "choice": "2", "correct": true },
+      "B": { "choice": "12" },
+      "C": { "choice": "6" },
+      "D": { "choice": "0" }
+    }
+  },
+  "04_65": {
+    "chapter": "4",
+    "question": "Which lines in the following code cause a compile-time error? (Select all that apply)\n\nint x = 5;\nif (x = 5) { System.out.println(\"A\"); }\nif (x == 5) { System.out.println(\"B\"); }",
+    "choices": {
+      "A": { "choice": "Line 2", "correct": true },
+      "B": { "choice": "Line 3" },
+      "C": { "choice": "Both lines" },
+      "D": { "choice": "Neither line" }
+    }
+  },
+  "04_66": {
+    "chapter": "4",
+    "question": "Which of the following statements about loops is true? (Select all that apply)",
+    "choices": {
+      "A": {
+        "choice": "A for loop can be nested inside a while loop.",
+        "correct": true
+      },
+      "B": { "choice": "A while loop can only contain one statement." },
+      "C": {
+        "choice": "A do-while loop always executes at least once.",
+        "correct": true
+      },
+      "D": { "choice": "A for-each loop cannot be used with arrays." }
+    }
+  },
+  "04_67": {
+    "chapter": "4",
+    "question": "Which operator(s) can be used to combine multiple conditions in an if statement? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "&&", "correct": true },
+      "B": { "choice": "||", "correct": true },
+      "C": { "choice": "&" },
+      "D": { "choice": "and" }
+    }
+  },
+  "04_68": {
+    "chapter": "4",
+    "question": "What does this code output?\n\nint i = 1;\ndo {\n  i++;\n  if (i == 3) continue;\n  System.out.print(i + \" \");\n} while (i < 4);",
+    "choices": {
+      "A": { "choice": "2 3 4 " },
+      "B": { "choice": "2 4 ", "correct": true },
+      "C": { "choice": "1 2 3 4 " },
+      "D": { "choice": "3 4 " }
+    }
+  },
+  "04_69": {
+    "chapter": "4",
+    "question": "Which of the following would print all numbers from 1 to 10 except 5?",
+    "choices": {
+      "A": {
+        "choice": "for (int i = 1; i <= 10; i++) { if (i == 5) continue; System.out.print(i + \" \"); }",
+        "correct": true
+      },
+      "B": {
+        "choice": "for (int i = 1; i <= 10; i++) { if (i == 5) break; System.out.print(i + \" \"); }"
+      },
+      "C": {
+        "choice": "for (int i = 1; i <= 10; i++) { if (i != 5) break; System.out.print(i + \" \"); }"
+      },
+      "D": {
+        "choice": "for (int i = 1; i <= 10; i++) { System.out.print(i + \" \"); }"
+      }
+    }
+  },
+  "04_70": {
+    "chapter": "4",
+    "question": "Which of these code snippets will cause an ArrayIndexOutOfBoundsException? (Select all that apply)\n\nint[] arr = new int[5];",
+    "choices": {
+      "A": { "choice": "System.out.println(arr[5]);", "correct": true },
+      "B": { "choice": "System.out.println(arr[0]);" },
+      "C": { "choice": "arr[4] = 10;" },
+      "D": { "choice": "System.out.println(arr[arr.length]);", "correct": true }
+    }
+  }
+}

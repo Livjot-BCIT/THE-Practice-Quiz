@@ -1,0 +1,919 @@
+{
+  "02_01": {
+    "chapter": "2",
+    "question": "What does CSS stand for?",
+    "choices": {
+      "A": { "choice": "Cascading Style Sheets", "correct": true },
+      "B": { "choice": "Computer Style Sheets" },
+      "C": { "choice": "Creative Style Syntax" },
+      "D": { "choice": "Colorful Style Sheets" }
+    }
+  },
+  "02_02": {
+    "chapter": "2",
+    "question": "Where is the correct place to link an external CSS file in an HTML document?",
+    "choices": {
+      "A": { "choice": "Inside the &lt;head&gt; tag", "correct": true },
+      "B": { "choice": "At the end of the &lt;body&gt;" },
+      "C": { "choice": "Before the &lt;!DOCTYPE&gt;" },
+      "D": { "choice": "Inside the &lt;footer&gt;" }
+    }
+  },
+  "02_03": {
+    "chapter": "2",
+    "question": "Which HTML tag is used to link to an external CSS file?",
+    "choices": {
+      "A": { "choice": "&lt;link&gt;", "correct": true },
+      "B": { "choice": "&lt;style&gt;" },
+      "C": { "choice": "&lt;css&gt;" },
+      "D": { "choice": "&lt;script&gt;" }
+    }
+  },
+  "02_04": {
+    "chapter": "2",
+    "question": "Which property is used to change the text color of an element?",
+    "choices": {
+      "A": { "choice": "color", "correct": true },
+      "B": { "choice": "font-color" },
+      "C": { "choice": "text-color" },
+      "D": { "choice": "background-color" }
+    }
+  },
+  "02_05": {
+    "chapter": "2",
+    "question": "How do you select all &lt;p&gt; elements in CSS?",
+    "choices": {
+      "A": { "choice": "p { ... }", "correct": true },
+      "B": { "choice": "#p { ... }" },
+      "C": { "choice": ".p { ... }" },
+      "D": { "choice": "all.p { ... }" }
+    }
+  },
+  "02_06": {
+    "chapter": "2",
+    "question": "How do you select an element with the id 'main'?",
+    "choices": {
+      "A": { "choice": "#main", "correct": true },
+      "B": { "choice": ".main" },
+      "C": { "choice": "main" },
+      "D": { "choice": "*main" }
+    }
+  },
+  "02_07": {
+    "chapter": "2",
+    "question": "How do you select all elements with the class 'container'?",
+    "choices": {
+      "A": { "choice": ".container", "correct": true },
+      "B": { "choice": "#container" },
+      "C": { "choice": "container" },
+      "D": { "choice": "*container" }
+    }
+  },
+  "02_08": {
+    "chapter": "2",
+    "question": "Which property is used to change the background color?",
+    "choices": {
+      "A": { "choice": "background-color", "correct": true },
+      "B": { "choice": "color" },
+      "C": { "choice": "bgcolor" },
+      "D": { "choice": "background-img" }
+    }
+  },
+  "02_09": {
+    "chapter": "2",
+    "question": "What is the default value of the position property?",
+    "choices": {
+      "A": { "choice": "static", "correct": true },
+      "B": { "choice": "relative" },
+      "C": { "choice": "absolute" },
+      "D": { "choice": "fixed" }
+    }
+  },
+  "02_10": {
+    "chapter": "2",
+    "question": "Which property is used to change the size of text?",
+    "choices": {
+      "A": { "choice": "font-size", "correct": true },
+      "B": { "choice": "text-size" },
+      "C": { "choice": "size" },
+      "D": { "choice": "text-style" }
+    }
+  },
+  "02_11": {
+    "chapter": "2",
+    "question": "Which CSS property is used to add space inside the border of an element?",
+    "choices": {
+      "A": { "choice": "padding", "correct": true },
+      "B": { "choice": "margin" },
+      "C": { "choice": "spacing" },
+      "D": { "choice": "border-spacing" }
+    }
+  },
+  "02_12": {
+    "chapter": "2",
+    "question": "Which CSS property adds space outside the border of an element?",
+    "choices": {
+      "A": { "choice": "margin", "correct": true },
+      "B": { "choice": "padding" },
+      "C": { "choice": "spacing" },
+      "D": { "choice": "border-spacing" }
+    }
+  },
+  "02_13": {
+    "chapter": "2",
+    "question": "Which value of display hides an element but keeps its space?",
+    "choices": {
+      "A": { "choice": "visibility: hidden;", "correct": true },
+      "B": { "choice": "display: none;" },
+      "C": { "choice": "opacity: 0;" },
+      "D": { "choice": "hidden: true;" }
+    }
+  },
+  "02_14": {
+    "chapter": "2",
+    "question": "Which CSS property is used to make text italic?",
+    "choices": {
+      "A": { "choice": "font-style: italic;", "correct": true },
+      "B": { "choice": "font-weight: italic;" },
+      "C": { "choice": "text-style: italic;" },
+      "D": { "choice": "style: italic;" }
+    }
+  },
+  "02_15": {
+    "chapter": "2",
+    "question": "Which CSS unit is relative to the parent element's font size?",
+    "choices": {
+      "A": { "choice": "em", "correct": true },
+      "B": { "choice": "px" },
+      "C": { "choice": "rem" },
+      "D": { "choice": "%" }
+    }
+  },
+  "02_16": {
+    "chapter": "2",
+    "question": "Which CSS unit is relative to the root element's font size?",
+    "choices": {
+      "A": { "choice": "rem", "correct": true },
+      "B": { "choice": "em" },
+      "C": { "choice": "vw" },
+      "D": { "choice": "vh" }
+    }
+  },
+  "02_17": {
+    "chapter": "2",
+    "question": "Which selector matches all elements in the document?",
+    "choices": {
+      "A": { "choice": "*", "correct": true },
+      "B": { "choice": "." },
+      "C": { "choice": "#" },
+      "D": { "choice": "~" }
+    }
+  },
+  "02_18": {
+    "chapter": "2",
+    "question": "How do you select only &lt;p&gt; elements that are direct children of &lt;div&gt; elements?",
+    "choices": {
+      "A": { "choice": "div > p", "correct": true },
+      "B": { "choice": "div p" },
+      "C": { "choice": "div ~ p" },
+      "D": { "choice": "div + p" }
+    }
+  },
+  "02_19": {
+    "chapter": "2",
+    "question": "Which selector matches an element on hover?",
+    "choices": {
+      "A": { "choice": ":hover", "correct": true },
+      "B": { "choice": "::hover" },
+      "C": { "choice": ":active" },
+      "D": { "choice": "::active" }
+    }
+  },
+  "02_20": {
+    "chapter": "2",
+    "question": "Which property sets the space between lines of text?",
+    "choices": {
+      "A": { "choice": "line-height", "correct": true },
+      "B": { "choice": "letter-spacing" },
+      "C": { "choice": "text-spacing" },
+      "D": { "choice": "spacing" }
+    }
+  },
+  "02_21": {
+    "chapter": "2",
+    "question": "Which CSS property makes text bold?",
+    "choices": {
+      "A": { "choice": "font-weight", "correct": true },
+      "B": { "choice": "font-style" },
+      "C": { "choice": "bold" },
+      "D": { "choice": "text-weight" }
+    }
+  },
+  "02_22": {
+    "chapter": "2",
+    "question": "Which CSS property is used to underline text?",
+    "choices": {
+      "A": { "choice": "text-decoration: underline;", "correct": true },
+      "B": { "choice": "font-underline: true;" },
+      "C": { "choice": "underline: true;" },
+      "D": { "choice": "text-underline: yes;" }
+    }
+  },
+  "02_23": {
+    "chapter": "2",
+    "question": "Which property would you use to round the corners of a box?",
+    "choices": {
+      "A": { "choice": "border-radius", "correct": true },
+      "B": { "choice": "corner-radius" },
+      "C": { "choice": "border-corner" },
+      "D": { "choice": "radius" }
+    }
+  },
+  "02_24": {
+    "chapter": "2",
+    "question": "Which property controls the width of an element's border?",
+    "choices": {
+      "A": { "choice": "border-width", "correct": true },
+      "B": { "choice": "border-size" },
+      "C": { "choice": "outline-width" },
+      "D": { "choice": "width-border" }
+    }
+  },
+  "02_25": {
+    "chapter": "2",
+    "question": "Which property sets the distance between the content and border of an element?",
+    "choices": {
+      "A": { "choice": "padding", "correct": true },
+      "B": { "choice": "margin" },
+      "C": { "choice": "spacing" },
+      "D": { "choice": "border-spacing" }
+    }
+  },
+  "02_26": {
+    "chapter": "2",
+    "question": "Which property would you use to add a shadow behind a box?",
+    "choices": {
+      "A": { "choice": "box-shadow", "correct": true },
+      "B": { "choice": "shadow" },
+      "C": { "choice": "background-shadow" },
+      "D": { "choice": "border-shadow" }
+    }
+  },
+  "02_27": {
+    "chapter": "2",
+    "question": "What is the default display value for &lt;span&gt;?",
+    "choices": {
+      "A": { "choice": "inline", "correct": true },
+      "B": { "choice": "block" },
+      "C": { "choice": "inline-block" },
+      "D": { "choice": "flex" }
+    }
+  },
+  "02_28": {
+    "chapter": "2",
+    "question": "What does the z-index property control?",
+    "choices": {
+      "A": {
+        "choice": "Stacking order of positioned elements",
+        "correct": true
+      },
+      "B": { "choice": "Font size" },
+      "C": { "choice": "Border width" },
+      "D": { "choice": "Text alignment" }
+    }
+  },
+  "02_29": {
+    "chapter": "2",
+    "question": "Which property is used to float an element to the right?",
+    "choices": {
+      "A": { "choice": "float: right;", "correct": true },
+      "B": { "choice": "align: right;" },
+      "C": { "choice": "position: right;" },
+      "D": { "choice": "justify: right;" }
+    }
+  },
+  "02_30": {
+    "chapter": "2",
+    "question": "Which of the following values for the position property removes the element from the document flow?",
+    "choices": {
+      "A": { "choice": "absolute", "correct": true },
+      "B": { "choice": "relative" },
+      "C": { "choice": "fixed" },
+      "D": { "choice": "static" }
+    }
+  },
+  "02_31": {
+    "chapter": "2",
+    "question": "Which CSS property controls the transparency of an element?",
+    "choices": {
+      "A": { "choice": "opacity", "correct": true },
+      "B": { "choice": "visibility" },
+      "C": { "choice": "alpha" },
+      "D": { "choice": "transparent" }
+    }
+  },
+  "02_32": {
+    "chapter": "2",
+    "question": "Which value of position will keep an element fixed in the same place even when scrolling?",
+    "choices": {
+      "A": { "choice": "fixed", "correct": true },
+      "B": { "choice": "absolute" },
+      "C": { "choice": "relative" },
+      "D": { "choice": "sticky" }
+    }
+  },
+  "02_33": {
+    "chapter": "2",
+    "question": "Which selector matches all &lt;li&gt; elements inside &lt;ul&gt; elements?",
+    "choices": {
+      "A": { "choice": "ul li", "correct": true },
+      "B": { "choice": "ul > li" },
+      "C": { "choice": "li ul" },
+      "D": { "choice": "#ul li" }
+    }
+  },
+  "02_34": {
+    "chapter": "2",
+    "question": "Which selector would target only &lt;a&gt; elements inside &lt;nav&gt; elements?",
+    "choices": {
+      "A": { "choice": "nav a", "correct": true },
+      "B": { "choice": "#nav a" },
+      "C": { "choice": ".nav a" },
+      "D": { "choice": "a nav" }
+    }
+  },
+  "02_35": {
+    "chapter": "2",
+    "question": "Which property controls the space between letters?",
+    "choices": {
+      "A": { "choice": "letter-spacing", "correct": true },
+      "B": { "choice": "word-spacing" },
+      "C": { "choice": "line-height" },
+      "D": { "choice": "spacing" }
+    }
+  },
+  "02_36": {
+    "chapter": "2",
+    "question": "Which property is used to set the font of an element?",
+    "choices": {
+      "A": { "choice": "font-family", "correct": true },
+      "B": { "choice": "font" },
+      "C": { "choice": "font-type" },
+      "D": { "choice": "typeface" }
+    }
+  },
+  "02_37": {
+    "chapter": "2",
+    "question": "What property changes the alignment of text within an element?",
+    "choices": {
+      "A": { "choice": "text-align", "correct": true },
+      "B": { "choice": "align" },
+      "C": { "choice": "align-text" },
+      "D": { "choice": "text-orient" }
+    }
+  },
+  "02_38": {
+    "chapter": "2",
+    "question": "Which of the following is a pseudo-class?",
+    "choices": {
+      "A": { "choice": ":hover", "correct": true },
+      "B": { "choice": "::before" },
+      "C": { "choice": "::after" },
+      "D": { "choice": ":before" }
+    }
+  },
+  "02_39": {
+    "chapter": "2",
+    "question": "Which property would you use to specify a background image?",
+    "choices": {
+      "A": { "choice": "background-image", "correct": true },
+      "B": { "choice": "img-background" },
+      "C": { "choice": "bg-image" },
+      "D": { "choice": "image-bg" }
+    }
+  },
+  "02_40": {
+    "chapter": "2",
+    "question": "What value for the display property creates a flex container?",
+    "choices": {
+      "A": { "choice": "flex", "correct": true },
+      "B": { "choice": "block" },
+      "C": { "choice": "inline" },
+      "D": { "choice": "inline-block" }
+    }
+  },
+  "02_41": {
+    "chapter": "2",
+    "question": "Which property allows you to control the wrapping of flex items?",
+    "choices": {
+      "A": { "choice": "flex-wrap", "correct": true },
+      "B": { "choice": "flex-direction" },
+      "C": { "choice": "flex-basis" },
+      "D": { "choice": "flex-grow" }
+    }
+  },
+  "02_42": {
+    "chapter": "2",
+    "question": "Which property is used to specify the direction of flex items?",
+    "choices": {
+      "A": { "choice": "flex-direction", "correct": true },
+      "B": { "choice": "direction" },
+      "C": { "choice": "flex-wrap" },
+      "D": { "choice": "justify-content" }
+    }
+  },
+  "02_43": {
+    "chapter": "2",
+    "question": "Which value of justify-content centers flex items horizontally?",
+    "choices": {
+      "A": { "choice": "center", "correct": true },
+      "B": { "choice": "flex-start" },
+      "C": { "choice": "flex-end" },
+      "D": { "choice": "space-between" }
+    }
+  },
+  "02_44": {
+    "chapter": "2",
+    "question": "Which property sets the gap between columns in a CSS grid?",
+    "choices": {
+      "A": { "choice": "column-gap", "correct": true },
+      "B": { "choice": "grid-gap" },
+      "C": { "choice": "gap-column" },
+      "D": { "choice": "col-gap" }
+    }
+  },
+  "02_45": {
+    "chapter": "2",
+    "question": "Which property would you use to create a multi-column layout?",
+    "choices": {
+      "A": { "choice": "column-count", "correct": true },
+      "B": { "choice": "columns" },
+      "C": { "choice": "multi-column" },
+      "D": { "choice": "layout-columns" }
+    }
+  },
+  "02_46": {
+    "chapter": "2",
+    "question": "Which property is used for responsive design to change styles based on screen size?",
+    "choices": {
+      "A": { "choice": "@media", "correct": true },
+      "B": { "choice": "@responsive" },
+      "C": { "choice": "screen-size" },
+      "D": { "choice": "viewport" }
+    }
+  },
+  "02_47": {
+    "chapter": "2",
+    "question": "Which value for overflow will display scrollbars only when necessary?",
+    "choices": {
+      "A": { "choice": "auto", "correct": true },
+      "B": { "choice": "scroll" },
+      "C": { "choice": "visible" },
+      "D": { "choice": "hidden" }
+    }
+  },
+  "02_48": {
+    "chapter": "2",
+    "question": "What is the default box-sizing value for most elements?",
+    "choices": {
+      "A": { "choice": "content-box", "correct": true },
+      "B": { "choice": "border-box" },
+      "C": { "choice": "padding-box" },
+      "D": { "choice": "box" }
+    }
+  },
+  "02_49": {
+    "chapter": "2",
+    "question": "Which property can be used to make an element hidden from screen readers but still visible?",
+    "choices": {
+      "A": { "choice": "aria-hidden", "correct": true },
+      "B": { "choice": "display: none;" },
+      "C": { "choice": "visibility: hidden;" },
+      "D": { "choice": "opacity: 0;" }
+    }
+  },
+  "02_50": {
+    "chapter": "2",
+    "question": "Which property would you use to set the stacking order of positioned elements?",
+    "choices": {
+      "A": { "choice": "z-index", "correct": true },
+      "B": { "choice": "order" },
+      "C": { "choice": "stack" },
+      "D": { "choice": "layer" }
+    }
+  },
+  "02_51": {
+    "chapter": "2",
+    "question": "What is the difference between 'margin' and 'padding'?",
+    "choices": {
+      "A": {
+        "choice": "Margin is space outside the border; padding is space inside the border.",
+        "correct": true
+      },
+      "B": { "choice": "Margin is inside the border; padding is outside." },
+      "C": { "choice": "They are the same." },
+      "D": { "choice": "Padding is only for images." }
+    }
+  },
+  "02_52": {
+    "chapter": "2",
+    "question": "Which selector targets all elements with the class 'note' inside a &lt;section&gt;?",
+    "choices": {
+      "A": { "choice": "section .note", "correct": true },
+      "B": { "choice": ".note section" },
+      "C": { "choice": "#note section" },
+      "D": { "choice": "section#note" }
+    }
+  },
+  "02_53": {
+    "chapter": "2",
+    "question": "How would you make an element take up the full width of its container?",
+    "choices": {
+      "A": { "choice": "width: 100%;", "correct": true },
+      "B": { "choice": "display: block;" },
+      "C": { "choice": "float: left;" },
+      "D": { "choice": "width: auto;" }
+    }
+  },
+  "02_54": {
+    "chapter": "2",
+    "question": "Which property controls the style of the mouse cursor when hovering over an element?",
+    "choices": {
+      "A": { "choice": "cursor", "correct": true },
+      "B": { "choice": "pointer" },
+      "C": { "choice": "mouse-style" },
+      "D": { "choice": "hover-cursor" }
+    }
+  },
+  "02_55": {
+    "chapter": "2",
+    "question": "What does the 'inherit' value do in CSS?",
+    "choices": {
+      "A": {
+        "choice": "Inherits the value from the parent element.",
+        "correct": true
+      },
+      "B": { "choice": "Overrides the parent value." },
+      "C": { "choice": "Deletes the property." },
+      "D": { "choice": "Sets to the default value." }
+    }
+  },
+  "02_56": {
+    "chapter": "2",
+    "question": "What is the difference between an ID selector and a class selector?",
+    "choices": {
+      "A": {
+        "choice": "An ID is unique per page; classes can be reused.",
+        "correct": true
+      },
+      "B": { "choice": "IDs are for text, classes are for images." },
+      "C": { "choice": "Classes are always more specific." },
+      "D": { "choice": "There is no difference." }
+    }
+  },
+  "02_57": {
+    "chapter": "2",
+    "question": "How do you comment in CSS?",
+    "choices": {
+      "A": { "choice": "/* comment */", "correct": true },
+      "B": { "choice": "// comment //" },
+      "C": { "choice": "&lt;!-- comment --&gt;" },
+      "D": { "choice": "# comment" }
+    }
+  },
+  "02_58": {
+    "chapter": "2",
+    "question": "Which CSS function allows you to use custom fonts?",
+    "choices": {
+      "A": { "choice": "@font-face", "correct": true },
+      "B": { "choice": "@import-font" },
+      "C": { "choice": "font-family" },
+      "D": { "choice": "custom-font" }
+    }
+  },
+  "02_59": {
+    "chapter": "2",
+    "question": "Which property would you use to set an image as a background?",
+    "choices": {
+      "A": { "choice": "background-image", "correct": true },
+      "B": { "choice": "img-background" },
+      "C": { "choice": "image-bg" },
+      "D": { "choice": "background-src" }
+    }
+  },
+  "02_60": {
+    "chapter": "2",
+    "question": "Which CSS function creates a linear gradient?",
+    "choices": {
+      "A": { "choice": "linear-gradient()", "correct": true },
+      "B": { "choice": "gradient-linear()" },
+      "C": { "choice": "background-gradient()" },
+      "D": { "choice": "linear-bg()" }
+    }
+  },
+  "02_61": {
+    "chapter": "2",
+    "question": "Which property controls how a background image repeats?",
+    "choices": {
+      "A": { "choice": "background-repeat", "correct": true },
+      "B": { "choice": "repeat-background" },
+      "C": { "choice": "background-loop" },
+      "D": { "choice": "bg-repeat" }
+    }
+  },
+  "02_62": {
+    "chapter": "2",
+    "question": "Which of the following best describes the CSS box model?",
+    "choices": {
+      "A": { "choice": "Content, padding, border, margin", "correct": true },
+      "B": { "choice": "Border, box, spacing, content" },
+      "C": { "choice": "Margin, content, padding, box" },
+      "D": { "choice": "Content, margin, padding, border" }
+    }
+  },
+  "02_63": {
+    "chapter": "2",
+    "question": "Which property sets the maximum width of an element?",
+    "choices": {
+      "A": { "choice": "max-width", "correct": true },
+      "B": { "choice": "width-max" },
+      "C": { "choice": "maximum-width" },
+      "D": { "choice": "width-limit" }
+    }
+  },
+  "02_64": {
+    "chapter": "2",
+    "question": "Which CSS property makes text uppercase?",
+    "choices": {
+      "A": { "choice": "text-transform: uppercase;", "correct": true },
+      "B": { "choice": "text-case: upper;" },
+      "C": { "choice": "font-style: uppercase;" },
+      "D": { "choice": "text-upper: true;" }
+    }
+  },
+  "02_65": {
+    "chapter": "2",
+    "question": "What does the :nth-child(odd) selector do?",
+    "choices": {
+      "A": { "choice": "Selects all odd-numbered children", "correct": true },
+      "B": { "choice": "Selects the last child" },
+      "C": { "choice": "Selects all even-numbered children" },
+      "D": { "choice": "Selects the first child" }
+    }
+  },
+  "02_66": {
+    "chapter": "2",
+    "question": "Which CSS property is used to create space between grid items?",
+    "choices": {
+      "A": { "choice": "gap", "correct": true },
+      "B": { "choice": "grid-gap" },
+      "C": { "choice": "spacing" },
+      "D": { "choice": "margin" }
+    }
+  },
+  "02_67": {
+    "chapter": "2",
+    "question": "Which value of overflow will hide all overflowing content?",
+    "choices": {
+      "A": { "choice": "hidden", "correct": true },
+      "B": { "choice": "auto" },
+      "C": { "choice": "scroll" },
+      "D": { "choice": "none" }
+    }
+  },
+  "02_68": {
+    "chapter": "2",
+    "question": "Which selector matches an element that is the first child of its parent?",
+    "choices": {
+      "A": { "choice": ":first-child", "correct": true },
+      "B": { "choice": ":nth-child(1)" },
+      "C": { "choice": ":first" },
+      "D": { "choice": "::first-child" }
+    }
+  },
+  "02_69": {
+    "chapter": "2",
+    "question": "Which property can add multiple shadows to text?",
+    "choices": {
+      "A": { "choice": "text-shadow", "correct": true },
+      "B": { "choice": "box-shadow" },
+      "C": { "choice": "font-shadow" },
+      "D": { "choice": "shadow-text" }
+    }
+  },
+  "02_70": {
+    "chapter": "2",
+    "question": "What is the purpose of CSS variables (custom properties)?",
+    "choices": {
+      "A": {
+        "choice": "To store reusable values like colors or sizes",
+        "correct": true
+      },
+      "B": { "choice": "To define functions" },
+      "C": { "choice": "To store HTML code" },
+      "D": { "choice": "To create animation" }
+    }
+  },
+  "02_71": {
+    "chapter": "2",
+    "question": "Which CSS selector targets all &lt;p&gt; elements that are direct children of a &lt;div&gt;?",
+    "choices": {
+      "A": { "choice": "div > p", "correct": true },
+      "B": { "choice": "div p" },
+      "C": { "choice": "div, p" },
+      "D": { "choice": "div + p" }
+    }
+  },
+  "02_72": {
+    "chapter": "2",
+    "question": "What does the comma (,) do in a CSS selector?",
+    "choices": {
+      "A": {
+        "choice": "It selects all elements matching any of the separated selectors.",
+        "correct": true
+      },
+      "B": { "choice": "It combines two selectors into one." },
+      "C": { "choice": "It creates a child relationship." },
+      "D": { "choice": "It makes a selector case-insensitive." }
+    }
+  },
+  "02_73": {
+    "chapter": "2",
+    "question": "Which selector would style any &lt;span&gt; element that immediately follows a &lt;b&gt; element?",
+    "choices": {
+      "A": { "choice": "b + span", "correct": true },
+      "B": { "choice": "b ~ span" },
+      "C": { "choice": "b > span" },
+      "D": { "choice": "b, span" }
+    }
+  },
+  "02_74": {
+    "chapter": "2",
+    "question": "What does the general sibling selector (~) do in CSS?",
+    "choices": {
+      "A": {
+        "choice": "It selects all matching siblings that come after the first element.",
+        "correct": true
+      },
+      "B": { "choice": "It selects only the next sibling." },
+      "C": { "choice": "It selects children inside an element." },
+      "D": { "choice": "It selects the parent element." }
+    }
+  },
+  "02_75": {
+    "chapter": "2",
+    "question": "Which media query will apply styles only on screens at least 600px wide?",
+    "choices": {
+      "A": { "choice": "@media (min-width: 600px)", "correct": true },
+      "B": { "choice": "@media (max-width: 600px)" },
+      "C": { "choice": "@media screen and (width: 600px)" },
+      "D": { "choice": "@media screen or (min-width: 600px)" }
+    }
+  },
+  "02_76": {
+    "chapter": "2",
+    "question": "What is the primary purpose of using media queries in CSS?",
+    "choices": {
+      "A": {
+        "choice": "To make websites responsive to different devices and screen sizes.",
+        "correct": true
+      },
+      "B": { "choice": "To style forms." },
+      "C": { "choice": "To add transitions to elements." },
+      "D": { "choice": "To hide elements from search engines." }
+    }
+  },
+  "02_77": {
+    "chapter": "2",
+    "question": "Which media type targets styles for printing a web page?",
+    "choices": {
+      "A": { "choice": "print", "correct": true },
+      "B": { "choice": "screen" },
+      "C": { "choice": "speech" },
+      "D": { "choice": "projection" }
+    }
+  },
+  "02_78": {
+    "chapter": "2",
+    "question": "What does this selector target: input[type=&quot;checkbox&quot;]?",
+    "choices": {
+      "A": {
+        "choice": "All input elements with type checkbox.",
+        "correct": true
+      },
+      "B": { "choice": "All input elements." },
+      "C": { "choice": "All checkbox elements in a form." },
+      "D": { "choice": "All elements with a class of checkbox." }
+    }
+  },
+  "02_79": {
+    "chapter": "2",
+    "question": "Which pseudo-class targets the first child element within its parent?",
+    "choices": {
+      "A": { "choice": ":first-child", "correct": true },
+      "B": { "choice": ":last-child" },
+      "C": { "choice": ":nth-child(1)" },
+      "D": { "choice": ":only-child" }
+    }
+  },
+  "02_80": {
+    "chapter": "2",
+    "question": "Which pseudo-element would you use to style the first line of a paragraph?",
+    "choices": {
+      "A": { "choice": "p::first-line", "correct": true },
+      "B": { "choice": "p:first-line" },
+      "C": { "choice": "p:line(1)" },
+      "D": { "choice": "p:first" }
+    }
+  },
+  "02_81": {
+    "chapter": "2",
+    "question": "Which selector would select every even row in a table?",
+    "choices": {
+      "A": { "choice": "tr:nth-child(even)", "correct": true },
+      "B": { "choice": "tr:nth-child(2n+1)" },
+      "C": { "choice": "tr:even" },
+      "D": { "choice": "tr:nth-row(even)" }
+    }
+  },
+  "02_82": {
+    "chapter": "2",
+    "question": "Which of these is a correct syntax for targeting a hover state on a link?",
+    "choices": {
+      "A": { "choice": "a:hover", "correct": true },
+      "B": { "choice": "a::hover" },
+      "C": { "choice": "a(hover)" },
+      "D": { "choice": "a[hover]" }
+    }
+  },
+  "02_83": {
+    "chapter": "2",
+    "question": "What is the advantage of using rem units instead of px in responsive web design?",
+    "choices": {
+      "A": {
+        "choice": "rem units scale with the root font size for better accessibility.",
+        "correct": true
+      },
+      "B": { "choice": "rem units make the website load faster." },
+      "C": { "choice": "rem units always use the browser default font." },
+      "D": { "choice": "rem units cannot be overridden." }
+    }
+  },
+  "02_84": {
+    "chapter": "2",
+    "question": "Which selector matches an element that is the only child of its parent?",
+    "choices": {
+      "A": { "choice": ":only-child", "correct": true },
+      "B": { "choice": ":first-child" },
+      "C": { "choice": ":last-child" },
+      "D": { "choice": ":nth-child(1)" }
+    }
+  },
+  "02_85": {
+    "chapter": "2",
+    "question": "What is the result of this selector: .menu > li.active?",
+    "choices": {
+      "A": {
+        "choice": "Selects all &lt;li&gt; elements with class active that are direct children of any element with class menu.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Selects all elements with class menu or li with class active."
+      },
+      "C": {
+        "choice": "Selects all li elements inside any .menu, regardless of depth."
+      },
+      "D": { "choice": "Selects all .active elements." }
+    }
+  },
+  "02_86": {
+    "chapter": "2",
+    "question": "Which HTML tag is used to define an internal (embedded) CSS style sheet?",
+    "choices": {
+      "A": { "choice": "&lt;stylesheet&gt;" },
+      "B": { "choice": "&lt;style&gt;", "correct": true },
+      "C": { "choice": "&lt;css&gt;" },
+      "D": { "choice": "&lt;script&gt;" }
+    }
+  },
+  "02_87": {
+    "chapter": "2",
+    "question": "Which HTML attribute is used to define inline styles?",
+    "choices": {
+      "A": { "choice": "inline" },
+      "B": { "choice": "style", "correct": true },
+      "C": { "choice": "css" },
+      "D": { "choice": "class" }
+    }
+  },
+  "02_88": {
+    "chapter": "2",
+    "question": "How do you make each word in a text start with a capital letter using CSS?",
+    "choices": {
+      "A": { "choice": "text-transform: capitalize;", "correct": true },
+      "B": { "choice": "text-style: capital;" },
+      "C": { "choice": "font-transform: uppercase;" },
+      "D": { "choice": "text-case: upper;" }
+    }
+  }
+}

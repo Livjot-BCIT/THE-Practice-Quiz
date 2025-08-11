@@ -1,0 +1,543 @@
+{
+  "05_01": {
+    "question": "Which bus is primarily used to carry memory addresses from the CPU to other components?",
+    "choices": {
+      "A": { "choice": "Data bus" },
+      "B": { "choice": "Address bus", "correct": true },
+      "C": { "choice": "Control bus" },
+      "D": { "choice": "Peripheral bus" }
+    }
+  },
+  "05_02": {
+    "question": "True or False: The control bus carries signals that coordinate and manage CPU operations.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_03": {
+    "question": "Select all correct matches between bus type and description.",
+    "choices": {
+      "A": {
+        "choice": "Data bus: transfers actual data between components",
+        "correct": true
+      },
+      "B": {
+        "choice": "Address bus: specifies the location in memory to read/write",
+        "correct": true
+      },
+      "C": {
+        "choice": "Control bus: transmits timing and control signals",
+        "correct": true
+      },
+      "D": {
+        "choice": "Power bus: delivers alternating current between modules"
+      }
+    }
+  },
+  "05_04": {
+    "question": "Which term describes the number of bits a bus can carry in parallel?",
+    "choices": {
+      "A": { "choice": "Bus width", "correct": true },
+      "B": { "choice": "Bus speed" },
+      "C": { "choice": "Bus frequency" },
+      "D": { "choice": "Bus arbitration" }
+    }
+  },
+  "05_05": {
+    "question": "True or False: Increasing bus width can allow more data to be transferred per clock cycle.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_06": {
+    "question": "Which type of bus arbitration allows devices to take turns in a fixed order?",
+    "choices": {
+      "A": { "choice": "Daisy chaining" },
+      "B": { "choice": "Polling" },
+      "C": { "choice": "Round-robin", "correct": true },
+      "D": { "choice": "Dynamic priority" }
+    }
+  },
+  "05_07": {
+    "question": "Which bus arbitration method gives the CPU control over which device accesses the bus?",
+    "choices": {
+      "A": { "choice": "Centralized arbitration", "correct": true },
+      "B": { "choice": "Distributed arbitration" },
+      "C": { "choice": "Time division multiplexing" },
+      "D": { "choice": "Collision detection" }
+    }
+  },
+  "05_08": {
+    "question": "True or False: Distributed arbitration allows devices to negotiate access without a central controller.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_09": {
+    "question": "Which signal on the control bus indicates that a device is ready for data transfer?",
+    "choices": {
+      "A": { "choice": "Ready signal", "correct": true },
+      "B": { "choice": "Clock signal" },
+      "C": { "choice": "Request signal" },
+      "D": { "choice": "Acknowledge signal" }
+    }
+  },
+  "05_10": {
+    "question": "Select all correct statements about synchronous buses.",
+    "choices": {
+      "A": {
+        "choice": "Operations are coordinated by a shared clock",
+        "correct": true
+      },
+      "B": {
+        "choice": "Data transfer occurs at fixed intervals",
+        "correct": true
+      },
+      "C": { "choice": "No clock signal is used" },
+      "D": {
+        "choice": "They are generally faster but less flexible",
+        "correct": true
+      }
+    }
+  },
+  "05_11": {
+    "question": "Which type of bus allows data transfers without a clock signal, relying on handshaking instead?",
+    "choices": {
+      "A": { "choice": "Synchronous bus" },
+      "B": { "choice": "Asynchronous bus", "correct": true },
+      "C": { "choice": "Serial bus" },
+      "D": { "choice": "Parallel bus" }
+    }
+  },
+  "05_12": {
+    "question": "True or False: In asynchronous buses, devices must agree on timing through request/acknowledge signals.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_13": {
+    "question": "Which bus configuration reduces the number of physical lines by transmitting one bit at a time?",
+    "choices": {
+      "A": { "choice": "Parallel bus" },
+      "B": { "choice": "Serial bus", "correct": true },
+      "C": { "choice": "Multiplexed bus" },
+      "D": { "choice": "Differential bus" }
+    }
+  },
+  "05_14": {
+    "question": "Which bus type sends multiple bits simultaneously over separate lines?",
+    "choices": {
+      "A": { "choice": "Serial bus" },
+      "B": { "choice": "Parallel bus", "correct": true },
+      "C": { "choice": "Asynchronous bus" },
+      "D": { "choice": "Half-duplex bus" }
+    }
+  },
+  "05_15": {
+    "question": "True or False: PCI Express is an example of a parallel bus architecture.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "05_16": {
+    "question": "Select all correct examples of computer system interrupts.",
+    "choices": {
+      "A": { "choice": "I/O device requests attention", "correct": true },
+      "B": { "choice": "Divide-by-zero exception", "correct": true },
+      "C": { "choice": "A periodic system timer event", "correct": true },
+      "D": { "choice": "User presses Caps Lock key", "correct": true }
+    }
+  },
+  "05_17": {
+    "question": "Which type of interrupt is triggered by hardware devices?",
+    "choices": {
+      "A": { "choice": "Hardware interrupt", "correct": true },
+      "B": { "choice": "Software interrupt" },
+      "C": { "choice": "Maskable interrupt" },
+      "D": { "choice": "Non-maskable interrupt" }
+    }
+  },
+  "05_18": {
+    "question": "True or False: Software interrupts are triggered by executing specific instructions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_19": {
+    "question": "Which type of interrupt cannot be disabled by the CPU?",
+    "choices": {
+      "A": { "choice": "Maskable interrupt" },
+      "B": { "choice": "Non-maskable interrupt", "correct": true },
+      "C": { "choice": "Software interrupt" },
+      "D": { "choice": "Spurious interrupt" }
+    }
+  },
+  "05_20": {
+    "question": "True or False: Interrupt latency is the delay between when an interrupt occurs and when it is serviced.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_21": {
+    "question": "Select all correct steps in handling an interrupt.",
+    "choices": {
+      "A": { "choice": "Save current CPU state", "correct": true },
+      "B": { "choice": "Identify the interrupt source", "correct": true },
+      "C": {
+        "choice": "Execute interrupt service routine (ISR)",
+        "correct": true
+      },
+      "D": { "choice": "Restore CPU state and resume program", "correct": true }
+    }
+  },
+  "05_22": {
+    "question": "Which interrupt handling method checks devices in sequence to find the requesting device?",
+    "choices": {
+      "A": { "choice": "Polling", "correct": true },
+      "B": { "choice": "Vectored interrupts" },
+      "C": { "choice": "Priority encoding" },
+      "D": { "choice": "Time slicing" }
+    }
+  },
+  "05_23": {
+    "question": "Which interrupt method provides the address of the ISR directly from the device or a table?",
+    "choices": {
+      "A": { "choice": "Polling" },
+      "B": { "choice": "Vectored interrupt", "correct": true },
+      "C": { "choice": "Software interrupt" },
+      "D": { "choice": "Round-robin scheduling" }
+    }
+  },
+  "05_24": {
+    "question": "True or False: Priority interrupts ensure that more important tasks are serviced before less important ones.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_25": {
+    "question": "Which hardware component is often used to manage multiple interrupt requests and assign priorities?",
+    "choices": {
+      "A": { "choice": "DMA controller" },
+      "B": { "choice": "Interrupt controller", "correct": true },
+      "C": { "choice": "Bus arbiter" },
+      "D": { "choice": "Cache controller" }
+    }
+  },
+  "05_26": {
+    "question": "True or False: Maskable interrupts can be disabled by the CPU to prevent certain types of interruptions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_27": {
+    "question": "Select all correct statements about direct memory access (DMA).",
+    "choices": {
+      "A": {
+        "choice": "DMA allows devices to access system memory without CPU intervention",
+        "correct": true
+      },
+      "B": {
+        "choice": "It reduces CPU overhead for large data transfers",
+        "correct": true
+      },
+      "C": { "choice": "It always increases CPU workload" },
+      "D": {
+        "choice": "It can be used for both read and write operations",
+        "correct": true
+      }
+    }
+  },
+  "05_28": {
+    "question": "Which signal indicates to the CPU that a DMA transfer is complete?",
+    "choices": {
+      "A": { "choice": "Acknowledge signal", "correct": true },
+      "B": { "choice": "Ready signal" },
+      "C": { "choice": "Interrupt request signal" },
+      "D": { "choice": "Clock signal" }
+    }
+  },
+  "05_29": {
+    "question": "True or False: In cycle stealing, a DMA controller temporarily takes control of the bus to transfer data.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_30": {
+    "question": "Which timing sequence involves starting the next bus cycle before the current one finishes?",
+    "choices": {
+      "A": { "choice": "Overlapped timing", "correct": true },
+      "B": { "choice": "Synchronous timing" },
+      "C": { "choice": "Asynchronous timing" },
+      "D": { "choice": "Half-duplex timing" }
+    }
+  },
+  "05_31": {
+    "question": "True or False: In synchronous timing sequences, all operations are triggered by a shared clock signal.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_32": {
+    "question": "Which timing sequence uses request and acknowledge signals instead of a common clock?",
+    "choices": {
+      "A": { "choice": "Synchronous" },
+      "B": { "choice": "Asynchronous", "correct": true },
+      "C": { "choice": "Overlapped" },
+      "D": { "choice": "Pipeline" }
+    }
+  },
+  "05_33": {
+    "question": "Select all examples of control bus signals.",
+    "choices": {
+      "A": { "choice": "Memory read", "correct": true },
+      "B": { "choice": "Memory write", "correct": true },
+      "C": { "choice": "Clock", "correct": true },
+      "D": { "choice": "Data transfer" }
+    }
+  },
+  "05_34": {
+    "question": "True or False: The width of the address bus determines the maximum memory size a CPU can address.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_35": {
+    "question": "Which bus configuration uses the same lines for address and data at different times?",
+    "choices": {
+      "A": { "choice": "Multiplexed bus", "correct": true },
+      "B": { "choice": "Serial bus" },
+      "C": { "choice": "Parallel bus" },
+      "D": { "choice": "Unidirectional bus" }
+    }
+  },
+  "05_36": {
+    "question": "True or False: Unidirectional buses allow signals to travel in both directions.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "05_37": {
+    "question": "Which bus type allows communication in both directions, but only one direction at a time?",
+    "choices": {
+      "A": { "choice": "Full-duplex bus" },
+      "B": { "choice": "Half-duplex bus", "correct": true },
+      "C": { "choice": "Unidirectional bus" },
+      "D": { "choice": "Single-ended bus" }
+    }
+  },
+  "05_38": {
+    "question": "True or False: Full-duplex buses allow simultaneous two-way communication.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_39": {
+    "question": "Select all advantages of using a multiplexed bus.",
+    "choices": {
+      "A": {
+        "choice": "Reduces the number of physical lines needed",
+        "correct": true
+      },
+      "B": { "choice": "Simplifies hardware design" },
+      "C": { "choice": "Lower system cost", "correct": true },
+      "D": { "choice": "Allows simultaneous address and data transfer" }
+    }
+  },
+  "05_40": {
+    "question": "True or False: Bus contention occurs when multiple devices attempt to use the bus at the same time.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_41": {
+    "question": "Which bus arbitration method assigns a fixed priority to each device?",
+    "choices": {
+      "A": { "choice": "Fixed priority arbitration", "correct": true },
+      "B": { "choice": "Round-robin arbitration" },
+      "C": { "choice": "Dynamic priority arbitration" },
+      "D": { "choice": "Daisy chaining" }
+    }
+  },
+  "05_42": {
+    "question": "True or False: In daisy chain arbitration, the device closest to the controller has the highest priority.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_43": {
+    "question": "Which term describes the process of dividing a bus into separate segments to reduce contention?",
+    "choices": {
+      "A": { "choice": "Bus segmentation", "correct": true },
+      "B": { "choice": "Bus sharing" },
+      "C": { "choice": "Bus arbitration" },
+      "D": { "choice": "Bus splitting" }
+    }
+  },
+  "05_44": {
+    "question": "True or False: Vectored interrupts can reduce interrupt handling time compared to polling.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_45": {
+    "question": "Select all disadvantages of using polling instead of interrupts.",
+    "choices": {
+      "A": { "choice": "Increased CPU overhead", "correct": true },
+      "B": { "choice": "Slower response to events", "correct": true },
+      "C": { "choice": "Better CPU utilization" },
+      "D": { "choice": "Waste of CPU cycles when idle", "correct": true }
+    }
+  },
+  "05_46": {
+    "question": "True or False: Interrupt-driven I/O generally results in better CPU utilization compared to polling.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_47": {
+    "question": "Which type of bus design uses differential signaling to reduce noise and increase speed?",
+    "choices": {
+      "A": { "choice": "Single-ended bus" },
+      "B": { "choice": "Differential bus", "correct": true },
+      "C": { "choice": "Parallel bus" },
+      "D": { "choice": "Multiplexed bus" }
+    }
+  },
+  "05_48": {
+    "question": "True or False: USB uses a serial bus architecture.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_49": {
+    "question": "Which of the following is a key advantage of asynchronous buses over synchronous buses?",
+    "choices": {
+      "A": { "choice": "Higher maximum speed" },
+      "B": { "choice": "No need for a shared clock", "correct": true },
+      "C": { "choice": "Lower design complexity" },
+      "D": { "choice": "Fixed timing for all transfers" }
+    }
+  },
+  "05_50": {
+    "question": "True or False: Interrupt nesting allows higher-priority interrupts to be serviced before lower-priority ones during ISR execution.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_51": {
+    "question": "Which bus signal is responsible for initiating a read operation from memory or an I/O device?",
+    "choices": {
+      "A": { "choice": "Read signal", "correct": true },
+      "B": { "choice": "Write signal" },
+      "C": { "choice": "Clock signal" },
+      "D": { "choice": "Acknowledge signal" }
+    }
+  },
+  "05_52": {
+    "question": "True or False: In multiplexed buses, address and data signals share the same lines but are sent at different times.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_53": {
+    "question": "Which of the following correctly matches an interrupt type to an example?",
+    "choices": {
+      "A": {
+        "choice": "Hardware interrupt – Printer signals that it is out of paper",
+        "correct": true
+      },
+      "B": { "choice": "Software interrupt – Power failure detected" },
+      "C": { "choice": "Non-maskable interrupt – User presses Enter key" },
+      "D": { "choice": "Maskable interrupt – CPU overheats" }
+    }
+  },
+  "05_54": {
+    "question": "Select all examples of maskable interrupts.",
+    "choices": {
+      "A": { "choice": "Keyboard input", "correct": true },
+      "B": { "choice": "Printer ready signal", "correct": true },
+      "C": { "choice": "Power failure" },
+      "D": { "choice": "Disk I/O completion", "correct": true }
+    }
+  },
+  "05_55": {
+    "question": "Which bus type uses a single communication line that can be shared by multiple devices for both sending and receiving data?",
+    "choices": {
+      "A": { "choice": "Parallel bus" },
+      "B": { "choice": "Serial bus", "correct": true },
+      "C": { "choice": "Full-duplex bus" },
+      "D": { "choice": "Multiplexed bus" }
+    }
+  },
+  "05_56": {
+    "question": "True or False: An interrupt vector table stores the addresses of all possible Interrupt Service Routines.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_57": {
+    "question": "Which bus arbitration technique assigns priorities dynamically based on device needs?",
+    "choices": {
+      "A": { "choice": "Fixed priority arbitration" },
+      "B": { "choice": "Dynamic priority arbitration", "correct": true },
+      "C": { "choice": "Round-robin arbitration" },
+      "D": { "choice": "Daisy chain arbitration" }
+    }
+  },
+  "05_58": {
+    "question": "True or False: Bus cycle time refers to the total time required to complete a single read or write operation on the bus.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "05_59": {
+    "question": "Which interrupt type is triggered by a specific instruction executed by a program?",
+    "choices": {
+      "A": { "choice": "Hardware interrupt" },
+      "B": { "choice": "Software interrupt", "correct": true },
+      "C": { "choice": "Non-maskable interrupt" },
+      "D": { "choice": "Maskable interrupt" }
+    }
+  },
+  "05_60": {
+    "question": "Select all correct statements about vectored interrupts.",
+    "choices": {
+      "A": {
+        "choice": "They allow faster identification of the interrupt source",
+        "correct": true
+      },
+      "B": {
+        "choice": "They require an interrupt vector table",
+        "correct": true
+      },
+      "C": { "choice": "They eliminate the need for ISR execution" },
+      "D": {
+        "choice": "They can be used with both hardware and software interrupts",
+        "correct": true
+      }
+    }
+  }
+}

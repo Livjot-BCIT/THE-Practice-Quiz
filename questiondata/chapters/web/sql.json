@@ -1,0 +1,344 @@
+{
+  "04_01": {
+    "chapter": "4",
+    "question": "What does SQL stand for?",
+    "choices": {
+      "A": { "choice": "Structured Query Language", "correct": true },
+      "B": { "choice": "Sequential Query Language" },
+      "C": { "choice": "Simple Query List" },
+      "D": { "choice": "Structured Question Language" }
+    }
+  },
+  "04_02": {
+    "chapter": "4",
+    "question": "Which SQL statement is used to retrieve data from a database?",
+    "choices": {
+      "A": { "choice": "SELECT", "correct": true },
+      "B": { "choice": "GET" },
+      "C": { "choice": "FETCH" },
+      "D": { "choice": "RETRIEVE" }
+    }
+  },
+  "04_03": {
+    "chapter": "4",
+    "question": "Which clause is used to filter records in a SELECT statement?",
+    "choices": {
+      "A": { "choice": "WHERE", "correct": true },
+      "B": { "choice": "FILTER" },
+      "C": { "choice": "ORDER BY" },
+      "D": { "choice": "LIMIT" }
+    }
+  },
+  "04_04": {
+    "chapter": "4",
+    "question": "How do you select all columns from the 'users' table?",
+    "choices": {
+      "A": { "choice": "SELECT * FROM users;", "correct": true },
+      "B": { "choice": "SELECT all FROM users;" },
+      "C": { "choice": "SELECT columns FROM users;" },
+      "D": { "choice": "SELECT users.*;" }
+    }
+  },
+  "04_05": {
+    "chapter": "4",
+    "question": "Which SQL keyword sorts the result-set?",
+    "choices": {
+      "A": { "choice": "ORDER BY", "correct": true },
+      "B": { "choice": "SORT" },
+      "C": { "choice": "GROUP BY" },
+      "D": { "choice": "ARRANGE" }
+    }
+  },
+  "04_06": {
+    "chapter": "4",
+    "question": "Which clause groups rows that have the same values in specified columns?",
+    "choices": {
+      "A": { "choice": "GROUP BY", "correct": true },
+      "B": { "choice": "ORDER BY" },
+      "C": { "choice": "COLLECT" },
+      "D": { "choice": "GATHER" }
+    }
+  },
+  "04_07": {
+    "chapter": "4",
+    "question": "How do you insert a new record into the 'students' table?",
+    "choices": {
+      "A": { "choice": "INSERT INTO students VALUES (...);", "correct": true },
+      "B": { "choice": "ADD TO students (...);" },
+      "C": { "choice": "NEW students (...);" },
+      "D": { "choice": "CREATE students (...);" }
+    }
+  },
+  "04_08": {
+    "chapter": "4",
+    "question": "Which SQL keyword deletes records from a table?",
+    "choices": {
+      "A": { "choice": "DELETE", "correct": true },
+      "B": { "choice": "REMOVE" },
+      "C": { "choice": "DROP" },
+      "D": { "choice": "TRUNCATE" }
+    }
+  },
+  "04_09": {
+    "chapter": "4",
+    "question": "What is the purpose of the PRIMARY KEY constraint?",
+    "choices": {
+      "A": {
+        "choice": "To uniquely identify each row in a table",
+        "correct": true
+      },
+      "B": { "choice": "To allow duplicate values" },
+      "C": { "choice": "To store large text" },
+      "D": { "choice": "To reference another table" }
+    }
+  },
+  "04_10": {
+    "chapter": "4",
+    "question": "Which statement updates a value in a table?",
+    "choices": {
+      "A": { "choice": "UPDATE", "correct": true },
+      "B": { "choice": "MODIFY" },
+      "C": { "choice": "SET" },
+      "D": { "choice": "CHANGE" }
+    }
+  },
+  "04_11": {
+    "chapter": "4",
+    "question": "Which operator is used to search for a pattern in a column?",
+    "choices": {
+      "A": { "choice": "LIKE", "correct": true },
+      "B": { "choice": "FIND" },
+      "C": { "choice": "SEARCH" },
+      "D": { "choice": "MATCH" }
+    }
+  },
+  "04_12": {
+    "chapter": "4",
+    "question": "Which function returns the number of rows in a result set?",
+    "choices": {
+      "A": { "choice": "COUNT()", "correct": true },
+      "B": { "choice": "SUM()" },
+      "C": { "choice": "LENGTH()" },
+      "D": { "choice": "SIZE()" }
+    }
+  },
+  "04_13": {
+    "chapter": "4",
+    "question": "How do you select distinct values from a column?",
+    "choices": {
+      "A": { "choice": "SELECT DISTINCT column FROM table;", "correct": true },
+      "B": { "choice": "SELECT UNIQUE column FROM table;" },
+      "C": { "choice": "SELECT column FROM table DISTINCT;" },
+      "D": { "choice": "SELECT column UNIQUE FROM table;" }
+    }
+  },
+  "04_14": {
+    "chapter": "4",
+    "question": "Which SQL statement removes a table from the database?",
+    "choices": {
+      "A": { "choice": "DROP TABLE table;", "correct": true },
+      "B": { "choice": "DELETE TABLE table;" },
+      "C": { "choice": "REMOVE table;" },
+      "D": { "choice": "TRUNCATE TABLE table;" }
+    }
+  },
+  "04_15": {
+    "chapter": "4",
+    "question": "What does a FOREIGN KEY do?",
+    "choices": {
+      "A": { "choice": "Links two tables together", "correct": true },
+      "B": { "choice": "Deletes records" },
+      "C": { "choice": "Indexes a column" },
+      "D": { "choice": "Counts rows" }
+    }
+  },
+  "04_16": {
+    "chapter": "4",
+    "question": "What is the result of: SELECT AVG(age) FROM students;",
+    "choices": {
+      "A": { "choice": "The average age of all students", "correct": true },
+      "B": { "choice": "The sum of all ages" },
+      "C": { "choice": "The oldest age" },
+      "D": { "choice": "The youngest age" }
+    }
+  },
+  "04_17": {
+    "chapter": "4",
+    "question": "Which clause limits the number of rows returned?",
+    "choices": {
+      "A": { "choice": "LIMIT", "correct": true },
+      "B": { "choice": "STOP" },
+      "C": { "choice": "ROWNUM" },
+      "D": { "choice": "COUNT" }
+    }
+  },
+  "04_18": {
+    "chapter": "4",
+    "question": "How do you select all students older than 18?",
+    "choices": {
+      "A": {
+        "choice": "SELECT * FROM students WHERE age > 18;",
+        "correct": true
+      },
+      "B": { "choice": "SELECT * FROM students WHERE age >= 18;" },
+      "C": { "choice": "SELECT age > 18 FROM students;" },
+      "D": { "choice": "SELECT students WHERE age > 18;" }
+    }
+  },
+  "04_19": {
+    "chapter": "4",
+    "question": "Which operator combines rows from two or more tables based on a related column?",
+    "choices": {
+      "A": { "choice": "JOIN", "correct": true },
+      "B": { "choice": "MERGE" },
+      "C": { "choice": "COMBINE" },
+      "D": { "choice": "LINK" }
+    }
+  },
+  "04_20": {
+    "chapter": "4",
+    "question": "Which type of JOIN returns all records when there is a match in either left or right table?",
+    "choices": {
+      "A": { "choice": "FULL OUTER JOIN", "correct": true },
+      "B": { "choice": "LEFT JOIN" },
+      "C": { "choice": "RIGHT JOIN" },
+      "D": { "choice": "INNER JOIN" }
+    }
+  },
+  "04_21": {
+    "chapter": "4",
+    "question": "Which SQL function returns the highest value in a column?",
+    "choices": {
+      "A": { "choice": "MAX()", "correct": true },
+      "B": { "choice": "HIGH()" },
+      "C": { "choice": "TOP()" },
+      "D": { "choice": "UPPER()" }
+    }
+  },
+  "04_22": {
+    "chapter": "4",
+    "question": "Which SQL data type would you use to store text up to 255 characters?",
+    "choices": {
+      "A": { "choice": "VARCHAR(255)", "correct": true },
+      "B": { "choice": "TEXT" },
+      "C": { "choice": "CHAR(255)" },
+      "D": { "choice": "STRING(255)" }
+    }
+  },
+  "04_23": {
+    "chapter": "4",
+    "question": "What does the NOT NULL constraint do?",
+    "choices": {
+      "A": {
+        "choice": "Ensures a column cannot have NULL values",
+        "correct": true
+      },
+      "B": { "choice": "Makes a column unique" },
+      "C": { "choice": "Deletes null values" },
+      "D": { "choice": "Creates an index" }
+    }
+  },
+  "04_24": {
+    "chapter": "4",
+    "question": "Which SQL keyword is used to change the structure of a table?",
+    "choices": {
+      "A": { "choice": "ALTER", "correct": true },
+      "B": { "choice": "UPDATE" },
+      "C": { "choice": "CHANGE" },
+      "D": { "choice": "MODIFY" }
+    }
+  },
+  "04_25": {
+    "chapter": "4",
+    "question": "Which keyword is used to remove all records from a table, but keep its structure?",
+    "choices": {
+      "A": { "choice": "TRUNCATE", "correct": true },
+      "B": { "choice": "DROP" },
+      "C": { "choice": "DELETE" },
+      "D": { "choice": "REMOVE" }
+    }
+  },
+  "04_26": {
+    "chapter": "4",
+    "question": "Which keyword is used to combine the results of two SELECT queries and remove duplicates?",
+    "choices": {
+      "A": { "choice": "UNION", "correct": true },
+      "B": { "choice": "JOIN" },
+      "C": { "choice": "INTERSECT" },
+      "D": { "choice": "MERGE" }
+    }
+  },
+  "04_27": {
+    "chapter": "4",
+    "question": "What does the HAVING clause do in a SQL query?",
+    "choices": {
+      "A": { "choice": "Filters groups created by GROUP BY", "correct": true },
+      "B": { "choice": "Filters rows before grouping" },
+      "C": { "choice": "Renames columns" },
+      "D": { "choice": "Deletes records" }
+    }
+  },
+  "04_28": {
+    "chapter": "4",
+    "question": "Which function returns the number of non-null values in a column?",
+    "choices": {
+      "A": { "choice": "COUNT(column)", "correct": true },
+      "B": { "choice": "SUM(column)" },
+      "C": { "choice": "COUNT(*)" },
+      "D": { "choice": "AVG(column)" }
+    }
+  },
+  "04_29": {
+    "chapter": "4",
+    "question": "What is the difference between WHERE and HAVING?",
+    "choices": {
+      "A": {
+        "choice": "WHERE filters rows, HAVING filters groups",
+        "correct": true
+      },
+      "B": { "choice": "WHERE is only for numeric columns" },
+      "C": { "choice": "HAVING is for joins, WHERE is not" },
+      "D": { "choice": "They are interchangeable" }
+    }
+  },
+  "04_30": {
+    "chapter": "4",
+    "question": "Which operator is used to test whether a column value is null?",
+    "choices": {
+      "A": { "choice": "IS NULL", "correct": true },
+      "B": { "choice": "= NULL" },
+      "C": { "choice": "NULL" },
+      "D": { "choice": "IS NOT" }
+    }
+  },
+  "04_31": {
+    "chapter": "4",
+    "question": "Which SQL statement creates a new view?",
+    "choices": {
+      "A": { "choice": "CREATE VIEW view_name AS SELECT ...", "correct": true },
+      "B": { "choice": "NEW VIEW view_name AS SELECT ..." },
+      "C": { "choice": "MAKE VIEW view_name FROM ..." },
+      "D": { "choice": "INSERT VIEW view_name AS ..." }
+    }
+  },
+  "04_32": {
+    "chapter": "4",
+    "question": "What does the BETWEEN operator do?",
+    "choices": {
+      "A": { "choice": "Selects values within a given range", "correct": true },
+      "B": { "choice": "Combines two tables" },
+      "C": { "choice": "Counts unique values" },
+      "D": { "choice": "Returns NULL values" }
+    }
+  },
+  "04_33": {
+    "chapter": "4",
+    "question": "Which clause can rename a column in the result set?",
+    "choices": {
+      "A": { "choice": "AS", "correct": true },
+      "B": { "choice": "RENAME" },
+      "C": { "choice": "SET" },
+      "D": { "choice": "LABEL" }
+    }
+  }
+}

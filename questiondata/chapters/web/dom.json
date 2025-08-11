@@ -1,0 +1,302 @@
+{
+  "05_01": {
+    "chapter": "5",
+    "question": "What does DOM stand for?",
+    "choices": {
+      "A": { "choice": "Document Object Model", "correct": true },
+      "B": { "choice": "Data Object Model" },
+      "C": { "choice": "Document Oriented Module" },
+      "D": { "choice": "Dynamic Object Management" }
+    }
+  },
+  "05_02": {
+    "chapter": "5",
+    "question": "Which method selects an element by its ID?",
+    "choices": {
+      "A": { "choice": "document.getElementById()", "correct": true },
+      "B": { "choice": "document.querySelectorAll()" },
+      "C": { "choice": "document.getElementsByClass()" },
+      "D": { "choice": "document.selectById()" }
+    }
+  },
+  "05_03": {
+    "chapter": "5",
+    "question": "Which of these selects all elements with the class 'note'?",
+    "choices": {
+      "A": { "choice": "document .getElementsByClassName('note')", "correct": true },
+      "B": { "choice": "document.getElementById('note')" },
+      "C": { "choice": "document.querySelector('note')" },
+      "D": { "choice": "document.note()" }
+    }
+  },
+  "05_04": {
+    "chapter": "5",
+    "question": "Which method selects the first matching element for a given CSS selector?",
+    "choices": {
+      "A": { "choice": "document.querySelector()", "correct": true },
+      "B": { "choice": "document.querySelectorAll()" },
+      "C": { "choice": "document.getElement()" },
+      "D": { "choice": "document.select()" }
+    }
+  },
+  "05_05": {
+    "chapter": "5",
+    "question": "How do you change the text inside an element with id 'title'?",
+    "choices": {
+      "A": { "choice": "document.getElementById('title') .textContent = 'New Title';", "correct": true },
+      "B": { "choice": "document.title.textContent\n = 'New Title';" },
+      "C": { "choice": "document.title = 'New Title';" },
+      "D": { "choice": "title.innerText = 'New Title';" }
+    }
+  },
+  "05_06": {
+    "chapter": "5",
+    "question": "Which property returns a list of a node’s child elements (excluding text nodes)?",
+    "choices": {
+      "A": { "choice": "children", "correct": true },
+      "B": { "choice": "childNodes" },
+      "C": { "choice": "childElements" },
+      "D": { "choice": "allChildren" }
+    }
+  },
+  "05_07": {
+    "chapter": "5",
+    "question": "How do you create a new &lt;div&gt; element in the DOM?",
+    "choices": {
+      "A": { "choice": "document.createElement('div')", "correct": true },
+      "B": { "choice": "document.newElement('div')" },
+      "C": { "choice": "document.makeElement('div')" },
+      "D": { "choice": "document.addElement('div')" }
+    }
+  },
+  "05_08": {
+    "chapter": "5",
+    "question": "Which method adds a node to the end of a parent node’s child list?",
+    "choices": {
+      "A": { "choice": "appendChild()", "correct": true },
+      "B": { "choice": "addChild()" },
+      "C": { "choice": "insertNode()" },
+      "D": { "choice": "addNode()" }
+    }
+  },
+  "05_09": {
+    "chapter": "5",
+    "question": "What does innerHTML do?",
+    "choices": {
+      "A": { "choice": "Gets or sets the HTML markup inside an element", "correct": true },
+      "B": { "choice": "Sets the CSS of an element" },
+      "C": { "choice": "Returns only the text content" },
+      "D": { "choice": "Gets the outer HTML including the element itself" }
+    }
+  },
+  "05_10": {
+    "chapter": "5",
+    "question": "How do you remove an element with id 'old' from the DOM?",
+    "choices": {
+      "A": { "choice": "document.getElementById('old') .remove();", "correct": true },
+      "B": { "choice": "document.removeElement('old');" },
+      "C": { "choice": "document.getElementById('old') .delete();" },
+      "D": { "choice": "remove (document.getElementById('old'));" }
+    }
+  },
+  "05_11": {
+    "chapter": "5",
+    "question": "Which event fires when an input field loses focus?",
+    "choices": {
+      "A": { "choice": "blur", "correct": true },
+      "B": { "choice": "focus" },
+      "C": { "choice": "change" },
+      "D": { "choice": "input" }
+    }
+  },
+  "05_12": {
+    "chapter": "5",
+    "question": "Which method adds an event handler to an element?",
+    "choices": {
+      "A": { "choice": "addEventListener()", "correct": true },
+      "B": { "choice": "attachEvent()" },
+      "C": { "choice": "onEvent()" },
+      "D": { "choice": "setEventListener()" }
+    }
+  },
+  "05_13": {
+    "chapter": "5",
+    "question": "What does e.preventDefault() do in an event handler?",
+    "choices": {
+      "A": { "choice": "Prevents the default browser action", "correct": true },
+      "B": { "choice": "Removes the event listener" },
+      "C": { "choice": "Stops all JavaScript execution" },
+      "D": { "choice": "Prevents the event from firing" }
+    }
+  },
+  "05_14": {
+    "chapter": "5",
+    "question": "How do you access the parent node of a given DOM element?",
+    "choices": {
+      "A": { "choice": "element.parentNode", "correct": true },
+      "B": { "choice": "element.parent" },
+      "C": { "choice": "element.parentElement()" },
+      "D": { "choice": "element.getParent()" }
+    }
+  },
+  "05_15": {
+    "chapter": "5",
+    "question": "Which property contains a collection of all of an element's child nodes, including text and comments?",
+    "choices": {
+      "A": { "choice": "childNodes", "correct": true },
+      "B": { "choice": "children" },
+      "C": { "choice": "allChildren" },
+      "D": { "choice": "elementNodes" }
+    }
+  },
+  "05_16": {
+    "chapter": "5",
+    "question": "How can you set the value of an input element with id 'email' to 'test@example.com'?",
+    "choices": {
+      "A": { "choice": "document.getElementById('email') .value = 'test@example.com';", "correct": true },
+      "B": { "choice": "document.getElementById('email') .textContent = 'test@example.com';" },
+      "C": { "choice": "document.email.value = 'test@example.com';" },
+      "D": { "choice": "setValue('email', 'test@example.com');" }
+    }
+  },
+  "05_17": {
+    "chapter": "5",
+    "question": "How do you select all &lt;p&gt; elements on the page?",
+    "choices": {
+      "A": { "choice": "document.querySelectorAll('p')", "correct": true },
+      "B": { "choice": "document.getElementById('p')" },
+      "C": { "choice": "document.selectAll('p')" },
+      "D": { "choice": "document.findAll('p')" }
+    }
+  },
+  "05_18": {
+    "chapter": "5",
+    "question": "Which property would you use to get or set the inline CSS of an element?",
+    "choices": {
+      "A": { "choice": "style", "correct": true },
+      "B": { "choice": "css" },
+      "C": { "choice": "styles" },
+      "D": { "choice": "stylesheet" }
+    }
+  },
+  "05_19": {
+    "chapter": "5",
+    "question": "Which method inserts a node before another specified child node?",
+    "choices": {
+      "A": { "choice": "insertBefore()", "correct": true },
+      "B": { "choice": "appendChild()" },
+      "C": { "choice": "addChild()" },
+      "D": { "choice": "insertChild()" }
+    }
+  },
+  "05_20": {
+    "chapter": "5",
+    "question": "What does document.body represent?",
+    "choices": {
+      "A": { "choice": "The <body> element of the page", "correct": true },
+      "B": { "choice": "The <head> element of the page" },
+      "C": { "choice": "All HTML elements" },
+      "D": { "choice": "The root element <html>" }
+    }
+  },
+   "05_21": {
+    "chapter": "5",
+    "question": "Which method returns a live HTMLCollection of elements with a given class name?",
+    "choices": {
+      "A": { "choice": "getElementsByClassName()", "correct": true },
+      "B": { "choice": "querySelectorAll()" },
+      "C": { "choice": "getElementsByTagName()" },
+      "D": { "choice": "getElementsById()" }
+    }
+  },
+  "05_22": {
+    "chapter": "5",
+    "question": "Which method returns a static NodeList of elements matching a CSS selector?",
+    "choices": {
+      "A": { "choice": "querySelectorAll()", "correct": true },
+      "B": { "choice": "getElementsByTagName()" },
+      "C": { "choice": "getElementById()" },
+      "D": { "choice": "getElementsByClassName()" }
+    }
+  },
+  "05_23": {
+    "chapter": "5",
+    "question": "What does the method cloneNode(true) do?",
+    "choices": {
+      "A": { "choice": "Clones the element and all its descendants", "correct": true },
+      "B": { "choice": "Clones only the element, not its children" },
+      "C": { "choice": "Deletes the element" },
+      "D": { "choice": "Returns the parent node" }
+    }
+  },
+  "05_24": {
+    "chapter": "5",
+    "question": "Which property gives you a collection of all child nodes, including text and comment nodes?",
+    "choices": {
+      "A": { "choice": "childNodes", "correct": true },
+      "B": { "choice": "children" },
+      "C": { "choice": "firstChild" },
+      "D": { "choice": "parentNode" }
+    }
+  },
+  "05_25": {
+    "chapter": "5",
+    "question": "How do you add a class 'active' to an element with id 'nav'?",
+    "choices": {
+      "A": { "choice": "document.getElementById('nav') .classList.add('active');", "correct": true },
+      "B": { "choice": "document.getElementById('nav') .className('active');" },
+      "C": { "choice": "document.getElementById('nav') .addClass('active');" },
+      "D": { "choice": "document.getElementById('nav') .setAttribute('active');" }
+    }
+  },
+  "05_26": {
+    "chapter": "5",
+    "question": "What does e.stopPropagation() do in an event handler?",
+    "choices": {
+      "A": { "choice": "Stops the event from bubbling up the DOM", "correct": true },
+      "B": { "choice": "Prevents default browser behavior" },
+      "C": { "choice": "Removes the event listener" },
+      "D": { "choice": "Stops code execution" }
+    }
+  },
+  "05_27": {
+    "chapter": "5",
+    "question": "Which property is used to access custom data attributes like data-user=\"5\"?",
+    "choices": {
+      "A": { "choice": "element.dataset.user", "correct": true },
+      "B": { "choice": "element.data.user" },
+      "C": { "choice": "element.getAttribute('data-user')" },
+      "D": { "choice": "element.user" }
+    }
+  },
+  "05_28": {
+    "chapter": "5",
+    "question": "How can you remove an element from the DOM?",
+    "choices": {
+      "A": { "choice": "element.remove()", "correct": true },
+      "B": { "choice": "element.delete()" },
+      "C": { "choice": "parent.deleteChild(element)" },
+      "D": { "choice": "document.removeElement(element)" }
+    }
+  },
+  "05_29": {
+    "chapter": "5",
+    "question": "What does document.activeElement return?",
+    "choices": {
+      "A": { "choice": "The element currently focused", "correct": true },
+      "B": { "choice": "The first child element" },
+      "C": { "choice": "The last clicked element" },
+      "D": { "choice": "The body element" }
+    }
+  },
+  "05_30": {
+    "chapter": "5",
+    "question": "Which method is best for event delegation on a parent element?",
+    "choices": {
+      "A": { "choice": "Add a single event listener to the parent", "correct": true },
+      "B": { "choice": "Add listeners to each child" },
+      "C": { "choice": "Use setInterval()" },
+      "D": { "choice": "Use parent.bubbleEvent()" }
+    }
+  }
+}

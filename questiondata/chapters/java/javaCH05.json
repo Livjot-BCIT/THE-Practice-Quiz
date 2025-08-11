@@ -1,0 +1,649 @@
+{
+  "05_01": {
+    "chapter": "5",
+    "question": "What is a method in Java?",
+    "choices": {
+      "A": {
+        "choice": "A named sequence of statements that performs a specific task.",
+        "correct": true
+      },
+      "B": { "choice": "A type of variable." },
+      "C": { "choice": "A Java keyword." },
+      "D": { "choice": "A reserved word for comments." }
+    }
+  },
+  "05_02": {
+    "chapter": "5",
+    "question": "Which of the following is the correct way to define a method that returns an int?",
+    "choices": {
+      "A": {
+        "choice": "public int getNumber() { return 5; }",
+        "correct": true
+      },
+      "B": { "choice": "public void getNumber() { return 5; }" },
+      "C": { "choice": "public getNumber() int { return 5; }" },
+      "D": { "choice": "int getNumber = 5;" }
+    }
+  },
+  "05_03": {
+    "chapter": "5",
+    "question": "What is the purpose of the return statement in a method?",
+    "choices": {
+      "A": {
+        "choice": "To exit the method and optionally send a value back to the caller.",
+        "correct": true
+      },
+      "B": { "choice": "To print output to the console." },
+      "C": { "choice": "To call another method." },
+      "D": { "choice": "To define a local variable." }
+    }
+  },
+  "05_04": {
+    "chapter": "5",
+    "question": "Which keyword is used to call a method inside the same class?",
+    "choices": {
+      "A": { "choice": "this", "correct": true },
+      "B": { "choice": "super" },
+      "C": { "choice": "self" },
+      "D": { "choice": "base" }
+    }
+  },
+  "05_05": {
+    "chapter": "5",
+    "question": "What is method overloading?",
+    "choices": {
+      "A": {
+        "choice": "Defining multiple methods with the same name but different parameter lists.",
+        "correct": true
+      },
+      "B": { "choice": "Using a method inside another method." },
+      "C": { "choice": "Writing a method with many return statements." },
+      "D": { "choice": "Defining methods in different classes." }
+    }
+  },
+  "05_06": {
+    "chapter": "5",
+    "question": "Which of the following is a valid method signature for overloading?",
+    "choices": {
+      "A": {
+        "choice": "public void print(int x) and public void print(double x)",
+        "correct": true
+      },
+      "B": { "choice": "public void print(int x) and public int print(int x)" },
+      "C": {
+        "choice": "public void print(int x) and public void Print(int x)"
+      },
+      "D": { "choice": "public void print() and public void print()" }
+    }
+  },
+  "05_07": {
+    "chapter": "5",
+    "question": "What is the output of the following code?\n\npublic static void main(String[] args) {\n  int a = 5;\n  System.out.println(square(a));\n}\n\npublic static int square(int n) {\n  return n * n;\n}",
+    "choices": {
+      "A": { "choice": "25", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "5" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "05_08": {
+    "chapter": "5",
+    "question": "What does it mean when a method is declared static?",
+    "choices": {
+      "A": {
+        "choice": "It belongs to the class, not an object instance.",
+        "correct": true
+      },
+      "B": { "choice": "It cannot return a value." },
+      "C": { "choice": "It can only be used in main()." },
+      "D": { "choice": "It runs only once." }
+    }
+  },
+  "05_09": {
+    "chapter": "5",
+    "question": "Which of the following method calls is valid if method signature is: public void foo(int x, double y)?",
+    "choices": {
+      "A": { "choice": "foo(5, 2.0);", "correct": true },
+      "B": { "choice": "foo(2.0, 5);" },
+      "C": { "choice": "foo(5);" },
+      "D": { "choice": "foo();" }
+    }
+  },
+  "05_10": {
+    "chapter": "5",
+    "question": "Which of the following correctly returns an array from a method?",
+    "choices": {
+      "A": {
+        "choice": "public int[] getArray() { return new int[5]; }",
+        "correct": true
+      },
+      "B": { "choice": "public array getArray() { return int[5]; }" },
+      "C": { "choice": "public int getArray() { return [5]; }" },
+      "D": { "choice": "public int[] getArray { return new int[5]; }" }
+    }
+  },
+  "05_11": {
+    "chapter": "5",
+    "question": "What does the term 'scope' refer to in the context of variables?",
+    "choices": {
+      "A": {
+        "choice": "The region of the code where the variable can be accessed.",
+        "correct": true
+      },
+      "B": { "choice": "The size of the variable in memory." },
+      "C": { "choice": "The number of times a variable is used." },
+      "D": { "choice": "The return type of a variable." }
+    }
+  },
+  "05_12": {
+    "chapter": "5",
+    "question": "Which of the following statements about parameter passing in Java is true?",
+    "choices": {
+      "A": {
+        "choice": "Primitive types are passed by value.",
+        "correct": true
+      },
+      "B": { "choice": "Primitive types are passed by reference." },
+      "C": { "choice": "Objects are always copied into the method." },
+      "D": {
+        "choice": "Methods can change the original value of primitive arguments."
+      }
+    }
+  },
+  "05_13": {
+    "chapter": "5",
+    "question": "Given the code below, what is the value of x after the method call?\n\npublic static void change(int x) { x = 10; }\n\npublic static void main(String[] args) {\n  int x = 5;\n  change(x);\n  System.out.println(x);\n}",
+    "choices": {
+      "A": { "choice": "5", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "0" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "05_14": {
+    "chapter": "5",
+    "question": "Which of the following best describes a recursive method?",
+    "choices": {
+      "A": {
+        "choice": "A method that calls itself directly or indirectly.",
+        "correct": true
+      },
+      "B": { "choice": "A method that never returns." },
+      "C": { "choice": "A method that has no parameters." },
+      "D": { "choice": "A method that returns a boolean value." }
+    }
+  },
+  "05_15": {
+    "chapter": "5",
+    "question": "What is the base case in recursion?",
+    "choices": {
+      "A": {
+        "choice": "A condition that stops the recursion.",
+        "correct": true
+      },
+      "B": { "choice": "A parameter passed to the recursive method." },
+      "C": { "choice": "The last parameter in the method." },
+      "D": { "choice": "The first call to the method." }
+    }
+  },
+  "05_16": {
+    "chapter": "5",
+    "question": "Which method call demonstrates recursion?",
+    "choices": {
+      "A": {
+        "choice": "factorial(n - 1) inside the factorial(n) method",
+        "correct": true
+      },
+      "B": { "choice": "calling System.out.println() in main()" },
+      "C": { "choice": "a method calling another method once" },
+      "D": { "choice": "creating an object in main()" }
+    }
+  },
+  "05_17": {
+    "chapter": "5",
+    "question": "What will happen if a recursive method does not have a base case?",
+    "choices": {
+      "A": {
+        "choice": "It will cause a stack overflow error.",
+        "correct": true
+      },
+      "B": { "choice": "It will return 0." },
+      "C": { "choice": "It will only run once." },
+      "D": { "choice": "It will be ignored by the compiler." }
+    }
+  },
+  "05_18": {
+    "chapter": "5",
+    "question": "Which of the following can be used as a base case in recursion?",
+    "choices": {
+      "A": {
+        "choice": "A condition that makes the method stop calling itself.",
+        "correct": true
+      },
+      "B": { "choice": "A return statement at the top of the method." },
+      "C": { "choice": "A print statement in the loop." },
+      "D": { "choice": "A variable declaration inside the method." }
+    }
+  },
+  "05_19": {
+    "chapter": "5",
+    "question": "What is the output of this recursive method call?\n\npublic static int sum(int n) {\n  if (n == 1) return 1;\n  return n + sum(n - 1);\n}\nSystem.out.println(sum(3));",
+    "choices": {
+      "A": { "choice": "6", "correct": true },
+      "B": { "choice": "3" },
+      "C": { "choice": "1" },
+      "D": { "choice": "0" }
+    }
+  },
+  "05_20": {
+    "chapter": "5",
+    "question": "Which of the following method declarations is valid?",
+    "choices": {
+      "A": { "choice": "public void methodName() {}", "correct": true },
+      "B": { "choice": "public void methodName {}" },
+      "C": { "choice": "void public methodName() {}" },
+      "D": { "choice": "public methodName() void {}" }
+    }
+  },
+  "05_21": {
+    "chapter": "5",
+    "question": "What is the return type of a method that does not return a value?",
+    "choices": {
+      "A": { "choice": "void", "correct": true },
+      "B": { "choice": "null" },
+      "C": { "choice": "None" },
+      "D": { "choice": "int" }
+    }
+  },
+  "05_22": {
+    "chapter": "5",
+    "question": "Which of the following methods has a syntax error?",
+    "choices": {
+      "A": { "choice": "public int getValue() { return 3; }" },
+      "B": { "choice": "public void printValue() { System.out.println(1); }" },
+      "C": { "choice": "public double calc(int x) { return x * 2.0; }" },
+      "D": {
+        "choice": "public void show { System.out.println(2); }",
+        "correct": true
+      }
+    }
+  },
+  "05_23": {
+    "chapter": "5",
+    "question": "Which statement about method parameters is TRUE?",
+    "choices": {
+      "A": {
+        "choice": "Parameters are local variables for the method.",
+        "correct": true
+      },
+      "B": { "choice": "Parameters are global variables." },
+      "C": { "choice": "Parameters are always static." },
+      "D": { "choice": "Parameters must have the same name as the method." }
+    }
+  },
+  "05_24": {
+    "chapter": "5",
+    "question": "Which of these demonstrates passing an array to a method?",
+    "choices": {
+      "A": { "choice": "public void foo(int[] arr)", "correct": true },
+      "B": { "choice": "public void foo(arr[] int)" },
+      "C": { "choice": "public void foo(array int[])" },
+      "D": { "choice": "public void foo(int arr)" }
+    }
+  },
+  "05_25": {
+    "chapter": "5",
+    "question": "Given: public void test(int a, int b), which is a valid call?",
+    "choices": {
+      "A": { "choice": "test(1, 2);", "correct": true },
+      "B": { "choice": "test(1);" },
+      "C": { "choice": "test(a, b);" },
+      "D": { "choice": "test();" }
+    }
+  },
+  "05_26": {
+    "chapter": "5",
+    "question": "Which of these methods is overloaded?",
+    "choices": {
+      "A": {
+        "choice": "public void foo(int x) and public void foo(double x)",
+        "correct": true
+      },
+      "B": { "choice": "public void foo(int x) and public void bar(int x)" },
+      "C": { "choice": "public int foo() and public double foo()" },
+      "D": { "choice": "public void Foo(int x) and public void foo(int x)" }
+    }
+  },
+  "05_27": {
+    "chapter": "5",
+    "question": "Which of the following is NOT a valid way to call a static method named hello()?",
+    "choices": {
+      "A": { "choice": "hello();", "correct": true },
+      "B": { "choice": "ClassName.hello();" },
+      "C": { "choice": "this.hello();" },
+      "D": { "choice": "ClassName obj = new ClassName(); obj.hello();" }
+    }
+  },
+  "05_28": {
+    "chapter": "5",
+    "question": "Which best describes the stack in recursion?",
+    "choices": {
+      "A": {
+        "choice": "It stores information about each method call.",
+        "correct": true
+      },
+      "B": { "choice": "It keeps track of variables only." },
+      "C": { "choice": "It stores only the return values." },
+      "D": { "choice": "It is used only for loops." }
+    }
+  },
+  "05_29": {
+    "chapter": "5",
+    "question": "What is the result of calling a method that has no return statement but is declared as int?",
+    "choices": {
+      "A": { "choice": "A compile-time error occurs.", "correct": true },
+      "B": { "choice": "It returns 0 by default." },
+      "C": { "choice": "It returns null." },
+      "D": { "choice": "It works if there is a print statement." }
+    }
+  },
+  "05_30": {
+    "chapter": "5",
+    "question": "Which of these correctly defines a method with no parameters?",
+    "choices": {
+      "A": { "choice": "public void foo() {}", "correct": true },
+      "B": { "choice": "public void foo {}" },
+      "C": { "choice": "public foo() void {}" },
+      "D": { "choice": "void foo {}" }
+    }
+  },
+  "05_31": {
+    "chapter": "5",
+    "question": "What is the output of this code?\n\npublic static void printHello() {\n  System.out.print(\"Hello \");\n}\n\npublic static void main(String[] args) {\n  printHello();\n  printHello();\n}",
+    "choices": {
+      "A": { "choice": "Hello Hello ", "correct": true },
+      "B": { "choice": "Hello" },
+      "C": { "choice": "HelloHello" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "05_32": {
+    "chapter": "5",
+    "question": "What is true about local variables in a method?",
+    "choices": {
+      "A": {
+        "choice": "They are only accessible inside that method.",
+        "correct": true
+      },
+      "B": { "choice": "They can be used in any class." },
+      "C": { "choice": "They retain their value between calls." },
+      "D": { "choice": "They must be declared as static." }
+    }
+  },
+  "05_33": {
+    "chapter": "5",
+    "question": "Which statement is true about static methods?",
+    "choices": {
+      "A": {
+        "choice": "They can be called without creating an object.",
+        "correct": true
+      },
+      "B": { "choice": "They cannot call other static methods." },
+      "C": { "choice": "They can access instance variables directly." },
+      "D": { "choice": "They must always return a value." }
+    }
+  },
+  "05_34": {
+    "chapter": "5",
+    "question": "What is the output of this code?\n\npublic static int fun(int x) {\n  if (x <= 0) return 0;\n  return x + fun(x - 2);\n}\nSystem.out.println(fun(4));",
+    "choices": {
+      "A": { "choice": "6", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "4" },
+      "D": { "choice": "2" }
+    }
+  },
+  "05_35": {
+    "chapter": "5",
+    "question": "What is method signature in Java?",
+    "choices": {
+      "A": {
+        "choice": "The method name and the parameter list.",
+        "correct": true
+      },
+      "B": { "choice": "The return type only." },
+      "C": { "choice": "The method name only." },
+      "D": { "choice": "The parameter list only." }
+    }
+  },
+  "05_36": {
+    "chapter": "5",
+    "question": "Which of these is NOT a reason to use a method?",
+    "choices": {
+      "A": {
+        "choice": "To duplicate code in multiple places.",
+        "correct": true
+      },
+      "B": { "choice": "To organize code into logical units." },
+      "C": { "choice": "To avoid repeating code." },
+      "D": { "choice": "To improve readability and maintainability." }
+    }
+  },
+  "05_37": {
+    "chapter": "5",
+    "question": "Which statement about the return type of a method is TRUE?",
+    "choices": {
+      "A": {
+        "choice": "It specifies what kind of value the method will return.",
+        "correct": true
+      },
+      "B": { "choice": "It can be omitted if the method returns void." },
+      "C": { "choice": "It must always be int." },
+      "D": { "choice": "It must be declared static." }
+    }
+  },
+  "05_38": {
+    "chapter": "5",
+    "question": "Which of these statements about variable scope is TRUE?",
+    "choices": {
+      "A": {
+        "choice": "A variable declared inside a method is not accessible outside that method.",
+        "correct": true
+      },
+      "B": { "choice": "A class variable can only be used in one method." },
+      "C": { "choice": "A parameter is global to all classes." },
+      "D": { "choice": "Local variables are always static." }
+    }
+  },
+  "05_39": {
+    "chapter": "5",
+    "question": "Given: public static void f(int[] arr) { arr[0] = 10; } ... int[] a = {1,2,3}; f(a); System.out.println(a[0]); What is printed?",
+    "choices": {
+      "A": { "choice": "10", "correct": true },
+      "B": { "choice": "1" },
+      "C": { "choice": "0" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "05_40": {
+    "chapter": "5",
+    "question": "What is output of this method?\n\npublic static int foo(int n) {\n  if (n <= 0) return 0;\n  return 1 + foo(n - 1);\n}\nSystem.out.println(foo(3));",
+    "choices": {
+      "A": { "choice": "3", "correct": true },
+      "B": { "choice": "6" },
+      "C": { "choice": "4" },
+      "D": { "choice": "Error" }
+    }
+  },
+  "05_41": {
+    "chapter": "5",
+    "question": "What is a helper method?",
+    "choices": {
+      "A": {
+        "choice": "A method called by another method to perform a subtask.",
+        "correct": true
+      },
+      "B": { "choice": "A method that always returns void." },
+      "C": { "choice": "A method that creates a new object." },
+      "D": { "choice": "A method that is never called." }
+    }
+  },
+  "05_42": {
+    "chapter": "5",
+    "question": "Which of these is an example of a method header?",
+    "choices": {
+      "A": { "choice": "public int max(int a, int b)", "correct": true },
+      "B": { "choice": "max(a, b)" },
+      "C": { "choice": "return a > b ? a : b;" },
+      "D": { "choice": "public int max;" }
+    }
+  },
+  "05_43": {
+    "chapter": "5",
+    "question": "Which of the following is a benefit of using methods?",
+    "choices": {
+      "A": {
+        "choice": "They allow code to be reused and organized.",
+        "correct": true
+      },
+      "B": { "choice": "They make code harder to read." },
+      "C": { "choice": "They require every method to be static." },
+      "D": { "choice": "They must always return a value." }
+    }
+  },
+  "05_44": {
+    "chapter": "5",
+    "question": "What does the keyword void indicate in a method declaration?",
+    "choices": {
+      "A": { "choice": "The method does not return a value.", "correct": true },
+      "B": { "choice": "The method returns an empty string." },
+      "C": { "choice": "The method always returns null." },
+      "D": { "choice": "The method is abstract." }
+    }
+  },
+  "05_45": {
+    "chapter": "5",
+    "question": "Which is the correct order for writing a method declaration in Java?",
+    "choices": {
+      "A": {
+        "choice": "[access modifier] [return type] [method name]([parameter list]) { ... }",
+        "correct": true
+      },
+      "B": {
+        "choice": "[return type] [access modifier] [method name]([parameter list]) { ... }"
+      },
+      "C": {
+        "choice": "[method name]([parameter list]) [access modifier] [return type] { ... }"
+      },
+      "D": {
+        "choice": "[parameter list] [return type] [access modifier] [method name] { ... }"
+      }
+    }
+  },
+  "05_46": {
+    "chapter": "5",
+    "question": "Select all valid method names according to Java conventions. (Select all that apply)",
+    "choices": {
+      "A": { "choice": "getValue", "correct": true },
+      "B": { "choice": "_processData", "correct": true },
+      "C": { "choice": "1calculate" },
+      "D": { "choice": "return" }
+    }
+  },
+  "05_47": {
+    "chapter": "5",
+    "question": "Which of the following is true about recursion?",
+    "choices": {
+      "A": {
+        "choice": "It can always be replaced by a loop.",
+        "correct": true
+      },
+      "B": { "choice": "It never terminates." },
+      "C": { "choice": "It is used only in math problems." },
+      "D": { "choice": "It must use arrays." }
+    }
+  },
+  "05_48": {
+    "chapter": "5",
+    "question": "Which of the following is NOT a characteristic of a good method?",
+    "choices": {
+      "A": {
+        "choice": "It is very long and tries to do many unrelated things.",
+        "correct": true
+      },
+      "B": { "choice": "It has a descriptive name." },
+      "C": { "choice": "It has a clear purpose." },
+      "D": { "choice": "It is reusable." }
+    }
+  },
+  "05_49": {
+    "chapter": "5",
+    "question": "What happens if two methods have the same name and parameter list but different return types?",
+    "choices": {
+      "A": { "choice": "A compile-time error occurs.", "correct": true },
+      "B": { "choice": "The method with the larger return type is chosen." },
+      "C": { "choice": "The last declared method is used." },
+      "D": { "choice": "It is allowed in Java." }
+    }
+  },
+  "05_50": {
+    "chapter": "5",
+    "question": "Which keyword is used to call a superclass method from a subclass?",
+    "choices": {
+      "A": { "choice": "super", "correct": true },
+      "B": { "choice": "this" },
+      "C": { "choice": "extends" },
+      "D": { "choice": "parent" }
+    }
+  },
+  "05_51": {
+    "chapter": "5",
+    "question": "Which type of loop is guaranteed to execute its body at least once?",
+    "choices": {
+      "A": { "choice": "do-while loop", "correct": true },
+      "B": { "choice": "for loop" },
+      "C": { "choice": "while loop" },
+      "D": { "choice": "enhanced for loop" }
+    }
+  },
+  "05_52": {
+    "chapter": "5",
+    "question": "What does the break statement do inside a nested loop?",
+    "choices": {
+      "A": { "choice": "It exits only the innermost loop.", "correct": true },
+      "B": { "choice": "It exits all loops in the program." },
+      "C": { "choice": "It skips the current iteration of the loop." },
+      "D": { "choice": "It restarts the loop from the beginning." }
+    }
+  },
+  "05_53": {
+    "chapter": "5",
+    "question": "What is the output of this code?\n\nint count = 1;\nwhile (count < 4) {\n  System.out.print(count + \" \");\n  count++;\n}",
+    "choices": {
+      "A": { "choice": "1 2 3 ", "correct": true },
+      "B": { "choice": "1 2 3 4 " },
+      "C": { "choice": "0 1 2 3 " },
+      "D": { "choice": "1 2 " }
+    }
+  },
+  "05_54": {
+    "chapter": "5",
+    "question": "What happens if you forget to increment the loop control variable in a while loop?",
+    "choices": {
+      "A": { "choice": "You may create an infinite loop.", "correct": true },
+      "B": { "choice": "The loop runs exactly once." },
+      "C": { "choice": "The program will not compile." },
+      "D": { "choice": "You get a runtime error immediately." }
+    }
+  },
+  "05_55": {
+    "chapter": "5",
+    "question": "Which type of loop is most useful when you know exactly how many times you want to repeat an action?",
+    "choices": {
+      "A": { "choice": "for loop", "correct": true },
+      "B": { "choice": "while loop" },
+      "C": { "choice": "do-while loop" },
+      "D": { "choice": "infinite loop" }
+    }
+  }
+}

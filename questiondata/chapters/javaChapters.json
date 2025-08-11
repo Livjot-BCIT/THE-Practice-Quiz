@@ -1,0 +1,13 @@
+{
+    "chapters": [
+      { "id": 1, "name": "Chapter 1", "topic": "Intro & Java Overview"},
+      { "id": 2, "name": "Chapter 2", "topic": "Data & Types"},
+      { "id": 3, "name": "Chapter 3", "topic": "Variables & Operators"},
+      { "id": 4, "name": "Chapter 4", "topic": "Control Flow"},
+      { "id": 5, "name": "Chapter 5", "topic": "Methods"},
+      { "id": 6, "name": "Chapter 6", "topic": "Classes & Objects"},
+      { "id": 7, "name": "Chapter 7", "topic": "Arrays"},
+      { "id": 8, "name": "Chapter 8", "topic": "OOP & Inheritance"}
+    ]
+  }
+  

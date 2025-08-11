@@ -1,0 +1,474 @@
+{
+  "06_01": {
+    "question": "What is a graph in mathematics?",
+    "choices": {
+      "A": { "choice": "A collection of sets" },
+      "B": { "choice": "A collection of vertices and edges", "correct": true },
+      "C": { "choice": "A type of tree" },
+      "D": { "choice": "A type of sequence" }
+    }
+  },
+  "06_02": {
+    "question": "What do we call the points in a graph?",
+    "choices": {
+      "A": { "choice": "Nodes", "correct": true },
+      "B": { "choice": "Lines" },
+      "C": { "choice": "Paths" },
+      "D": { "choice": "Circuits" }
+    }
+  },
+  "06_03": {
+    "question": "In an undirected graph, what is an edge?",
+    "choices": {
+      "A": { "choice": "A connection from a node to itself" },
+      "B": { "choice": "A connection between two vertices", "correct": true },
+      "C": { "choice": "A vertex with no neighbors" },
+      "D": { "choice": "A path with length 0" }
+    }
+  },
+  "06_04": {
+    "question": "What is the degree of a vertex?",
+    "choices": {
+      "A": { "choice": "The number of edges incident to it", "correct": true },
+      "B": { "choice": "The number of vertices in the graph" },
+      "C": { "choice": "The number of paths starting at the vertex" },
+      "D": { "choice": "The total number of cycles in the graph" }
+    }
+  },
+  "06_05": {
+    "question": "Which graph has no cycles?",
+    "choices": {
+      "A": { "choice": "Tree", "correct": true },
+      "B": { "choice": "Complete graph" },
+      "C": { "choice": "Cycle graph" },
+      "D": { "choice": "Connected graph" }
+    }
+  },
+  "06_06": {
+    "question": "What is a path in a graph?",
+    "choices": {
+      "A": { "choice": "A set of vertices not connected" },
+      "B": {
+        "choice": "A sequence of edges where each edge shares a vertex with the next",
+        "correct": true
+      },
+      "C": { "choice": "A vertex with degree 0" },
+      "D": { "choice": "A loop that returns to the starting vertex" }
+    }
+  },
+  "06_07": {
+    "question": "Which property defines a connected graph?",
+    "choices": {
+      "A": {
+        "choice": "Every vertex is connected to every other vertex by a path",
+        "correct": true
+      },
+      "B": { "choice": "No vertex has an edge" },
+      "C": { "choice": "There is exactly one cycle" },
+      "D": { "choice": "All degrees are equal" }
+    }
+  },
+  "06_08": {
+    "question": "What is an adjacency matrix?",
+    "choices": {
+      "A": { "choice": "A list of vertices" },
+      "B": {
+        "choice": "A table showing which vertices are connected by edges",
+        "correct": true
+      },
+      "C": { "choice": "A tree diagram" },
+      "D": { "choice": "A sequence of paths" }
+    }
+  },
+  "06_09": {
+    "question": "Which of the following is a cycle in a graph?",
+    "choices": {
+      "A": {
+        "choice": "A path that starts and ends at the same vertex, with no repeated edges or vertices except the start/end",
+        "correct": true
+      },
+      "B": { "choice": "A sequence of isolated vertices" },
+      "C": { "choice": "A single edge" },
+      "D": { "choice": "A path with all vertices of degree 1" }
+    }
+  },
+  "06_10": {
+    "question": "What is a simple graph?",
+    "choices": {
+      "A": {
+        "choice": "A graph with no loops or multiple edges between any two vertices",
+        "correct": true
+      },
+      "B": { "choice": "A graph with exactly two vertices" },
+      "C": { "choice": "A graph with only one edge" },
+      "D": { "choice": "A tree with no branches" }
+    }
+  },
+  "06_11": {
+    "question": "How many edges does a complete graph with n vertices have?",
+    "choices": {
+      "A": { "choice": "n" },
+      "B": { "choice": "n^2" },
+      "C": { "choice": "n(n-1)/2", "correct": true },
+      "D": { "choice": "2n" }
+    }
+  },
+  "06_12": {
+    "question": "What is a spanning tree of a connected graph?",
+    "choices": {
+      "A": { "choice": "A tree with cycles" },
+      "B": {
+        "choice": "A subgraph that is a tree and includes all the vertices",
+        "correct": true
+      },
+      "C": { "choice": "A disconnected tree" },
+      "D": { "choice": "A graph with the most edges possible" }
+    }
+  },
+  "06_13": {
+    "question": "What does BFS (Breadth-First Search) do in a graph?",
+    "choices": {
+      "A": { "choice": "Visits nodes in depth-first order" },
+      "B": {
+        "choice": "Visits all nodes in a level-by-level order",
+        "correct": true
+      },
+      "C": { "choice": "Removes cycles" },
+      "D": { "choice": "Finds only isolated nodes" }
+    }
+  },
+  "06_14": {
+    "question": "In DFS (Depth-First Search), what is the typical data structure used?",
+    "choices": {
+      "A": { "choice": "Queue" },
+      "B": { "choice": "Stack", "correct": true },
+      "C": { "choice": "Linked list" },
+      "D": { "choice": "Heap" }
+    }
+  },
+  "06_15": {
+    "question": "Which graph property is tested by checking for cycles?",
+    "choices": {
+      "A": { "choice": "If the graph is connected" },
+      "B": { "choice": "If the graph is complete" },
+      "C": { "choice": "If the graph is a tree", "correct": true },
+      "D": { "choice": "If the graph is weighted" }
+    }
+  },
+  "06_16": {
+    "question": "What is an Eulerian path?",
+    "choices": {
+      "A": {
+        "choice": "A path that uses every edge exactly once",
+        "correct": true
+      },
+      "B": { "choice": "A path that uses every vertex exactly once" },
+      "C": {
+        "choice": "A path that visits every vertex and edge at least once"
+      },
+      "D": { "choice": "A cycle that never ends" }
+    }
+  },
+  "06_17": {
+    "question": "Which of the following must a graph have to possess an Eulerian circuit?",
+    "choices": {
+      "A": { "choice": "All vertices have even degree", "correct": true },
+      "B": { "choice": "All vertices have odd degree" },
+      "C": { "choice": "Exactly two vertices have odd degree" },
+      "D": { "choice": "No cycles" }
+    }
+  },
+  "06_18": {
+    "question": "What is a Hamiltonian path?",
+    "choices": {
+      "A": { "choice": "A path that visits every edge exactly once" },
+      "B": {
+        "choice": "A path that visits every vertex exactly once",
+        "correct": true
+      },
+      "C": { "choice": "A path that returns to the starting vertex only" },
+      "D": { "choice": "A cycle with all vertices" }
+    }
+  },
+  "06_19": {
+    "question": "Which is a necessary condition for a tree?",
+    "choices": {
+      "A": {
+        "choice": "Exactly one path between every pair of vertices",
+        "correct": true
+      },
+      "B": { "choice": "Every vertex has degree 2" },
+      "C": { "choice": "There is a cycle" },
+      "D": { "choice": "No leaves" }
+    }
+  },
+  "06_20": {
+    "question": "Which algorithm is commonly used to find the shortest path in a weighted graph?",
+    "choices": {
+      "A": { "choice": "DFS" },
+      "B": { "choice": "BFS" },
+      "C": { "choice": "Dijkstra's Algorithm", "correct": true },
+      "D": { "choice": "Euler's Algorithm" }
+    }
+  },
+  "06_21": {
+    "question": "Which term describes a tree with no parent node?",
+    "choices": {
+      "A": { "choice": "Root", "correct": true },
+      "B": { "choice": "Leaf" },
+      "C": { "choice": "Branch" },
+      "D": { "choice": "Edge" }
+    }
+  },
+  "06_22": {
+    "question": "What is a leaf in a tree?",
+    "choices": {
+      "A": { "choice": "A node with exactly two children" },
+      "B": { "choice": "A node with no children", "correct": true },
+      "C": { "choice": "A node with many ancestors" },
+      "D": { "choice": "A cycle in a tree" }
+    }
+  },
+  "06_23": {
+    "question": "What does it mean if a graph is planar?",
+    "choices": {
+      "A": {
+        "choice": "It can be drawn in a plane without any edges crossing",
+        "correct": true
+      },
+      "B": { "choice": "It is a complete graph" },
+      "C": { "choice": "It contains only cycles" },
+      "D": { "choice": "It has only even degrees" }
+    }
+  },
+  "06_24": {
+    "question": "Which of the following describes a weighted graph?",
+    "choices": {
+      "A": {
+        "choice": "Each edge has an associated value or cost",
+        "correct": true
+      },
+      "B": { "choice": "Each vertex has a number" },
+      "C": { "choice": "Every edge forms a cycle" },
+      "D": { "choice": "The graph has no edges" }
+    }
+  },
+  "06_25": {
+    "question": "What does the adjacency list representation of a graph show?",
+    "choices": {
+      "A": {
+        "choice": "Which vertices are connected to each vertex",
+        "correct": true
+      },
+      "B": { "choice": "The degree of each vertex only" },
+      "C": { "choice": "A table of edge weights" },
+      "D": { "choice": "All possible paths" }
+    }
+  },
+  "06_26": {
+    "question": "What is the maximum number of edges in a simple undirected graph with n vertices?",
+    "choices": {
+      "A": { "choice": "n^2" },
+      "B": { "choice": "n(n-1)/2", "correct": true },
+      "C": { "choice": "n(n-1)" },
+      "D": { "choice": "n+1" }
+    }
+  },
+  "06_27": {
+    "question": "Which is true about a bipartite graph?",
+    "choices": {
+      "A": {
+        "choice": "Its vertices can be divided into two sets with edges only between sets",
+        "correct": true
+      },
+      "B": { "choice": "It contains only cycles" },
+      "C": { "choice": "It is always a tree" },
+      "D": { "choice": "Every vertex has the same degree" }
+    }
+  },
+  "06_28": {
+    "question": "What is a self-loop in a graph?",
+    "choices": {
+      "A": {
+        "choice": "An edge that connects a vertex to itself",
+        "correct": true
+      },
+      "B": { "choice": "A cycle of length two" },
+      "C": { "choice": "A path with only one vertex" },
+      "D": { "choice": "A leaf node" }
+    }
+  },
+  "06_29": {
+    "question": "Which algorithm is commonly used for finding minimum spanning trees?",
+    "choices": {
+      "A": { "choice": "Prim's Algorithm", "correct": true },
+      "B": { "choice": "DFS" },
+      "C": { "choice": "Bellman-Ford Algorithm" },
+      "D": { "choice": "Kruskal's Algorithm" }
+    }
+  },
+  "06_30": {
+    "question": "What is an isomorphic graph?",
+    "choices": {
+      "A": {
+        "choice": "Two graphs with the same structure, possibly with different labels",
+        "correct": true
+      },
+      "B": { "choice": "A graph with cycles" },
+      "C": { "choice": "A graph with all edges of the same weight" },
+      "D": { "choice": "A tree with no leaves" }
+    }
+  },
+  "06_31": {
+    "question": "Which property do trees and graphs share?",
+    "choices": {
+      "A": {
+        "choice": "Both are collections of vertices and edges",
+        "correct": true
+      },
+      "B": { "choice": "Both must be connected" },
+      "C": { "choice": "Both must have cycles" },
+      "D": { "choice": "Both have only leaves" }
+    }
+  },
+  "06_32": {
+    "question": "How is a directed graph different from an undirected graph?",
+    "choices": {
+      "A": {
+        "choice": "Edges have a direction from one vertex to another",
+        "correct": true
+      },
+      "B": { "choice": "Vertices can have loops" },
+      "C": { "choice": "It contains cycles" },
+      "D": { "choice": "No two edges can meet at a vertex" }
+    }
+  },
+  "06_33": {
+    "question": "Which property is true for a tree with n vertices?",
+    "choices": {
+      "A": { "choice": "It has n edges" },
+      "B": { "choice": "It has n-1 edges", "correct": true },
+      "C": { "choice": "It has n+1 vertices" },
+      "D": { "choice": "It must have a cycle" }
+    }
+  },
+  "06_34": {
+    "question": "Which of the following is not a property of a simple graph?",
+    "choices": {
+      "A": { "choice": "No loops" },
+      "B": { "choice": "No multiple edges between the same pair of vertices" },
+      "C": { "choice": "All vertices have the same degree", "correct": true },
+      "D": { "choice": "Edges connect pairs of distinct vertices" }
+    }
+  },
+  "06_35": {
+    "question": "Which algorithm visits all the vertices and edges in a graph systematically?",
+    "choices": {
+      "A": { "choice": "DFS", "correct": true },
+      "B": { "choice": "Counting" },
+      "C": { "choice": "Multiplication" },
+      "D": { "choice": "Sorting" }
+    }
+  },
+  "06_36": {
+    "question": "What does FSM stand for in computer science?",
+    "choices": {
+      "A": { "choice": "Finite State Machine", "correct": true },
+      "B": { "choice": "Fast Sequential Model" },
+      "C": { "choice": "Functional Schematic Method" },
+      "D": { "choice": "Formal Structure Map" }
+    }
+  },
+  "06_37": {
+    "question": "Which of the following is a key component of a finite state machine?",
+    "choices": {
+      "A": { "choice": "States", "correct": true },
+      "B": { "choice": "Arrays" },
+      "C": { "choice": "Stacks" },
+      "D": { "choice": "Variables" }
+    }
+  },
+  "06_38": {
+    "question": "In an FSM, what represents the rules for moving between states?",
+    "choices": {
+      "A": { "choice": "Transitions", "correct": true },
+      "B": { "choice": "Functions" },
+      "C": { "choice": "Classes" },
+      "D": { "choice": "Operators" }
+    }
+  },
+  "06_39": {
+    "question": "What type of FSM allows for multiple possible transitions for a given state and input?",
+    "choices": {
+      "A": { "choice": "Deterministic FSM" },
+      "B": { "choice": "Non-deterministic FSM", "correct": true },
+      "C": { "choice": "Probabilistic FSM" },
+      "D": { "choice": "Infinite State Machine" }
+    }
+  },
+  "06_40": {
+    "question": "Which component of an FSM determines if an input string is accepted?",
+    "choices": {
+      "A": { "choice": "Start state" },
+      "B": { "choice": "Accepting (final) state", "correct": true },
+      "C": { "choice": "Transition function" },
+      "D": { "choice": "Input alphabet" }
+    }
+  },
+  "06_41": {
+    "question": "Which of the following is NOT part of a finite state machine?",
+    "choices": {
+      "A": { "choice": "Set of states" },
+      "B": { "choice": "Input alphabet" },
+      "C": { "choice": "Stack", "correct": true },
+      "D": { "choice": "Transition function" }
+    }
+  },
+  "06_42": {
+    "question": "What is the difference between a Mealy and a Moore machine?",
+    "choices": {
+      "A": {
+        "choice": "Mealy outputs depend on transitions; Moore outputs depend on states.",
+        "correct": true
+      },
+      "B": {
+        "choice": "Moore outputs depend on transitions; Mealy outputs depend on states."
+      },
+      "C": { "choice": "Mealy machines have no outputs." },
+      "D": { "choice": "There is no difference." }
+    }
+  },
+  "06_43": {
+    "question": "In an FSM, what is the start state?",
+    "choices": {
+      "A": {
+        "choice": "The state where the machine begins processing input.",
+        "correct": true
+      },
+      "B": { "choice": "A state with no incoming transitions." },
+      "C": { "choice": "Any state chosen at random." },
+      "D": { "choice": "A state that repeats infinitely." }
+    }
+  },
+  "06_44": {
+    "question": "Which of the following best describes an accepting state in an FSM?",
+    "choices": {
+      "A": {
+        "choice": "A state where the input string is considered accepted.",
+        "correct": true
+      },
+      "B": { "choice": "A state that cannot be reached." },
+      "C": { "choice": "A state with no outgoing transitions." },
+      "D": { "choice": "The first state in the machine." }
+    }
+  },
+  "06_45": {
+    "question": "Which language class can FSMs recognize?",
+    "choices": {
+      "A": { "choice": "Regular languages", "correct": true },
+      "B": { "choice": "Context-free languages" },
+      "C": { "choice": "Context-sensitive languages" },
+      "D": { "choice": "Recursively enumerable languages" }
+    }
+  }
+}

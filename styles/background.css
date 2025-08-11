@@ -1,0 +1,228 @@
+:root {
+  /* Main Theme Colors */
+  --color-bg-main: #1b214e; /* body bg */
+  --color-bg-alt: #232a4d; /* modal bg, alt */
+  --color-bg-container: #293165; /* container bg */
+  --color-bg-translucent: rgba(14, 14, 22, 0.6);
+  --color-bg-footer: rgba(34, 37, 60, 0.75);
+  --color-bg-footer-catalyst: rgba(34, 37, 60, 0.45);
+  --color-bg-footer-border: #fff;
+
+  /* Violet/Purple Accent */
+  --color-accent: #6f55b6;
+  --color-accent-hover: #825eff;
+  --color-accent-border: #5f559a;
+  --color-accent-focus: #9e81fa;
+
+  /* Shape/Gradient Colors */
+  --color-shape: #323c6f;
+  --color-shape2: #3a5580;
+  --color-shape-diamond: #fff;
+  --color-shape-diamond-alt: #67564c;
+
+  /* Text/Font */
+  --color-text: #eeeeee;
+  --color-text-muted: #bbb;
+  --color-footer-text: #fff;
+  --color-label: #ececec;
+  --color-h1: #fff;
+
+  /* Misc UI */
+  --color-border: #ccc;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+  --color-shadow-strong: #2e205999;
+  --color-modal-bg: rgba(18, 18, 40, 0.85);
+  --color-modal-date: #bbe;
+
+  /* Tag colors */
+  --tag-update: #ff4b4b;
+  --tag-version: #2fd46c;
+  --tag-beta: #ad7aff;
+  --tag-alpha: #49baff;
+
+  /* Misc */
+  --radius: 10px;
+  --radius-large: 16px;
+  --blur-bg: blur(8px);
+}
+
+/* ---- base bg gradient with circles ---- */
+.bg {
+  background-color: var(--color-bg-container);
+  background-image: radial-gradient(
+      circle at 15% 25%,
+      var(--color-shape) 40px,
+      transparent 0
+    ),
+    radial-gradient(circle at 75% 20%, var(--color-shape) 50px, transparent 0),
+    radial-gradient(circle at 50% 95%, var(--color-shape) 30px, transparent 0),
+    radial-gradient(circle at 20% 65%, var(--color-shape) 100px, transparent 0),
+    radial-gradient(circle at 95% 70%, var(--color-shape) 120px, transparent 0);
+  background-size: cover;
+}
+
+/* ---- coloured bg shapes ---- */
+.background-shapes {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.shape {
+  position: absolute;
+  background-color: var(--color-shape);
+  opacity: 0.6;
+}
+
+/* circles */
+.shape-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.shape-circle.one {
+  top: 10%;
+  left: 20%;
+}
+.shape-circle.two {
+  bottom: 20%;
+  right: 15%;
+}
+.shape-circle.three {
+  top: -1%;
+  left: -2%;
+}
+
+/* diamonds */
+.shape-diamond {
+  width: 20px;
+  height: 20px;
+  background-color: var(--color-shape-diamond);
+  transform: rotate(45deg);
+  opacity: 0.5;
+}
+.shape-diamond.one {
+  top: 40%;
+  left: 30%;
+}
+.shape-diamond.two {
+  bottom: 90%;
+  right: 10%;
+}
+.shape-diamond.three {
+  top: 15%;
+  right: 45%;
+  background-color: var(--color-shape-diamond-alt);
+}
+.shape-diamond.four {
+  top: 75%;
+  right: 45%;
+}
+
+/* x marks */
+.shape-x {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  opacity: 0.5;
+  background: transparent;
+}
+.shape-x::before,
+.shape-x::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: var(--color-shape2);
+  transform: translateY(-50%) rotate(45deg);
+}
+.shape-x::after {
+  transform: translateY(-50%) rotate(-45deg);
+}
+.shape-x.one {
+  top: 50%;
+  left: 50%;
+}
+.shape-x.two {
+  top: 32%;
+  right: 32%;
+}
+.shape-x.two::before,
+.shape-x.two::after {
+  background-color: var(--color-shape-diamond-alt);
+}
+.shape-x.three {
+  top: 80%;
+  left: 70%;
+}
+.shape-x.four {
+  top: 10%;
+  left: 10%;
+}
+
+/* ---- video / rain layers ---- */
+/* shared video base -> both variants pick this up */
+.background-video,
+.background-video2 {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  display: none;
+  filter: brightness(1.1) contrast(1.05);
+}
+/* catalyst theme flips them on */
+body.theme-catalyst .background-video,
+body.theme-catalyst .background-video2 {
+  display: block;
+}
+
+/* rain bits are pointer-events:none so they never eat clicks */
+.rain-img,
+.rain-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  display: none;
+}
+.rain-img {
+  z-index: -2;
+}
+.rain-canvas {
+  z-index: -1;
+}
+
+body.theme-rain .rain-img,
+body.theme-rain .rain-canvas {
+  display: block;
+}
+
+/* ---- container bg transitions ---- */
+.container.translucent-bg {
+  background: var(--color-bg-translucent) !important;
+  transition: background 0.3s;
+}
+.container.bg {
+  transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+.container.bg.translucent-bg {
+  background: var(--color-bg-translucent) !important;
+}
+
+body,
+.main {
+  transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
+}
+
+/* alt body bg */
+body.alt-bg {
+  background: var(--color-bg-alt);
+}

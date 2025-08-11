@@ -1,0 +1,873 @@
+{
+  "03_01": {
+    "chapter": "3",
+    "question": "Which keyword declares a variable in JavaScript with block scope?",
+    "choices": {
+      "A": { "choice": "let", "correct": true },
+      "B": { "choice": "var" },
+      "C": { "choice": "const" },
+      "D": { "choice": "static" }
+    }
+  },
+  "03_02": {
+    "chapter": "3",
+    "question": "What is the output of: console.log(typeof 'hello');",
+    "choices": {
+      "A": { "choice": "string", "correct": true },
+      "B": { "choice": "text" },
+      "C": { "choice": "char" },
+      "D": { "choice": "object" }
+    }
+  },
+  "03_03": {
+    "chapter": "3",
+    "question": "Which of these is NOT a primitive type in JavaScript?",
+    "choices": {
+      "A": { "choice": "array", "correct": true },
+      "B": { "choice": "string" },
+      "C": { "choice": "boolean" },
+      "D": { "choice": "number" }
+    }
+  },
+  "03_04": {
+    "chapter": "3",
+    "question": "What does the '===' operator check for?",
+    "choices": {
+      "A": { "choice": "Strict equality (value and type)", "correct": true },
+      "B": { "choice": "Loose equality (value only)" },
+      "C": { "choice": "Assignment" },
+      "D": { "choice": "Inequality" }
+    }
+  },
+  "03_05": {
+    "chapter": "3",
+    "question": "Which method turns a string into an integer?",
+    "choices": {
+      "A": { "choice": "parseInt()", "correct": true },
+      "B": { "choice": "int()" },
+      "C": { "choice": "parseInteger()" },
+      "D": { "choice": "Number()" }
+    }
+  },
+  "03_06": {
+    "chapter": "3",
+    "question": "How do you write a single-line comment in JavaScript?",
+    "choices": {
+      "A": { "choice": "// comment", "correct": true },
+      "B": { "choice": "# comment" },
+      "C": { "choice": "&lt;!-- comment --&gt;" },
+      "D": { "choice": "/ comment" }
+    }
+  },
+  "03_07": {
+    "chapter": "3",
+    "question": "Which statement creates a constant variable?",
+    "choices": {
+      "A": { "choice": "const PI = 3.14;", "correct": true },
+      "B": { "choice": "let PI = 3.14;" },
+      "C": { "choice": "PI := 3.14;" },
+      "D": { "choice": "constant PI = 3.14;" }
+    }
+  },
+  "03_08": {
+    "chapter": "3",
+    "question": "What is the result of: 3 + '4'?",
+    "choices": {
+      "A": { "choice": "'34'", "correct": true },
+      "B": { "choice": "7" },
+      "C": { "choice": "NaN" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_09": {
+    "chapter": "3",
+    "question": "Which function outputs text to the browser console?",
+    "choices": {
+      "A": { "choice": "console.log()", "correct": true },
+      "B": { "choice": "print()" },
+      "C": { "choice": "log()" },
+      "D": { "choice": "alert()" }
+    }
+  },
+  "03_10": {
+    "chapter": "3",
+    "question": "How do you define an array in JavaScript?",
+    "choices": {
+      "A": { "choice": "let arr = [1, 2, 3];", "correct": true },
+      "B": { "choice": "let arr = {1, 2, 3};" },
+      "C": { "choice": "let arr = new Array[1,2,3];" },
+      "D": { "choice": "let arr = (1,2,3);" }
+    }
+  },
+  "03_11": {
+    "chapter": "3",
+    "question": "What is the correct way to declare a function named greet?",
+    "choices": {
+      "A": { "choice": "function greet() { }", "correct": true },
+      "B": { "choice": "func greet() { }" },
+      "C": { "choice": "function: greet() { }" },
+      "D": { "choice": "define greet() { }" }
+    }
+  },
+  "03_12": {
+    "chapter": "3",
+    "question": "Which of the following is NOT a valid variable name?",
+    "choices": {
+      "A": { "choice": "let 2beOrNot = true;", "correct": true },
+      "B": { "choice": "let be_2 = true;" },
+      "C": { "choice": "let _be = true;" },
+      "D": { "choice": "let $be = true;" }
+    }
+  },
+  "03_13": {
+    "chapter": "3",
+    "question": "Which method adds an element to the end of an array?",
+    "choices": {
+      "A": { "choice": "push()", "correct": true },
+      "B": { "choice": "pop()" },
+      "C": { "choice": "shift()" },
+      "D": { "choice": "unshift()" }
+    }
+  },
+  "03_14": {
+    "chapter": "3",
+    "question": "What is the output? let x = [1, 2, 3]; x.pop(); console.log(x.length);",
+    "choices": {
+      "A": { "choice": "2", "correct": true },
+      "B": { "choice": "3" },
+      "C": { "choice": "1" },
+      "D": { "choice": "0" }
+    }
+  },
+  "03_15": {
+    "chapter": "3",
+    "question": "Which keyword is used for exception handling?",
+    "choices": {
+      "A": { "choice": "try", "correct": true },
+      "B": { "choice": "catch" },
+      "C": { "choice": "except" },
+      "D": { "choice": "error" }
+    }
+  },
+  "03_16": {
+    "chapter": "3",
+    "question": "What does the following code return: Array.isArray([1, 2, 3]);",
+    "choices": {
+      "A": { "choice": "true", "correct": true },
+      "B": { "choice": "false" },
+      "C": { "choice": "null" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_17": {
+    "chapter": "3",
+    "question": "Which built-in method removes the first element from an array?",
+    "choices": {
+      "A": { "choice": "shift()", "correct": true },
+      "B": { "choice": "pop()" },
+      "C": { "choice": "unshift()" },
+      "D": { "choice": "slice()" }
+    }
+  },
+  "03_18": {
+    "chapter": "3",
+    "question": "How do you start a for loop that iterates from 0 to 4?",
+    "choices": {
+      "A": { "choice": "for(let i=0;i&lt;5;i++)", "correct": true },
+      "B": { "choice": "for(let i=0;i&gt;5;i++)" },
+      "C": { "choice": "for(i=0;i&lt;=5;i++)" },
+      "D": { "choice": "for(let i=1;i&lt;5;i++)" }
+    }
+  },
+  "03_19": {
+    "chapter": "3",
+    "question": "What will this output? let x = 10; if(x === '10'){ console.log('A'); } else { console.log('B'); }",
+    "choices": {
+      "A": { "choice": "B", "correct": true },
+      "B": { "choice": "A" },
+      "C": { "choice": "'10'" },
+      "D": { "choice": "10" }
+    }
+  },
+  "03_20": {
+    "chapter": "3",
+    "question": "Which operator is used to concatenate strings?",
+    "choices": {
+      "A": { "choice": "+", "correct": true },
+      "B": { "choice": "&" },
+      "C": { "choice": "." },
+      "D": { "choice": "concat" }
+    }
+  },
+  "03_21": {
+    "chapter": "3",
+    "question": "What is the output? console.log(2 == '2');",
+    "choices": {
+      "A": { "choice": "true", "correct": true },
+      "B": { "choice": "false" },
+      "C": { "choice": "TypeError" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_22": {
+    "chapter": "3",
+    "question": "How do you write a function expression in ES6?",
+    "choices": {
+      "A": { "choice": "const sum = (a, b) =&gt; a + b;", "correct": true },
+      "B": { "choice": "function sum(a, b) =&gt; a + b;" },
+      "C": { "choice": "let sum(a, b) = a + b;" },
+      "D": { "choice": "sum =&gt; (a, b) a + b;" }
+    }
+  },
+  "03_23": {
+    "chapter": "3",
+    "question": "Which method returns the index of a value in an array?",
+    "choices": {
+      "A": { "choice": "indexOf()", "correct": true },
+      "B": { "choice": "find()" },
+      "C": { "choice": "search()" },
+      "D": { "choice": "locate()" }
+    }
+  },
+  "03_24": {
+    "chapter": "3",
+    "question": "How do you round 4.7 down to the nearest integer in JavaScript?",
+    "choices": {
+      "A": { "choice": "Math.floor(4.7)", "correct": true },
+      "B": { "choice": "Math.round(4.7)" },
+      "C": { "choice": "Math.ceil(4.7)" },
+      "D": { "choice": "Math.down(4.7)" }
+    }
+  },
+  "03_25": {
+    "chapter": "3",
+    "question": "Which object represents the browser window in JavaScript?",
+    "choices": {
+      "A": { "choice": "window", "correct": true },
+      "B": { "choice": "document" },
+      "C": { "choice": "screen" },
+      "D": { "choice": "navigator" }
+    }
+  },
+  "03_26": {
+    "chapter": "3",
+    "question": "What will this code output? console.log([1,2,3].length);",
+    "choices": {
+      "A": { "choice": "3", "correct": true },
+      "B": { "choice": "2" },
+      "C": { "choice": "4" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_27": {
+    "chapter": "3",
+    "question": "What does the push() method do?",
+    "choices": {
+      "A": {
+        "choice": "Adds an element to the end of an array.",
+        "correct": true
+      },
+      "B": { "choice": "Removes the last element." },
+      "C": { "choice": "Adds an element to the beginning." },
+      "D": { "choice": "Removes the first element." }
+    }
+  },
+  "03_28": {
+    "chapter": "3",
+    "question": "Which method converts a string to uppercase?",
+    "choices": {
+      "A": { "choice": "toUpperCase()", "correct": true },
+      "B": { "choice": "toCaps()" },
+      "C": { "choice": "makeUpper()" },
+      "D": { "choice": "upperCase()" }
+    }
+  },
+  "03_29": {
+    "chapter": "3",
+    "question": "What is the correct syntax for an if statement?",
+    "choices": {
+      "A": { "choice": "if(condition) { ... }", "correct": true },
+      "B": { "choice": "if condition: { ... }" },
+      "C": { "choice": "if (condition) then { ... }" },
+      "D": { "choice": "if [condition] { ... }" }
+    }
+  },
+  "03_30": {
+    "chapter": "3",
+    "question": "How do you access the first element of array arr?",
+    "choices": {
+      "A": { "choice": "arr[0]", "correct": true },
+      "B": { "choice": "arr(0)" },
+      "C": { "choice": "arr.first()" },
+      "D": { "choice": "arr.1" }
+    }
+  },
+  "03_31": {
+    "chapter": "3",
+    "question": "Which keyword prevents reassignment to a variable?",
+    "choices": {
+      "A": { "choice": "const", "correct": true },
+      "B": { "choice": "let" },
+      "C": { "choice": "var" },
+      "D": { "choice": "final" }
+    }
+  },
+  "03_32": {
+    "chapter": "3",
+    "question": "What does the break statement do?",
+    "choices": {
+      "A": { "choice": "Exits a loop or switch statement.", "correct": true },
+      "B": { "choice": "Skips an iteration." },
+      "C": { "choice": "Continues to the next iteration." },
+      "D": { "choice": "Ends the program." }
+    }
+  },
+  "03_33": {
+    "chapter": "3",
+    "question": "Which function displays a dialog box with a message and an OK button?",
+    "choices": {
+      "A": { "choice": "alert()", "correct": true },
+      "B": { "choice": "prompt()" },
+      "C": { "choice": "confirm()" },
+      "D": { "choice": "display()" }
+    }
+  },
+  "03_34": {
+    "chapter": "3",
+    "question": "Which statement checks if a variable x is NOT equal to 10?",
+    "choices": {
+      "A": { "choice": "if(x !== 10)", "correct": true },
+      "B": { "choice": "if(x =! 10)" },
+      "C": { "choice": "if(x != 10)" },
+      "D": { "choice": "if(x not 10)" }
+    }
+  },
+  "03_35": {
+    "chapter": "3",
+    "question": "What does the setTimeout function do?",
+    "choices": {
+      "A": { "choice": "Executes code after a delay.", "correct": true },
+      "B": { "choice": "Repeats code at intervals." },
+      "C": { "choice": "Stops the code execution." },
+      "D": { "choice": "Runs code immediately." }
+    }
+  },
+  "03_36": {
+    "chapter": "3",
+    "question": "Which method returns the number of elements in an array?",
+    "choices": {
+      "A": { "choice": "length", "correct": true },
+      "B": { "choice": "size()" },
+      "C": { "choice": "count()" },
+      "D": { "choice": "getLength()" }
+    }
+  },
+  "03_37": {
+    "chapter": "3",
+    "question": "How do you write a multi-line comment in JavaScript?",
+    "choices": {
+      "A": { "choice": "/* comment */", "correct": true },
+      "B": { "choice": "// comment //" },
+      "C": { "choice": "&lt;!-- comment --&gt;" },
+      "D": { "choice": "# comment" }
+    }
+  },
+  "03_38": {
+    "chapter": "3",
+    "question": "Which of the following is a falsy value in JavaScript?",
+    "choices": {
+      "A": { "choice": "0", "correct": true },
+      "B": { "choice": "'0'" },
+      "C": { "choice": "true" },
+      "D": { "choice": "[]" }
+    }
+  },
+  "03_39": {
+    "chapter": "3",
+    "question": "What will console.log(typeof null) print?",
+    "choices": {
+      "A": { "choice": "object", "correct": true },
+      "B": { "choice": "null" },
+      "C": { "choice": "undefined" },
+      "D": { "choice": "string" }
+    }
+  },
+  "03_40": {
+    "chapter": "3",
+    "question": "How do you parse a JSON string into an object?",
+    "choices": {
+      "A": { "choice": "JSON.parse()", "correct": true },
+      "B": { "choice": "JSON.stringify()" },
+      "C": { "choice": "parseJSON()" },
+      "D": { "choice": "toObject()" }
+    }
+  },
+  "03_41": {
+    "chapter": "3",
+    "question": "Which method turns an object into a JSON string?",
+    "choices": {
+      "A": { "choice": "JSON.stringify()", "correct": true },
+      "B": { "choice": "JSON.parse()" },
+      "C": { "choice": "objectToJSON()" },
+      "D": { "choice": "stringifyJSON()" }
+    }
+  },
+  "03_42": {
+    "chapter": "3",
+    "question": "Which of the following is used to access the DOM element with id 'main'?",
+    "choices": {
+      "A": {
+        "choice": "document.getElementById(&quot;main&quot;)",
+        "correct": true
+      },
+      "B": { "choice": "window.getElement('main')" },
+      "C": { "choice": "document.query('#main')" },
+      "D": { "choice": "getElement('main')" }
+    }
+  },
+  "03_43": {
+    "chapter": "3",
+    "question": "How can you change the text of an element with id 'title'?",
+    "choices": {
+      "A": {
+        "choice": "document.getElementById(&quot;title&quot;) .textContent = &quot;New Title&quot;;",
+        "correct": true
+      },
+      "B": { "choice": "document.title = &quot;New Title&quot;;" },
+      "C": { "choice": "title.innerText = &quot;New Title&quot;;" },
+      "D": { "choice": "setText(&quot;title&quot;, &quot;New Title&quot;);" }
+    }
+  },
+  "03_44": {
+    "chapter": "3",
+    "question": "What event type is triggered when a user clicks a button?",
+    "choices": {
+      "A": { "choice": "'click'", "correct": true },
+      "B": { "choice": "'input'" },
+      "C": { "choice": "'submit'" },
+      "D": { "choice": "'change'" }
+    }
+  },
+  "03_45": {
+    "chapter": "3",
+    "question": "How do you add an event listener for a button with id 'btn'?",
+    "choices": {
+      "A": {
+        "choice": "document.getElementById(&quot;btn&quot;) .addEventListener(&quot;click&quot;, myFunction);",
+        "correct": true
+      },
+      "B": { "choice": "btn.on('click', myFunction);" },
+      "C": { "choice": "addEventListener('btn', 'click', myFunction);" },
+      "D": { "choice": "document.onClick('btn', myFunction);" }
+    }
+  },
+  "03_46": {
+    "chapter": "3",
+    "question": "What is the value of x after: let x = 5; x += '5';",
+    "choices": {
+      "A": { "choice": "'55'", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "5" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_47": {
+    "chapter": "3",
+    "question": "Which method removes the last element from an array?",
+    "choices": {
+      "A": { "choice": "pop()", "correct": true },
+      "B": { "choice": "push()" },
+      "C": { "choice": "shift()" },
+      "D": { "choice": "unshift()" }
+    }
+  },
+  "03_48": {
+    "chapter": "3",
+    "question": "How do you stop the default form submission in a submit handler?",
+    "choices": {
+      "A": { "choice": "event.preventDefault();", "correct": true },
+      "B": { "choice": "return false;" },
+      "C": { "choice": "stopDefault();" },
+      "D": { "choice": "event.stop();" }
+    }
+  },
+  "03_49": {
+    "chapter": "3",
+    "question": "Which loop is best for iterating over the keys of an object?",
+    "choices": {
+      "A": { "choice": "for...in", "correct": true },
+      "B": { "choice": "for...of" },
+      "C": { "choice": "for (let i = 0; ... )" },
+      "D": { "choice": "while" }
+    }
+  },
+  "03_50": {
+    "chapter": "3",
+    "question": "Which function converts a number to a string?",
+    "choices": {
+      "A": { "choice": "String()", "correct": true },
+      "B": { "choice": "parseInt()" },
+      "C": { "choice": "toString()" },
+      "D": { "choice": "numberToString()" }
+    }
+  },
+  "03_51": {
+    "chapter": "3",
+    "question": "What is the result of: Boolean('') ?",
+    "choices": {
+      "A": { "choice": "false", "correct": true },
+      "B": { "choice": "true" },
+      "C": { "choice": "null" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_52": {
+    "chapter": "3",
+    "question": "How do you select all elements with class 'test'?",
+    "choices": {
+      "A": { "choice": "document.querySelectorAll('.test')", "correct": true },
+      "B": { "choice": "document.getElementByClass('test')" },
+      "C": { "choice": "document .getElementsByName('test')" },
+      "D": { "choice": "document.select('.test')" }
+    }
+  },
+  "03_53": {
+    "chapter": "3",
+    "question": "What does the addEventListener method return?",
+    "choices": {
+      "A": { "choice": "undefined", "correct": true },
+      "B": { "choice": "true" },
+      "C": { "choice": "false" },
+      "D": { "choice": "the event object" }
+    }
+  },
+  "03_54": {
+    "chapter": "3",
+    "question": "How do you check if 'foo' is present in array arr?",
+    "choices": {
+      "A": { "choice": "arr.includes('foo')", "correct": true },
+      "B": { "choice": "arr.has('foo')" },
+      "C": { "choice": "arr.contains('foo')" },
+      "D": { "choice": "arr.exist('foo')" }
+    }
+  },
+  "03_55": {
+    "chapter": "3",
+    "question": "What does the following code do? setInterval(fn, 1000);",
+    "choices": {
+      "A": { "choice": "Calls fn every 1 second", "correct": true },
+      "B": { "choice": "Calls fn once after 1 second" },
+      "C": { "choice": "Stops calling fn" },
+      "D": { "choice": "Calls fn as soon as possible" }
+    }
+  },
+  "03_56": {
+    "chapter": "3",
+    "question": "Which method returns a shallow copy of a portion of an array?",
+    "choices": {
+      "A": { "choice": "slice()", "correct": true },
+      "B": { "choice": "splice()" },
+      "C": { "choice": "split()" },
+      "D": { "choice": "join()" }
+    }
+  },
+  "03_57": {
+    "chapter": "3",
+    "question": "How do you remove a property 'x' from object obj?",
+    "choices": {
+      "A": { "choice": "delete obj.x", "correct": true },
+      "B": { "choice": "remove obj.x" },
+      "C": { "choice": "obj.remove('x')" },
+      "D": { "choice": "del obj.x" }
+    }
+  },
+  "03_58": {
+    "chapter": "3",
+    "question": "What does event.target refer to?",
+    "choices": {
+      "A": {
+        "choice": "The element that triggered the event",
+        "correct": true
+      },
+      "B": { "choice": "The function handling the event" },
+      "C": { "choice": "The document" },
+      "D": { "choice": "The event type" }
+    }
+  },
+  "03_59": {
+    "chapter": "3",
+    "question": "Which array method applies a function to each element and returns a new array?",
+    "choices": {
+      "A": { "choice": "map()", "correct": true },
+      "B": { "choice": "forEach()" },
+      "C": { "choice": "filter()" },
+      "D": { "choice": "reduce()" }
+    }
+  },
+  "03_60": {
+    "chapter": "3",
+    "question": "What does the spread operator (...) do in arrays?",
+    "choices": {
+      "A": { "choice": "Expands elements of an array", "correct": true },
+      "B": { "choice": "Combines arrays" },
+      "C": { "choice": "Removes elements" },
+      "D": { "choice": "Sorts arrays" }
+    }
+  },
+  "03_61": {
+    "chapter": "3",
+    "question": "Which symbol is used for template literals?",
+    "choices": {
+      "A": { "choice": "` (backtick)", "correct": true },
+      "B": { "choice": "'" },
+      "C": { "choice": "&quot;" },
+      "D": { "choice": "~" }
+    }
+  },
+  "03_62": {
+    "chapter": "3",
+    "question": "What will this code output? console.log(0 == false);",
+    "choices": {
+      "A": { "choice": "true", "correct": true },
+      "B": { "choice": "false" },
+      "C": { "choice": "TypeError" },
+      "D": { "choice": "0" }
+    }
+  },
+  "03_63": {
+    "chapter": "3",
+    "question": "Which value is returned by a function if no return is specified?",
+    "choices": {
+      "A": { "choice": "undefined", "correct": true },
+      "B": { "choice": "null" },
+      "C": { "choice": "0" },
+      "D": { "choice": "false" }
+    }
+  },
+  "03_64": {
+    "chapter": "3",
+    "question": "What is a closure in JavaScript?",
+    "choices": {
+      "A": {
+        "choice": "A function that remembers variables from its outer scope",
+        "correct": true
+      },
+      "B": { "choice": "A function that returns itself" },
+      "C": { "choice": "A block of code inside an object" },
+      "D": { "choice": "A private variable" }
+    }
+  },
+  "03_65": {
+    "chapter": "3",
+    "question": "Which keyword is used to create a class in ES6?",
+    "choices": {
+      "A": { "choice": "class", "correct": true },
+      "B": { "choice": "constructor" },
+      "C": { "choice": "object" },
+      "D": { "choice": "struct" }
+    }
+  },
+  "03_66": {
+    "chapter": "3",
+    "question": "What does the 'this' keyword refer to inside a method of an object?",
+    "choices": {
+      "A": { "choice": "The object itself", "correct": true },
+      "B": { "choice": "The global object" },
+      "C": { "choice": "The parent object" },
+      "D": { "choice": "The function" }
+    }
+  },
+  "03_67": {
+    "chapter": "3",
+    "question": "Which built-in object handles date and time in JavaScript?",
+    "choices": {
+      "A": { "choice": "Date", "correct": true },
+      "B": { "choice": "Time" },
+      "C": { "choice": "Moment" },
+      "D": { "choice": "Calendar" }
+    }
+  },
+  "03_68": {
+    "chapter": "3",
+    "question": "What is the result of: typeof NaN",
+    "choices": {
+      "A": { "choice": "number", "correct": true },
+      "B": { "choice": "NaN" },
+      "C": { "choice": "undefined" },
+      "D": { "choice": "object" }
+    }
+  },
+  "03_69": {
+    "chapter": "3",
+    "question": "Which array method removes the first element and returns it?",
+    "choices": {
+      "A": { "choice": "shift()", "correct": true },
+      "B": { "choice": "pop()" },
+      "C": { "choice": "unshift()" },
+      "D": { "choice": "push()" }
+    }
+  },
+  "03_70": {
+    "chapter": "3",
+    "question": "What does 'use strict'; do?",
+    "choices": {
+      "A": {
+        "choice": "Enables strict mode, catching common coding errors",
+        "correct": true
+      },
+      "B": { "choice": "Allows loose mode" },
+      "C": { "choice": "Makes variables global" },
+      "D": { "choice": "Adds new syntax" }
+    }
+  },
+  "03_71": {
+    "chapter": "3",
+    "question": "How can you prevent an object from being changed?",
+    "choices": {
+      "A": { "choice": "Object.freeze(obj)", "correct": true },
+      "B": { "choice": "obj.preventChanges()" },
+      "C": { "choice": "const obj" },
+      "D": { "choice": "lock(obj)" }
+    }
+  },
+  "03_72": {
+    "chapter": "3",
+    "question": "Which method creates a new array with elements that pass a test?",
+    "choices": {
+      "A": { "choice": "filter()", "correct": true },
+      "B": { "choice": "find()" },
+      "C": { "choice": "every()" },
+      "D": { "choice": "sort()" }
+    }
+  },
+  "03_73": {
+    "chapter": "3",
+    "question": "What is the correct way to prevent bubbling of an event?",
+    "choices": {
+      "A": { "choice": "event.stopPropagation()", "correct": true },
+      "B": { "choice": "event.preventDefault()" },
+      "C": { "choice": "event.stop()" },
+      "D": { "choice": "event.break()" }
+    }
+  },
+  "03_74": {
+    "chapter": "3",
+    "question": "What will the following code output? console.log([1,2,3].map(x =&gt; x * 2));",
+    "choices": {
+      "A": { "choice": "[2,4,6]", "correct": true },
+      "B": { "choice": "[1,2,3]" },
+      "C": { "choice": "[2,3,4]" },
+      "D": { "choice": "undefined" }
+    }
+  },
+  "03_75": {
+    "chapter": "3",
+    "question": "How do you declare a default parameter value in a function?",
+    "choices": {
+      "A": { "choice": "function foo(x = 10) {}", "correct": true },
+      "B": { "choice": "function foo(x:10) {}" },
+      "C": { "choice": "function foo(default x = 10) {}" },
+      "D": { "choice": "function foo.x = 10 {}" }
+    }
+  },
+  "03_76": {
+    "chapter": "3",
+    "question": "Which statement defines an object literal?",
+    "choices": {
+      "A": { "choice": "let obj = { name: 'Sam', age: 20 };", "correct": true },
+      "B": { "choice": "let obj = (name: 'Sam', age: 20);" },
+      "C": { "choice": "let obj = [name: 'Sam', age: 20];" },
+      "D": { "choice": "let obj = new Object('Sam', 20);" }
+    }
+  },
+  "03_77": {
+    "chapter": "3",
+    "question": "Which method is used to sort elements of an array?",
+    "choices": {
+      "A": { "choice": "sort()", "correct": true },
+      "B": { "choice": "order()" },
+      "C": { "choice": "arrange()" },
+      "D": { "choice": "sequence()" }
+    }
+  },
+  "03_78": {
+    "chapter": "3",
+    "question": "Which function would you use to get the current timestamp in milliseconds?",
+    "choices": {
+      "A": { "choice": "Date.now()", "correct": true },
+      "B": { "choice": "getTime()" },
+      "C": { "choice": "Date.timestamp()" },
+      "D": { "choice": "now()" }
+    }
+  },
+  "03_79": {
+    "chapter": "3",
+    "question": "How do you add a property 'x' with value 10 to object obj?",
+    "choices": {
+      "A": { "choice": "obj.x = 10;", "correct": true },
+      "B": { "choice": "obj['x':10];" },
+      "C": { "choice": "obj->x = 10;" },
+      "D": { "choice": "add(obj, x, 10);" }
+    }
+  },
+  "03_80": {
+    "chapter": "3",
+    "question": "Which keyword is used to inherit from another class in ES6?",
+    "choices": {
+      "A": { "choice": "extends", "correct": true },
+      "B": { "choice": "implements" },
+      "C": { "choice": "inherits" },
+      "D": { "choice": "derives" }
+    }
+  },
+  "03_81": {
+    "chapter": "3",
+    "question": "What is the correct syntax to export a function in ES6 modules?",
+    "choices": {
+      "A": { "choice": "export function foo() {}", "correct": true },
+      "B": { "choice": "module.export foo() {}" },
+      "C": { "choice": "exports foo() {}" },
+      "D": { "choice": "public function foo() {}" }
+    }
+  },
+  "03_82": {
+    "chapter": "3",
+    "question": "How do you import everything from a module named 'utils'?",
+    "choices": {
+      "A": { "choice": "import * as utils from 'utils';", "correct": true },
+      "B": { "choice": "require('utils');" },
+      "C": { "choice": "import utils;" },
+      "D": { "choice": "import all from 'utils';" }
+    }
+  },
+  "03_83": {
+    "chapter": "3",
+    "question": "Which method returns true if at least one array element passes a test?",
+    "choices": {
+      "A": { "choice": "some()", "correct": true },
+      "B": { "choice": "every()" },
+      "C": { "choice": "test()" },
+      "D": { "choice": "pass()" }
+    }
+  },
+  "03_84": {
+    "chapter": "3",
+    "question": "Which method flattens nested arrays one level deep?",
+    "choices": {
+      "A": { "choice": "flat()", "correct": true },
+      "B": { "choice": "flatten()" },
+      "C": { "choice": "concat()" },
+      "D": { "choice": "reduce()" }
+    }
+  },
+  "03_85": {
+    "chapter": "3",
+    "question": "What will this code print?\nconsole.log([10, 20, 30].find(x =&gt; x &gt; 15));",
+    "choices": {
+      "A": { "choice": "20", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "undefined" },
+      "D": { "choice": "30" }
+    }
+  }
+}

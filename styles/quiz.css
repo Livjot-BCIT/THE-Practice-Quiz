@@ -1,0 +1,439 @@
+:root {
+  /* Main Theme Colors */
+  --color-bg-main: #1b214e; /* body bg */
+  --color-bg-alt: #232a4d; /* modal bg, alt */
+  --color-bg-container: #293165; /* container bg */
+  --color-bg-translucent: rgba(14, 14, 22, 0.6);
+  --color-bg-footer: rgba(34, 37, 60, 0.75);
+  --color-bg-footer-catalyst: rgba(34, 37, 60, 0.45);
+  --color-bg-footer-border: #fff;
+
+  /* Accent vibes */
+  --color-accent: #6f55b6;
+  --color-accent-hover: #825eff;
+  --color-accent-border: #5f559a;
+  --color-accent-focus: #9e81fa;
+
+  /* Background shapes */
+  --color-shape: #323c6f;
+  --color-shape2: #3a5580;
+  --color-shape-diamond: #fff;
+  --color-shape-diamond-alt: #67564c;
+
+  /* Text */
+  --color-text: #eeeeee;
+  --color-text-muted: #bbb;
+  --color-footer-text: #fff;
+  --color-label: #ececec;
+  --color-h1: #fff;
+
+  /* Misc UI */
+  --color-border: #ccc;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+  --color-shadow-strong: #2e205999;
+  --color-modal-bg: rgba(18, 18, 40, 0.85);
+  --color-modal-date: #bbe;
+
+  /* Tags */
+  --tag-update: #ff4b4b;
+  --tag-version: #2fd46c;
+  --tag-beta: #ad7aff;
+  --tag-alpha: #49baff;
+
+  /* Curves + blur */
+  --radius: 10px;
+  --radius-large: 16px;
+  --blur-bg: blur(8px);
+}
+
+/* ----form bits ---- */
+label,
+select,
+input {
+  display: block;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#questions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  width: auto;
+  margin: 10px auto;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+/* ---- lists ---- */
+.chapters {
+  display: block;
+}
+.chapters input[type="checkbox"] {
+  margin-right: 10px;
+}
+.chapters li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.exams {
+  display: block;
+}
+.exams input[type="radio"] {
+  margin-right: 10px;
+}
+.exams li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* ---- quiz questions ---- */
+.question {
+  margin-bottom: 2rem;
+}
+
+.question label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px !important;
+}
+
+.question input[type="radio"] {
+  width: 1.3em;
+  height: 1.3em;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.question input[type="radio"]:hover {
+  transform: scale(1.25);
+} /* chill hover */
+
+.question br {
+  display: none;
+}
+
+.question label:hover {
+  background: rgba(111, 85, 182, 0.1);
+  border-radius: 6px;
+}
+
+/* ---- layout wrappers ---- */
+#quizScreen {
+  position: relative;
+  padding-bottom: 3rem;
+}
+#quizContainer {
+  flex: 1;
+  overflow-y: auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* base font sizes inside the quiz area */
+#quizContainer,
+#quizContainer p,
+#quizContainer label {
+  font-size: 1.3rem;
+}
+
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ---- review list ---- */
+.review-list {
+  margin-top: 24px;
+}
+.review-list p {
+  font-size: 1.4em;
+}
+.choice {
+  font-size: 1.2em;
+}
+
+.review-item {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+.review-item.correct {
+  background: rgba(100, 200, 100, 0.15);
+}
+.review-item.incorrect {
+  background: rgba(200, 100, 100, 0.15);
+}
+
+/* ---- choices ---- */
+.choices-list {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+.choice {
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+.choice.correct {
+  background: rgba(46, 204, 113, 0.15);
+} /* green-ish */
+.choice.selected {
+  border: 1px solid rgba(241, 196, 15, 0.8);
+} /* gold ring */
+.choice.incorrect {
+  background: rgba(231, 76, 60, 0.15);
+} /* red-ish */
+
+/* ---- centered actions on review ---- */
+#reviewScreen > button {
+  display: block;
+  margin: 12px auto;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border-radius: 8px;
+  background: var(--color-accent);
+  color: var(--color-text);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  text-align: center;
+}
+
+#reviewScreen {
+  padding-bottom: 30px;
+}
+#reviewScreen h2 {
+  font-size: 2.5em;
+  margin: 20px 0 10px;
+}
+#reviewScreen > button:hover {
+  background: var(--color-accent-hover);
+}
+
+/* scrollable list */
+.review-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+  margin: 0 0 16px;
+}
+
+/* skinny scrollbar for review, very important comment ik */
+.review-list {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+.review-list::-webkit-scrollbar {
+  width: 6px;
+}
+.review-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.review-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+/* ---- buttons (results + review screens) ---- */
+#resultsScreen button:hover,
+#reviewScreen button:hover {
+  background: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+.review-buttons {
+  text-align: center;
+}
+
+/* a touch more readable questions */
+.question p {
+  font-size: 1.15rem;
+  margin-bottom: 6px;
+}
+
+/* ---- results screen look ---- */
+#resultsScreen {
+  /* display: flex; -> enable if needed */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 350px;
+  gap: 0.5rem;
+}
+
+#resultsScreen h2#scoreText {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0.25em 0 0.3em 0;
+  background: linear-gradient(
+    90deg,
+    var(--color-accent) 40%,
+    var(--color-accent-hover) 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 0.04em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  justify-content: center;
+}
+
+#resultsScreen .results-divider {
+  height: 2px;
+  width: 60%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-accent-border, #5f559a) 20%,
+    var(--color-accent) 50%,
+    var(--color-accent-border, #5f559a) 80%,
+    transparent 100%
+  );
+  border-radius: 1px;
+  margin: 1.3em auto 1em auto;
+}
+
+#resultsScreen .results-buttons {
+  display: flex;
+  gap: 1.1em;
+  justify-content: center;
+  width: 100%;
+}
+
+#resultsScreen .results-buttons button,
+#reviewScreen .review-buttons button,
+#quizScreen button {
+  padding: 0.75em 2em;
+  font-size: 1.05em;
+  border-radius: var(--radius-large, 16px);
+  background: linear-gradient(
+    90deg,
+    var(--color-accent) 60%,
+    var(--color-accent-hover) 100%
+  );
+  color: var(--color-text, #eee);
+  border: none;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.18);
+  cursor: pointer;
+  transition: background 0.19s, transform 0.11s, box-shadow 0.18s;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+#resultsScreen .results-buttons button:hover,
+#reviewScreen .review-buttons button:hover,
+#quizScreen button:hover {
+  background: linear-gradient(
+    90deg,
+    var(--color-accent-hover) 50%,
+    var(--color-accent-focus) 100%
+  );
+  transform: translateY(-2px) scale(1.035);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.23);
+}
+
+#resultsScreen .results-buttons button:active {
+  transform: scale(0.97);
+}
+
+/* ---- explanation toggle ---- */
+.explanation-btn svg {
+  width: 1.1em;
+  height: 1.1em;
+  stroke: currentColor;
+  fill: none;
+  vertical-align: middle;
+  transition: transform 0.17s;
+}
+
+.explanation-btn {
+  display: inline-block;
+  background: linear-gradient(
+    90deg,
+    var(--color-accent) 60%,
+    var(--color-accent-hover) 100%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 1.4em;
+  padding: 0.35em 1.15em;
+  margin-top: 4px;
+  margin-bottom: 7px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 6px rgba(90, 80, 180, 0.13);
+  transition: background 0.18s, transform 0.13s;
+  outline: none;
+}
+.explanation-btn:hover,
+.explanation-btn.active {
+  background: linear-gradient(
+    90deg,
+    var(--color-accent-hover) 60%,
+    var(--color-accent) 100%
+  );
+  transform: scale(1.045);
+}
+
+.review-explanation {
+  font-size: 1.09em;
+  background: rgba(34, 40, 60, 0.33);
+  opacity: 0.97;
+  border-radius: 8px;
+  border-left: 3.5px solid #78d3a9;
+  margin-top: 7px;
+  padding: 9px 16px 11px 16px;
+  color: var(--color-text);
+  line-height: 1.47;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.02);
+  transition: opacity 0.23s;
+}
+.review-explanation.hidden {
+  display: none;
+}
+
+/* ---- exams row ---- */
+#examsList {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.exams-col {
+  min-width: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* extra checkbox for multi-answer questions */
+.question input[type="checkbox"] {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/* ---- images in questions/answers ---- */
+.quiz-question-img {
+  max-width: 380px;
+  display: block;
+  margin: 12px 0;
+}
+.quiz-answer-img {
+  max-width: 380px;
+  vertical-align: middle;
+  margin-left: 6px;
+}

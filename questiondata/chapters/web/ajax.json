@@ -1,0 +1,231 @@
+{
+  "06_01": {
+    "chapter": "6",
+    "question": "What does AJAX stand for?",
+    "choices": {
+      "A": { "choice": "Asynchronous JavaScript and XML", "correct": true },
+      "B": { "choice": "Advanced Java and XHTML" },
+      "C": { "choice": "Automatic JSON and XML" },
+      "D": { "choice": "Application JavaScript and XHTML" }
+    }
+  },
+  "06_02": {
+    "chapter": "6",
+    "question": "Which JavaScript object is commonly used to make AJAX requests?",
+    "choices": {
+      "A": { "choice": "XMLHttpRequest", "correct": true },
+      "B": { "choice": "JSONRequest" },
+      "C": { "choice": "FetchAPI" },
+      "D": { "choice": "AjaxEngine" }
+    }
+  },
+  "06_03": {
+    "chapter": "6",
+    "question": "Which of these is a key advantage of using AJAX?",
+    "choices": {
+      "A": {
+        "choice": "Web pages can update asynchronously without reloading",
+        "correct": true
+      },
+      "B": { "choice": "AJAX makes websites slower" },
+      "C": { "choice": "AJAX disables JavaScript" },
+      "D": { "choice": "It requires no server" }
+    }
+  },
+  "06_04": {
+    "chapter": "6",
+    "question": "What does the open() method of XMLHttpRequest do?",
+    "choices": {
+      "A": { "choice": "Initializes a request", "correct": true },
+      "B": { "choice": "Sends data to the server" },
+      "C": { "choice": "Receives a response" },
+      "D": { "choice": "Closes the connection" }
+    }
+  },
+  "06_05": {
+    "chapter": "6",
+    "question": "Which readyState value means the request is complete?",
+    "choices": {
+      "A": { "choice": "4", "correct": true },
+      "B": { "choice": "0" },
+      "C": { "choice": "1" },
+      "D": { "choice": "2" }
+    }
+  },
+  "06_06": {
+    "chapter": "6",
+    "question": "What HTTP method is commonly used to retrieve data with AJAX?",
+    "choices": {
+      "A": { "choice": "GET", "correct": true },
+      "B": { "choice": "POST" },
+      "C": { "choice": "FETCH" },
+      "D": { "choice": "PUT" }
+    }
+  },
+  "06_07": {
+    "chapter": "6",
+    "question": "Which JavaScript API provides a simpler modern alternative to XMLHttpRequest?",
+    "choices": {
+      "A": { "choice": "Fetch API", "correct": true },
+      "B": { "choice": "WebSockets" },
+      "C": { "choice": "JSON.parse" },
+      "D": { "choice": "AJAX API" }
+    }
+  },
+  "06_08": {
+    "chapter": "6",
+    "question": "How do you send a JSON object to a server using Fetch?",
+    "choices": {
+      "A": {
+        "choice": "Set the body to JSON.stringify(object) and set Content-Type to application/json",
+        "correct": true
+      },
+      "B": { "choice": "Pass the object directly as the body" },
+      "C": { "choice": "Use JSON.send()" },
+      "D": { "choice": "Set body to object.toString()" }
+    }
+  },
+  "06_09": {
+    "chapter": "6",
+    "question": "Which event handler detects changes in the readyState of an XMLHttpRequest?",
+    "choices": {
+      "A": { "choice": "onreadystatechange", "correct": true },
+      "B": { "choice": "onload" },
+      "C": { "choice": "onchange" },
+      "D": { "choice": "onstatus" }
+    }
+  },
+  "06_10": {
+    "chapter": "6",
+    "question": "How do you access the response text from an XMLHttpRequest?",
+    "choices": {
+      "A": { "choice": "xhr.responseText", "correct": true },
+      "B": { "choice": "xhr.getResponse()" },
+      "C": { "choice": "xhr.output" },
+      "D": { "choice": "xhr.responseXML" }
+    }
+  },
+  "06_11": {
+    "chapter": "6",
+    "question": "What does the Fetch API return?",
+    "choices": {
+      "A": { "choice": "A Promise", "correct": true },
+      "B": { "choice": "A Callback" },
+      "C": { "choice": "A JSON object" },
+      "D": { "choice": "An XMLHttpRequest" }
+    }
+  },
+  "06_12": {
+    "chapter": "6",
+    "question": "How can you catch errors in a Fetch request?",
+    "choices": {
+      "A": { "choice": ".catch()", "correct": true },
+      "B": { "choice": ".error()" },
+      "C": { "choice": "try-catch only" },
+      "D": { "choice": ".fail()" }
+    }
+  },
+  "06_13": {
+    "chapter": "6",
+    "question": "What property of XMLHttpRequest contains the HTTP status code?",
+    "choices": {
+      "A": { "choice": "status", "correct": true },
+      "B": { "choice": "statusCode" },
+      "C": { "choice": "code" },
+      "D": { "choice": "httpStatus" }
+    }
+  },
+  "06_14": {
+    "chapter": "6",
+    "question": "Which header should you set when sending JSON with Fetch?",
+    "choices": {
+      "A": { "choice": "Content-Type: application/json", "correct": true },
+      "B": { "choice": "Accept: text/html" },
+      "C": { "choice": "Content-Type: text/plain" },
+      "D": { "choice": "Accept-Encoding: gzip" }
+    }
+  },
+  "06_15": {
+    "chapter": "6",
+    "question": "What does response.json() do in Fetch?",
+    "choices": {
+      "A": { "choice": "Parses the response as JSON", "correct": true },
+      "B": { "choice": "Sends a JSON response" },
+      "C": { "choice": "Converts JSON to string" },
+      "D": { "choice": "Returns raw text" }
+    }
+  },
+  "06_16": {
+    "chapter": "6",
+    "question": "Which of these is NOT a benefit of AJAX?",
+    "choices": {
+      "A": { "choice": "Requires full page reloads", "correct": true },
+      "B": { "choice": "Allows asynchronous server requests" },
+      "C": { "choice": "Improves user experience" },
+      "D": { "choice": "Can update parts of a page" }
+    }
+  },
+  "06_17": {
+    "chapter": "6",
+    "question": "Which HTTP status code means 'Not Found'?",
+    "choices": {
+      "A": { "choice": "404", "correct": true },
+      "B": { "choice": "200" },
+      "C": { "choice": "500" },
+      "D": { "choice": "403" }
+    }
+  },
+  "06_18": {
+    "chapter": "6",
+    "question": "Which property of XMLHttpRequest checks if the request is complete?",
+    "choices": {
+      "A": { "choice": "readyState", "correct": true },
+      "B": { "choice": "status" },
+      "C": { "choice": "complete" },
+      "D": { "choice": "done" }
+    }
+  },
+  "06_19": {
+    "chapter": "6",
+    "question": "What does CORS stand for in web development?",
+    "choices": {
+      "A": { "choice": "Cross-Origin Resource Sharing", "correct": true },
+      "B": { "choice": "Cross-Origin Request Security" },
+      "C": { "choice": "Common-Origin Resource Sharing" },
+      "D": { "choice": "Cross-Origin Request Service" }
+    }
+  },
+  "06_20": {
+    "chapter": "6",
+    "question": "Which method in fetch() lets you handle a failed network request?",
+    "choices": {
+      "A": { "choice": ".catch()", "correct": true },
+      "B": { "choice": ".fail()" },
+      "C": { "choice": ".error()" },
+      "D": { "choice": ".then()" }
+    }
+  },
+  "06_21": {
+    "chapter": "6",
+    "question": "How do you send data as JSON using fetch?",
+    "choices": {
+      "A": {
+        "choice": "Set the body to JSON.stringify(data) and header 'Content-Type' to 'application/json'",
+        "correct": true
+      },
+      "B": { "choice": "Just pass the object as body" },
+      "C": { "choice": "Use form-encoded data" },
+      "D": { "choice": "Send as XML only" }
+    }
+  },
+  "06_22": {
+    "chapter": "6",
+    "question": "Which XMLHttpRequest method is used to send a request?",
+    "choices": {
+      "A": { "choice": "send()", "correct": true },
+      "B": { "choice": "open()" },
+      "C": { "choice": "request()" },
+      "D": { "choice": "get()" }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "chapters": [
+    { "id": 1, "name": "Node.js & Express Basics", "topic": "Node.js, Express, routing, middleware, sessions." },
+    { "id": 2, "name": "Databases & MongoDB", "topic": "MongoDB, CRUD, schema, NoSQL." },
+    { "id": 3, "name": "Authentication & Authorization", "topic": "Auth, cookies, sessions, bcrypt, security." },
+    { "id": 4, "name": "Front-End & APIs", "topic": "EJS, CSS, Bootstrap, JS, JQuery, DOM, APIs." }
+  ]
+}
+  

@@ -1,0 +1,463 @@
+{
+  "02_01": {
+    "question": "What type of database is MongoDB?",
+    "choices": {
+      "A": { "choice": "Relational" },
+      "B": { "choice": "NoSQL", "correct": true },
+      "C": { "choice": "Hierarchical" },
+      "D": { "choice": "Spreadsheet" }
+    }
+  },
+  "02_02": {
+    "question": "In MongoDB, what is a collection?",
+    "choices": {
+      "A": { "choice": "A single row" },
+      "B": { "choice": "A single document" },
+      "C": { "choice": "A group of tables" },
+      "D": { "choice": "A group of documents", "correct": true }
+    }
+  },
+  "02_03": {
+    "question": "Which method adds a new document to a MongoDB collection?",
+    "choices": {
+      "A": { "choice": "findOne()" },
+      "B": { "choice": "insertOne()", "correct": true },
+      "C": { "choice": "updateOne()" },
+      "D": { "choice": "removeOne()" }
+    }
+  },
+  "02_04": {
+    "question": "Which data format does MongoDB use to store documents?",
+    "choices": {
+      "A": { "choice": "XML" },
+      "B": { "choice": "CSV" },
+      "C": { "choice": "JSON-like", "correct": true },
+      "D": { "choice": "HTML" }
+    }
+  },
+  "02_05": {
+    "question": "What is the equivalent of a table in MongoDB?",
+    "choices": {
+      "A": { "choice": "Row" },
+      "B": { "choice": "Document" },
+      "C": { "choice": "Collection", "correct": true },
+      "D": { "choice": "Schema" }
+    }
+  },
+  "02_06": {
+    "question": "Which MongoDB method retrieves all documents in a collection?",
+    "choices": {
+      "A": { "choice": "find()", "correct": true },
+      "B": { "choice": "select()" },
+      "C": { "choice": "getAll()" },
+      "D": { "choice": "search()" }
+    }
+  },
+  "02_07": {
+    "question": "What does CRUD stand for?",
+    "choices": {
+      "A": { "choice": "Copy, Remove, Update, Download" },
+      "B": { "choice": "Create, Read, Update, Delete", "correct": true },
+      "C": { "choice": "Connect, Route, Upload, Download" },
+      "D": { "choice": "Compute, Read, Undo, Destroy" }
+    }
+  },
+  "02_08": {
+    "question": "Which property in MongoDB uniquely identifies a document?",
+    "choices": {
+      "A": { "choice": "primaryKey" },
+      "B": { "choice": "documentId" },
+      "C": { "choice": "_id", "correct": true },
+      "D": { "choice": "docKey" }
+    }
+  },
+  "02_09": {
+    "question": "How do you connect to a MongoDB database in Node.js?",
+    "choices": {
+      "A": { "choice": "By using the MongoClient object", "correct": true },
+      "B": { "choice": "By using HTTP requests" },
+      "C": { "choice": "By importing csv files" },
+      "D": { "choice": "By using document.write()" }
+    }
+  },
+  "02_10": {
+    "question": "Which CRUD operation does the updateOne() method perform?",
+    "choices": {
+      "A": { "choice": "Read" },
+      "B": { "choice": "Create" },
+      "C": { "choice": "Update", "correct": true },
+      "D": { "choice": "Delete" }
+    }
+  },
+  "02_11": {
+    "question": "What is the purpose of a schema in Mongoose?",
+    "choices": {
+      "A": {
+        "choice": "To define the structure of documents",
+        "correct": true
+      },
+      "B": { "choice": "To store passwords" },
+      "C": { "choice": "To generate random data" },
+      "D": { "choice": "To encrypt the database" }
+    }
+  },
+  "02_12": {
+    "question": "Which method would you use to remove a document from a MongoDB collection?",
+    "choices": {
+      "A": { "choice": "deleteOne()", "correct": true },
+      "B": { "choice": "find()" },
+      "C": { "choice": "drop()" },
+      "D": { "choice": "insertOne()" }
+    }
+  },
+  "02_13": {
+    "question": "Which MongoDB method is used to retrieve a single document that matches a query?",
+    "choices": {
+      "A": { "choice": "findOne()", "correct": true },
+      "B": { "choice": "find()" },
+      "C": { "choice": "get()" },
+      "D": { "choice": "getOne()" }
+    }
+  },
+  "02_14": {
+    "question": "Which Express middleware is commonly used for connecting to MongoDB in production?",
+    "choices": {
+      "A": { "choice": "mongoose", "correct": true },
+      "B": { "choice": "express-session" },
+      "C": { "choice": "body-parser" },
+      "D": { "choice": "passport" }
+    }
+  },
+  "02_15": {
+    "question": "What is NoSQL injection?",
+    "choices": {
+      "A": { "choice": "A type of database backup" },
+      "B": {
+        "choice": "A security vulnerability where user input is executed as part of a query",
+        "correct": true
+      },
+      "C": { "choice": "A feature of MongoDB" },
+      "D": { "choice": "A new way to upload data" }
+    }
+  },
+  "02_16": {
+    "question": "How do you prevent NoSQL injection attacks in MongoDB apps?",
+    "choices": {
+      "A": {
+        "choice": "By using parameterized queries or validation",
+        "correct": true
+      },
+      "B": { "choice": "By deleting all user data" },
+      "C": { "choice": "By using GET requests" },
+      "D": { "choice": "By storing passwords in plain text" }
+    }
+  },
+  "02_17": {
+    "question": "Which of the following would retrieve documents with the name 'Alice'?",
+    "choices": {
+      "A": { "choice": "db.users.find({ name: 'Alice' })", "correct": true },
+      "B": { "choice": "db.users.select('Alice')" },
+      "C": { "choice": "db.users.search('Alice')" },
+      "D": { "choice": "db.users.get('Alice')" }
+    }
+  },
+  "02_18": {
+    "question": "What does the 'projection' parameter in find() allow you to do?",
+    "choices": {
+      "A": { "choice": "Specify which fields to return", "correct": true },
+      "B": { "choice": "Filter by collection name" },
+      "C": { "choice": "Create new documents" },
+      "D": { "choice": "Change the database schema" }
+    }
+  },
+  "02_19": {
+    "question": "How do you create an index in MongoDB?",
+    "choices": {
+      "A": { "choice": "collection.addIndex()" },
+      "B": { "choice": "collection.createIndex()", "correct": true },
+      "C": { "choice": "db.index()" },
+      "D": { "choice": "db.setIndex()" }
+    }
+  },
+  "02_20": {
+    "question": "Which of the following is true about documents in MongoDB?",
+    "choices": {
+      "A": {
+        "choice": "All documents in a collection must have the same structure"
+      },
+      "B": { "choice": "Documents are strictly typed" },
+      "C": { "choice": "Documents can have different fields", "correct": true },
+      "D": { "choice": "Documents are stored as CSV" }
+    }
+  },
+  "02_21": {
+    "question": "What does the save() method do in Mongoose?",
+    "choices": {
+      "A": { "choice": "Deletes a document" },
+      "B": { "choice": "Saves or updates a document", "correct": true },
+      "C": { "choice": "Finds a document" },
+      "D": { "choice": "Creates an index" }
+    }
+  },
+  "02_22": {
+    "question": "Which method is used to update multiple documents in a MongoDB collection?",
+    "choices": {
+      "A": { "choice": "updateMany()", "correct": true },
+      "B": { "choice": "update()" },
+      "C": { "choice": "updateOne()" },
+      "D": { "choice": "setMany()" }
+    }
+  },
+  "02_23": {
+    "question": "What does the findById() method do in Mongoose?",
+    "choices": {
+      "A": { "choice": "Finds a document by its _id field", "correct": true },
+      "B": { "choice": "Finds a document by any field" },
+      "C": { "choice": "Finds multiple documents" },
+      "D": { "choice": "Deletes a document" }
+    }
+  },
+  "02_24": {
+    "question": "Which Node.js package is commonly used to connect to MongoDB using promises?",
+    "choices": {
+      "A": { "choice": "mongodb", "correct": true },
+      "B": { "choice": "mongo-connect" },
+      "C": { "choice": "mongojs" },
+      "D": { "choice": "mongo" }
+    }
+  },
+  "02_25": {
+    "question": "How do you delete an entire collection in MongoDB?",
+    "choices": {
+      "A": { "choice": "collection.drop()", "correct": true },
+      "B": { "choice": "db.remove()" },
+      "C": { "choice": "collection.deleteAll()" },
+      "D": { "choice": "drop.collection()" }
+    }
+  },
+  "02_26": {
+    "question": "Which method finds a single document that matches a query in MongoDB?",
+    "choices": {
+      "A": { "choice": "findMany()" },
+      "B": { "choice": "findOne()", "correct": true },
+      "C": { "choice": "get()" },
+      "D": { "choice": "findAll()" }
+    }
+  },
+  "02_27": {
+    "question": "What does the Mongoose 'Schema' help define?",
+    "choices": {
+      "A": { "choice": "Database indexes" },
+      "B": { "choice": "The structure of documents", "correct": true },
+      "C": { "choice": "CSS styles" },
+      "D": { "choice": "Database users" }
+    }
+  },
+  "02_28": {
+    "question": "Which MongoDB method updates multiple documents that match a filter?",
+    "choices": {
+      "A": { "choice": "updateMany()", "correct": true },
+      "B": { "choice": "updateOne()" },
+      "C": { "choice": "replaceOne()" },
+      "D": { "choice": "update()" }
+    }
+  },
+  "02_29": {
+    "question": "What does the '_id' field represent in MongoDB documents?",
+    "choices": {
+      "A": { "choice": "The user's name" },
+      "B": { "choice": "A unique identifier", "correct": true },
+      "C": { "choice": "A password" },
+      "D": { "choice": "A schema" }
+    }
+  },
+  "02_30": {
+    "question": "Which operator is used to query documents with a value greater than a number in MongoDB?",
+    "choices": {
+      "A": { "choice": "$gt", "correct": true },
+      "B": { "choice": "$lt" },
+      "C": { "choice": "$eq" },
+      "D": { "choice": "$gte" }
+    }
+  },
+  "02_31": {
+    "question": "Which Mongoose method saves a new document to the database?",
+    "choices": {
+      "A": { "choice": ".find()" },
+      "B": { "choice": ".save()", "correct": true },
+      "C": { "choice": ".delete()" },
+      "D": { "choice": ".query()" }
+    }
+  },
+  "02_32": {
+    "question": "What type of database is MongoDB?",
+    "choices": {
+      "A": { "choice": "Relational" },
+      "B": { "choice": "NoSQL", "correct": true },
+      "C": { "choice": "Graph" },
+      "D": { "choice": "File-based" }
+    }
+  },
+  "02_33": {
+    "question": "Which function connects a Mongoose app to a MongoDB database?",
+    "choices": {
+      "A": { "choice": "mongoose.connect()", "correct": true },
+      "B": { "choice": "mongoose.start()" },
+      "C": { "choice": "mongoose.init()" },
+      "D": { "choice": "mongoose.open()" }
+    }
+  },
+  "02_34": {
+    "question": "What is a collection in MongoDB?",
+    "choices": {
+      "A": { "choice": "A field in a document" },
+      "B": { "choice": "A group of documents", "correct": true },
+      "C": { "choice": "A user account" },
+      "D": { "choice": "A server" }
+    }
+  },
+  "02_35": {
+    "question": "Which property in a Mongoose schema can enforce a required field?",
+    "choices": {
+      "A": { "choice": "type" },
+      "B": { "choice": "default" },
+      "C": { "choice": "required", "correct": true },
+      "D": { "choice": "index" }
+    }
+  },
+  "02_36": {
+    "question": "How do you delete all documents from a collection in MongoDB?",
+    "choices": {
+      "A": { "choice": "deleteAll()" },
+      "B": { "choice": "removeAll()" },
+      "C": { "choice": "deleteMany({})", "correct": true },
+      "D": { "choice": "clear()" }
+    }
+  },
+  "02_37": {
+    "question": "Which method retrieves all documents in a Mongoose model?",
+    "choices": {
+      "A": { "choice": ".find()", "correct": true },
+      "B": { "choice": ".findOne()" },
+      "C": { "choice": ".search()" },
+      "D": { "choice": ".getAll()" }
+    }
+  },
+  "02_38": {
+    "question": "What does NoSQL stand for?",
+    "choices": {
+      "A": { "choice": "Not only SQL", "correct": true },
+      "B": { "choice": "Node SQL" },
+      "C": { "choice": "No secure queries" },
+      "D": { "choice": "Non-syntax queries" }
+    }
+  },
+  "02_39": {
+    "question": "Which command starts the MongoDB server locally?",
+    "choices": {
+      "A": { "choice": "mongod", "correct": true },
+      "B": { "choice": "mongo" },
+      "C": { "choice": "mongo-start" },
+      "D": { "choice": "mongodb run" }
+    }
+  },
+  "02_40": {
+    "question": "Which function prevents NoSQL injection by validating user input?",
+    "choices": {
+      "A": { "choice": "Input validation", "correct": true },
+      "B": { "choice": "Indexing" },
+      "C": { "choice": "Populating" },
+      "D": { "choice": "Clustering" }
+    }
+  },
+  "02_41": {
+    "question": "Which Mongoose method removes one document matching a filter?",
+    "choices": {
+      "A": { "choice": ".deleteOne()", "correct": true },
+      "B": { "choice": ".deleteMany()" },
+      "C": { "choice": ".removeAll()" },
+      "D": { "choice": ".remove()" }
+    }
+  },
+  "02_42": {
+    "question": "Which built-in MongoDB method can limit the number of results returned?",
+    "choices": {
+      "A": { "choice": "skip()" },
+      "B": { "choice": "limit()", "correct": true },
+      "C": { "choice": "count()" },
+      "D": { "choice": "length()" }
+    }
+  },
+  "02_43": {
+    "question": "Which method would you use to search for documents containing a string in a field?",
+    "choices": {
+      "A": { "choice": ".includes()" },
+      "B": { "choice": ".find({ field: /text/ })", "correct": true },
+      "C": { "choice": ".findString()" },
+      "D": { "choice": ".searchByText()" }
+    }
+  },
+  "02_44": {
+    "question": "Which property in a Mongoose schema sets a default value?",
+    "choices": {
+      "A": { "choice": "default", "correct": true },
+      "B": { "choice": "required" },
+      "C": { "choice": "unique" },
+      "D": { "choice": "setValue" }
+    }
+  },
+  "02_45": {
+    "question": "How does Mongoose handle schema validation errors?",
+    "choices": {
+      "A": { "choice": "Throws an error", "correct": true },
+      "B": { "choice": "Returns null" },
+      "C": { "choice": "Ignores them" },
+      "D": { "choice": "Shuts down the app" }
+    }
+  },
+  "02_46": {
+    "question": "What type of relationship does embedding documents in MongoDB represent?",
+    "choices": {
+      "A": { "choice": "One-to-many", "correct": true },
+      "B": { "choice": "One-to-one" },
+      "C": { "choice": "Many-to-many" },
+      "D": { "choice": "No relationship" }
+    }
+  },
+  "02_47": {
+    "question": "Which data format is used to store documents in MongoDB?",
+    "choices": {
+      "A": { "choice": "XML" },
+      "B": { "choice": "CSV" },
+      "C": { "choice": "JSON", "correct": true },
+      "D": { "choice": "YAML" }
+    }
+  },
+  "02_48": {
+    "question": "What is the command to stop the MongoDB server?",
+    "choices": {
+      "A": { "choice": "exit" },
+      "B": { "choice": "stop" },
+      "C": { "choice": "ctrl+c", "correct": true },
+      "D": { "choice": "shutdown" }
+    }
+  },
+  "02_49": {
+    "question": "Which MongoDB shell command shows all collections in the current database?",
+    "choices": {
+      "A": { "choice": "show dbs" },
+      "B": { "choice": "show collections", "correct": true },
+      "C": { "choice": "list all" },
+      "D": { "choice": "db.listCollections()" }
+    }
+  },
+  "02_50": {
+    "question": "Which property ensures a field is unique in a Mongoose schema?",
+    "choices": {
+      "A": { "choice": "unique", "correct": true },
+      "B": { "choice": "index" },
+      "C": { "choice": "type" },
+      "D": { "choice": "default" }
+    }
+  }
+}

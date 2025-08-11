@@ -1,0 +1,12 @@
+{
+  "chapters": [
+    { "id": 1, "name": "HTML", "topic": "HyperText Markup Language"},
+    { "id": 2, "name": "CSS", "topic": "Cascading Style Sheets"},
+    { "id": 3, "name": "Javascript", "topic": "JavaScript Basics"},
+    {"id": 4, "name": "SQL", "topic": "Structured Query Language"},
+    { "id": 5, "name": "DOM", "topic": "Document Object Model"},
+    { "id": 6, "name": "AJAX", "topic": "Asynchronous JavaScript and XML"},
+    { "id": 7, "name": "Node.js", "topic": "Express"},
+    {"id": 8, "name": "Session/CRUD", "topic": "Create, Read, Update and Delete"}
+  ]
+}

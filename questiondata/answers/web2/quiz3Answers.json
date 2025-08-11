@@ -1,0 +1,49 @@
+{
+  "03_01": {
+    "question": "Given the following block of code:",
+    "image": "images/chapters/web2/quiz3/Q1-0.png",
+    "choices": {
+      "A": { "choice": "2 Seconds" },
+      "B": { "choice": "4 Seconds" },
+      "C": { "choice": "3 Seconds", "correct": true },
+      "D": { "choice": "1 Seconds" }
+    }
+  },
+  "03_02": {
+    "question": "The async and await keywords make it easier to build an operation from a series of consecutive asynchronous function calls. avoiding the need to create explicit promise  chains, and allowing you to write code that looks like synchronous code, but is non-blocking.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "03_03": {
+    "question": "Given the following image:",
+    "images": [
+      "images/chapters/web2/quiz3/Q3-0.png",
+      "images/chapters/web2/quiz3/Q3-0-1.png"
+    ],
+    "choices": {
+      "A": { "image": "images/chapters/web2/quiz3/Q3-1.png" },
+      "B": { "image": "images/chapters/web2/quiz3/Q3-2.png" },
+      "C": { "image": "images/chapters/web2/quiz3/Q3-3.png", "correct": true }
+    }
+  },
+  "03_04": {
+    "question": "Given the following image:",
+    "image": "images/chapters/web2/quiz3/Q4-0.png",
+    "choices": {
+      "A": { "choice": "3 Seconds", "correct": true },
+      "B": { "choice": "1 Seconds" },
+      "C": { "choice": "2 Seconds" },
+      "D": { "choice": "4 Seconds" }
+    }
+  },
+  "03_05": {
+    "question": "Given the following image:",
+    "image": "images/chapters/web2/quiz3/Q5-0.png",
+    "choices": {
+      "A": { "image": "images/chapters/web2/quiz3/Q5-1.png", "correct": true },
+      "B": { "image": "images/chapters/web2/quiz3/Q5-2.png" }
+    }
+  }
+}

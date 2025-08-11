@@ -1,0 +1,362 @@
+{
+  "04_01": {
+    "question": "What does EJS stand for?",
+    "choices": {
+      "A": { "choice": "Embedded JavaScript", "correct": true },
+      "B": { "choice": "External Javascript" },
+      "C": { "choice": "Express JSON" },
+      "D": { "choice": "Elemental Java Syntax" }
+    }
+  },
+  "04_02": {
+    "question": "Which syntax is used to output a variable in EJS?",
+    "choices": {
+      "A": { "choice": "&lt;% variable %&gt;" },
+      "B": { "choice": "&lt;%= variable %&gt;", "correct": true },
+      "C": { "choice": "{{ variable }}" },
+      "D": { "choice": "&lt;$ variable $&gt;" }
+    }
+  },
+  "04_03": {
+    "question": "Which tag in EJS allows you to run code without outputting it?",
+    "choices": {
+      "A": { "choice": "&lt;%= code %&gt;" },
+      "B": { "choice": "&lt;% code %&gt;", "correct": true },
+      "C": { "choice": "&lt;%# comment %&gt;" },
+      "D": { "choice": "&lt;%! code %&gt;" }
+    }
+  },
+  "04_04": {
+    "question": "Which file extension is typically used for EJS templates?",
+    "choices": {
+      "A": { "choice": ".js" },
+      "B": { "choice": ".ejs", "correct": true },
+      "C": { "choice": ".html" },
+      "D": { "choice": ".jsx" }
+    }
+  },
+  "04_05": {
+    "question": "Which of the following is NOT a valid way to include Bootstrap in your project?",
+    "choices": {
+      "A": { "choice": "Via CDN" },
+      "B": { "choice": "By downloading CSS/JS files" },
+      "C": { "choice": "By using &lt;script src='bootstrap.js'&gt;" },
+      "D": { "choice": "By linking to a .ejs file", "correct": true }
+    }
+  },
+  "04_06": {
+    "question": "Which Bootstrap class would you use to add a primary-colored button?",
+    "choices": {
+      "A": { "choice": "btn" },
+      "B": { "choice": "btn-main" },
+      "C": { "choice": "btn-primary", "correct": true },
+      "D": { "choice": "primary-btn" }
+    }
+  },
+  "04_07": {
+    "question": "What does the &lt;link&gt; tag do in HTML?",
+    "choices": {
+      "A": { "choice": "Links JavaScript files" },
+      "B": { "choice": "Links CSS stylesheets", "correct": true },
+      "C": { "choice": "Embeds images" },
+      "D": { "choice": "Defines a navigation bar" }
+    }
+  },
+  "04_08": {
+    "question": "Which Bootstrap class makes an element span the full width of its parent?",
+    "choices": {
+      "A": { "choice": "container" },
+      "B": { "choice": "col-12", "correct": true },
+      "C": { "choice": "row" },
+      "D": { "choice": "container-fluid" }
+    }
+  },
+  "04_09": {
+    "question": "How would you output an item from a list called 'users' in EJS?",
+    "choices": {
+      "A": { "choice": "&lt;%= users[0] %&gt;", "correct": true },
+      "B": { "choice": "&lt;% users[0] %&gt;" },
+      "C": { "choice": "{{ users[0] }}" },
+      "D": { "choice": "users[0]" }
+    }
+  },
+  "04_10": {
+    "question": "Which of the following selects an element with the ID 'main' in JavaScript?",
+    "choices": {
+      "A": { "choice": "document.getElementById('main')", "correct": true },
+      "B": { "choice": "document.getElement('main')" },
+      "C": { "choice": "$('#main')" },
+      "D": { "choice": "main.getElement()" }
+    }
+  },
+  "04_11": {
+    "question": "What does the querySelectorAll() method return?",
+    "choices": {
+      "A": { "choice": "A single DOM element" },
+      "B": { "choice": "An array" },
+      "C": { "choice": "A NodeList", "correct": true },
+      "D": { "choice": "A jQuery object" }
+    }
+  },
+  "04_12": {
+    "question": "Which of the following jQuery selectors gets all &lt;div&gt; elements?",
+    "choices": {
+      "A": { "choice": "$('div')", "correct": true },
+      "B": { "choice": "$('#div')" },
+      "C": { "choice": "$('.div')" },
+      "D": { "choice": "$('divs')" }
+    }
+  },
+  "04_13": {
+    "question": "How would you change the text of an element with ID 'msg' using vanilla JS?",
+    "choices": {
+      "A": { "choice": "document.getElementById('msg').text = 'Hello';" },
+      "B": { "choice": "document.getElementById('msg').textContent = 'Hello';", "correct": true },
+      "C": { "choice": "$('#msg').val('Hello');" },
+      "D": { "choice": "msg.textContent('Hello');" }
+    }
+  },
+  "04_14": {
+    "question": "Which method is used to handle a button click event in jQuery?",
+    "choices": {
+      "A": { "choice": "$('button').on('click', ...)", "correct": true },
+      "B": { "choice": "$('button').addEventListener('click', ...)" },
+      "C": { "choice": "button.click(...)" },
+      "D": { "choice": "onClick('button', ...)" }
+    }
+  },
+  "04_15": {
+    "question": "What does the .addClass() method do in jQuery?",
+    "choices": {
+      "A": { "choice": "Removes a class" },
+      "B": { "choice": "Adds a CSS class to elements", "correct": true },
+      "C": { "choice": "Creates a new element" },
+      "D": { "choice": "Changes text content" }
+    }
+  },
+  "04_16": {
+    "question": "Which method fetches data from an API in modern JavaScript?",
+    "choices": {
+      "A": { "choice": "fetch()", "correct": true },
+      "B": { "choice": "getData()" },
+      "C": { "choice": "httpRequest()" },
+      "D": { "choice": "ajax()" }
+    }
+  },
+  "04_17": {
+    "question": "How do you insert a value from a JavaScript variable 'name' into an EJS template?",
+    "choices": {
+      "A": { "choice": "&lt;% name %&gt;" },
+      "B": { "choice": "&lt;%= name %&gt;", "correct": true },
+      "C": { "choice": "{{ name }}" },
+      "D": { "choice": "&lt;%# name %&gt;" }
+    }
+  },
+  "04_18": {
+    "question": "What does the Bootstrap class 'row' do?",
+    "choices": {
+      "A": { "choice": "Makes text bold" },
+      "B": { "choice": "Creates a horizontal group of columns", "correct": true },
+      "C": { "choice": "Adds padding" },
+      "D": { "choice": "Adds a border" }
+    }
+  },
+  "04_19": {
+    "question": "Which function is used to parse JSON data in JavaScript?",
+    "choices": {
+      "A": { "choice": "JSON.parse()", "correct": true },
+      "B": { "choice": "JSON.stringify()" },
+      "C": { "choice": "parseJSON()" },
+      "D": { "choice": "toJSON()" }
+    }
+  },
+  "04_20": {
+    "question": "What does the 'defer' attribute do on a &lt;script&gt; tag?",
+    "choices": {
+      "A": { "choice": "Loads script asynchronously after DOM loaded", "correct": true },
+      "B": { "choice": "Blocks page rendering" },
+      "C": { "choice": "Runs before HTML parses" },
+      "D": { "choice": "Only loads external CSS" }
+    }
+  },
+  "04_21": {
+    "question": "Which jQuery method hides an element?",
+    "choices": {
+      "A": { "choice": ".show()" },
+      "B": { "choice": ".hide()", "correct": true },
+      "C": { "choice": ".remove()" },
+      "D": { "choice": ".displayNone()" }
+    }
+  },
+  "04_22": {
+    "question": "What is the purpose of the 'src' attribute in a &lt;script&gt; tag?",
+    "choices": {
+      "A": { "choice": "Specifies the source file for JavaScript", "correct": true },
+      "B": { "choice": "Sets the script to synchronous" },
+      "C": { "choice": "Links CSS files" },
+      "D": { "choice": "Creates a server route" }
+    }
+  },
+  "04_23": {
+    "question": "Which property returns or sets the HTML content of an element using vanilla JS?",
+    "choices": {
+      "A": { "choice": "textContent" },
+      "B": { "choice": "innerHTML", "correct": true },
+      "C": { "choice": "value" },
+      "D": { "choice": "htmlContent" }
+    }
+  },
+  "04_24": {
+    "question": "What is the primary use of AJAX?",
+    "choices": {
+      "A": { "choice": "Style web pages" },
+      "B": { "choice": "Make asynchronous HTTP requests", "correct": true },
+      "C": { "choice": "Render EJS templates" },
+      "D": { "choice": "Create Bootstrap modals" }
+    }
+  },
+  "04_25": {
+    "question": "Which jQuery selector gets an element by class 'active'?",
+    "choices": {
+      "A": { "choice": "$('.active')", "correct": true },
+      "B": { "choice": "$('#active')" },
+      "C": { "choice": "$('active')" },
+      "D": { "choice": "$('class=active')" }
+    }
+  },
+  "04_26": {
+    "question": "Which event occurs when a form is submitted?",
+    "choices": {
+      "A": { "choice": "submit", "correct": true },
+      "B": { "choice": "change" },
+      "C": { "choice": "input" },
+      "D": { "choice": "send" }
+    }
+  },
+  "04_27": {
+    "question": "How do you include a partial template in EJS?",
+    "choices": {
+      "A": { "choice": "&lt;% include partial.ejs %&gt;", "correct": true },
+      "B": { "choice": "&lt;%- include partial.ejs %&gt;" },
+      "C": { "choice": "&lt;%# partial.ejs %&gt;" },
+      "D": { "choice": "&lt;? include partial.ejs ?&gt;" }
+    }
+  },
+  "04_28": {
+    "question": "Which method sends data as JSON using fetch()?",
+    "choices": {
+      "A": { "choice": "fetch(url, { method: 'POST', body: JSON.stringify(data), headers: { 'Content-Type': 'application/json' } })", "correct": true },
+      "B": { "choice": "fetch(url, data)" },
+      "C": { "choice": "fetch(url).json()" },
+      "D": { "choice": "fetch(url, { type: 'json' })" }
+    }
+  },
+  "04_29": {
+    "question": "Which Bootstrap class would you use to center text?",
+    "choices": {
+      "A": { "choice": "text-center", "correct": true },
+      "B": { "choice": "center-text" },
+      "C": { "choice": "align-center" },
+      "D": { "choice": "justify-center" }
+    }
+  },
+  "04_30": {
+    "question": "Which jQuery method gets the value of an input field?",
+    "choices": {
+      "A": { "choice": ".text()" },
+      "B": { "choice": ".val()", "correct": true },
+      "C": { "choice": ".get()" },
+      "D": { "choice": ".value()" }
+    }
+  },
+  "04_31": {
+    "question": "Which Bootstrap class creates a responsive navigation bar?",
+    "choices": {
+      "A": { "choice": "navbar", "correct": true },
+      "B": { "choice": "navigation" },
+      "C": { "choice": "nav" },
+      "D": { "choice": "navbar-responsive" }
+    }
+  },
+  "04_32": {
+    "question": "How can you select all &lt;p&gt; elements inside a &lt;div&gt; in JQuery?",
+    "choices": {
+      "A": { "choice": "$('div p')", "correct": true },
+      "B": { "choice": "$('div.p')" },
+      "C": { "choice": "$('div&gt;p')" },
+      "D": { "choice": "$('p div')" }
+    }
+  },
+  "04_33": {
+    "question": "Which method is used to remove an element from the DOM with JQuery?",
+    "choices": {
+      "A": { "choice": ".hide()" },
+      "B": { "choice": ".remove()", "correct": true },
+      "C": { "choice": ".delete()" },
+      "D": { "choice": ".detach()" }
+    }
+  },
+  "04_34": {
+    "question": "What does the .css() method do in JQuery?",
+    "choices": {
+      "A": { "choice": "Gets or sets CSS properties", "correct": true },
+      "B": { "choice": "Creates a CSS file" },
+      "C": { "choice": "Links a stylesheet" },
+      "D": { "choice": "Adds a class" }
+    }
+  },
+  "04_35": {
+    "question": "Which attribute is used to set an element's unique identifier in HTML?",
+    "choices": {
+      "A": { "choice": "class" },
+      "B": { "choice": "id", "correct": true },
+      "C": { "choice": "name" },
+      "D": { "choice": "for" }
+    }
+  },
+  "04_36": {
+    "question": "What is the purpose of the Bootstrap grid system?",
+    "choices": {
+      "A": { "choice": "To lay out content in rows and columns", "correct": true },
+      "B": { "choice": "To animate images" },
+      "C": { "choice": "To add color to text" },
+      "D": { "choice": "To create buttons" }
+    }
+  },
+  "04_37": {
+    "question": "Which Bootstrap class provides padding around an element?",
+    "choices": {
+      "A": { "choice": "p-3", "correct": true },
+      "B": { "choice": "padding-3" },
+      "C": { "choice": "pad-3" },
+      "D": { "choice": "padded-3" }
+    }
+  },
+  "04_38": {
+    "question": "Which property would you use to change the background color of an element using vanilla JS?",
+    "choices": {
+      "A": { "choice": "element.backgroundColor" },
+      "B": { "choice": "element.style.backgroundColor", "correct": true },
+      "C": { "choice": "element.bgColor" },
+      "D": { "choice": "element.setBackground()" }
+    }
+  },
+  "04_39": {
+    "question": "Which jQuery function runs code when the DOM is fully loaded?",
+    "choices": {
+      "A": { "choice": "$(document).ready(...)", "correct": true },
+      "B": { "choice": "$(document).onload(...)" },
+      "C": { "choice": "$(window).open(...)" },
+      "D": { "choice": "window.onload(...)" }
+    }
+  },
+  "04_40": {
+    "question": "Which attribute would you use to link a CSS file in HTML?",
+    "choices": {
+      "A": { "choice": "href", "correct": true },
+      "B": { "choice": "src" },
+      "C": { "choice": "rel" },
+      "D": { "choice": "link" }
+    }
+  }
+}

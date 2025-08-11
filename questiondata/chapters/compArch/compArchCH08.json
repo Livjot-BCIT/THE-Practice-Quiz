@@ -1,0 +1,450 @@
+{
+  "08_01": {
+    "question": "A CPU with a clock rate of 3 GHz has a CPI of 1.5 for a given program with 1.2 × 10^9 instructions. What is the execution time?",
+    "choices": {
+      "A": { "choice": "0.6 seconds" },
+      "B": { "choice": "0.8 seconds" },
+      "C": { "choice": "0.9 seconds", "correct": true },
+      "D": { "choice": "1.0 seconds" }
+    }
+  },
+  "08_02": {
+    "question": "True or False: In a write-back cache, data is written to both the cache and main memory simultaneously on a write operation.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "08_03": {
+    "question": "Which of the following addressing modes is most efficient for accessing consecutive array elements?",
+    "choices": {
+      "A": { "choice": "Immediate" },
+      "B": { "choice": "Direct" },
+      "C": { "choice": "Indexed", "correct": true },
+      "D": { "choice": "Indirect" }
+    }
+  },
+  "08_04": {
+    "question": "Select all statements that correctly describe pipelining hazards.",
+    "choices": {
+      "A": {
+        "choice": "Data hazards occur when an instruction depends on the result of a previous one",
+        "correct": true
+      },
+      "B": {
+        "choice": "Control hazards occur due to branch instructions",
+        "correct": true
+      },
+      "C": {
+        "choice": "Structural hazards occur when hardware resources are overcommitted",
+        "correct": true
+      },
+      "D": { "choice": "Hazards always improve performance" }
+    }
+  },
+  "08_05": {
+    "question": "In CRC error detection, what does the receiver do with the received message bits and the generator polynomial?",
+    "choices": {
+      "A": { "choice": "Adds them together" },
+      "B": { "choice": "Performs a bitwise AND" },
+      "C": {
+        "choice": "Divides the message by the polynomial and checks the remainder",
+        "correct": true
+      },
+      "D": { "choice": "Reverses the bits" }
+    }
+  },
+  "08_06": {
+    "question": "True or False: A RISC processor typically has a larger and more complex instruction set than a CISC processor.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "08_07": {
+    "question": "If a cache has a hit rate of 95% and the main memory access time is 100 ns, with cache access time of 5 ns, what is the average memory access time?",
+    "choices": {
+      "A": { "choice": "9.75 ns" },
+      "B": { "choice": "10 ns" },
+      "C": { "choice": "9.95 ns" },
+      "D": { "choice": "10.75 ns", "correct": true }
+    }
+  },
+  "08_08": {
+    "question": "Which bus arbitration method gives the highest priority to one device over others?",
+    "choices": {
+      "A": { "choice": "Round-robin" },
+      "B": { "choice": "Daisy chaining", "correct": true },
+      "C": { "choice": "Polling" },
+      "D": { "choice": "Random selection" }
+    }
+  },
+  "08_09": {
+    "question": "Select all advantages of subroutine use in assembly programs.",
+    "choices": {
+      "A": { "choice": "Code reuse", "correct": true },
+      "B": { "choice": "Improved readability", "correct": true },
+      "C": { "choice": "Reduced memory usage", "correct": true },
+      "D": { "choice": "Automatic parallel execution" }
+    }
+  },
+  "08_10": {
+    "question": "True or False: In Hamming codes, a single-bit error can be both detected and corrected.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "08_11": {
+    "question": "A CPU executes a loop with 4 instructions. Due to pipelining, the first iteration takes 7 cycles and each subsequent iteration takes 1 cycle. How many cycles does it take to execute 10 iterations?",
+    "choices": {
+      "A": { "choice": "16" },
+      "B": { "choice": "17" },
+      "C": { "choice": "18", "correct": true },
+      "D": { "choice": "19" }
+    }
+  },
+  "08_12": {
+    "question": "Which cache mapping technique allows the same memory block to be stored in multiple locations in the cache?",
+    "choices": {
+      "A": { "choice": "Direct mapping" },
+      "B": { "choice": "Associative mapping", "correct": true },
+      "C": { "choice": "Set-associative mapping" },
+      "D": { "choice": "Static mapping" }
+    }
+  },
+  "08_13": {
+    "question": "True or False: In assembly language, PC-relative addressing uses the current program counter value plus an offset to calculate the effective address.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "08_14": {
+    "question": "Select all differences between direct and indirect addressing modes.",
+    "choices": {
+      "A": {
+        "choice": "Direct addressing stores the value in the instruction itself"
+      },
+      "B": {
+        "choice": "Direct addressing specifies the memory address directly",
+        "correct": true
+      },
+      "C": {
+        "choice": "Indirect addressing specifies a location containing the address of the operand",
+        "correct": true
+      },
+      "D": {
+        "choice": "Indirect addressing is always faster than direct addressing"
+      }
+    }
+  },
+  "08_15": {
+    "question": "A 32-bit address bus can access how many unique memory locations?",
+    "choices": {
+      "A": { "choice": "2^16" },
+      "B": { "choice": "2^32", "correct": true },
+      "C": { "choice": "4 GB" },
+      "D": { "choice": "1 TB" }
+    }
+  },
+  "08_16": {
+    "question": "True or False: The Zero flag in the status register is set when the result of an arithmetic operation is negative.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "08_17": {
+    "question": "Which error detection technique appends parity bits to ensure that the total number of 1s is even or odd?",
+    "choices": {
+      "A": { "choice": "CRC" },
+      "B": { "choice": "Hamming code" },
+      "C": { "choice": "Parity check", "correct": true },
+      "D": { "choice": "Checksum" }
+    }
+  },
+  "08_18": {
+    "question": "Select all conditions under which a control hazard may occur.",
+    "choices": {
+      "A": { "choice": "When a branch is taken", "correct": true },
+      "B": { "choice": "When a branch is not taken" },
+      "C": {
+        "choice": "When the next instruction depends on the branch decision",
+        "correct": true
+      },
+      "D": { "choice": "When memory is full" }
+    }
+  },
+  "08_19": {
+    "question": "True or False: In the von Neumann architecture, instructions and data share the same memory and bus system.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "08_20": {
+    "question": "Which of the following control signals is used to initiate a read operation from memory?",
+    "choices": {
+      "A": { "choice": "MEMR", "correct": true },
+      "B": { "choice": "MEMW" },
+      "C": { "choice": "IOR" },
+      "D": { "choice": "IOW" }
+    }
+  },
+  "08_21": {
+    "question": "You are given a memory address 0x3A in binary form. Which base-2 representation is correct?",
+    "choices": {
+      "A": { "choice": "00111010", "correct": true },
+      "B": { "choice": "111010" },
+      "C": { "choice": "11001010" },
+      "D": { "choice": "01110100" }
+    }
+  },
+  "08_22": {
+    "question": "True or False: In two’s complement representation, the most significant bit indicates the sign of the number.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "08_23": {
+    "question": "Which of the following is the correct two’s complement of the binary number 0101?",
+    "choices": {
+      "A": { "choice": "1010" },
+      "B": { "choice": "1111" },
+      "C": { "choice": "1011", "correct": true },
+      "D": { "choice": "0001" }
+    }
+  },
+  "08_24": {
+    "question": "Select all that are valid steps for converting decimal 45 to binary.",
+    "choices": {
+      "A": {
+        "choice": "Repeatedly divide by 2 and note remainders",
+        "correct": true
+      },
+      "B": { "choice": "Write remainders in reverse order", "correct": true },
+      "C": { "choice": "Multiply by 2 and track carries" },
+      "D": { "choice": "Use hexadecimal table for mapping" }
+    }
+  },
+  "08_25": {
+    "question": "True or False: A signed 8-bit integer can represent values from -255 to 255.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "08_26": {
+    "question": "You add two 4-bit unsigned numbers: 1101 + 0101. What is the result in binary and decimal?",
+    "choices": {
+      "A": { "choice": "0010 (2) with carry", "correct": true },
+      "B": { "choice": "10010 (18)" },
+      "C": { "choice": "0000 (0) with carry" },
+      "D": { "choice": "1111 (15)" }
+    }
+  },
+  "08_27": {
+    "question": "Select all correct statements about overflow in signed arithmetic.",
+    "choices": {
+      "A": {
+        "choice": "Occurs when result exceeds representable range",
+        "correct": true
+      },
+      "B": {
+        "choice": "Can be detected by checking sign bits",
+        "correct": true
+      },
+      "C": { "choice": "Always sets the zero flag" },
+      "D": { "choice": "Never occurs in subtraction" }
+    }
+  },
+  "08_28": {
+    "question": "True or False: CRC is used primarily for error detection in data transmission.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "08_29": {
+    "question": "Which Hamming code parity bits are needed to encode a 4-bit data word?",
+    "choices": {
+      "A": { "choice": "2 parity bits" },
+      "B": { "choice": "3 parity bits", "correct": true },
+      "C": { "choice": "4 parity bits" },
+      "D": { "choice": "Depends on error rate" }
+    }
+  },
+  "08_30": {
+    "question": "True or False: The pipeline hazard that occurs when an instruction depends on the result of a previous instruction is called a structural hazard.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "08_31": {
+    "question": "Given a cache block size of 16 bytes, what is the byte offset size in bits?",
+    "choices": {
+      "A": { "choice": "2 bits" },
+      "B": { "choice": "4 bits", "correct": true },
+      "C": { "choice": "8 bits" },
+      "D": { "choice": "16 bits" }
+    }
+  },
+  "08_32": {
+    "question": "Select all correct statements about bus arbitration.",
+    "choices": {
+      "A": {
+        "choice": "Determines which device can use the bus",
+        "correct": true
+      },
+      "B": { "choice": "May use priority-based schemes", "correct": true },
+      "C": { "choice": "Always uses round-robin scheduling" },
+      "D": { "choice": "Can be centralized or distributed", "correct": true }
+    }
+  },
+  "08_33": {
+    "question": "True or False: In assembly, the `JMP` instruction changes the Program Counter to a new address.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "08_34": {
+    "question": "Which multiplexer input is selected when the select lines are 10 (binary)?",
+    "choices": {
+      "A": { "choice": "Input 0" },
+      "B": { "choice": "Input 1" },
+      "C": { "choice": "Input 2", "correct": true },
+      "D": { "choice": "Input 3" }
+    }
+  },
+  "08_35": {
+    "question": "True or False: A decoder takes multiple inputs and activates exactly one output line.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "08_36": {
+    "question": "Select all correct uses of the stack in assembly programming.",
+    "choices": {
+      "A": { "choice": "Storing return addresses", "correct": true },
+      "B": { "choice": "Passing parameters to subroutines", "correct": true },
+      "C": { "choice": "Temporary storage of data", "correct": true },
+      "D": { "choice": "Holding opcode tables" }
+    }
+  },
+  "08_37": {
+    "question": "If the Program Counter contains 0x0040 and the instruction at that address is executed, what is the next Program Counter value in a sequential flow?",
+    "choices": {
+      "A": { "choice": "0x0041", "correct": true },
+      "B": { "choice": "0x0042" },
+      "C": { "choice": "0x003F" },
+      "D": { "choice": "0x0040" }
+    }
+  },
+  "08_38": {
+    "question": "True or False: A cache hit occurs when the data requested by the CPU is not found in the cache.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "08_39": {
+    "question": "Select all components that are part of the CPU datapath.",
+    "choices": {
+      "A": { "choice": "ALU", "correct": true },
+      "B": { "choice": "Registers", "correct": true },
+      "C": { "choice": "Control Unit", "correct": true },
+      "D": { "choice": "Hard disk" }
+    }
+  },
+  "08_40": {
+    "question": "Which addressing mode is most efficient for accessing elements of an array?",
+    "choices": {
+      "A": { "choice": "Immediate addressing" },
+      "B": { "choice": "Indexed addressing", "correct": true },
+      "C": { "choice": "Direct addressing" },
+      "D": { "choice": "PC-relative addressing" }
+    }
+  },
+  "08_41": {
+    "question": "A CPU is executing instructions from cache. Suddenly, it needs data not present in cache, triggering a cache miss. Which sequence best describes what happens next?",
+    "choices": {
+      "A": { "choice": "CPU halts permanently, system restarts" },
+      "B": {
+        "choice": "Data is fetched from main memory, loaded into cache, then execution continues",
+        "correct": true
+      },
+      "C": {
+        "choice": "CPU skips the instruction and continues with the next"
+      },
+      "D": { "choice": "Cache is cleared entirely before loading new data" }
+    }
+  },
+  "08_42": {
+    "question": "A program uses indexed addressing to access an array. The base register holds 2000 and the index register holds 5. Each element is 4 bytes. What is the effective address?",
+    "choices": {
+      "A": { "choice": "2005" },
+      "B": { "choice": "2020", "correct": true },
+      "C": { "choice": "2025" },
+      "D": { "choice": "2004" }
+    }
+  },
+  "08_43": {
+    "question": "An instruction pipeline has 5 stages. If there is a branch misprediction, how many stages must be flushed before correct execution can continue?",
+    "choices": {
+      "A": { "choice": "All 5 stages", "correct": true },
+      "B": { "choice": "Only the last stage" },
+      "C": { "choice": "Two stages" },
+      "D": { "choice": "None" }
+    }
+  },
+  "08_44": {
+    "question": "A 16-bit instruction uses 4 bits for the opcode. How many unique opcodes can be represented?",
+    "choices": {
+      "A": { "choice": "8" },
+      "B": { "choice": "16" },
+      "C": { "choice": "32" },
+      "D": { "choice": "16", "correct": true }
+    }
+  },
+  "08_45": {
+    "question": "A Hamming(7,4) code is used to send the data bits 1011. The receiver detects a single-bit error at position 5. Which action should be taken?",
+    "choices": {
+      "A": { "choice": "Flip bit 5 to correct the error", "correct": true },
+      "B": { "choice": "Discard the message" },
+      "C": { "choice": "Request retransmission" },
+      "D": { "choice": "Flip all bits" }
+    }
+  },
+  "08_46": {
+    "question": "During DMA transfer, which component temporarily has control over the system bus?",
+    "choices": {
+      "A": { "choice": "CPU" },
+      "B": { "choice": "DMA controller", "correct": true },
+      "C": { "choice": "Cache controller" },
+      "D": { "choice": "I/O device" }
+    }
+  },
+  "08_47": {
+    "question": "In a direct-mapped cache with 64 lines, memory address 0x1A3 maps to which cache line?",
+    "choices": {
+      "A": { "choice": "0x1A3" },
+      "B": { "choice": "0x23" },
+      "C": { "choice": "Line 35", "correct": true },
+      "D": { "choice": "Line 3" }
+    }
+  },
+  "08_48": {
+    "question": "A CPU executes 2 billion instructions in 1 second with a CPI of 1.5. What is the clock rate?",
+    "choices": {
+      "A": { "choice": "3 GHz", "correct": true },
+      "B": { "choice": "1.33 GHz" },
+      "C": { "choice": "750 MHz" },
+      "D": { "choice": "2 GHz" }
+    }
+  }
+}

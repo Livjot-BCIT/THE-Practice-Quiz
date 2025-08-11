@@ -1,0 +1,317 @@
+{
+  "03_01": {
+    "question": "How many ways can you arrange the letters in the word 'DOG'?",
+    "choices": {
+      "A": { "choice": "3" },
+      "B": { "choice": "6", "correct": true },
+      "C": { "choice": "12" },
+      "D": { "choice": "9" }
+    }
+  },
+  "03_02": {
+    "question": "What is the value of 5! (5 factorial)?",
+    "choices": {
+      "A": { "choice": "120", "correct": true },
+      "B": { "choice": "24" },
+      "C": { "choice": "60" },
+      "D": { "choice": "720" }
+    }
+  },
+  "03_03": {
+    "question": "How many ways can you pick 2 people from a group of 5?",
+    "choices": {
+      "A": { "choice": "10", "correct": true },
+      "B": { "choice": "20" },
+      "C": { "choice": "5" },
+      "D": { "choice": "25" }
+    }
+  },
+  "03_04": {
+    "question": "Which formula is used for the number of combinations of n objects taken r at a time?",
+    "choices": {
+      "A": { "choice": "n!/(n - r)!" },
+      "B": { "choice": "n!/(r!(n - r)!)", "correct": true },
+      "C": { "choice": "n^r" },
+      "D": { "choice": "n! * r!" }
+    }
+  },
+  "03_05": {
+    "question": "In how many ways can 3 students line up for lunch?",
+    "choices": {
+      "A": { "choice": "6", "correct": true },
+      "B": { "choice": "8" },
+      "C": { "choice": "9" },
+      "D": { "choice": "3" }
+    }
+  },
+  "03_06": {
+    "question": "If there are 4 shirts and 3 pants, how many different outfits can be made?",
+    "choices": {
+      "A": { "choice": "7" },
+      "B": { "choice": "12", "correct": true },
+      "C": { "choice": "1" },
+      "D": { "choice": "24" }
+    }
+  },
+  "03_07": {
+    "question": "Which principle states that if n objects are put into k boxes, then at least one box contains at least ⌈n/k⌉ objects?",
+    "choices": {
+      "A": { "choice": "Multiplication Principle" },
+      "B": { "choice": "Addition Principle" },
+      "C": { "choice": "Pigeonhole Principle", "correct": true },
+      "D": { "choice": "Factorial Principle" }
+    }
+  },
+  "03_08": {
+    "question": "How many different 3-digit numbers can be formed using digits 1-5 if digits cannot repeat?",
+    "choices": {
+      "A": { "choice": "60", "correct": true },
+      "B": { "choice": "125" },
+      "C": { "choice": "15" },
+      "D": { "choice": "20" }
+    }
+  },
+  "03_09": {
+    "question": "Which of the following is a combination problem?",
+    "choices": {
+      "A": { "choice": "Assigning seats to people in a row" },
+      "B": { "choice": "Choosing 3 flavors out of 8 to make an ice cream", "correct": true },
+      "C": { "choice": "Arranging books on a shelf" },
+      "D": { "choice": "Scheduling runners in a relay race" }
+    }
+  },
+  "03_10": {
+    "question": "What is the probability of flipping heads on a fair coin?",
+    "choices": {
+      "A": { "choice": "0.25" },
+      "B": { "choice": "0.5", "correct": true },
+      "C": { "choice": "1" },
+      "D": { "choice": "2" }
+    }
+  },
+  "03_11": {
+    "question": "What is the sample space for rolling a standard 6-sided die?",
+    "choices": {
+      "A": { "choice": "{1, 2, 3, 4, 5, 6}", "correct": true },
+      "B": { "choice": "{1, 2, 3, 4, 5}" },
+      "C": { "choice": "{2, 4, 6}" },
+      "D": { "choice": "{1, 3, 5}" }
+    }
+  },
+  "03_12": {
+    "question": "If you draw a card at random from a standard deck, what is the probability it is a heart?",
+    "choices": {
+      "A": { "choice": "1/2" },
+      "B": { "choice": "1/4", "correct": true },
+      "C": { "choice": "1/13" },
+      "D": { "choice": "1/52" }
+    }
+  },
+  "03_13": {
+    "question": "The sum of the probabilities of all possible outcomes in a sample space is:",
+    "choices": {
+      "A": { "choice": "0" },
+      "B": { "choice": "1", "correct": true },
+      "C": { "choice": "0.5" },
+      "D": { "choice": "Depends on experiment" }
+    }
+  },
+  "03_14": {
+    "question": "How many 2-letter “words” can you form from A, B, C if repetition is allowed?",
+    "choices": {
+      "A": { "choice": "6" },
+      "B": { "choice": "9", "correct": true },
+      "C": { "choice": "3" },
+      "D": { "choice": "12" }
+    }
+  },
+  "03_15": {
+    "question": "If the probability of rain is 0.3, what is the probability it does NOT rain?",
+    "choices": {
+      "A": { "choice": "0.3" },
+      "B": { "choice": "0.7", "correct": true },
+      "C": { "choice": "0.9" },
+      "D": { "choice": "0.5" }
+    }
+  },
+  "03_16": {
+    "question": "Which of the following events are mutually exclusive?",
+    "choices": {
+      "A": { "choice": "Rolling an even or odd number on a die", "correct": true },
+      "B": { "choice": "Drawing a king or a heart from a deck" },
+      "C": { "choice": "Getting an A in COMP 2121 and COMP 1510" },
+      "D": { "choice": "Flipping heads and tails at the same time on one coin" }
+    }
+  },
+  "03_17": {
+    "question": "What is the probability of rolling a 3 or a 5 on a 6-sided die?",
+    "choices": {
+      "A": { "choice": "1/6" },
+      "B": { "choice": "1/3", "correct": true },
+      "C": { "choice": "1/2" },
+      "D": { "choice": "1/12" }
+    }
+  },
+  "03_18": {
+    "question": "In the context of counting, what does 'nCr' represent?",
+    "choices": {
+      "A": { "choice": "Number of permutations" },
+      "B": { "choice": "Number of combinations", "correct": true },
+      "C": { "choice": "Number of samples" },
+      "D": { "choice": "Number of arrangements" }
+    }
+  },
+  "03_19": {
+    "question": "If a pizza shop offers 3 crusts, 4 sauces, and 5 toppings, how many possible pizzas can you create with one choice from each?",
+    "choices": {
+      "A": { "choice": "60", "correct": true },
+      "B": { "choice": "12" },
+      "C": { "choice": "24" },
+      "D": { "choice": "15" }
+    }
+  },
+  "03_20": {
+    "question": "What does the inclusion-exclusion principle account for?",
+    "choices": {
+      "A": { "choice": "Double counting in unions", "correct": true },
+      "B": { "choice": "Negative outcomes" },
+      "C": { "choice": "Probability of intersections" },
+      "D": { "choice": "Multiplication of choices" }
+    }
+  },
+  "03_21": {
+    "question": "What is the probability of drawing an ace or a king from a deck of cards?",
+    "choices": {
+      "A": { "choice": "1/26", "correct": true },
+      "B": { "choice": "1/13" },
+      "C": { "choice": "2/13" },
+      "D": { "choice": "1/52" }
+    }
+  },
+  "03_22": {
+    "question": "If you roll two dice, what is the probability that both show a 6?",
+    "choices": {
+      "A": { "choice": "1/36", "correct": true },
+      "B": { "choice": "1/12" },
+      "C": { "choice": "1/6" },
+      "D": { "choice": "1/18" }
+    }
+  },
+  "03_23": {
+    "question": "Which statement about the pigeonhole principle is true?",
+    "choices": {
+      "A": { "choice": "If there are more objects than boxes, at least one box has more than one object.", "correct": true },
+      "B": { "choice": "Objects always go into boxes evenly." },
+      "C": { "choice": "It only applies to probability problems." },
+      "D": { "choice": "It only works for prime numbers." }
+    }
+  },
+  "03_24": {
+    "question": "How many different ways can 4 students be seated in a row of 4 chairs?",
+    "choices": {
+      "A": { "choice": "16" },
+      "B": { "choice": "24", "correct": true },
+      "C": { "choice": "12" },
+      "D": { "choice": "8" }
+    }
+  },
+  "03_25": {
+    "question": "Which probability rule applies when two events cannot occur together?",
+    "choices": {
+      "A": { "choice": "Multiplication rule" },
+      "B": { "choice": "Addition rule for mutually exclusive events", "correct": true },
+      "C": { "choice": "Bayes’ theorem" },
+      "D": { "choice": "Total probability rule" }
+    }
+  },
+  "03_26": {
+    "question": "How many distinct arrangements are there of the letters in the word 'LEVEL'?",
+    "choices": {
+      "A": { "choice": "120" },
+      "B": { "choice": "60" },
+      "C": { "choice": "30", "correct": true },
+      "D": { "choice": "24" }
+    }
+  },
+  "03_27": {
+    "question": "Which rule determines the number of ways a set of events can occur in sequence?",
+    "choices": {
+      "A": { "choice": "Addition rule" },
+      "B": { "choice": "Multiplication rule", "correct": true },
+      "C": { "choice": "Combination rule" },
+      "D": { "choice": "Probability rule" }
+    }
+  },
+  "03_28": {
+    "question": "What is the probability of rolling at least one 6 in two rolls of a fair die?",
+    "choices": {
+      "A": { "choice": "11/36", "correct": true },
+      "B": { "choice": "1/6" },
+      "C": { "choice": "1/12" },
+      "D": { "choice": "1/36" }
+    }
+  },
+  "03_29": {
+    "question": "If two events are independent, what is P(A and B)?",
+    "choices": {
+      "A": { "choice": "P(A) + P(B)" },
+      "B": { "choice": "P(A) - P(B)" },
+      "C": { "choice": "P(A) × P(B)", "correct": true },
+      "D": { "choice": "P(A)/P(B)" }
+    }
+  },
+  "03_30": {
+    "question": "How many 4-letter codes can be formed from the alphabet if repetition is allowed?",
+    "choices": {
+      "A": { "choice": "456976", "correct": true },
+      "B": { "choice": "17576" },
+      "C": { "choice": "4096" },
+      "D": { "choice": "26" }
+    }
+  },
+  "03_31": {
+    "question": "Which of the following is a permutation?",
+    "choices": {
+      "A": { "choice": "Choosing 3 books out of 8" },
+      "B": { "choice": "Arranging 3 people in a line", "correct": true },
+      "C": { "choice": "Picking lottery numbers" },
+      "D": { "choice": "Selecting members for a committee" }
+    }
+  },
+  "03_32": {
+    "question": "If a fair coin is tossed 3 times, how many possible outcomes are there?",
+    "choices": {
+      "A": { "choice": "6" },
+      "B": { "choice": "8", "correct": true },
+      "C": { "choice": "3" },
+      "D": { "choice": "12" }
+    }
+  },
+  "03_33": {
+    "question": "What is the probability of drawing a red card or a king from a standard deck?",
+    "choices": {
+      "A": { "choice": "28/52" },
+      "B": { "choice": "30/52", "correct": true },
+      "C": { "choice": "26/52" },
+      "D": { "choice": "29/52" }
+    }
+  },
+  "03_34": {
+    "question": "If there are 8 runners in a race, how many different ways can gold, silver, and bronze be awarded?",
+    "choices": {
+      "A": { "choice": "336", "correct": true },
+      "B": { "choice": "512" },
+      "C": { "choice": "56" },
+      "D": { "choice": "24" }
+    }
+  },
+  "03_35": {
+    "question": "What does it mean for two events to be independent?",
+    "choices": {
+      "A": { "choice": "They cannot occur together" },
+      "B": { "choice": "The occurrence of one does not affect the other", "correct": true },
+      "C": { "choice": "Their probabilities add to 1" },
+      "D": { "choice": "They always occur together" }
+    }
+  }
+}

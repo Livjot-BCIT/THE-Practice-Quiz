@@ -1,0 +1,472 @@
+{
+  "07_01": {
+    "chapter": "7",
+    "question": "What is Node.js?",
+    "choices": {
+      "A": { "choice": "A JavaScript runtime built on Chrome's V8 engine", "correct": true },
+      "B": { "choice": "A web browser" },
+      "C": { "choice": "A JavaScript library for DOM manipulation" },
+      "D": { "choice": "A database management system" }
+    }
+  },
+  "07_02": {
+    "chapter": "7",
+    "question": "Which of these allows you to import built-in modules in Node.js?",
+    "choices": {
+      "A": { "choice": "require()", "correct": true },
+      "B": { "choice": "importModule()" },
+      "C": { "choice": "include()" },
+      "D": { "choice": "use()" }
+    }
+  },
+  "07_03": {
+    "chapter": "7",
+    "question": "Which command initializes a new Node.js project?",
+    "choices": {
+      "A": { "choice": "npm init", "correct": true },
+      "B": { "choice": "node start" },
+      "C": { "choice": "npm start" },
+      "D": { "choice": "node init" }
+    }
+  },
+  "07_04": {
+    "chapter": "7",
+    "question": "Which built-in module is used for file operations in Node.js?",
+    "choices": {
+      "A": { "choice": "fs", "correct": true },
+      "B": { "choice": "http" },
+      "C": { "choice": "os" },
+      "D": { "choice": "path" }
+    }
+  },
+  "07_05": {
+    "chapter": "7",
+    "question": "Which statement is true about Node.js?",
+    "choices": {
+      "A": { "choice": "It uses an event-driven, non-blocking I/O model", "correct": true },
+      "B": { "choice": "It can only be run in a browser" },
+      "C": { "choice": "It uses a blocking I/O model" },
+      "D": { "choice": "It is synchronous by default" }
+    }
+  },
+  "07_06": {
+    "chapter": "7",
+    "question": "What is npm?",
+    "choices": {
+      "A": { "choice": "A package manager for Node.js", "correct": true },
+      "B": { "choice": "A Node.js command-line tool for database management" },
+      "C": { "choice": "A built-in module for HTTP requests" },
+      "D": { "choice": "A testing framework" }
+    }
+  },
+  "07_07": {
+    "chapter": "7",
+    "question": "How do you export a function from a Node.js module?",
+    "choices": {
+      "A": { "choice": "module.exports = myFunction;", "correct": true },
+      "B": { "choice": "exports: myFunction;" },
+      "C": { "choice": "export myFunction;" },
+      "D": { "choice": "require.myFunction = true;" }
+    }
+  },
+  "07_08": {
+    "chapter": "7",
+    "question": "What will 'console.log(__dirname);' print in a Node.js file?",
+    "choices": {
+      "A": { "choice": "The directory name of the current module", "correct": true },
+      "B": { "choice": "The file name of the current module" },
+      "C": { "choice": "The path to Node.js" },
+      "D": { "choice": "The global object" }
+    }
+  },
+  "07_09": {
+    "chapter": "7",
+    "question": "Which method reads a file asynchronously in Node.js?",
+    "choices": {
+      "A": { "choice": "fs.readFile()", "correct": true },
+      "B": { "choice": "fs.openSync()" },
+      "C": { "choice": "fs.readFileSync()" },
+      "D": { "choice": "read.file()" }
+    }
+  },
+  "07_10": {
+    "chapter": "7",
+    "question": "How do you handle errors in a callback in Node.js?",
+    "choices": {
+      "A": { "choice": "By checking if the first argument is not null", "correct": true },
+      "B": { "choice": "With a try...catch block" },
+      "C": { "choice": "By using catch() method" },
+      "D": { "choice": "Node.js cannot handle errors in callbacks" }
+    }
+  },
+  "07_11": {
+    "chapter": "7",
+    "question": "Which statement starts a simple HTTP server in Node.js?",
+    "choices": {
+      "A": { "choice": "http.createServer()", "correct": true },
+      "B": { "choice": "server.start()" },
+      "C": { "choice": "startServer()" },
+      "D": { "choice": "node.httpServer()" }
+    }
+  },
+  "07_12": {
+    "chapter": "7",
+    "question": "Which core module is used to work with file and directory paths?",
+    "choices": {
+      "A": { "choice": "path", "correct": true },
+      "B": { "choice": "fs" },
+      "C": { "choice": "url" },
+      "D": { "choice": "dir" }
+    }
+  },
+  "07_13": {
+    "chapter": "7",
+    "question": "What is the default file name for a Node.js package manifest?",
+    "choices": {
+      "A": { "choice": "package.json", "correct": true },
+      "B": { "choice": "node.json" },
+      "C": { "choice": "manifest.json" },
+      "D": { "choice": "npm.json" }
+    }
+  },
+  "07_14": {
+    "chapter": "7",
+    "question": "Which method is used to install a package globally?",
+    "choices": {
+      "A": { "choice": "npm install -g package", "correct": true },
+      "B": { "choice": "npm global install package" },
+      "C": { "choice": "node install package -g" },
+      "D": { "choice": "npm add package -g" }
+    }
+  },
+  "07_15": {
+    "chapter": "7",
+    "question": "Which module is used to work with file paths in Node.js?",
+    "choices": {
+      "A": { "choice": "path", "correct": true },
+      "B": { "choice": "fs" },
+      "C": { "choice": "url" },
+      "D": { "choice": "http" }
+    }
+  },
+  "07_16": {
+    "chapter": "7",
+    "question": "What does module.exports do in a Node.js file?",
+    "choices": {
+      "A": { "choice": "Exports values for use in other files", "correct": true },
+      "B": { "choice": "Imports built-in modules" },
+      "C": { "choice": "Declares global variables" },
+      "D": { "choice": "Runs the server" }
+    }
+  },
+  "07_17": {
+    "chapter": "7",
+    "question": "Which object gives information about the current Node.js process?",
+    "choices": {
+      "A": { "choice": "process", "correct": true },
+      "B": { "choice": "os" },
+      "C": { "choice": "console" },
+      "D": { "choice": "system" }
+    }
+  },
+  "07_18": {
+    "chapter": "7",
+    "question": "How do you import a local module named 'utils.js'?",
+    "choices": {
+      "A": { "choice": "require('./utils')", "correct": true },
+      "B": { "choice": "import utils" },
+      "C": { "choice": "get('utils')" },
+      "D": { "choice": "include utils" }
+    }
+  },
+  "07_19": {
+    "chapter": "7",
+    "question": "Which statement creates an HTTP server in Node.js?",
+    "choices": {
+      "A": { "choice": "require('http').createServer()", "correct": true },
+      "B": { "choice": "http.makeServer()" },
+      "C": { "choice": "new HTTPServer()" },
+      "D": { "choice": "express.createServer()" }
+    }
+  },
+  "07_20": {
+    "chapter": "7",
+    "question": "Which method is used to read a file asynchronously in Node.js?",
+    "choices": {
+      "A": { "choice": "fs.readFile()", "correct": true },
+      "B": { "choice": "fs.readSync()" },
+      "C": { "choice": "fs.getFile()" },
+      "D": { "choice": "fs.openFile()" }
+    }
+  },
+  "07_21": {
+    "chapter": "7",
+    "question": "What does the Express app.use() method do?",
+    "choices": {
+      "A": { "choice": "Registers middleware", "correct": true },
+      "B": { "choice": "Defines a route" },
+      "C": { "choice": "Starts the server" },
+      "D": { "choice": "Renders a template" }
+    }
+  },
+  "07_22": {
+    "chapter": "7",
+    "question": "How do you access URL parameters in Express routes?",
+    "choices": {
+      "A": { "choice": "req.params", "correct": true },
+      "B": { "choice": "req.body" },
+      "C": { "choice": "req.query" },
+      "D": { "choice": "req.url" }
+    }
+  },
+  "07_23": {
+    "chapter": "7",
+    "question": "What is the default port number used by Express if none is specified?",
+    "choices": {
+      "A": { "choice": "3000", "correct": true },
+      "B": { "choice": "80" },
+      "C": { "choice": "8080" },
+      "D": { "choice": "5000" }
+    }
+  },
+  "07_24": {
+    "chapter": "7",
+    "question": "Which function is used to send a JSON response in Express?",
+    "choices": {
+      "A": { "choice": "res.json()", "correct": true },
+      "B": { "choice": "res.sendText()" },
+      "C": { "choice": "res.stringify()" },
+      "D": { "choice": "res.sendFile()" }
+    }
+  },
+  "07_25": {
+    "chapter": "7",
+    "question": "Which property gives you query string parameters in Express?",
+    "choices": {
+      "A": { "choice": "req.query", "correct": true },
+      "B": { "choice": "req.params" },
+      "C": { "choice": "req.body" },
+      "D": { "choice": "req.data" }
+    }
+  },
+  "07_26": {
+    "chapter": "7",
+    "question": "How do you serve static files in Express?",
+    "choices": {
+      "A": { "choice": "app.use(express.static('public'))", "correct": true },
+      "B": { "choice": "app.get('/static')" },
+      "C": { "choice": "app.staticFiles('public')" },
+      "D": { "choice": "express.serveStatic('public')" }
+    }
+  },
+  "07_27": {
+    "chapter": "7",
+    "question": "What is middleware in Express?",
+    "choices": {
+      "A": { "choice": "A function that runs during request processing", "correct": true },
+      "B": { "choice": "A database" },
+      "C": { "choice": "A type of route" },
+      "D": { "choice": "A templating engine" }
+    }
+  },
+  "07_28": {
+    "chapter": "7",
+    "question": "Which status code means 'Created' in HTTP?",
+    "choices": {
+      "A": { "choice": "201", "correct": true },
+      "B": { "choice": "200" },
+      "C": { "choice": "204" },
+      "D": { "choice": "404" }
+    }
+  },
+  "07_29": {
+    "chapter": "7",
+    "question": "What does req.body contain in Express?",
+    "choices": {
+      "A": { "choice": "Data sent in the request body", "correct": true },
+      "B": { "choice": "Route parameters" },
+      "C": { "choice": "Query string parameters" },
+      "D": { "choice": "Header information" }
+    }
+  },
+  "07_30": {
+    "chapter": "7",
+    "question": "How do you handle errors in Express middleware?",
+    "choices": {
+      "A": { "choice": "By defining a function with (err, req, res, next)", "correct": true },
+      "B": { "choice": "By using try/catch only" },
+      "C": { "choice": "By calling res.error()" },
+      "D": { "choice": "Express handles all errors automatically" }
+    }
+  },
+  "07_31": {
+    "chapter": "7",
+    "question": "Which method is used to stop a running Node.js server?",
+    "choices": {
+      "A": { "choice": "server.close()", "correct": true },
+      "B": { "choice": "server.stop()" },
+      "C": { "choice": "app.quit()" },
+      "D": { "choice": "app.end()" }
+    }
+  },
+  "07_32": {
+    "chapter": "7",
+    "question": "Which command initializes a new Node.js project?",
+    "choices": {
+      "A": { "choice": "npm init", "correct": true },
+      "B": { "choice": "npm start" },
+      "C": { "choice": "node init" },
+      "D": { "choice": "npm install" }
+    }
+  },
+  "07_33": {
+    "chapter": "7",
+    "question": "Which command installs the express package?",
+    "choices": {
+      "A": { "choice": "npm install express", "correct": true },
+      "B": { "choice": "node install express" },
+      "C": { "choice": "npm get express" },
+      "D": { "choice": "express install" }
+    }
+  },
+  "07_34": {
+    "chapter": "7",
+    "question": "How do you define a route for POST requests to '/login' in Express?",
+    "choices": {
+      "A": { "choice": "app.post('/login', handler)", "correct": true },
+      "B": { "choice": "app.get('/login', handler)" },
+      "C": { "choice": "app.route('/login').post(handler)" },
+      "D": { "choice": "app.on('/login', handler)" }
+    }
+  },
+  "07_35": {
+    "chapter": "7",
+    "question": "Which of these is a built-in Node.js module?",
+    "choices": {
+      "A": { "choice": "os", "correct": true },
+      "B": { "choice": "axios" },
+      "C": { "choice": "express" },
+      "D": { "choice": "chalk" }
+    }
+  },
+  "07_36": {
+    "chapter": "7",
+    "question": "Which object handles environment variables in Node.js?",
+    "choices": {
+      "A": { "choice": "process.env", "correct": true },
+      "B": { "choice": "env.process" },
+      "C": { "choice": "os.env" },
+      "D": { "choice": "global.env" }
+    }
+  },
+  "07_37": {
+    "chapter": "7",
+    "question": "What does npm start do by default?",
+    "choices": {
+      "A": { "choice": "Runs the 'start' script in package.json", "correct": true },
+      "B": { "choice": "Starts the Node.js REPL" },
+      "C": { "choice": "Installs packages" },
+      "D": { "choice": "Runs 'npm init'" }
+    }
+  },
+  "07_38": {
+    "chapter": "7",
+    "question": "Which command starts an Express server with hot reloading?",
+    "choices": {
+      "A": { "choice": "nodemon app.js", "correct": true },
+      "B": { "choice": "node start app.js" },
+      "C": { "choice": "npm hot app.js" },
+      "D": { "choice": "node app.js" }
+    }
+  },
+  "07_39": {
+    "chapter": "7",
+    "question": "Which method renders an EJS template in Express?",
+    "choices": {
+      "A": { "choice": "res.render()", "correct": true },
+      "B": { "choice": "res.send()" },
+      "C": { "choice": "res.template()" },
+      "D": { "choice": "res.ejs()" }
+    }
+  },
+  "07_40": {
+    "chapter": "7",
+    "question": "How do you add custom headers to a response in Express?",
+    "choices": {
+      "A": { "choice": "res.set()", "correct": true },
+      "B": { "choice": "res.headers()" },
+      "C": { "choice": "res.addHeader()" },
+      "D": { "choice": "req.setHeader()" }
+    }
+  },
+  "07_41": {
+    "chapter": "7",
+    "question": "What does req.next() do in middleware?",
+    "choices": {
+      "A": { "choice": "Passes control to the next middleware", "correct": true },
+      "B": { "choice": "Sends a response to the client" },
+      "C": { "choice": "Renders a template" },
+      "D": { "choice": "Closes the server" }
+    }
+  },
+  "07_42": {
+    "chapter": "7",
+    "question": "What does process.exit() do?",
+    "choices": {
+      "A": { "choice": "Stops the Node.js process", "correct": true },
+      "B": { "choice": "Starts a new process" },
+      "C": { "choice": "Restarts the process" },
+      "D": { "choice": "Exports a variable" }
+    }
+  },
+  "07_43": {
+    "chapter": "7",
+    "question": "Which statement is true about the event loop in Node.js?",
+    "choices": {
+      "A": { "choice": "It allows Node.js to handle many connections asynchronously", "correct": true },
+      "B": { "choice": "It blocks the main thread" },
+      "C": { "choice": "It is used only for file operations" },
+      "D": { "choice": "It is part of the browser" }
+    }
+  },
+  "07_44": {
+    "chapter": "7",
+    "question": "Which of these is NOT a valid Node.js global object?",
+    "choices": {
+      "A": { "choice": "document", "correct": true },
+      "B": { "choice": "process" },
+      "C": { "choice": "__dirname" },
+      "D": { "choice": "Buffer" }
+    }
+  },
+  "07_45": {
+    "chapter": "7",
+    "question": "Which of the following is a correct way to import the 'fs' module?",
+    "choices": {
+      "A": { "choice": "const fs = require('fs');", "correct": true },
+      "B": { "choice": "import fs from 'fs';" },
+      "C": { "choice": "let fs = require('fileSystem');" },
+      "D": { "choice": "require fs;" }
+    }
+  },
+  "07_46": {
+    "chapter": "7",
+    "question": "Which method removes a file in Node.js asynchronously?",
+    "choices": {
+      "A": { "choice": "fs.unlink()", "correct": true },
+      "B": { "choice": "fs.remove()" },
+      "C": { "choice": "fs.delete()" },
+      "D": { "choice": "removeFile()" }
+    }
+  },
+  "07_47": {
+    "chapter": "7",
+    "question": "What is Express?",
+    "choices": {
+      "A": { "choice": "A web framework for Node.js", "correct": true },
+      "B": { "choice": "A database for Node.js" },
+      "C": { "choice": "A templating engine" },
+      "D": { "choice": "A CSS preprocessor" }
+    }
+  }
+}

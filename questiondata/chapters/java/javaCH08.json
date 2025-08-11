@@ -1,0 +1,646 @@
+{
+  "08_01": {
+    "chapter": "8",
+    "question": "What is linear search?",
+    "choices": {
+      "A": {
+        "choice": "An algorithm that checks each element in a list until it finds a match or reaches the end.",
+        "correct": true
+      },
+      "B": {
+        "choice": "An algorithm that splits the list into halves each step."
+      },
+      "C": { "choice": "A way to search only in sorted arrays." },
+      "D": { "choice": "A method for sorting arrays." }
+    }
+  },
+  "08_02": {
+    "chapter": "8",
+    "question": "What is the average time complexity of linear search?",
+    "choices": {
+      "A": { "choice": "O(n)", "correct": true },
+      "B": { "choice": "O(1)" },
+      "C": { "choice": "O(log n)" },
+      "D": { "choice": "O(n^2)" }
+    }
+  },
+  "08_03": {
+    "chapter": "8",
+    "question": "What must be true for binary search to work correctly?",
+    "choices": {
+      "A": { "choice": "The list must be sorted.", "correct": true },
+      "B": { "choice": "The list can be in any order." },
+      "C": { "choice": "The list must have unique values." },
+      "D": { "choice": "The list must be a linked list." }
+    }
+  },
+  "08_04": {
+    "chapter": "8",
+    "question": "What is the time complexity of binary search in a sorted array?",
+    "choices": {
+      "A": { "choice": "O(log n)", "correct": true },
+      "B": { "choice": "O(n)" },
+      "C": { "choice": "O(n^2)" },
+      "D": { "choice": "O(1)" }
+    }
+  },
+  "08_05": {
+    "chapter": "8",
+    "question": "Which of the following describes selection sort?",
+    "choices": {
+      "A": {
+        "choice": "Repeatedly finds the minimum element and moves it to the sorted part of the array.",
+        "correct": true
+      },
+      "B": { "choice": "Swaps each element with every other element." },
+      "C": {
+        "choice": "Builds a sorted array by repeatedly removing the largest element."
+      },
+      "D": { "choice": "Splits the array and merges sorted halves." }
+    }
+  },
+  "08_06": {
+    "chapter": "8",
+    "question": "What is the worst-case time complexity of selection sort?",
+    "choices": {
+      "A": { "choice": "O(n^2)", "correct": true },
+      "B": { "choice": "O(n)" },
+      "C": { "choice": "O(log n)" },
+      "D": { "choice": "O(n log n)" }
+    }
+  },
+  "08_07": {
+    "chapter": "8",
+    "question": "What is bubble sort?",
+    "choices": {
+      "A": {
+        "choice": "An algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.",
+        "correct": true
+      },
+      "B": {
+        "choice": "An algorithm that selects the largest element each time."
+      },
+      "C": { "choice": "A recursive sorting algorithm." },
+      "D": { "choice": "A method that requires a stack." }
+    }
+  },
+  "08_08": {
+    "chapter": "8",
+    "question": "Which sorting algorithm is usually more efficient for small or nearly sorted lists?",
+    "choices": {
+      "A": { "choice": "Insertion sort", "correct": true },
+      "B": { "choice": "Selection sort" },
+      "C": { "choice": "Bubble sort" },
+      "D": { "choice": "Merge sort" }
+    }
+  },
+  "08_09": {
+    "chapter": "8",
+    "question": "In an insertion sort, what happens during each pass?",
+    "choices": {
+      "A": {
+        "choice": "An element is moved leftward until it is in its correct position among already-sorted elements.",
+        "correct": true
+      },
+      "B": { "choice": "The smallest element is swapped to the end." },
+      "C": { "choice": "Elements are always compared in pairs only." },
+      "D": { "choice": "The array is split in half." }
+    }
+  },
+  "08_10": {
+    "chapter": "8",
+    "question": "What is the time complexity of bubble sort in the worst case?",
+    "choices": {
+      "A": { "choice": "O(n^2)", "correct": true },
+      "B": { "choice": "O(n)" },
+      "C": { "choice": "O(log n)" },
+      "D": { "choice": "O(1)" }
+    }
+  },
+  "08_11": {
+    "chapter": "8",
+    "question": "Which search algorithm is best if the array is sorted and you need fast lookups?",
+    "choices": {
+      "A": { "choice": "Binary search", "correct": true },
+      "B": { "choice": "Linear search" },
+      "C": { "choice": "Bubble sort" },
+      "D": { "choice": "Selection sort" }
+    }
+  },
+  "08_12": {
+    "chapter": "8",
+    "question": "Which of these is NOT a requirement for binary search?",
+    "choices": {
+      "A": {
+        "choice": "Array must be sorted in ascending order.",
+        "correct": false
+      },
+      "B": { "choice": "Array can be any length.", "correct": false },
+      "C": {
+        "choice": "Array must not have duplicate values.",
+        "correct": true
+      },
+      "D": { "choice": "Access to elements by index.", "correct": false }
+    }
+  },
+  "08_13": {
+    "chapter": "8",
+    "question": "Which method sorts an ArrayList in ascending order?",
+    "choices": {
+      "A": { "choice": "Collections.sort(list)", "correct": true },
+      "B": { "choice": "list.sortAscending()" },
+      "C": { "choice": "Array.sort(list)" },
+      "D": { "choice": "list.order()" }
+    }
+  },
+  "08_14": {
+    "chapter": "8",
+    "question": "How can you traverse an array to print every element?",
+    "choices": {
+      "A": {
+        "choice": "Using a for loop from index 0 to length-1.",
+        "correct": true
+      },
+      "B": { "choice": "Using a while loop only." },
+      "C": { "choice": "Arrays cannot be traversed." },
+      "D": { "choice": "Only by recursion." }
+    }
+  },
+  "08_15": {
+    "chapter": "8",
+    "question": "Which of the following code finds the maximum value in an array arr?",
+    "choices": {
+      "A": {
+        "choice": "int max = arr[0]; for(int i=1;i&lt;arr.length;i++) if(arr[i]&gt;max) max=arr[i];",
+        "correct": true
+      },
+      "B": {
+        "choice": "int max = arr[0]; for(int i=1;i&lt;arr.length;i++) if(arr[i]&lt;max) max=arr[i];"
+      },
+      "C": { "choice": "int max = arr.length;" },
+      "D": { "choice": "int max = arr[arr.length];" }
+    }
+  },
+  "08_16": {
+    "chapter": "8",
+    "question": "What is the output of the following code?\nint[] arr = {1,3,2};\nArrays.sort(arr);\nSystem.out.println(arr[0]);",
+    "choices": {
+      "A": { "choice": "1", "correct": true },
+      "B": { "choice": "2" },
+      "C": { "choice": "3" },
+      "D": { "choice": "0" }
+    }
+  },
+  "08_17": {
+    "chapter": "8",
+    "question": "Which algorithm is NOT stable (may change the relative order of equal elements)?",
+    "choices": {
+      "A": { "choice": "Selection sort", "correct": true },
+      "B": { "choice": "Bubble sort" },
+      "C": { "choice": "Insertion sort" },
+      "D": { "choice": "Merge sort" }
+    }
+  },
+  "08_18": {
+    "chapter": "8",
+    "question": "How do you perform a linear search for value x in array arr?",
+    "choices": {
+      "A": {
+        "choice": "Loop through arr; if(arr[i] == x), return index or true.",
+        "correct": true
+      },
+      "B": { "choice": "Sort arr and then use a loop." },
+      "C": { "choice": "Split arr in half each time." },
+      "D": { "choice": "Use arr.search(x);" }
+    }
+  },
+  "08_19": {
+    "chapter": "8",
+    "question": "Which algorithm always makes the same number of comparisons, regardless of array content?",
+    "choices": {
+      "A": { "choice": "Selection sort", "correct": true },
+      "B": { "choice": "Insertion sort" },
+      "C": { "choice": "Bubble sort" },
+      "D": { "choice": "Binary search" }
+    }
+  },
+  "08_20": {
+    "chapter": "8",
+    "question": "Which Big-O best describes an algorithm whose run time doubles when the data set doubles?",
+    "choices": {
+      "A": { "choice": "O(n)", "correct": true },
+      "B": { "choice": "O(log n)" },
+      "C": { "choice": "O(n^2)" },
+      "D": { "choice": "O(1)" }
+    }
+  },
+  "08_21": {
+    "chapter": "8",
+    "question": "What does 'in-place' sorting mean?",
+    "choices": {
+      "A": {
+        "choice": "The array is rearranged without using significant extra memory.",
+        "correct": true
+      },
+      "B": { "choice": "The array is copied to a new location." },
+      "C": { "choice": "The array elements are removed." },
+      "D": { "choice": "Sorting uses recursion." }
+    }
+  },
+  "08_22": {
+    "chapter": "8",
+    "question": "Which sort algorithm typically makes the least number of swaps?",
+    "choices": {
+      "A": { "choice": "Selection sort", "correct": true },
+      "B": { "choice": "Bubble sort" },
+      "C": { "choice": "Insertion sort" },
+      "D": { "choice": "Any stable sort" }
+    }
+  },
+  "08_23": {
+    "chapter": "8",
+    "question": "When is binary search more efficient than linear search?",
+    "choices": {
+      "A": { "choice": "When the array is sorted.", "correct": true },
+      "B": { "choice": "When the array is small and unsorted." },
+      "C": { "choice": "When all elements are unique." },
+      "D": { "choice": "Binary search is always slower." }
+    }
+  },
+  "08_24": {
+    "chapter": "8",
+    "question": "What is the main benefit of bubble sort's optimized version?",
+    "choices": {
+      "A": {
+        "choice": "It can terminate early if no swaps occur, saving time on sorted or nearly sorted data.",
+        "correct": true
+      },
+      "B": { "choice": "It always runs faster than selection sort." },
+      "C": { "choice": "It uses recursion to speed up." },
+      "D": { "choice": "It requires less memory." }
+    }
+  },
+  "08_25": {
+    "chapter": "8",
+    "question": "Which is the best Big-O runtime you can achieve for searching any unsorted array?",
+    "choices": {
+      "A": { "choice": "O(n)", "correct": true },
+      "B": { "choice": "O(1)" },
+      "C": { "choice": "O(log n)" },
+      "D": { "choice": "O(n^2)" }
+    }
+  },
+  "08_26": {
+    "chapter": "8",
+    "question": "What does Arrays.sort(arr) do?",
+    "choices": {
+      "A": {
+        "choice": "Sorts the array arr in ascending order.",
+        "correct": true
+      },
+      "B": { "choice": "Finds the maximum value in arr." },
+      "C": { "choice": "Reverses arr." },
+      "D": { "choice": "Deletes duplicates in arr." }
+    }
+  },
+  "08_27": {
+    "chapter": "8",
+    "question": "Which sort method is best for already sorted or nearly sorted data?",
+    "choices": {
+      "A": { "choice": "Insertion sort", "correct": true },
+      "B": { "choice": "Bubble sort" },
+      "C": { "choice": "Selection sort" },
+      "D": { "choice": "Heap sort" }
+    }
+  },
+  "08_28": {
+    "chapter": "8",
+    "question": "Which of these is a divide and conquer sorting algorithm (not usually taught in intro courses)?",
+    "choices": {
+      "A": { "choice": "Merge sort", "correct": true },
+      "B": { "choice": "Selection sort" },
+      "C": { "choice": "Insertion sort" },
+      "D": { "choice": "Bubble sort" }
+    }
+  },
+  "08_29": {
+    "chapter": "8",
+    "question": "Which of the following is NOT a linear-time algorithm?",
+    "choices": {
+      "A": { "choice": "Binary search", "correct": true },
+      "B": { "choice": "Linear search" },
+      "C": { "choice": "Traversing an array with a for loop" },
+      "D": { "choice": "Finding max in an array" }
+    }
+  },
+  "08_30": {
+    "chapter": "8",
+    "question": "What is a side effect of a poorly implemented sorting algorithm?",
+    "choices": {
+      "A": {
+        "choice": "It may not sort all elements correctly or may use excessive resources.",
+        "correct": true
+      },
+      "B": { "choice": "It always sorts faster." },
+      "C": { "choice": "It increases the array size." },
+      "D": { "choice": "It only sorts arrays of length 2." }
+    }
+  },
+  "08_31": {
+    "chapter": "8",
+    "question": "What is meant by 'trace the code' in algorithm analysis?",
+    "choices": {
+      "A": {
+        "choice": "Follow and record each step or value change as the code executes.",
+        "correct": true
+      },
+      "B": { "choice": "Run the code with a debugger only." },
+      "C": { "choice": "Test the code with every possible input." },
+      "D": { "choice": "Ignore variable values and focus on method names." }
+    }
+  },
+  "08_32": {
+    "chapter": "8",
+    "question": "How do you check if an array is sorted in ascending order?",
+    "choices": {
+      "A": {
+        "choice": "Loop through and check if arr[i] > arr[i+1] for any i; if so, it is not sorted.",
+        "correct": true
+      },
+      "B": { "choice": "Check if the first and last elements are correct." },
+      "C": { "choice": "Try sorting it and see if it changes." },
+      "D": { "choice": "Arrays are always sorted." }
+    }
+  },
+  "08_33": {
+    "chapter": "8",
+    "question": "When using binary search, what do you do if the middle element is less than your target?",
+    "choices": {
+      "A": { "choice": "Search the right half of the array.", "correct": true },
+      "B": { "choice": "Search the left half of the array." },
+      "C": { "choice": "Return -1 immediately." },
+      "D": { "choice": "Sort the array first." }
+    }
+  },
+  "08_34": {
+    "chapter": "8",
+    "question": "Which of the following is a reason to use an ArrayList over an array for algorithms?",
+    "choices": {
+      "A": {
+        "choice": "ArrayList can grow as needed, so you don't have to know the size in advance.",
+        "correct": true
+      },
+      "B": { "choice": "ArrayLists are always faster." },
+      "C": { "choice": "ArrayLists use less memory in all cases." },
+      "D": { "choice": "ArrayLists can store primitive types." }
+    }
+  },
+  "08_35": {
+    "chapter": "8",
+    "question": "What is the main advantage of using recursion in algorithms?",
+    "choices": {
+      "A": {
+        "choice": "It can simplify code for problems that can be broken into similar subproblems.",
+        "correct": true
+      },
+      "B": { "choice": "It is always more efficient." },
+      "C": { "choice": "It makes all algorithms faster." },
+      "D": { "choice": "It eliminates the need for arrays." }
+    }
+  },
+  "08_36": {
+    "chapter": "8",
+    "question": "Which statement about algorithm efficiency is TRUE?",
+    "choices": {
+      "A": {
+        "choice": "O(log n) is more efficient than O(n) for large n.",
+        "correct": true
+      },
+      "B": { "choice": "O(n^2) is better than O(n)." },
+      "C": { "choice": "O(1) means the algorithm slows down as n increases." },
+      "D": { "choice": "O(n) is always better than O(1)." }
+    }
+  },
+  "08_37": {
+    "chapter": "8",
+    "question": "Which code will perform a binary search for target in arr?",
+    "choices": {
+      "A": {
+        "choice": "int l=0, r=arr.length-1; while(l&lt;=r){ int m=(l+r)/2; if(arr[m]==target) return m; else if(arr[m]&lt;target) l=m+1; else r=m-1; } return -1;",
+        "correct": true
+      },
+      "B": {
+        "choice": "for(int i=0;i&lt;arr.length;i++) if(arr[i]==target) return i;"
+      },
+      "C": { "choice": "arr.sort(); return arr[arr.length/2];" },
+      "D": { "choice": "return arr[0];" }
+    }
+  },
+  "08_38": {
+    "chapter": "8",
+    "question": "Which algorithm would you use to efficiently find a missing number in a sorted sequence?",
+    "choices": {
+      "A": { "choice": "Binary search", "correct": true },
+      "B": { "choice": "Linear search" },
+      "C": { "choice": "Bubble sort" },
+      "D": { "choice": "Selection sort" }
+    }
+  },
+  "08_39": {
+    "chapter": "8",
+    "question": "What will the following code output?\nint[] arr = {4,2,3}; Arrays.sort(arr); System.out.println(arr[2]);",
+    "choices": {
+      "A": { "choice": "4", "correct": true },
+      "B": { "choice": "2" },
+      "C": { "choice": "3" },
+      "D": { "choice": "0" }
+    }
+  },
+  "08_40": {
+    "chapter": "8",
+    "question": "What does Big-O notation describe?",
+    "choices": {
+      "A": {
+        "choice": "How an algorithm's runtime grows with the size of the input.",
+        "correct": true
+      },
+      "B": { "choice": "The exact number of steps every time." },
+      "C": { "choice": "The input format of an algorithm." },
+      "D": { "choice": "The amount of memory used only." }
+    }
+  },
+  "08_41": {
+    "chapter": "8",
+    "question": "Which of these is true about the best case for linear search?",
+    "choices": {
+      "A": {
+        "choice": "The target is at the first position, so only one comparison is needed.",
+        "correct": true
+      },
+      "B": { "choice": "The array must be sorted." },
+      "C": { "choice": "It always checks every element." },
+      "D": { "choice": "It only works with arrays of size 2." }
+    }
+  },
+  "08_42": {
+    "chapter": "8",
+    "question": "Which of these statements is TRUE about the worst case of binary search?",
+    "choices": {
+      "A": {
+        "choice": "The item is not found, so the search checks log2(n) elements.",
+        "correct": true
+      },
+      "B": { "choice": "The item is always found at the middle." },
+      "C": { "choice": "It checks every element." },
+      "D": { "choice": "It doesn't require the array to be sorted." }
+    }
+  },
+  "08_43": {
+    "chapter": "8",
+    "question": "What is a sentinel value in array algorithms?",
+    "choices": {
+      "A": {
+        "choice": "A special value used to signal the end of meaningful data in an array.",
+        "correct": true
+      },
+      "B": { "choice": "A value that is always the maximum." },
+      "C": { "choice": "A missing value to fill gaps." },
+      "D": { "choice": "A random number used for searching." }
+    }
+  },
+  "08_44": {
+    "chapter": "8",
+    "question": "What is the output?\nint[] arr = {2,4,6,8};\nfor(int i=arr.length-1; i>=0; i--) System.out.print(arr[i]+\" \");",
+    "choices": {
+      "A": { "choice": "8 6 4 2 ", "correct": true },
+      "B": { "choice": "2 4 6 8 " },
+      "C": { "choice": "2 6 4 8 " },
+      "D": { "choice": "8 4 6 2 " }
+    }
+  },
+  "08_45": {
+    "chapter": "8",
+    "question": "How many comparisons does selection sort do to sort an array of size n?",
+    "choices": {
+      "A": { "choice": "n(n-1)/2", "correct": true },
+      "B": { "choice": "n^2" },
+      "C": { "choice": "n" },
+      "D": { "choice": "n-1" }
+    }
+  },
+  "08_46": {
+    "chapter": "8",
+    "question": "What is a trace table in algorithm design?",
+    "choices": {
+      "A": {
+        "choice": "A table used to keep track of variable values at each step during algorithm execution.",
+        "correct": true
+      },
+      "B": { "choice": "A way to display code output only." },
+      "C": { "choice": "A table of function names and their descriptions." },
+      "D": { "choice": "A list of all array indices." }
+    }
+  },
+  "08_47": {
+    "chapter": "8",
+    "question": "Suppose arr = {1,2,3,4,5}. What does the following code print?\nfor (int i = 0; i < arr.length; i+=2) System.out.print(arr[i] + \" \");",
+    "choices": {
+      "A": { "choice": "1 3 5 ", "correct": true },
+      "B": { "choice": "1 2 3 4 5 " },
+      "C": { "choice": "2 4 " },
+      "D": { "choice": "5 3 1 " }
+    }
+  },
+  "08_48": {
+    "chapter": "8",
+    "question": "What is the output?\nint[] arr = {1,2,3};\nSystem.out.println (Arrays.binarySearch(arr,2));",
+    "choices": {
+      "A": { "choice": "1", "correct": true },
+      "B": { "choice": "2" },
+      "C": { "choice": "0" },
+      "D": { "choice": "-1" }
+    }
+  },
+  "08_49": {
+    "chapter": "8",
+    "question": "What is the result of the following?\nint[] arr = {5,4,3,2,1};\nArrays.sort(arr);\nSystem.out.println(arr[arr.length-1]);",
+    "choices": {
+      "A": { "choice": "5", "correct": true },
+      "B": { "choice": "1" },
+      "C": { "choice": "2" },
+      "D": { "choice": "4" }
+    }
+  },
+  "08_50": {
+    "chapter": "8",
+    "question": "Which of these is true about searching in an ArrayList?",
+    "choices": {
+      "A": {
+        "choice": "You can use list.contains(x) to check if x is present.",
+        "correct": true
+      },
+      "B": { "choice": "You must always sort the ArrayList before searching." },
+      "C": { "choice": "You cannot search for objects in an ArrayList." },
+      "D": { "choice": "Only primitive values can be found in an ArrayList." }
+    }
+  },
+  "08_51": {
+    "chapter": "8",
+    "question": "What is the primary purpose of exception handling in Java?",
+    "choices": {
+      "A": {
+        "choice": "To gracefully handle errors and prevent program crashes.",
+        "correct": true
+      },
+      "B": { "choice": "To increase program speed." },
+      "C": { "choice": "To improve the layout of your code." },
+      "D": { "choice": "To store data in files." }
+    }
+  },
+  "08_52": {
+    "chapter": "8",
+    "question": "Which Java keyword is used to catch and handle exceptions?",
+    "choices": {
+      "A": { "choice": "catch", "correct": true },
+      "B": { "choice": "throw" },
+      "C": { "choice": "try" },
+      "D": { "choice": "finally" }
+    }
+  },
+  "08_53": {
+    "chapter": "8",
+    "question": "Which of the following is the correct way to open a text file for reading in Java?",
+    "choices": {
+      "A": {
+        "choice": "Scanner input = new Scanner(new File(\"data.txt\"));",
+        "correct": true
+      },
+      "B": { "choice": "File.open(\"data.txt\");" },
+      "C": { "choice": "Scanner input = FileReader(\"data.txt\");" },
+      "D": { "choice": "Scanner input = new FileInputStream(\"data.txt\");" }
+    }
+  },
+  "08_54": {
+    "chapter": "8",
+    "question": "What is the purpose of the 'finally' block in a try-catch-finally statement?",
+    "choices": {
+      "A": {
+        "choice": "To execute code regardless of whether an exception was thrown or not.",
+        "correct": true
+      },
+      "B": { "choice": "To handle the exception." },
+      "C": { "choice": "To throw an exception." },
+      "D": { "choice": "To declare a constant." }
+    }
+  },
+  "08_55": {
+    "chapter": "8",
+    "question": "Which concept allows a Java class to inherit methods and variables from another class?",
+    "choices": {
+      "A": { "choice": "Inheritance", "correct": true },
+      "B": { "choice": "Polymorphism" },
+      "C": { "choice": "Encapsulation" },
+      "D": { "choice": "Abstraction" }
+    }
+  }
+}

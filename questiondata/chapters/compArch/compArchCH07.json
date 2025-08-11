@@ -1,0 +1,443 @@
+{
+  "07_01": {
+    "question": "In assembly language, what does an instruction typically consist of?",
+    "choices": {
+      "A": { "choice": "Only operands" },
+      "B": { "choice": "An opcode and operands", "correct": true },
+      "C": { "choice": "Only opcodes" },
+      "D": { "choice": "Comments and labels" }
+    }
+  },
+  "07_02": {
+    "question": "True or False: Assembly language is considered a high-level programming language.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_03": {
+    "question": "Which component translates assembly code into machine code?",
+    "choices": {
+      "A": { "choice": "Interpreter" },
+      "B": { "choice": "Assembler", "correct": true },
+      "C": { "choice": "Compiler" },
+      "D": { "choice": "Linker" }
+    }
+  },
+  "07_04": {
+    "question": "Select all that are examples of assembler directives (pseudo-operations).",
+    "choices": {
+      "A": { "choice": ".data", "correct": true },
+      "B": { "choice": ".text", "correct": true },
+      "C": { "choice": "MOV" },
+      "D": { "choice": ".word", "correct": true }
+    }
+  },
+  "07_05": {
+    "question": "True or False: Labels in assembly are used to mark memory addresses for instructions or data.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_06": {
+    "question": "In the instruction `ADD R1, R2, R3`, what does this typically mean?",
+    "choices": {
+      "A": { "choice": "Add R1 and R2, store in R3" },
+      "B": { "choice": "Add R2 and R3, store in R1", "correct": true },
+      "C": { "choice": "Add R1 and R3, store in R2" },
+      "D": { "choice": "Add all registers together" }
+    }
+  },
+  "07_07": {
+    "question": "Which register often stores the address of the next instruction to execute?",
+    "choices": {
+      "A": { "choice": "Stack Pointer" },
+      "B": { "choice": "Program Counter", "correct": true },
+      "C": { "choice": "Instruction Register" },
+      "D": { "choice": "Base Register" }
+    }
+  },
+  "07_08": {
+    "question": "True or False: The Instruction Register holds the address of the next instruction.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_09": {
+    "question": "Select all correct examples of data movement instructions in assembly.",
+    "choices": {
+      "A": { "choice": "MOV", "correct": true },
+      "B": { "choice": "LOAD", "correct": true },
+      "C": { "choice": "STORE", "correct": true },
+      "D": { "choice": "CMP" }
+    }
+  },
+  "07_10": {
+    "question": "In assembly, the `CMP` instruction is generally used to:",
+    "choices": {
+      "A": {
+        "choice": "Compare two values and set condition flags",
+        "correct": true
+      },
+      "B": { "choice": "Copy data from one register to another" },
+      "C": { "choice": "Compute addition" },
+      "D": { "choice": "Clear memory contents" }
+    }
+  },
+  "07_11": {
+    "question": "True or False: Immediate addressing mode uses data stored at a memory address specified in the instruction.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_12": {
+    "question": "Which addressing mode specifies the operand directly within the instruction?",
+    "choices": {
+      "A": { "choice": "Register addressing" },
+      "B": { "choice": "Immediate addressing", "correct": true },
+      "C": { "choice": "Direct addressing" },
+      "D": { "choice": "Indirect addressing" }
+    }
+  },
+  "07_13": {
+    "question": "In direct addressing mode, the operand field contains:",
+    "choices": {
+      "A": { "choice": "The data value" },
+      "B": { "choice": "A register name" },
+      "C": { "choice": "The memory address of the data", "correct": true },
+      "D": { "choice": "An instruction code" }
+    }
+  },
+  "07_14": {
+    "question": "True or False: Indirect addressing mode uses a register or memory location to hold the actual address of the operand.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_15": {
+    "question": "Select all correct examples of control flow instructions.",
+    "choices": {
+      "A": { "choice": "JMP", "correct": true },
+      "B": { "choice": "CALL", "correct": true },
+      "C": { "choice": "RET", "correct": true },
+      "D": { "choice": "MOV" }
+    }
+  },
+  "07_16": {
+    "question": "Which instruction is used to return from a subroutine?",
+    "choices": {
+      "A": { "choice": "JMP" },
+      "B": { "choice": "CALL" },
+      "C": { "choice": "RET", "correct": true },
+      "D": { "choice": "BR" }
+    }
+  },
+  "07_17": {
+    "question": "True or False: The stack grows upwards in memory in most architectures.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_18": {
+    "question": "In assembly, the `PUSH` instruction:",
+    "choices": {
+      "A": { "choice": "Moves a value from memory to a register" },
+      "B": { "choice": "Places a value onto the stack", "correct": true },
+      "C": { "choice": "Removes a value from the stack" },
+      "D": { "choice": "Calls a subroutine" }
+    }
+  },
+  "07_19": {
+    "question": "Select all correct statements about the `POP` instruction.",
+    "choices": {
+      "A": {
+        "choice": "Removes the top value from the stack",
+        "correct": true
+      },
+      "B": { "choice": "Decreases the stack pointer", "correct": true },
+      "C": {
+        "choice": "Stores the popped value into a register",
+        "correct": true
+      },
+      "D": { "choice": "Adds a new value to the stack" }
+    }
+  },
+  "07_20": {
+    "question": "True or False: A conditional jump executes only if a specific flag or condition is set.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_21": {
+    "question": "Which flag in the status register is typically set when an arithmetic operation results in zero?",
+    "choices": {
+      "A": { "choice": "Carry flag" },
+      "B": { "choice": "Zero flag", "correct": true },
+      "C": { "choice": "Overflow flag" },
+      "D": { "choice": "Sign flag" }
+    }
+  },
+  "07_22": {
+    "question": "True or False: The carry flag is set when an unsigned arithmetic operation results in a value too large for the register to hold.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_23": {
+    "question": "Which addressing mode adds an offset to the contents of a register to determine the effective address?",
+    "choices": {
+      "A": { "choice": "Indexed addressing", "correct": true },
+      "B": { "choice": "Immediate addressing" },
+      "C": { "choice": "Direct addressing" },
+      "D": { "choice": "Register indirect" }
+    }
+  },
+  "07_24": {
+    "question": "Select all typical uses of the base register in assembly programming.",
+    "choices": {
+      "A": { "choice": "Holding a constant value" },
+      "B": {
+        "choice": "Pointing to the start of a memory block",
+        "correct": true
+      },
+      "C": { "choice": "Indexing into arrays", "correct": true },
+      "D": { "choice": "Storing instruction opcodes" }
+    }
+  },
+  "07_25": {
+    "question": "True or False: Machine instructions execute in one clock cycle regardless of complexity.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_26": {
+    "question": "Which instruction is typically used to load a value from memory into a register?",
+    "choices": {
+      "A": { "choice": "MOV", "correct": true },
+      "B": { "choice": "STORE" },
+      "C": { "choice": "CMP" },
+      "D": { "choice": "JMP" }
+    }
+  },
+  "07_27": {
+    "question": "True or False: The `STORE` instruction writes the contents of a register to memory.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_28": {
+    "question": "Select all correct statements about the Instruction Cycle.",
+    "choices": {
+      "A": {
+        "choice": "It typically includes fetch, decode, and execute phases",
+        "correct": true
+      },
+      "B": {
+        "choice": "The fetch phase retrieves the instruction from memory",
+        "correct": true
+      },
+      "C": {
+        "choice": "The decode phase determines the meaning of the instruction",
+        "correct": true
+      },
+      "D": {
+        "choice": "The execute phase always performs an arithmetic operation"
+      }
+    }
+  },
+  "07_29": {
+    "question": "Which phase of the instruction cycle involves sending the instruction from the memory to the Instruction Register?",
+    "choices": {
+      "A": { "choice": "Fetch", "correct": true },
+      "B": { "choice": "Decode" },
+      "C": { "choice": "Execute" },
+      "D": { "choice": "Write-back" }
+    }
+  },
+  "07_30": {
+    "question": "True or False: The Program Counter is incremented during the decode phase.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_31": {
+    "question": "Which flag is most relevant for detecting signed arithmetic overflow?",
+    "choices": {
+      "A": { "choice": "Zero flag" },
+      "B": { "choice": "Carry flag" },
+      "C": { "choice": "Overflow flag", "correct": true },
+      "D": { "choice": "Parity flag" }
+    }
+  },
+  "07_32": {
+    "question": "True or False: In most ISAs, conditional jumps rely on status flags set by previous instructions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_33": {
+    "question": "Which instruction is typically used for unconditional branching?",
+    "choices": {
+      "A": { "choice": "JMP", "correct": true },
+      "B": { "choice": "JZ" },
+      "C": { "choice": "CALL" },
+      "D": { "choice": "RET" }
+    }
+  },
+  "07_34": {
+    "question": "Select all instructions that can be used for conditional branching.",
+    "choices": {
+      "A": { "choice": "JE", "correct": true },
+      "B": { "choice": "JNE", "correct": true },
+      "C": { "choice": "JG", "correct": true },
+      "D": { "choice": "MOV" }
+    }
+  },
+  "07_35": {
+    "question": "True or False: Assembly language allows direct manipulation of hardware components.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_36": {
+    "question": "Which of the following best describes a subroutine?",
+    "choices": {
+      "A": { "choice": "A repeating loop inside the CPU" },
+      "B": {
+        "choice": "A self-contained block of code that performs a specific task",
+        "correct": true
+      },
+      "C": { "choice": "An instruction to halt the CPU" },
+      "D": { "choice": "A type of machine code" }
+    }
+  },
+  "07_37": {
+    "question": "True or False: The CALL instruction both stores the return address and jumps to the subroutine.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_38": {
+    "question": "Which stack operation is typically performed first when a subroutine is called?",
+    "choices": {
+      "A": { "choice": "Push return address onto the stack", "correct": true },
+      "B": { "choice": "Pop parameters from the stack" },
+      "C": { "choice": "Push parameters onto the stack" },
+      "D": { "choice": "Push instruction opcode" }
+    }
+  },
+  "07_39": {
+    "question": "Select all advantages of using subroutines in assembly programming.",
+    "choices": {
+      "A": { "choice": "Code reuse", "correct": true },
+      "B": { "choice": "Easier maintenance", "correct": true },
+      "C": { "choice": "Reduced program size", "correct": true },
+      "D": { "choice": "Guaranteed faster execution" }
+    }
+  },
+  "07_40": {
+    "question": "True or False: Parameters can only be passed to subroutines using registers.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_41": {
+    "question": "Which addressing mode uses a constant offset combined with the program counter?",
+    "choices": {
+      "A": { "choice": "Indexed addressing" },
+      "B": { "choice": "PC-relative addressing", "correct": true },
+      "C": { "choice": "Direct addressing" },
+      "D": { "choice": "Immediate addressing" }
+    }
+  },
+  "07_42": {
+    "question": "True or False: PC-relative addressing is commonly used for implementing branch instructions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_43": {
+    "question": "Select all that are valid examples of arithmetic instructions in assembly.",
+    "choices": {
+      "A": { "choice": "ADD", "correct": true },
+      "B": { "choice": "SUB", "correct": true },
+      "C": { "choice": "MUL", "correct": true },
+      "D": { "choice": "JMP" }
+    }
+  },
+  "07_44": {
+    "question": "Which instruction would you use to perform a bitwise AND between two registers?",
+    "choices": {
+      "A": { "choice": "AND", "correct": true },
+      "B": { "choice": "OR" },
+      "C": { "choice": "XOR" },
+      "D": { "choice": "TEST" }
+    }
+  },
+  "07_45": {
+    "question": "True or False: Bitwise operations are executed on individual bits of the operands.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "07_46": {
+    "question": "Which bitwise operation in assembly inverts all bits in the operand?",
+    "choices": {
+      "A": { "choice": "AND" },
+      "B": { "choice": "OR" },
+      "C": { "choice": "XOR" },
+      "D": { "choice": "NOT", "correct": true }
+    }
+  },
+  "07_47": {
+    "question": "Select all uses of shift operations in assembly programming.",
+    "choices": {
+      "A": {
+        "choice": "Multiplying or dividing by powers of two",
+        "correct": true
+      },
+      "B": { "choice": "Masking bits" },
+      "C": { "choice": "Rotating bits for encryption", "correct": true },
+      "D": { "choice": "Changing opcode values" }
+    }
+  },
+  "07_48": {
+    "question": "True or False: Logical shifts preserve the sign bit of a signed number.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "07_49": {
+    "question": "Which instruction is typically used to set a register to zero most efficiently?",
+    "choices": {
+      "A": { "choice": "MOV Rn, #0", "correct": true },
+      "B": { "choice": "SUB Rn, Rn, Rn" },
+      "C": { "choice": "XOR Rn, Rn" },
+      "D": { "choice": "CLR Rn" }
+    }
+  },
+  "07_50": {
+    "question": "True or False: Assembly language syntax is standardized across all CPU architectures.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  }
+}

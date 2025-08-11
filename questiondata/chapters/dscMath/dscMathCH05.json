@@ -1,0 +1,317 @@
+{
+  "05_01": {
+    "question": "Which of the following statements is always true for any integer n?",
+    "choices": {
+      "A": { "choice": "n is divisible by 3" },
+      "B": { "choice": "n is divisible by 2" },
+      "C": { "choice": "n is divisible by itself", "correct": true },
+      "D": { "choice": "n is always even" }
+    }
+  },
+  "05_02": {
+    "question": "What is the greatest common divisor (gcd) of 18 and 30?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "6", "correct": true },
+      "C": { "choice": "12" },
+      "D": { "choice": "3" }
+    }
+  },
+  "05_03": {
+    "question": "If a | b, which of the following is true?",
+    "choices": {
+      "A": { "choice": "b divides a" },
+      "B": { "choice": "a divides b", "correct": true },
+      "C": { "choice": "a and b are coprime" },
+      "D": { "choice": "b = 1" }
+    }
+  },
+  "05_04": {
+    "question": "What does it mean if two numbers are relatively prime?",
+    "choices": {
+      "A": { "choice": "Their gcd is 1", "correct": true },
+      "B": { "choice": "They are both prime" },
+      "C": { "choice": "They have the same prime factors" },
+      "D": { "choice": "Their lcm is 1" }
+    }
+  },
+  "05_05": {
+    "question": "What is the value of 17 mod 5?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "1" },
+      "C": { "choice": "3", "correct": true },
+      "D": { "choice": "5" }
+    }
+  },
+  "05_06": {
+    "question": "Which of the following numbers is NOT prime?",
+    "choices": {
+      "A": { "choice": "11" },
+      "B": { "choice": "23" },
+      "C": { "choice": "27", "correct": true },
+      "D": { "choice": "17" }
+    }
+  },
+  "05_07": {
+    "question": "The least common multiple (lcm) of 6 and 8 is:",
+    "choices": {
+      "A": { "choice": "12" },
+      "B": { "choice": "24", "correct": true },
+      "C": { "choice": "48" },
+      "D": { "choice": "14" }
+    }
+  },
+  "05_08": {
+    "question": "Which of the following is an example of a congruence relation?",
+    "choices": {
+      "A": { "choice": "15 ≡ 3 (mod 6)", "correct": true },
+      "B": { "choice": "7 > 3" },
+      "C": { "choice": "2 | 6" },
+      "D": { "choice": "gcd(9,6)=3" }
+    }
+  },
+  "05_09": {
+    "question": "Which number is a divisor of 42?",
+    "choices": {
+      "A": { "choice": "7", "correct": true },
+      "B": { "choice": "8" },
+      "C": { "choice": "13" },
+      "D": { "choice": "15" }
+    }
+  },
+  "05_10": {
+    "question": "If a ≡ b (mod m), which of the following must be true?",
+    "choices": {
+      "A": { "choice": "a = b" },
+      "B": { "choice": "m divides (a-b)", "correct": true },
+      "C": { "choice": "a and b are both even" },
+      "D": { "choice": "m = a - b" }
+    }
+  },
+  "05_11": {
+    "question": "Which of the following statements is TRUE for any integer n > 1?",
+    "choices": {
+      "A": { "choice": "n is always prime" },
+      "B": { "choice": "n is divisible by 2" },
+      "C": { "choice": "n has at least two positive divisors", "correct": true },
+      "D": { "choice": "n is always odd" }
+    }
+  },
+  "05_12": {
+    "question": "Which statement describes the Division Algorithm?",
+    "choices": {
+      "A": { "choice": "Every integer can be written as a product of two primes." },
+      "B": { "choice": "For integers a and d > 0, there exist unique q and r so that a = dq + r with 0 ≤ r < d.", "correct": true },
+      "C": { "choice": "If a | b, then b is divisible by a." },
+      "D": { "choice": "gcd(a, b) divides both a and b." }
+    }
+  },
+  "05_13": {
+    "question": "Which is the base case in the induction proof for 1 + 2 + ... + n = n(n+1)/2?",
+    "choices": {
+      "A": { "choice": "n = 0" },
+      "B": { "choice": "n = 1", "correct": true },
+      "C": { "choice": "n = 2" },
+      "D": { "choice": "n = 10" }
+    }
+  },
+  "05_14": {
+    "question": "What is the purpose of the inductive hypothesis in an induction proof?",
+    "choices": {
+      "A": { "choice": "To prove the statement is true for all values." },
+      "B": { "choice": "To assume the statement is true for n = k.", "correct": true },
+      "C": { "choice": "To prove the base case." },
+      "D": { "choice": "To show the statement is false." }
+    }
+  },
+  "05_15": {
+    "question": "What does it mean to prove a statement 'for all natural numbers n' using induction?",
+    "choices": {
+      "A": { "choice": "Show it works for n = 0 only." },
+      "B": { "choice": "Show it works for some n." },
+      "C": { "choice": "Show it is true for n = 1, and if true for n = k, then true for n = k+1.", "correct": true },
+      "D": { "choice": "Prove it by contradiction." }
+    }
+  },
+  "05_16": {
+    "question": "Which is NOT a step in mathematical induction?",
+    "choices": {
+      "A": { "choice": "Base case" },
+      "B": { "choice": "Inductive hypothesis" },
+      "C": { "choice": "Conclusion" },
+      "D": { "choice": "Proof by contradiction", "correct": true }
+    }
+  },
+  "05_17": {
+    "question": "If 2^n > n^2 for n ≥ 5, which method would best prove this?",
+    "choices": {
+      "A": { "choice": "Direct proof" },
+      "B": { "choice": "Contradiction" },
+      "C": { "choice": "Mathematical induction", "correct": true },
+      "D": { "choice": "Counterexample" }
+    }
+  },
+  "05_18": {
+    "question": "What is the value of gcd(25, 40)?",
+    "choices": {
+      "A": { "choice": "5", "correct": true },
+      "B": { "choice": "10" },
+      "C": { "choice": "1" },
+      "D": { "choice": "15" }
+    }
+  },
+  "05_19": {
+    "question": "Which of the following numbers is composite?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "5" },
+      "C": { "choice": "15", "correct": true },
+      "D": { "choice": "7" }
+    }
+  },
+  "05_20": {
+    "question": "What is the next prime after 13?",
+    "choices": {
+      "A": { "choice": "15" },
+      "B": { "choice": "17", "correct": true },
+      "C": { "choice": "19" },
+      "D": { "choice": "21" }
+    }
+  },
+  "05_21": {
+    "question": "What is the remainder when 23 is divided by 4?",
+    "choices": {
+      "A": { "choice": "3", "correct": true },
+      "B": { "choice": "5" },
+      "C": { "choice": "7" },
+      "D": { "choice": "0" }
+    }
+  },
+  "05_22": {
+    "question": "If m divides both a and b, then which of the following is true?",
+    "choices": {
+      "A": { "choice": "m is always 1" },
+      "B": { "choice": "m is a common divisor", "correct": true },
+      "C": { "choice": "m is always prime" },
+      "D": { "choice": "m > a and m > b" }
+    }
+  },
+  "05_23": {
+    "question": "Which of these is an example of modular arithmetic?",
+    "choices": {
+      "A": { "choice": "21 ≡ 1 (mod 10)", "correct": true },
+      "B": { "choice": "21 = 2 × 10 + 1" },
+      "C": { "choice": "gcd(10, 21) = 1" },
+      "D": { "choice": "10 | 20" }
+    }
+  },
+  "05_24": {
+    "question": "In the context of divisibility, what does a | b mean?",
+    "choices": {
+      "A": { "choice": "a divides b", "correct": true },
+      "B": { "choice": "b divides a" },
+      "C": { "choice": "a and b are coprime" },
+      "D": { "choice": "a = b" }
+    }
+  },
+  "05_25": {
+    "question": "If p is a prime and p | ab, then which of the following is true?",
+    "choices": {
+      "A": { "choice": "p divides a or p divides b", "correct": true },
+      "B": { "choice": "p is composite" },
+      "C": { "choice": "ab is prime" },
+      "D": { "choice": "p | (a + b)" }
+    }
+  },
+  "05_26": {
+    "question": "Which statement is a correct application of the Euclidean Algorithm?",
+    "choices": {
+      "A": { "choice": "Subtract the smaller number from the larger repeatedly." },
+      "B": { "choice": "Divide the larger by the smaller and use the remainder.", "correct": true },
+      "C": { "choice": "Multiply both numbers by the same factor." },
+      "D": { "choice": "Find the least common multiple." }
+    }
+  },
+  "05_27": {
+    "question": "If 17 ≡ x (mod 5), what is x?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "3", "correct": true },
+      "C": { "choice": "4" },
+      "D": { "choice": "5" }
+    }
+  },
+  "05_28": {
+    "question": "What does it mean if n is composite?",
+    "choices": {
+      "A": { "choice": "n is not divisible by any number" },
+      "B": { "choice": "n is divisible by 1 and itself only" },
+      "C": { "choice": "n has divisors other than 1 and itself", "correct": true },
+      "D": { "choice": "n is always even" }
+    }
+  },
+  "05_29": {
+    "question": "Which of the following is an induction step?",
+    "choices": {
+      "A": { "choice": "Assume the statement for n = k" },
+      "B": { "choice": "Show the base case for n = 1" },
+      "C": { "choice": "Show the statement holds for n = k + 1 using n = k", "correct": true },
+      "D": { "choice": "Provide a counterexample" }
+    }
+  },
+  "05_30": {
+    "question": "What is the main idea of mathematical induction?",
+    "choices": {
+      "A": { "choice": "Prove a statement for n = 1, then show if true for n = k, true for n = k+1.", "correct": true },
+      "B": { "choice": "Prove only for odd values of n" },
+      "C": { "choice": "Assume the opposite and show a contradiction" },
+      "D": { "choice": "Show for all values at once" }
+    }
+  },
+  "05_31": {
+    "question": "If 18 ≡ x (mod 4), what is the value of x?",
+    "choices": {
+      "A": { "choice": "2" },
+      "B": { "choice": "3" },
+      "C": { "choice": "4" },
+      "D": { "choice": "2", "correct": true }
+    }
+  },
+  "05_32": {
+    "question": "If a and b are both even, which statement is TRUE?",
+    "choices": {
+      "A": { "choice": "a + b is always odd" },
+      "B": { "choice": "a × b is odd" },
+      "C": { "choice": "a + b is even", "correct": true },
+      "D": { "choice": "a × b is even only if a = 2" }
+    }
+  },
+  "05_33": {
+    "question": "If n is odd, which of the following must be true?",
+    "choices": {
+      "A": { "choice": "n + 1 is even", "correct": true },
+      "B": { "choice": "n + 2 is odd" },
+      "C": { "choice": "n^2 is always even" },
+      "D": { "choice": "n + 1 is odd" }
+    }
+  },
+  "05_34": {
+    "question": "Which of the following is the correct order of steps for an induction proof?",
+    "choices": {
+      "A": { "choice": "Base case, Inductive hypothesis, Inductive step", "correct": true },
+      "B": { "choice": "Inductive step, Inductive hypothesis, Base case" },
+      "C": { "choice": "Base case, Inductive step, Inductive hypothesis" },
+      "D": { "choice": "Inductive hypothesis, Base case, Inductive step" }
+    }
+  },
+  "05_35": {
+    "question": "What is a key property of prime numbers?",
+    "choices": {
+      "A": { "choice": "Only divisible by 1 and itself", "correct": true },
+      "B": { "choice": "Always even" },
+      "C": { "choice": "Divisible by 2, 3, and 5" },
+      "D": { "choice": "Always less than 10" }
+    }
+  }
+}

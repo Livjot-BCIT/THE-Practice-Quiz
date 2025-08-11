@@ -1,0 +1,449 @@
+{
+  "02_01": {
+    "question": "Which CPU component orchestrates the fetch–decode–execute sequence by issuing timing and control signals?",
+    "choices": {
+      "A": { "choice": "Arithmetic Logic Unit (ALU)" },
+      "B": { "choice": "Control Unit", "correct": true },
+      "C": { "choice": "L1 Cache" },
+      "D": { "choice": "Program Counter" }
+    }
+  },
+  "02_02": {
+    "question": "Which register typically holds the address of the next instruction to fetch?",
+    "choices": {
+      "A": { "choice": "MAR (Memory Address Register)" },
+      "B": { "choice": "IR (Instruction Register)" },
+      "C": { "choice": "PC (Program Counter)", "correct": true },
+      "D": { "choice": "ACC (Accumulator)" }
+    }
+  },
+  "02_03": {
+    "question": "True or False: The Instruction Register (IR) stores the currently executing instruction after it is fetched from memory.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_04": {
+    "question": "Which pair best describes the typical roles of MAR and MBR/MDR?",
+    "choices": {
+      "A": { "choice": "MAR holds data; MBR holds addresses" },
+      "B": { "choice": "MAR holds addresses; MBR holds data", "correct": true },
+      "C": { "choice": "Both hold only control signals" },
+      "D": { "choice": "Both hold decoded opcodes" }
+    }
+  },
+  "02_05": {
+    "question": "During the basic instruction cycle, which ordering is most accurate?",
+    "choices": {
+      "A": { "choice": "Decode → Fetch → Execute" },
+      "B": { "choice": "Fetch → Execute → Decode" },
+      "C": { "choice": "Fetch → Decode → Execute", "correct": true },
+      "D": { "choice": "Execute → Fetch → Decode" }
+    }
+  },
+  "02_06": {
+    "question": "Select all that apply: Which are typical responsibilities of the Control Unit?",
+    "choices": {
+      "A": {
+        "choice": "Generating control signals for execution",
+        "correct": true
+      },
+      "B": { "choice": "Decoding instructions", "correct": true },
+      "C": { "choice": "Performing arithmetic operations" },
+      "D": { "choice": "Managing register transfers", "correct": true }
+    }
+  },
+  "02_07": {
+    "question": "True or False: In a hardwired control unit, changes to the instruction set can be implemented simply by altering the microprogram.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "02_08": {
+    "question": "Which statement is true about microprogrammed control units?",
+    "choices": {
+      "A": { "choice": "They are faster than hardwired units in most cases" },
+      "B": {
+        "choice": "They can be modified more easily than hardwired units",
+        "correct": true
+      },
+      "C": { "choice": "They cannot support complex instruction sets" },
+      "D": { "choice": "They eliminate the need for an ALU" }
+    }
+  },
+  "02_09": {
+    "question": "Which register temporarily holds the result of an arithmetic operation before it’s stored?",
+    "choices": {
+      "A": { "choice": "Program Counter" },
+      "B": { "choice": "Accumulator", "correct": true },
+      "C": { "choice": "Instruction Register" },
+      "D": { "choice": "Memory Address Register" }
+    }
+  },
+  "02_10": {
+    "question": "Which of the following best describes the function of the datapath in a CPU?",
+    "choices": {
+      "A": { "choice": "To coordinate external device communication" },
+      "B": {
+        "choice": "To perform data operations and transfer data between components",
+        "correct": true
+      },
+      "C": { "choice": "To manage cache replacement policies" },
+      "D": { "choice": "To schedule processes in the OS" }
+    }
+  },
+  "02_11": {
+    "question": "True or False: The control bus is responsible for transferring data between the CPU and memory.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "02_12": {
+    "question": "Which bus carries the memory address from the CPU to the memory unit?",
+    "choices": {
+      "A": { "choice": "Address Bus", "correct": true },
+      "B": { "choice": "Data Bus" },
+      "C": { "choice": "Control Bus" },
+      "D": { "choice": "Instruction Bus" }
+    }
+  },
+  "02_13": {
+    "question": "Which best describes the role of the ALU?",
+    "choices": {
+      "A": { "choice": "To store control signals" },
+      "B": {
+        "choice": "To perform arithmetic and logical operations",
+        "correct": true
+      },
+      "C": { "choice": "To fetch instructions from memory" },
+      "D": { "choice": "To decode opcodes" }
+    }
+  },
+  "02_14": {
+    "question": "Which of the following is NOT a general-purpose register?",
+    "choices": {
+      "A": { "choice": "Accumulator" },
+      "B": { "choice": "Stack Pointer" },
+      "C": { "choice": "MAR", "correct": true },
+      "D": { "choice": "Index Register" }
+    }
+  },
+  "02_15": {
+    "question": "True or False: The stack pointer register points to the top of the current stack in memory.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_16": {
+    "question": "What is the primary advantage of using a general-purpose register architecture?",
+    "choices": {
+      "A": { "choice": "It eliminates the need for a control unit" },
+      "B": {
+        "choice": "It provides flexibility in instruction execution",
+        "correct": true
+      },
+      "C": { "choice": "It replaces main memory entirely" },
+      "D": { "choice": "It guarantees faster clock speeds" }
+    }
+  },
+  "02_17": {
+    "question": "Which is a key feature of RISC architectures?",
+    "choices": {
+      "A": { "choice": "Complex instructions that execute in multiple cycles" },
+      "B": {
+        "choice": "Simple instructions that typically execute in one cycle",
+        "correct": true
+      },
+      "C": { "choice": "Extensive use of microprogramming" },
+      "D": { "choice": "Large, irregular instruction sets" }
+    }
+  },
+  "02_18": {
+    "question": "True or False: CISC architectures generally have more addressing modes than RISC architectures.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_19": {
+    "question": "Which of the following is an advantage of CISC over RISC?",
+    "choices": {
+      "A": { "choice": "Simpler control unit" },
+      "B": {
+        "choice": "More compact programs due to complex instructions",
+        "correct": true
+      },
+      "C": { "choice": "Uniform instruction length" },
+      "D": { "choice": "Easier pipelining" }
+    }
+  },
+  "02_20": {
+    "question": "Which is a design principle commonly associated with RISC CPUs?",
+    "choices": {
+      "A": { "choice": "Minimize number of registers" },
+      "B": { "choice": "Load/store architecture", "correct": true },
+      "C": { "choice": "Variable instruction size" },
+      "D": { "choice": "Emphasize microcoded instructions" }
+    }
+  },
+  "02_21": {
+    "question": "Which CPU register stores the memory address of the instruction currently being fetched?",
+    "choices": {
+      "A": { "choice": "Program Counter", "correct": true },
+      "B": { "choice": "Instruction Register" },
+      "C": { "choice": "Stack Pointer" },
+      "D": { "choice": "Index Register" }
+    }
+  },
+  "02_22": {
+    "question": "True or False: In a load/store architecture, only load and store instructions access memory.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_23": {
+    "question": "Which term describes the number of bits a processor can handle in a single operation?",
+    "choices": {
+      "A": { "choice": "Clock speed" },
+      "B": { "choice": "Word size", "correct": true },
+      "C": { "choice": "Instruction length" },
+      "D": { "choice": "Cache size" }
+    }
+  },
+  "02_24": {
+    "question": "Which of the following best defines 'opcode'?",
+    "choices": {
+      "A": { "choice": "A binary representation of a control signal" },
+      "B": {
+        "choice": "The portion of an instruction specifying the operation",
+        "correct": true
+      },
+      "C": { "choice": "The memory location of an operand" },
+      "D": { "choice": "A unique identifier for a CPU core" }
+    }
+  },
+  "02_25": {
+    "question": "True or False: Immediate addressing uses data directly embedded in the instruction.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_26": {
+    "question": "Which addressing mode calculates the effective address by adding a constant to a register's content?",
+    "choices": {
+      "A": { "choice": "Immediate" },
+      "B": { "choice": "Register" },
+      "C": { "choice": "Indexed", "correct": true },
+      "D": { "choice": "Direct" }
+    }
+  },
+  "02_27": {
+    "question": "In indirect addressing, the instruction contains:",
+    "choices": {
+      "A": { "choice": "The actual operand value" },
+      "B": { "choice": "A register number only" },
+      "C": {
+        "choice": "The address of the operand's address",
+        "correct": true
+      },
+      "D": { "choice": "A constant used in calculation" }
+    }
+  },
+  "02_28": {
+    "question": "True or False: Direct addressing mode specifies the memory location of the operand within the instruction.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_29": {
+    "question": "Which instruction type changes the flow of execution to a new memory address?",
+    "choices": {
+      "A": { "choice": "Jump", "correct": true },
+      "B": { "choice": "Load" },
+      "C": { "choice": "Store" },
+      "D": { "choice": "Compare" }
+    }
+  },
+  "02_30": {
+    "question": "True or False: Conditional branch instructions change execution flow only if a specific flag or condition is met.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_31": {
+    "question": "Which of these is NOT typically found in a CPU status register?",
+    "choices": {
+      "A": { "choice": "Zero flag" },
+      "B": { "choice": "Carry flag" },
+      "C": { "choice": "Power flag", "correct": true },
+      "D": { "choice": "Overflow flag" }
+    }
+  },
+  "02_32": {
+    "question": "What does the Zero flag indicate?",
+    "choices": {
+      "A": { "choice": "The CPU is idle" },
+      "B": {
+        "choice": "The result of the last operation was zero",
+        "correct": true
+      },
+      "C": { "choice": "The CPU clock is halted" },
+      "D": { "choice": "No instructions remain" }
+    }
+  },
+  "02_33": {
+    "question": "True or False: The Carry flag is set when an arithmetic operation results in a carry out of the most significant bit.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_34": {
+    "question": "What is the primary purpose of pipelining in CPUs?",
+    "choices": {
+      "A": { "choice": "To increase the instruction set size" },
+      "B": {
+        "choice": "To execute multiple stages of different instructions simultaneously",
+        "correct": true
+      },
+      "C": { "choice": "To reduce cache misses" },
+      "D": { "choice": "To simplify instruction decoding" }
+    }
+  },
+  "02_35": {
+    "question": "Which hazard occurs when an instruction depends on the result of a previous instruction that has not yet completed?",
+    "choices": {
+      "A": { "choice": "Control hazard" },
+      "B": { "choice": "Data hazard", "correct": true },
+      "C": { "choice": "Structural hazard" },
+      "D": { "choice": "Execution hazard" }
+    }
+  },
+  "02_36": {
+    "question": "True or False: Structural hazards in pipelining occur when two stages require the same hardware resource at the same time.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_37": {
+    "question": "Which technique can minimize control hazards?",
+    "choices": {
+      "A": { "choice": "Branch prediction", "correct": true },
+      "B": { "choice": "Increasing clock speed" },
+      "C": { "choice": "Adding more ALUs" },
+      "D": { "choice": "Reducing register size" }
+    }
+  },
+  "02_38": {
+    "question": "True or False: Superscalar architecture allows the CPU to issue multiple instructions per clock cycle.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_39": {
+    "question": "What is the main purpose of out-of-order execution?",
+    "choices": {
+      "A": {
+        "choice": "To execute instructions strictly in the order they appear"
+      },
+      "B": {
+        "choice": "To utilize CPU resources more efficiently by executing independent instructions early",
+        "correct": true
+      },
+      "C": { "choice": "To reduce the instruction set" },
+      "D": { "choice": "To simplify control logic" }
+    }
+  },
+  "02_40": {
+    "question": "True or False: In-order execution can reduce CPU complexity but may lower performance compared to out-of-order execution.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_41": {
+    "question": "In a typical instruction format, which field specifies the operation to be performed?",
+    "choices": {
+      "A": { "choice": "Operand" },
+      "B": { "choice": "Opcode", "correct": true },
+      "C": { "choice": "Addressing mode" },
+      "D": { "choice": "Instruction register" }
+    }
+  },
+  "02_42": {
+    "question": "True or False: In fixed-length instruction formats, all instructions have the same size in bits regardless of their complexity.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_43": {
+    "question": "Which of the following is a trade-off in RISC processor design compared to CISC?",
+    "choices": {
+      "A": {
+        "choice": "Larger code size due to simpler instructions",
+        "correct": true
+      },
+      "B": { "choice": "Reduced clock speed due to complex instructions" },
+      "C": { "choice": "Increased microcode complexity" },
+      "D": { "choice": "Fewer registers available to the programmer" }
+    }
+  },
+  "02_44": {
+    "question": "True or False: CISC architectures often have fewer instructions but require more cycles per instruction compared to RISC.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "02_45": {
+    "question": "Which CPU design philosophy focuses on reducing the number of instructions but optimizing them for speed?",
+    "choices": {
+      "A": { "choice": "RISC", "correct": true },
+      "B": { "choice": "CISC" },
+      "C": { "choice": "VLIW" },
+      "D": { "choice": "EPIC" }
+    }
+  },
+  "02_46": {
+    "question": "True or False: CISC processors generally use microcode to implement complex instructions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "02_47": {
+    "question": "Select all benefits of pipelining in CPU design.",
+    "choices": {
+      "A": { "choice": "Increased instruction throughput", "correct": true },
+      "B": { "choice": "Reduced instruction latency" },
+      "C": {
+        "choice": "More efficient CPU resource utilization",
+        "correct": true
+      },
+      "D": { "choice": "Eliminates all instruction hazards" }
+    }
+  },
+  "02_48": {
+    "question": "Which of the following best describes instruction set architecture (ISA)?",
+    "choices": {
+      "A": { "choice": "The microarchitecture implementation details" },
+      "B": {
+        "choice": "The interface between hardware and software",
+        "correct": true
+      },
+      "C": { "choice": "The assembly code syntax" },
+      "D": { "choice": "The physical layout of CPU circuits" }
+    }
+  }
+}

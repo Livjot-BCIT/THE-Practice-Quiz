@@ -1,0 +1,834 @@
+{
+  "01_01": {
+    "question": "Which of the following best describes the primary purpose of computer organization?",
+    "choices": {
+      "A": { "choice": "To understand how software algorithms are designed" },
+      "B": {
+        "choice": "To analyze how hardware and software interact within a system",
+        "correct": true
+      },
+      "C": { "choice": "To focus solely on high-level programming languages" },
+      "D": {
+        "choice": "To learn about internet protocols and network security"
+      }
+    }
+  },
+  "01_02": {
+    "question": "In the hierarchy of computer organization, which level is directly above the digital logic level?",
+    "choices": {
+      "A": { "choice": "Microarchitecture level", "correct": true },
+      "B": { "choice": "Control level" },
+      "C": { "choice": "Operating system level" },
+      "D": { "choice": "Assembly language level" }
+    }
+  },
+  "01_03": {
+    "question": "True or False: The abstraction concept in computer organization hides low-level complexity while enabling higher-level functionality.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_04": {
+    "question": "Which statement about the relationship between hardware and software is most accurate?",
+    "choices": {
+      "A": { "choice": "Software can function independently without hardware" },
+      "B": {
+        "choice": "Hardware provides the physical structure, while software defines the instructions it executes",
+        "correct": true
+      },
+      "C": {
+        "choice": "Hardware adapts automatically to match any software requirements"
+      },
+      "D": {
+        "choice": "Software determines the physical architecture of the hardware"
+      }
+    }
+  },
+  "01_05": {
+    "question": "The term 'von Neumann architecture' primarily refers to:",
+    "choices": {
+      "A": {
+        "choice": "A system where instructions and data share the same memory",
+        "correct": true
+      },
+      "B": {
+        "choice": "A hardware design where CPU and memory are entirely separate"
+      },
+      "C": { "choice": "A multi-core processor layout" },
+      "D": { "choice": "An architecture that uses only optical storage" }
+    }
+  },
+  "01_06": {
+    "question": "Which of the following is NOT considered a level in the general computer hierarchy?",
+    "choices": {
+      "A": { "choice": "Digital logic level" },
+      "B": { "choice": "Microprogramming level" },
+      "C": { "choice": "High-level language level" },
+      "D": { "choice": "Environmental monitoring level", "correct": true }
+    }
+  },
+  "01_07": {
+    "question": "What is the main function of the control unit in a CPU?",
+    "choices": {
+      "A": { "choice": "To store frequently accessed data" },
+      "B": {
+        "choice": "To manage and coordinate the execution of instructions",
+        "correct": true
+      },
+      "C": { "choice": "To perform arithmetic and logic operations" },
+      "D": { "choice": "To translate high-level code into assembly" }
+    }
+  },
+  "01_08": {
+    "question": "Why is the stored-program concept significant in computer architecture?",
+    "choices": {
+      "A": {
+        "choice": "It allows the same hardware to perform different tasks by loading different instructions into memory",
+        "correct": true
+      },
+      "B": { "choice": "It eliminates the need for permanent storage devices" },
+      "C": {
+        "choice": "It ensures data and instructions are always stored separately"
+      },
+      "D": { "choice": "It makes hardware upgrades unnecessary" }
+    }
+  },
+  "01_09": {
+    "question": "Which of the following best explains the purpose of microarchitecture in a computer system?",
+    "choices": {
+      "A": {
+        "choice": "It determines the specific instruction set used by the CPU"
+      },
+      "B": {
+        "choice": "It defines the internal organization and data paths used to execute instructions",
+        "correct": true
+      },
+      "C": {
+        "choice": "It ensures compatibility between different operating systems"
+      },
+      "D": { "choice": "It replaces the need for cache memory" }
+    }
+  },
+  "01_10": {
+    "question": "Which of these components would you expect to find at the lowest level of the computer hierarchy?",
+    "choices": {
+      "A": { "choice": "Machine language" },
+      "B": { "choice": "Boolean gates", "correct": true },
+      "C": { "choice": "Assembly instructions" },
+      "D": { "choice": "System software" }
+    }
+  },
+  "01_11": {
+    "question": "Select all components that are part of the Central Processing Unit (CPU).",
+    "choices": {
+      "A": { "choice": "Control Unit", "correct": true },
+      "B": { "choice": "Arithmetic Logic Unit (ALU)", "correct": true },
+      "C": { "choice": "Main Memory" },
+      "D": { "choice": "Registers", "correct": true }
+    }
+  },
+  "01_12": {
+    "question": "True or False: In a von Neumann architecture, program instructions and data are stored in separate physical memory units.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_13": {
+    "question": "Match the level of abstraction to its correct description.",
+    "choices": {
+      "A": {
+        "choice": "Digital Logic – Logic gates and flip-flops",
+        "correct": true
+      },
+      "B": {
+        "choice": "Microarchitecture – Detailed CPU data paths and control signals",
+        "correct": true
+      },
+      "C": {
+        "choice": "ISA – Defines available instructions for programmers",
+        "correct": true
+      },
+      "D": {
+        "choice": "High-Level Language – Direct manipulation of transistors"
+      }
+    }
+  },
+  "01_14": {
+    "question": "Which of the following correctly describes an Instruction Set Architecture (ISA)?",
+    "choices": {
+      "A": { "choice": "The physical arrangement of CPU circuitry" },
+      "B": {
+        "choice": "The interface between hardware and software defining the set of instructions the CPU can execute",
+        "correct": true
+      },
+      "C": { "choice": "A specialized algorithm used for compiling code" },
+      "D": { "choice": "The method used to manage memory allocation" }
+    }
+  },
+  "01_15": {
+    "question": "True or False: Microprogramming is an approach to implementing the control unit using stored sequences of microinstructions.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_16": {
+    "question": "Which of the following is an advantage of the stored-program concept?",
+    "choices": {
+      "A": { "choice": "It requires separate hardware for every task" },
+      "B": {
+        "choice": "It allows a single set of hardware to perform multiple functions by loading different instructions",
+        "correct": true
+      },
+      "C": { "choice": "It eliminates the need for software" },
+      "D": { "choice": "It allows programs to execute without a CPU" }
+    }
+  },
+  "01_17": {
+    "question": "True or False: The ISA acts as the boundary between software and hardware in a computer system.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_18": {
+    "question": "Which of the following is an example of the microarchitecture level?",
+    "choices": {
+      "A": {
+        "choice": "The arrangement of registers, ALU, and buses within the CPU",
+        "correct": true
+      },
+      "B": { "choice": "C++ source code" },
+      "C": { "choice": "The binary machine code stored in RAM" },
+      "D": { "choice": "An operating system’s file structure" }
+    }
+  },
+  "01_19": {
+    "question": "In the computer hierarchy, the level responsible for logic gates, flip-flops, and basic circuits is called:",
+    "choices": {
+      "A": { "choice": "Microarchitecture level" },
+      "B": { "choice": "Digital logic level", "correct": true },
+      "C": { "choice": "Control level" },
+      "D": { "choice": "Application level" }
+    }
+  },
+  "01_20": {
+    "question": "Which statement about the von Neumann bottleneck is correct?",
+    "choices": {
+      "A": {
+        "choice": "It refers to the limited data transfer rate between CPU and memory",
+        "correct": true
+      },
+      "B": {
+        "choice": "It describes when too many instructions are stored in cache"
+      },
+      "C": {
+        "choice": "It occurs when multiple CPUs compete for the same ALU"
+      },
+      "D": { "choice": "It means the CPU has fewer registers than needed" }
+    }
+  },
+  "01_21": {
+    "question": "Select all examples of system software.",
+    "choices": {
+      "A": { "choice": "Operating system", "correct": true },
+      "B": { "choice": "Compiler", "correct": true },
+      "C": { "choice": "Text editor" },
+      "D": { "choice": "Device drivers", "correct": true }
+    }
+  },
+  "01_22": {
+    "question": "True or False: In a layered view of computer systems, high-level languages are closer to the user than assembly languages.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_23": {
+    "question": "Which of the following best defines computer architecture?",
+    "choices": {
+      "A": {
+        "choice": "The operational structure and logic design of a computer, including ISA",
+        "correct": true
+      },
+      "B": { "choice": "The layout of computer lab furniture" },
+      "C": { "choice": "The physical wiring of components only" },
+      "D": { "choice": "A collection of software programs" }
+    }
+  },
+  "01_24": {
+    "question": "Which of the following is NOT a component of the basic von Neumann model?",
+    "choices": {
+      "A": { "choice": "CPU" },
+      "B": { "choice": "Main memory" },
+      "C": { "choice": "I/O system" },
+      "D": { "choice": "Graphics Processing Unit (GPU)", "correct": true }
+    }
+  },
+  "01_25": {
+    "question": "In the context of computer organization, what does 'control signals' refer to?",
+    "choices": {
+      "A": {
+        "choice": "Electrical pulses that manage the execution of instructions",
+        "correct": true
+      },
+      "B": { "choice": "The binary code of an application" },
+      "C": { "choice": "A network protocol for hardware" },
+      "D": { "choice": "Data packets sent between servers" }
+    }
+  },
+
+  "01_26": {
+    "question": "Which of the following best defines computer organization?",
+    "choices": {
+      "A": {
+        "choice": "The physical and operational structure of a computer system",
+        "correct": true
+      },
+      "B": { "choice": "The study of how to design software algorithms" },
+      "C": { "choice": "The method for managing operating systems" },
+      "D": { "choice": "The network layout of connected computers" }
+    }
+  },
+  "01_27": {
+    "question": "True or False: Computer architecture focuses on the functional capabilities of a system, while computer organization focuses on its physical implementation.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_28": {
+    "question": "Select all that apply: Which of the following are valid levels in the 7-level computer hierarchy?",
+    "choices": {
+      "A": { "choice": "Digital logic level", "correct": true },
+      "B": { "choice": "Control level", "correct": true },
+      "C": { "choice": "Operating system level", "correct": true },
+      "D": { "choice": "Application level", "correct": true }
+    }
+  },
+  "01_29": {
+    "question": "In the 7-level computer hierarchy, which level directly interacts with transistors and electronic circuits?",
+    "choices": {
+      "A": { "choice": "Digital logic level", "correct": true },
+      "B": { "choice": "Microarchitecture level" },
+      "C": { "choice": "Instruction set architecture level" },
+      "D": { "choice": "Assembly language level" }
+    }
+  },
+  "01_30": {
+    "question": "Which of the following best describes abstraction in computing?",
+    "choices": {
+      "A": { "choice": "The process of ignoring the hardware entirely" },
+      "B": {
+        "choice": "The separation of system functions into layers, hiding lower-level details from higher levels",
+        "correct": true
+      },
+      "C": {
+        "choice": "The act of combining software and hardware into a single unit"
+      },
+      "D": { "choice": "The use of programming languages only" }
+    }
+  },
+  "01_31": {
+    "question": "True or False: The operating system level in the computer hierarchy is responsible for managing both hardware and software resources.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_32": {
+    "question": "Which two levels in the computer hierarchy deal most closely with actual hardware signals and operations?",
+    "choices": {
+      "A": { "choice": "Digital logic level", "correct": true },
+      "B": { "choice": "Control level", "correct": true },
+      "C": { "choice": "Application level" },
+      "D": { "choice": "High-level language level" }
+    }
+  },
+  "01_33": {
+    "question": "Which of the following is an example of application software?",
+    "choices": {
+      "A": { "choice": "Device driver" },
+      "B": { "choice": "Spreadsheet program", "correct": true },
+      "C": { "choice": "Compiler" },
+      "D": { "choice": "Operating system" }
+    }
+  },
+  "01_34": {
+    "question": "True or False: Without abstraction layers, programming a computer would require working directly with transistors and electronic signals.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_35": {
+    "question": "True or False: In the von Neumann model, both instructions and data pass through the same communication path to the CPU.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_36": {
+    "question": "Which of the following is a disadvantage of the von Neumann architecture?",
+    "choices": {
+      "A": { "choice": "Inability to store data in memory" },
+      "B": {
+        "choice": "Shared pathway for instructions and data can limit performance",
+        "correct": true
+      },
+      "C": { "choice": "It requires different hardware for each program" },
+      "D": { "choice": "It does not allow general-purpose computing" }
+    }
+  },
+  "01_37": {
+    "question": "Which of these is an example of the stored-program concept in action?",
+    "choices": {
+      "A": { "choice": "Rewriting the CPU hardware for every new application" },
+      "B": {
+        "choice": "Loading different instruction sequences into memory to perform various tasks",
+        "correct": true
+      },
+      "C": { "choice": "Connecting two CPUs in parallel" },
+      "D": { "choice": "Running a program directly from ROM only" }
+    }
+  },
+  "01_38": {
+    "question": "True or False: Microarchitecture is independent of the instruction set architecture (ISA).",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_39": {
+    "question": "Select all that apply: Which of the following are responsibilities of the control unit?",
+    "choices": {
+      "A": { "choice": "Fetching instructions from memory", "correct": true },
+      "B": { "choice": "Decoding instructions", "correct": true },
+      "C": { "choice": "Performing arithmetic calculations" },
+      "D": {
+        "choice": "Managing control signals to coordinate CPU components",
+        "correct": true
+      }
+    }
+  },
+  "01_40": {
+    "question": "Which of the following best differentiates system software from application software?",
+    "choices": {
+      "A": {
+        "choice": "System software manages and controls hardware, application software performs user tasks",
+        "correct": true
+      },
+      "B": { "choice": "System software is used only in servers" },
+      "C": { "choice": "Application software is stored in ROM only" },
+      "D": {
+        "choice": "Application software is written in assembly language only"
+      }
+    }
+  },
+  "01_41": {
+    "question": "True or False: The arithmetic logic unit (ALU) is responsible for both arithmetic and logical operations in a CPU.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_42": {
+    "question": "Which level in the computer hierarchy is directly concerned with the binary representation of instructions?",
+    "choices": {
+      "A": { "choice": "Digital logic level" },
+      "B": { "choice": "Machine language level", "correct": true },
+      "C": { "choice": "Control level" },
+      "D": { "choice": "High-level language level" }
+    }
+  },
+  "01_43": {
+    "question": "True or False: High-level languages must be translated into machine language before execution.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_44": {
+    "question": "Which of the following best describes an interpreter?",
+    "choices": {
+      "A": {
+        "choice": "A program that converts high-level code into machine code all at once"
+      },
+      "B": {
+        "choice": "A program that translates and executes code line-by-line",
+        "correct": true
+      },
+      "C": { "choice": "A device that converts binary to decimal" },
+      "D": { "choice": "A CPU feature for caching instructions" }
+    }
+  },
+  "01_45": {
+    "question": "True or False: A compiler and an interpreter perform the same task in exactly the same way.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_46": {
+    "question": "The von Neumann bottleneck refers to:",
+    "choices": {
+      "A": {
+        "choice": "A CPU limitation where only one instruction can be executed at a time"
+      },
+      "B": {
+        "choice": "The restricted throughput between CPU and memory due to shared pathways",
+        "correct": true
+      },
+      "C": { "choice": "The maximum clock speed of the CPU" },
+      "D": { "choice": "A cache memory overflow issue" }
+    }
+  },
+  "01_47": {
+    "question": "True or False: The application level is responsible for directly controlling hardware devices.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_48": {
+    "question": "In the context of computer organization, which of the following is true?",
+    "choices": {
+      "A": { "choice": "The control unit only manages arithmetic operations" },
+      "B": {
+        "choice": "Registers are high-speed storage locations inside the CPU",
+        "correct": true
+      },
+      "C": { "choice": "Main memory is faster than registers" },
+      "D": { "choice": "The ALU manages instruction decoding" }
+    }
+  },
+  "01_49": {
+    "question": "True or False: Main memory is considered volatile storage.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_50": {
+    "question": "Which of the following is an example of system software?",
+    "choices": {
+      "A": { "choice": "Text editor" },
+      "B": { "choice": "Web browser" },
+      "C": { "choice": "Operating system", "correct": true },
+      "D": { "choice": "Photo editing app" }
+    }
+  },
+  "01_51": {
+    "question": "True or False: The machine language level uses symbolic instructions that are easier for humans to read.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_52": {
+    "question": "Which of the following most accurately describes the instruction set architecture (ISA)?",
+    "choices": {
+      "A": { "choice": "The exact transistor layout inside the CPU" },
+      "B": {
+        "choice": "The interface that defines the instructions a processor can execute",
+        "correct": true
+      },
+      "C": { "choice": "The design of the CPU's cooling system" },
+      "D": { "choice": "The layout of cables on the motherboard" }
+    }
+  },
+  "01_53": {
+    "question": "True or False: The digital logic level is where microinstructions are stored and executed.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_54": {
+    "question": "Which component of the CPU is primarily responsible for performing calculations?",
+    "choices": {
+      "A": { "choice": "Registers" },
+      "B": { "choice": "Arithmetic Logic Unit (ALU)", "correct": true },
+      "C": { "choice": "Control Unit" },
+      "D": { "choice": "Cache" }
+    }
+  },
+  "01_55": {
+    "question": "True or False: System software serves as an interface between application software and hardware.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_56": {
+    "question": "True or False: In the stored-program concept, both data and instructions reside in the same memory.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_57": {
+    "question": "Which of the following is NOT a benefit of using abstraction in computer systems?",
+    "choices": {
+      "A": { "choice": "Simplifies complex processes for programmers" },
+      "B": { "choice": "Hides unnecessary low-level details" },
+      "C": {
+        "choice": "Eliminates the need for hardware optimization",
+        "correct": true
+      },
+      "D": { "choice": "Allows different levels to work independently" }
+    }
+  },
+  "01_58": {
+    "question": "True or False: A change at the digital logic level can require modifications at higher levels in the computer hierarchy.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_59": {
+    "question": "Which of the following best describes computer architecture?",
+    "choices": {
+      "A": {
+        "choice": "The physical design and layout of computer components"
+      },
+      "B": {
+        "choice": "The functional behavior and design principles of a computer system",
+        "correct": true
+      },
+      "C": { "choice": "The day-to-day operation of computer hardware" },
+      "D": { "choice": "The process of writing high-level programs" }
+    }
+  },
+  "01_60": {
+    "question": "True or False: Computer organization focuses more on the operational structure than on the design principles.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_61": {
+    "question": "Which two components make up the CPU's primary functional units?",
+    "choices": {
+      "A": { "choice": "Registers and Cache" },
+      "B": {
+        "choice": "Control Unit and Arithmetic Logic Unit (ALU)",
+        "correct": true
+      },
+      "C": { "choice": "Main Memory and ALU" },
+      "D": { "choice": "Cache and Control Unit" }
+    }
+  },
+  "01_62": {
+    "question": "True or False: The control unit can change the sequence of execution based on the results of prior operations.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_63": {
+    "question": "Which level of the computer hierarchy would be responsible for translating assembly code into machine code?",
+    "choices": {
+      "A": { "choice": "Control level" },
+      "B": { "choice": "Operating system level" },
+      "C": { "choice": "High-level language level" },
+      "D": { "choice": "Assembly language level", "correct": true }
+    }
+  },
+  "01_64": {
+    "question": "True or False: Registers are located in the main memory unit of a computer.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_65": {
+    "question": "Which of the following is an example of application software?",
+    "choices": {
+      "A": { "choice": "Word processor", "correct": true },
+      "B": { "choice": "Device driver" },
+      "C": { "choice": "Operating system" },
+      "D": { "choice": "BIOS firmware" }
+    }
+  },
+  "01_66": {
+    "question": "True or False: The control unit does not directly perform arithmetic operations.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_67": {
+    "question": "Which of the following is the lowest level in the computer hierarchy where programs can be written?",
+    "choices": {
+      "A": { "choice": "High-level language level" },
+      "B": { "choice": "Assembly language level", "correct": true },
+      "C": { "choice": "Control level" },
+      "D": { "choice": "Operating system level" }
+    }
+  },
+  "01_68": {
+    "question": "True or False: At the ISA level, programmers can see hardware-specific details such as bus widths and timing signals.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_69": {
+    "question": "Which of the following best describes firmware?",
+    "choices": {
+      "A": { "choice": "A type of application software" },
+      "B": {
+        "choice": "System software stored in non-volatile memory that controls hardware",
+        "correct": true
+      },
+      "C": { "choice": "Temporary code stored in registers" },
+      "D": { "choice": "A high-level programming language" }
+    }
+  },
+  "01_70": {
+    "question": "True or False: In the von Neumann model, the CPU can fetch the next instruction while simultaneously executing the current one without any special hardware support.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_71": {
+    "question": "Which of the following best describes pipelining in CPU design?",
+    "choices": {
+      "A": {
+        "choice": "A technique to execute multiple instructions in overlapping stages",
+        "correct": true
+      },
+      "B": { "choice": "The process of storing frequently used data in cache" },
+      "C": { "choice": "Using multiple CPUs to perform the same task" },
+      "D": {
+        "choice": "A method for transferring data between the CPU and GPU"
+      }
+    }
+  },
+  "01_72": {
+    "question": "Select all that apply: Which are common stages in a typical instruction pipeline?",
+    "choices": {
+      "A": { "choice": "Instruction Fetch", "correct": true },
+      "B": { "choice": "Instruction Decode", "correct": true },
+      "C": { "choice": "Execute", "correct": true },
+      "D": { "choice": "Graphics Rendering" }
+    }
+  },
+  "01_73": {
+    "question": "True or False: Cache memory is located closer to the CPU than main memory to reduce access times.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_74": {
+    "question": "Which type of cache is typically the smallest but fastest?",
+    "choices": {
+      "A": { "choice": "L1 cache", "correct": true },
+      "B": { "choice": "L2 cache" },
+      "C": { "choice": "L3 cache" },
+      "D": { "choice": "Virtual cache" }
+    }
+  },
+  "01_75": {
+    "question": "True or False: Increasing the clock speed of a CPU always improves performance without drawbacks.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_76": {
+    "question": "Which of the following best explains Moore's Law?",
+    "choices": {
+      "A": {
+        "choice": "The number of transistors on a microchip doubles approximately every two years",
+        "correct": true
+      },
+      "B": { "choice": "The clock speed of CPUs doubles every year" },
+      "C": { "choice": "Memory capacity doubles every five years" },
+      "D": { "choice": "Software complexity halves every two years" }
+    }
+  },
+  "01_77": {
+    "question": "True or False: RISC architectures typically use a smaller set of simpler instructions than CISC architectures.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_78": {
+    "question": "Which of the following is a key characteristic of CISC architecture?",
+    "choices": {
+      "A": {
+        "choice": "Many complex instructions that can execute multi-step operations",
+        "correct": true
+      },
+      "B": { "choice": "Fewer, simpler instructions executed quickly" },
+      "C": { "choice": "Instructions that are always exactly the same size" },
+      "D": { "choice": "No support for memory operations" }
+    }
+  },
+  "01_79": {
+    "question": "Select all that apply: Which are potential causes of a CPU pipeline stall?",
+    "choices": {
+      "A": { "choice": "Data hazards", "correct": true },
+      "B": { "choice": "Control hazards", "correct": true },
+      "C": { "choice": "Structural hazards", "correct": true },
+      "D": { "choice": "Cache prefetching" }
+    }
+  },
+  "01_80": {
+    "question": "True or False: Superscalar architecture allows multiple instructions to be executed in parallel within a single CPU core.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_81": {
+    "question": "Which of the following best defines computer organization?",
+    "choices": {
+      "A": { "choice": "The study of how a computer is programmed" },
+      "B": {
+        "choice": "The study of hardware structure and interaction",
+        "correct": true
+      },
+      "C": { "choice": "The study of network topologies" },
+      "D": { "choice": "The study of algorithmic complexity" }
+    }
+  },
+  "01_82": {
+    "question": "True or False: Computer architecture focuses more on the design principles and capabilities rather than the physical implementation.",
+    "choices": {
+      "A": { "choice": "True", "correct": true },
+      "B": { "choice": "False" }
+    }
+  },
+  "01_83": {
+    "question": "Select all correct statements about the stored-program concept.",
+    "choices": {
+      "A": { "choice": "Programs are stored in memory", "correct": true },
+      "B": {
+        "choice": "Instructions are fetched and executed sequentially",
+        "correct": true
+      },
+      "C": { "choice": "Instructions are hardwired into CPU" },
+      "D": {
+        "choice": "Data and instructions can share the same memory",
+        "correct": true
+      }
+    }
+  },
+  "01_84": {
+    "question": "Which of the following is NOT an example of a high-level programming language?",
+    "choices": {
+      "A": { "choice": "Python" },
+      "B": { "choice": "C++" },
+      "C": { "choice": "Assembly", "correct": true },
+      "D": { "choice": "Java" }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+:root {
+  /* Main Theme Colors */
+  --color-bg-main: #1b214e;
+  --color-bg-alt: #232a4d;
+  --color-bg-container: #293165;
+  --color-bg-translucent: rgba(14, 14, 22, 0.6);
+  --color-bg-footer: rgba(34, 37, 60, 0.75);
+  --color-bg-footer-catalyst: rgba(34, 37, 60, 0.45);
+  --color-bg-footer-border: #fff;
+
+  /* Violet/Purple Accent */
+  --color-accent: #6f55b6;
+  --color-accent-hover: #825eff;
+  --color-accent-border: #5f559a;
+  --color-accent-focus: #9e81fa;
+
+  /* Shape/Gradient Colors */
+  --color-shape: #323c6f;
+  --color-shape2: #3a5580;
+  --color-shape-diamond: #fff;
+  --color-shape-diamond-alt: #67564c;
+
+  /* Text/Font */
+  --color-text: #eeeeee;
+  --color-text-muted: #bbb;
+  --color-footer-text: #fff;
+  --color-label: #ececec;
+  --color-h1: #fff;
+
+  /* Misc UI */
+  --color-border: #ccc;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+  --color-shadow-strong: #2e205999;
+  --color-modal-bg: rgba(18, 18, 40, 0.85);
+  --color-modal-date: #bbe;
+
+  /* Tag colors */
+  --tag-update: #ff4b4b;
+  --tag-version: #2fd46c;
+  --tag-beta: #ad7aff;
+  --tag-alpha: #49baff;
+
+  /* Misc */
+  --radius: 10px;
+  --radius-large: 16px;
+  --blur-bg: blur(8px);
+}
+
+/* ---- Navbar base ---- */
+/* pinned to the bottom, spans full width, sits above content */
+.navbar {
+  background-color: rgba(48, 48, 48, 0.9);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+  padding: 8px 0;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ---- Inner layout shell ---- */
+/* centers the group, ensures it sits above any overflow text */
+.navbar-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* 100% -> avoids horizontal jitter vs my og 100vw */
+  width: 100%;
+
+  /* put a higher z-index so it's above text edges */
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+/* ---- Left / center / right rails ---- */
+/* left and right take some space; center flexes */
+.navbar-left,
+.navbar-right {
+  min-width: 42vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* middle readout timer sits in the flex gap */
+.navbar-center {
+  flex: 1 1 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---- Icons & text ---- */
+/* small link wrappers -> hug icons/text */
+.navbar-icon-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 6px;
+}
+
+/* icon sizing -> keep consistent across buttons */
+.navbar-icon {
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+/* center text line -> the clock/timer */
+.navbar-text {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  padding: 0 4px;
+  white-space: nowrap;
+}
+
+/* ---- Edge labels (copyright / discord) ---- */
+/* absolutely pinned to the edges; let clicks pass through to icons */
+.navbar-copyright,
+.navbar-discord {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 17px;
+  z-index: 3;
+
+  /* pointer-events: none -> icons under them stay clickable */
+  pointer-events: none;
+}
+
+/* left edge text -> copyright */
+.navbar-copyright {
+  left: 20px;
+  text-align: left;
+}
+
+/* right edge text -> discord handle */
+.navbar-discord {
+  right: 20px;
+  text-align: right;
+}

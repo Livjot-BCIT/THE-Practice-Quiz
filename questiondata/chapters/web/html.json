@@ -1,0 +1,1188 @@
+{
+  "01_01": {
+    "chapter": "1",
+    "question": "Which tag is used to create a hyperlink in HTML?",
+    "choices": {
+      "A": { "choice": "&lt;a&gt;", "correct": true },
+      "B": { "choice": "&lt;link&gt;" },
+      "C": { "choice": "&lt;href&gt;" },
+      "D": { "choice": "&lt;hyperlink&gt;" }
+    }
+  },
+  "01_02": {
+    "chapter": "1",
+    "question": "What is the correct structure of a basic HTML document?",
+    "choices": {
+      "A": {
+        "choice": "&lt;!DOCTYPE html&gt;&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;",
+        "correct": true
+      },
+      "B": {
+        "choice": "&lt;html&gt;&lt;body&gt;&lt;head&gt;&lt;/head&gt;&lt;/body&gt;&lt;/html&gt;"
+      },
+      "C": {
+        "choice": "&lt;html&gt;&lt;head&gt;&lt;body&gt;&lt;/body&gt;&lt;/head&gt;&lt;/html&gt;"
+      },
+      "D": {
+        "choice": "&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/html&gt;&lt;/body&gt;"
+      }
+    }
+  },
+  "01_03": {
+    "chapter": "1",
+    "question": "Which tag is used to display an image?",
+    "choices": {
+      "A": { "choice": "&lt;img&gt;", "correct": true },
+      "B": { "choice": "&lt;image&gt;" },
+      "C": { "choice": "&lt;pic&gt;" },
+      "D": { "choice": "&lt;src&gt;" }
+    }
+  },
+  "01_04": {
+    "chapter": "1",
+    "question": "What attribute must be included in the &lt;img&gt; tag for accessibility?",
+    "choices": {
+      "A": { "choice": "alt", "correct": true },
+      "B": { "choice": "title" },
+      "C": { "choice": "src" },
+      "D": { "choice": "href" }
+    }
+  },
+  "01_05": {
+    "chapter": "1",
+    "question": "Which tag creates the largest heading?",
+    "choices": {
+      "A": { "choice": "&lt;h1&gt;", "correct": true },
+      "B": { "choice": "&lt;h6&gt;" },
+      "C": { "choice": "&lt;head&gt;" },
+      "D": { "choice": "&lt;title&gt;" }
+    }
+  },
+  "01_06": {
+    "chapter": "1",
+    "question": "What tag would you use to create an unordered (bulleted) list?",
+    "choices": {
+      "A": { "choice": "&lt;ul&gt;", "correct": true },
+      "B": { "choice": "&lt;ol&gt;" },
+      "C": { "choice": "&lt;li&gt;" },
+      "D": { "choice": "&lt;list&gt;" }
+    }
+  },
+  "01_07": {
+    "chapter": "1",
+    "question": "Which element is used for emphasized text?",
+    "choices": {
+      "A": { "choice": "&lt;em&gt;", "correct": true },
+      "B": { "choice": "&lt;b&gt;" },
+      "C": { "choice": "&lt;i&gt;" },
+      "D": { "choice": "&lt;strong&gt;" }
+    }
+  },
+  "01_08": {
+    "chapter": "1",
+    "question": "How do you add a comment in HTML?",
+    "choices": {
+      "A": { "choice": "&lt;!-- comment --&gt;", "correct": true },
+      "B": { "choice": "// comment //" },
+      "C": { "choice": "# comment" },
+      "D": { "choice": "&lt;comment&gt;comment&lt;/comment&gt;" }
+    }
+  },
+  "01_09": {
+    "chapter": "1",
+    "question": "Which tag is used for inserting a line break?",
+    "choices": {
+      "A": { "choice": "&lt;br&gt;", "correct": true },
+      "B": { "choice": "&lt;break&gt;" },
+      "C": { "choice": "&lt;lb&gt;" },
+      "D": { "choice": "&lt;newline&gt;" }
+    }
+  },
+  "01_10": {
+    "chapter": "1",
+    "question": "What does the &lt;title&gt; tag define?",
+    "choices": {
+      "A": {
+        "choice": "The title of the document, shown in the browser tab.",
+        "correct": true
+      },
+      "B": { "choice": "A section heading in the body." },
+      "C": { "choice": "A tool tip for an image." },
+      "D": { "choice": "A hyperlink's label." }
+    }
+  },
+  "01_11": {
+    "chapter": "1",
+    "question": "Which attribute specifies the URL of the image in an &lt;img&gt; tag?",
+    "choices": {
+      "A": { "choice": "src", "correct": true },
+      "B": { "choice": "href" },
+      "C": { "choice": "alt" },
+      "D": { "choice": "url" }
+    }
+  },
+  "01_12": {
+    "chapter": "1",
+    "question": "Which tag is used to define a table row?",
+    "choices": {
+      "A": { "choice": "&lt;tr&gt;", "correct": true },
+      "B": { "choice": "&lt;td&gt;" },
+      "C": { "choice": "&lt;th&gt;" },
+      "D": { "choice": "&lt;row&gt;" }
+    }
+  },
+  "01_13": {
+    "chapter": "1",
+    "question": "What tag is used to define a list item?",
+    "choices": {
+      "A": { "choice": "&lt;li&gt;", "correct": true },
+      "B": { "choice": "&lt;ul&gt;" },
+      "C": { "choice": "&lt;item&gt;" },
+      "D": { "choice": "&lt;ol&gt;" }
+    }
+  },
+  "01_14": {
+    "chapter": "1",
+    "question": "Which tag is used for the footer section of a web page?",
+    "choices": {
+      "A": { "choice": "&lt;footer&gt;", "correct": true },
+      "B": { "choice": "&lt;bottom&gt;" },
+      "C": { "choice": "&lt;end&gt;" },
+      "D": { "choice": "&lt;section&gt;" }
+    }
+  },
+  "01_15": {
+    "chapter": "1",
+    "question": "Which element defines the most important heading?",
+    "choices": {
+      "A": { "choice": "&lt;h1&gt;", "correct": true },
+      "B": { "choice": "&lt;heading&gt;" },
+      "C": { "choice": "&lt;header&gt;" },
+      "D": { "choice": "&lt;h6&gt;" }
+    }
+  },
+  "01_16": {
+    "chapter": "1",
+    "question": "Which element represents navigation links?",
+    "choices": {
+      "A": { "choice": "&lt;nav&gt;", "correct": true },
+      "B": { "choice": "&lt;section&gt;" },
+      "C": { "choice": "&lt;aside&gt;" },
+      "D": { "choice": "&lt;header&gt;" }
+    }
+  },
+  "01_17": {
+    "chapter": "1",
+    "question": "What tag is used to embed an audio file?",
+    "choices": {
+      "A": { "choice": "&lt;audio&gt;", "correct": true },
+      "B": { "choice": "&lt;sound&gt;" },
+      "C": { "choice": "&lt;media&gt;" },
+      "D": { "choice": "&lt;embed&gt;" }
+    }
+  },
+  "01_18": {
+    "chapter": "1",
+    "question": "What tag is used to embed a video file?",
+    "choices": {
+      "A": { "choice": "&lt;video&gt;", "correct": true },
+      "B": { "choice": "&lt;movie&gt;" },
+      "C": { "choice": "&lt;media&gt;" },
+      "D": { "choice": "&lt;file&gt;" }
+    }
+  },
+  "01_19": {
+    "chapter": "1",
+    "question": "Which tag is used to display preformatted text?",
+    "choices": {
+      "A": { "choice": "&lt;pre&gt;", "correct": true },
+      "B": { "choice": "&lt;code&gt;" },
+      "C": { "choice": "&lt;tt&gt;" },
+      "D": { "choice": "&lt;format&gt;" }
+    }
+  },
+  "01_20": {
+    "chapter": "1",
+    "question": "What is the correct tag to create a checkbox input?",
+    "choices": {
+      "A": {
+        "choice": "&lt;input type=&quot;checkbox&quot;&gt;",
+        "correct": true
+      },
+      "B": { "choice": "&lt;checkbox&gt;" },
+      "C": { "choice": "&lt;input type=&quot;check&quot;&gt;" },
+      "D": { "choice": "&lt;check&gt;" }
+    }
+  },
+  "01_21": {
+    "chapter": "1",
+    "question": "What attribute allows you to specify a tooltip for an element?",
+    "choices": {
+      "A": { "choice": "title", "correct": true },
+      "B": { "choice": "tooltip" },
+      "C": { "choice": "alt" },
+      "D": { "choice": "hint" }
+    }
+  },
+  "01_22": {
+    "chapter": "1",
+    "question": "Which tag is used to make text bold?",
+    "choices": {
+      "A": { "choice": "&lt;b&gt;", "correct": true },
+      "B": { "choice": "&lt;strong&gt;" },
+      "C": { "choice": "&lt;em&gt;" },
+      "D": { "choice": "&lt;bold&gt;" }
+    }
+  },
+  "01_23": {
+    "chapter": "1",
+    "question": "What tag defines a cell in a table?",
+    "choices": {
+      "A": { "choice": "&lt;td&gt;", "correct": true },
+      "B": { "choice": "&lt;tr&gt;" },
+      "C": { "choice": "&lt;table&gt;" },
+      "D": { "choice": "&lt;cell&gt;" }
+    }
+  },
+  "01_24": {
+    "chapter": "1",
+    "question": "What attribute is required in form elements to send data to a server?",
+    "choices": {
+      "A": { "choice": "action", "correct": true },
+      "B": { "choice": "name" },
+      "C": { "choice": "method" },
+      "D": { "choice": "id" }
+    }
+  },
+  "01_25": {
+    "chapter": "1",
+    "question": "Which tag would you use to separate content into a distinct section?",
+    "choices": {
+      "A": { "choice": "&lt;section&gt;", "correct": true },
+      "B": { "choice": "&lt;div&gt;" },
+      "C": { "choice": "&lt;main&gt;" },
+      "D": { "choice": "&lt;article&gt;" }
+    }
+  },
+  "01_26": {
+    "chapter": "1",
+    "question": "Which element is best for marking up side content, such as pull quotes or ads?",
+    "choices": {
+      "A": { "choice": "&lt;aside&gt;", "correct": true },
+      "B": { "choice": "&lt;nav&gt;" },
+      "C": { "choice": "&lt;article&gt;" },
+      "D": { "choice": "&lt;summary&gt;" }
+    }
+  },
+  "01_27": {
+    "chapter": "1",
+    "question": "What tag is used to group related elements in a form?",
+    "choices": {
+      "A": { "choice": "&lt;fieldset&gt;", "correct": true },
+      "B": { "choice": "&lt;group&gt;" },
+      "C": { "choice": "&lt;form&gt;" },
+      "D": { "choice": "&lt;div&gt;" }
+    }
+  },
+  "01_28": {
+    "chapter": "1",
+    "question": "Which tag creates a dropdown menu in a form?",
+    "choices": {
+      "A": { "choice": "&lt;select&gt;", "correct": true },
+      "B": { "choice": "&lt;option&gt;" },
+      "C": { "choice": "&lt;input&gt;" },
+      "D": { "choice": "&lt;dropdown&gt;" }
+    }
+  },
+  "01_29": {
+    "chapter": "1",
+    "question": "What tag is used to define a block of code?",
+    "choices": {
+      "A": { "choice": "&lt;code&gt;", "correct": true },
+      "B": { "choice": "&lt;pre&gt;" },
+      "C": { "choice": "&lt;samp&gt;" },
+      "D": { "choice": "&lt;kbd&gt;" }
+    }
+  },
+  "01_30": {
+    "chapter": "1",
+    "question": "Which element is used to indicate a citation or source?",
+    "choices": {
+      "A": { "choice": "&lt;cite&gt;", "correct": true },
+      "B": { "choice": "&lt;src&gt;" },
+      "C": { "choice": "&lt;quote&gt;" },
+      "D": { "choice": "&lt;block&gt;" }
+    }
+  },
+  "01_31": {
+    "chapter": "1",
+    "question": "Which HTML tag is used to specify a short inline quotation?",
+    "choices": {
+      "A": { "choice": "&lt;q&gt;", "correct": true },
+      "B": { "choice": "&lt;blockquote&gt;" },
+      "C": { "choice": "&lt;quote&gt;" },
+      "D": { "choice": "&lt;abbr&gt;" }
+    }
+  },
+  "01_32": {
+    "chapter": "1",
+    "question": "Which tag is used for a document's metadata?",
+    "choices": {
+      "A": { "choice": "&lt;meta&gt;", "correct": true },
+      "B": { "choice": "&lt;data&gt;" },
+      "C": { "choice": "&lt;info&gt;" },
+      "D": { "choice": "&lt;header&gt;" }
+    }
+  },
+  "01_33": {
+    "chapter": "1",
+    "question": "What attribute would you use to open a link in a new tab?",
+    "choices": {
+      "A": { "choice": "target=&quot;_blank&quot;", "correct": true },
+      "B": { "choice": "newtab" },
+      "C": { "choice": "window=&quot;_blank&quot;" },
+      "D": { "choice": "tab=&quot;true&quot;" }
+    }
+  },
+  "01_34": {
+    "chapter": "1",
+    "question": "Which input type should you use to allow the user to pick a date?",
+    "choices": {
+      "A": { "choice": "date", "correct": true },
+      "B": { "choice": "datetime" },
+      "C": { "choice": "calendar" },
+      "D": { "choice": "day" }
+    }
+  },
+  "01_35": {
+    "chapter": "1",
+    "question": "Which element is best used for navigation links on a site?",
+    "choices": {
+      "A": { "choice": "&lt;nav&gt;", "correct": true },
+      "B": { "choice": "&lt;menu&gt;" },
+      "C": { "choice": "&lt;list&gt;" },
+      "D": { "choice": "&lt;section&gt;" }
+    }
+  },
+  "01_36": {
+    "chapter": "1",
+    "question": "What tag is used for the primary heading on a web page?",
+    "choices": {
+      "A": { "choice": "&lt;h1&gt;", "correct": true },
+      "B": { "choice": "&lt;title&gt;" },
+      "C": { "choice": "&lt;heading&gt;" },
+      "D": { "choice": "&lt;header&gt;" }
+    }
+  },
+  "01_37": {
+    "chapter": "1",
+    "question": "What is the correct tag for a horizontal rule (line)?",
+    "choices": {
+      "A": { "choice": "&lt;hr&gt;", "correct": true },
+      "B": { "choice": "&lt;line&gt;" },
+      "C": { "choice": "&lt;rule&gt;" },
+      "D": { "choice": "&lt;divider&gt;" }
+    }
+  },
+  "01_38": {
+    "chapter": "1",
+    "question": "Which tag is used to group inline elements?",
+    "choices": {
+      "A": { "choice": "&lt;span&gt;", "correct": true },
+      "B": { "choice": "&lt;div&gt;" },
+      "C": { "choice": "&lt;section&gt;" },
+      "D": { "choice": "&lt;inline&gt;" }
+    }
+  },
+  "01_39": {
+    "chapter": "1",
+    "question": "Which tag is used for a section of text that is set apart from the main content (like a sidebar)?",
+    "choices": {
+      "A": { "choice": "&lt;aside&gt;", "correct": true },
+      "B": { "choice": "&lt;section&gt;" },
+      "C": { "choice": "&lt;div&gt;" },
+      "D": { "choice": "&lt;nav&gt;" }
+    }
+  },
+  "01_40": {
+    "chapter": "1",
+    "question": "Which tag is used to mark up the address of the author or owner of a document?",
+    "choices": {
+      "A": { "choice": "&lt;address&gt;", "correct": true },
+      "B": { "choice": "&lt;author&gt;" },
+      "C": { "choice": "&lt;info&gt;" },
+      "D": { "choice": "&lt;footer&gt;" }
+    }
+  },
+  "01_41": {
+    "chapter": "1",
+    "question": "What is the correct tag to use for marking up computer code?",
+    "choices": {
+      "A": { "choice": "&lt;code&gt;", "correct": true },
+      "B": { "choice": "&lt;samp&gt;" },
+      "C": { "choice": "&lt;kbd&gt;" },
+      "D": { "choice": "&lt;var&gt;" }
+    }
+  },
+  "01_42": {
+    "chapter": "1",
+    "question": "Which tag is used to define an input field where the user can enter data?",
+    "choices": {
+      "A": { "choice": "&lt;input&gt;", "correct": true },
+      "B": { "choice": "&lt;field&gt;" },
+      "C": { "choice": "&lt;entry&gt;" },
+      "D": { "choice": "&lt;text&gt;" }
+    }
+  },
+  "01_43": {
+    "chapter": "1",
+    "question": "What attribute disables a form element?",
+    "choices": {
+      "A": { "choice": "disabled", "correct": true },
+      "B": { "choice": "readonly" },
+      "C": { "choice": "inactive" },
+      "D": { "choice": "block" }
+    }
+  },
+  "01_44": {
+    "chapter": "1",
+    "question": "What is the default method for submitting form data?",
+    "choices": {
+      "A": { "choice": "GET", "correct": true },
+      "B": { "choice": "POST" },
+      "C": { "choice": "SEND" },
+      "D": { "choice": "PUT" }
+    }
+  },
+  "01_45": {
+    "chapter": "1",
+    "question": "Which tag is used to add a comment in HTML?",
+    "choices": {
+      "A": { "choice": "&lt;!-- comment --&gt;", "correct": true },
+      "B": { "choice": "// comment //" },
+      "C": { "choice": "&lt;comment&gt;" },
+      "D": { "choice": "# comment" }
+    }
+  },
+  "01_46": {
+    "chapter": "1",
+    "question": "Which tag is used to define a header for a document or section?",
+    "choices": {
+      "A": { "choice": "&lt;header&gt;", "correct": true },
+      "B": { "choice": "&lt;head&gt;" },
+      "C": { "choice": "&lt;h1&gt;" },
+      "D": { "choice": "&lt;top&gt;" }
+    }
+  },
+  "01_47": {
+    "chapter": "1",
+    "question": "What tag is used to embed another HTML page within a page?",
+    "choices": {
+      "A": { "choice": "&lt;iframe&gt;", "correct": true },
+      "B": { "choice": "&lt;frame&gt;" },
+      "C": { "choice": "&lt;embed&gt;" },
+      "D": { "choice": "&lt;object&gt;" }
+    }
+  },
+  "01_48": {
+    "chapter": "1",
+    "question": "What tag is used to create a radio button?",
+    "choices": {
+      "A": {
+        "choice": "&lt;input type=&quot;radio&quot;&gt;",
+        "correct": true
+      },
+      "B": { "choice": "&lt;radio&gt;" },
+      "C": { "choice": "&lt;input type=&quot;button&quot;&gt;" },
+      "D": { "choice": "&lt;radiobutton&gt;" }
+    }
+  },
+  "01_49": {
+    "chapter": "1",
+    "question": "Which element is best for marking up a group of navigation links?",
+    "choices": {
+      "A": { "choice": "&lt;nav&gt;", "correct": true },
+      "B": { "choice": "&lt;ul&gt;" },
+      "C": { "choice": "&lt;menu&gt;" },
+      "D": { "choice": "&lt;list&gt;" }
+    }
+  },
+  "01_50": {
+    "chapter": "1",
+    "question": "Which tag is used for the main content of a web page?",
+    "choices": {
+      "A": { "choice": "&lt;main&gt;", "correct": true },
+      "B": { "choice": "&lt;body&gt;" },
+      "C": { "choice": "&lt;section&gt;" },
+      "D": { "choice": "&lt;content&gt;" }
+    }
+  },
+  "01_51": {
+    "chapter": "1",
+    "question": "What tag defines a dropdown list option?",
+    "choices": {
+      "A": { "choice": "&lt;option&gt;", "correct": true },
+      "B": { "choice": "&lt;select&gt;" },
+      "C": { "choice": "&lt;list&gt;" },
+      "D": { "choice": "&lt;input&gt;" }
+    }
+  },
+  "01_52": {
+    "chapter": "1",
+    "question": "Which tag is used to group block-level content?",
+    "choices": {
+      "A": { "choice": "&lt;div&gt;", "correct": true },
+      "B": { "choice": "&lt;span&gt;" },
+      "C": { "choice": "&lt;group&gt;" },
+      "D": { "choice": "&lt;section&gt;" }
+    }
+  },
+  "01_53": {
+    "chapter": "1",
+    "question": "What does the &lt;meta name=&quot;viewport&quot;&gt; tag control?",
+    "choices": {
+      "A": {
+        "choice": "How the page is scaled and displayed on mobile devices.",
+        "correct": true
+      },
+      "B": { "choice": "The color of the web page." },
+      "C": { "choice": "The font family of the text." },
+      "D": { "choice": "The security of the site." }
+    }
+  },
+  "01_54": {
+    "chapter": "1",
+    "question": "Which tag is used to group related options in a dropdown list?",
+    "choices": {
+      "A": { "choice": "&lt;optgroup&gt;", "correct": true },
+      "B": { "choice": "&lt;group&gt;" },
+      "C": { "choice": "&lt;options&gt;" },
+      "D": { "choice": "&lt;optiongroup&gt;" }
+    }
+  },
+  "01_55": {
+    "chapter": "1",
+    "question": "Which tag creates a numbered (ordered) list?",
+    "choices": {
+      "A": { "choice": "&lt;ol&gt;", "correct": true },
+      "B": { "choice": "&lt;ul&gt;" },
+      "C": { "choice": "&lt;li&gt;" },
+      "D": { "choice": "&lt;list&gt;" }
+    }
+  },
+  "01_56": {
+    "chapter": "1",
+    "question": "What tag is used to define a section in a document?",
+    "choices": {
+      "A": { "choice": "&lt;section&gt;", "correct": true },
+      "B": { "choice": "&lt;part&gt;" },
+      "C": { "choice": "&lt;chapter&gt;" },
+      "D": { "choice": "&lt;aside&gt;" }
+    }
+  },
+  "01_57": {
+    "chapter": "1",
+    "question": "Which tag is used for a table header cell?",
+    "choices": {
+      "A": { "choice": "&lt;th&gt;", "correct": true },
+      "B": { "choice": "&lt;tr&gt;" },
+      "C": { "choice": "&lt;td&gt;" },
+      "D": { "choice": "&lt;header&gt;" }
+    }
+  },
+  "01_58": {
+    "chapter": "1",
+    "question": "Which element is used for defining abbreviations or acronyms?",
+    "choices": {
+      "A": { "choice": "&lt;abbr&gt;", "correct": true },
+      "B": { "choice": "&lt;acronym&gt;" },
+      "C": { "choice": "&lt;short&gt;" },
+      "D": { "choice": "&lt;define&gt;" }
+    }
+  },
+  "01_59": {
+    "chapter": "1",
+    "question": "What tag is used to create a progress bar in HTML5?",
+    "choices": {
+      "A": { "choice": "&lt;progress&gt;", "correct": true },
+      "B": { "choice": "&lt;bar&gt;" },
+      "C": { "choice": "&lt;meter&gt;" },
+      "D": { "choice": "&lt;gauge&gt;" }
+    }
+  },
+  "01_60": {
+    "chapter": "1",
+    "question": "Which tag defines a form control for entering a number?",
+    "choices": {
+      "A": {
+        "choice": "&lt;input type=&quot;number&quot;&gt;",
+        "correct": true
+      },
+      "B": { "choice": "&lt;input type=&quot;text&quot;&gt;" },
+      "C": { "choice": "&lt;number&gt;" },
+      "D": { "choice": "&lt;num&gt;" }
+    }
+  },
+  "01_61": {
+    "chapter": "1",
+    "question": "Which element would you use to mark up keyboard input?",
+    "choices": {
+      "A": { "choice": "&lt;kbd&gt;", "correct": true },
+      "B": { "choice": "&lt;key&gt;" },
+      "C": { "choice": "&lt;input&gt;" },
+      "D": { "choice": "&lt;button&gt;" }
+    }
+  },
+  "01_62": {
+    "chapter": "1",
+    "question": "Which element is used to embed SVG graphics?",
+    "choices": {
+      "A": { "choice": "&lt;svg&gt;", "correct": true },
+      "B": { "choice": "&lt;vector&gt;" },
+      "C": { "choice": "&lt;shape&gt;" },
+      "D": { "choice": "&lt;canvas&gt;" }
+    }
+  },
+  "01_63": {
+    "chapter": "1",
+    "question": "What does the &lt;noscript&gt; tag do?",
+    "choices": {
+      "A": {
+        "choice": "Defines content to be shown if scripts are not supported or disabled.",
+        "correct": true
+      },
+      "B": { "choice": "Marks a script as optional." },
+      "C": { "choice": "Comments out script code." },
+      "D": { "choice": "Links to external scripts." }
+    }
+  },
+  "01_64": {
+    "chapter": "1",
+    "question": "What tag is used to define an interactive area inside an image map?",
+    "choices": {
+      "A": { "choice": "&lt;area&gt;", "correct": true },
+      "B": { "choice": "&lt;map&gt;" },
+      "C": { "choice": "&lt;spot&gt;" },
+      "D": { "choice": "&lt;zone&gt;" }
+    }
+  },
+  "01_65": {
+    "chapter": "1",
+    "question": "Which tag would you use to define a scalar measurement within a known range?",
+    "choices": {
+      "A": { "choice": "&lt;meter&gt;", "correct": true },
+      "B": { "choice": "&lt;progress&gt;" },
+      "C": { "choice": "&lt;gauge&gt;" },
+      "D": { "choice": "&lt;scale&gt;" }
+    }
+  },
+  "01_66": {
+    "chapter": "1",
+    "question": "Which tag is used to group headings, lists, and other elements for styling?",
+    "choices": {
+      "A": { "choice": "&lt;div&gt;", "correct": true },
+      "B": { "choice": "&lt;span&gt;" },
+      "C": { "choice": "&lt;group&gt;" },
+      "D": { "choice": "&lt;section&gt;" }
+    }
+  },
+  "01_67": {
+    "chapter": "1",
+    "question": "What tag is used for adding short, side notes (tooltips) to abbreviations?",
+    "choices": {
+      "A": { "choice": "&lt;abbr&gt;", "correct": true },
+      "B": { "choice": "&lt;note&gt;" },
+      "C": { "choice": "&lt;aside&gt;" },
+      "D": { "choice": "&lt;sup&gt;" }
+    }
+  },
+  "01_68": {
+    "chapter": "1",
+    "question": "Which tag would you use to mark up text to be inserted into a document?",
+    "choices": {
+      "A": { "choice": "&lt;ins&gt;", "correct": true },
+      "B": { "choice": "&lt;mark&gt;" },
+      "C": { "choice": "&lt;add&gt;" },
+      "D": { "choice": "&lt;insert&gt;" }
+    }
+  },
+  "01_69": {
+    "chapter": "1",
+    "question": "What tag is used for marking up deleted or removed text?",
+    "choices": {
+      "A": { "choice": "&lt;del&gt;", "correct": true },
+      "B": { "choice": "&lt;remove&gt;" },
+      "C": { "choice": "&lt;strike&gt;" },
+      "D": { "choice": "&lt;s&gt;" }
+    }
+  },
+  "01_70": {
+    "chapter": "1",
+    "question": "Which attribute allows you to provide an alternative text for images?",
+    "choices": {
+      "A": { "choice": "alt", "correct": true },
+      "B": { "choice": "title" },
+      "C": { "choice": "description" },
+      "D": { "choice": "src" }
+    }
+  },
+  "01_71": {
+    "chapter": "1",
+    "question": "Which declaration should appear at the very top of every valid HTML5 document?",
+    "choices": {
+      "A": { "choice": "&lt;!DOCTYPE html&gt;", "correct": true },
+      "B": { "choice": "&lt;html5&gt;" },
+      "C": { "choice": "&lt;doctype&gt;" },
+      "D": { "choice": "&lt;html version='5'&gt;" }
+    }
+  },
+  "01_72": {
+    "chapter": "1",
+    "question": "Which of the following are *block-level* elements? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "&lt;div&gt;", "correct": true },
+      "B": { "choice": "&lt;section&gt;", "correct": true },
+      "C": { "choice": "&lt;span&gt;" },
+      "D": { "choice": "&lt;article&gt;", "correct": true }
+    }
+  },
+  "01_73": {
+    "chapter": "1",
+    "question": "Which of the following are *inline* elements? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "&lt;em&gt;", "correct": true },
+      "B": { "choice": "&lt;strong&gt;", "correct": true },
+      "C": { "choice": "&lt;p&gt;" },
+      "D": { "choice": "&lt;span&gt;", "correct": true }
+    }
+  },
+  "01_74": {
+    "chapter": "1",
+    "question": "Which attribute can improve accessibility for users who cannot see images?",
+    "choices": {
+      "A": { "choice": "alt", "correct": true },
+      "B": { "choice": "href" },
+      "C": { "choice": "title" },
+      "D": { "choice": "target" }
+    }
+  },
+  "01_75": {
+    "chapter": "1",
+    "question": "What is the main purpose of the &lt;main&gt; tag in HTML5?",
+    "choices": {
+      "A": {
+        "choice": "To contain the primary content unique to that page.",
+        "correct": true
+      },
+      "B": { "choice": "To create navigation links." },
+      "C": { "choice": "To specify metadata." },
+      "D": { "choice": "To contain external scripts." }
+    }
+  },
+  "01_76": {
+    "chapter": "1",
+    "question": "Which tag should you use to embed an external web page, such as a YouTube video?",
+    "choices": {
+      "A": { "choice": "&lt;iframe&gt;", "correct": true },
+      "B": { "choice": "&lt;embed&gt;" },
+      "C": { "choice": "&lt;object&gt;" },
+      "D": { "choice": "&lt;video&gt;" }
+    }
+  },
+  "01_77": {
+    "chapter": "1",
+    "question": "Which input type would provide a native calendar picker in most browsers?",
+    "choices": {
+      "A": { "choice": "date", "correct": true },
+      "B": { "choice": "calendar" },
+      "C": { "choice": "datetime" },
+      "D": { "choice": "picker" }
+    }
+  },
+  "01_78": {
+    "chapter": "1",
+    "question": "Which global attribute makes an element focusable using the keyboard?",
+    "choices": {
+      "A": { "choice": "tabindex", "correct": true },
+      "B": { "choice": "role" },
+      "C": { "choice": "accesskey" },
+      "D": { "choice": "autofocus" }
+    }
+  },
+  "01_79": {
+    "chapter": "1",
+    "question": "What is the difference between absolute and relative file paths in HTML?",
+    "choices": {
+      "A": {
+        "choice": "Relative paths are based on the current file's location; absolute paths specify the full URL or root location.",
+        "correct": true
+      },
+      "B": { "choice": "Absolute paths are shorter than relative paths." },
+      "C": { "choice": "Relative paths work only for images, not links." },
+      "D": { "choice": "Absolute paths are used for CSS only." }
+    }
+  },
+  "01_80": {
+    "chapter": "1",
+    "question": "Which of the following HTML entities would display a non-breaking space?",
+    "choices": {
+      "A": { "choice": "&amp;nbsp;", "correct": true },
+      "B": { "choice": "&amp;lt;" },
+      "C": { "choice": "&amp;copy;" },
+      "D": { "choice": "&amp;amp;" }
+    }
+  },
+  "01_81": {
+    "chapter": "1",
+    "question": "What is the purpose of the &lt;label&gt; element in forms?",
+    "choices": {
+      "A": {
+        "choice": "To improve accessibility and link text to form controls.",
+        "correct": true
+      },
+      "B": { "choice": "To provide help text for inputs." },
+      "C": { "choice": "To validate input." },
+      "D": { "choice": "To style the input element." }
+    }
+  },
+  "01_82": {
+    "chapter": "1",
+    "question": "Which of the following are new HTML5 input types? (Select all that apply)",
+    "choices": {
+      "A": { "choice": "color", "correct": true },
+      "B": { "choice": "email", "correct": true },
+      "C": { "choice": "date", "correct": true },
+      "D": { "choice": "text" }
+    }
+  },
+  "01_83": {
+    "chapter": "1",
+    "question": "Which tag is used to define a group of related options in a drop-down list?",
+    "choices": {
+      "A": { "choice": "&lt;optgroup&gt;", "correct": true },
+      "B": { "choice": "&lt;option&gt;" },
+      "C": { "choice": "&lt;fieldset&gt;" },
+      "D": { "choice": "&lt;select&gt;" }
+    }
+  },
+  "01_84": {
+    "chapter": "1",
+    "question": "What does the 'required' attribute do in a form input?",
+    "choices": {
+      "A": {
+        "choice": "Forces the user to fill out that field before submitting the form.",
+        "correct": true
+      },
+      "B": { "choice": "Validates the email address format." },
+      "C": { "choice": "Specifies a default value." },
+      "D": { "choice": "Adds a label to the input." }
+    }
+  },
+  "01_85": {
+    "chapter": "1",
+    "question": "What is the effect of using the 'autofocus' attribute on an input field?",
+    "choices": {
+      "A": {
+        "choice": "It automatically puts the cursor in that field when the page loads.",
+        "correct": true
+      },
+      "B": { "choice": "It validates the input automatically." },
+      "C": { "choice": "It makes the input required." },
+      "D": { "choice": "It makes the input field read-only." }
+    }
+  },
+  "01_86": {
+    "chapter": "1",
+    "question": "Which element would be most appropriate for marking up navigation links?",
+    "choices": {
+      "A": { "choice": "&lt;nav&gt;", "correct": true },
+      "B": { "choice": "&lt;aside&gt;" },
+      "C": { "choice": "&lt;main&gt;" },
+      "D": { "choice": "&lt;section&gt;" }
+    }
+  },
+  "01_87": {
+    "chapter": "1",
+    "question": "Which of the following is a best practice for writing accessible HTML?",
+    "choices": {
+      "A": {
+        "choice": "Using semantic elements and appropriate ARIA roles.",
+        "correct": true
+      },
+      "B": { "choice": "Styling only with inline styles." },
+      "C": { "choice": "Avoiding all alt text for images." },
+      "D": { "choice": "Using tables for page layout." }
+    }
+  },
+  "01_88": {
+    "chapter": "1",
+    "question": "Which tag defines the document’s metadata, such as title and character set?",
+    "choices": {
+      "A": { "choice": "&lt;head&gt;", "correct": true },
+      "B": { "choice": "&lt;meta&gt;" },
+      "C": { "choice": "&lt;body&gt;" },
+      "D": { "choice": "&lt;html&gt;" }
+    }
+  },
+  "01_89": {
+    "chapter": "1",
+    "question": "Which tag is used to define an inline container for styling and scripting?",
+    "choices": {
+      "A": { "choice": "&lt;span&gt;", "correct": true },
+      "B": { "choice": "&lt;div&gt;" },
+      "C": { "choice": "&lt;section&gt;" },
+      "D": { "choice": "&lt;header&gt;" }
+    }
+  },
+  "01_90": {
+    "chapter": "1",
+    "question": "What is the default display property for a &lt;div&gt; element?",
+    "choices": {
+      "A": { "choice": "block", "correct": true },
+      "B": { "choice": "inline" },
+      "C": { "choice": "inline-block" },
+      "D": { "choice": "flex" }
+    }
+  },
+  "01_91": {
+    "chapter": "1",
+    "question": "Which tag is used to create a line break in text?",
+    "choices": {
+      "A": { "choice": "&lt;br&gt;", "correct": true },
+      "B": { "choice": "&lt;hr&gt;" },
+      "C": { "choice": "&lt;li&gt;" },
+      "D": { "choice": "&lt;p&gt;" }
+    }
+  },
+  "01_92": {
+    "chapter": "1",
+    "question": "What attribute is used on a &lt;form&gt; to specify where to send the form data after submission?",
+    "choices": {
+      "A": { "choice": "action", "correct": true },
+      "B": { "choice": "method" },
+      "C": { "choice": "target" },
+      "D": { "choice": "enctype" }
+    }
+  },
+  "01_93": {
+    "chapter": "1",
+    "question": "Which form input attribute prevents the user from changing the value?",
+    "choices": {
+      "A": { "choice": "readonly", "correct": true },
+      "B": { "choice": "disabled" },
+      "C": { "choice": "autofocus" },
+      "D": { "choice": "checked" }
+    }
+  },
+  "01_94": {
+    "chapter": "1",
+    "question": "Which of the following is NOT a valid value for the &lt;input&gt; type attribute?",
+    "choices": {
+      "A": { "choice": "url", "correct": false },
+      "B": { "choice": "date", "correct": false },
+      "C": { "choice": "file", "correct": false },
+      "D": { "choice": "dropdown", "correct": true }
+    }
+  },
+  "01_95": {
+    "chapter": "1",
+    "question": "Which tag would you use to group several form controls together for better accessibility?",
+    "choices": {
+      "A": { "choice": "&lt;fieldset&gt;", "correct": true },
+      "B": { "choice": "&lt;group&gt;" },
+      "C": { "choice": "&lt;div&gt;" },
+      "D": { "choice": "&lt;label&gt;" }
+    }
+  },
+  "01_96": {
+    "chapter": "1",
+    "question": "What is the effect of omitting the closing tag for a &lt;p&gt; element?",
+    "choices": {
+      "A": {
+        "choice": "The browser tries to infer where the paragraph ends, which can cause unexpected layout results.",
+        "correct": true
+      },
+      "B": { "choice": "The browser will display an error message." },
+      "C": { "choice": "The browser ignores the tag completely." },
+      "D": { "choice": "The text will be bolded." }
+    }
+  },
+  "01_97": {
+    "chapter": "1",
+    "question": "What is the correct syntax to include a favicon in your HTML page?",
+    "choices": {
+      "A": {
+        "choice": "&lt;link rel=&quot;icon&quot; href=&quot;favicon.ico&quot;&gt;",
+        "correct": true
+      },
+      "B": { "choice": "&lt;favicon src=&quot;favicon.ico&quot;&gt;" },
+      "C": {
+        "choice": "&lt;meta rel=&quot;icon&quot; href=&quot;favicon.ico&quot;&gt;"
+      },
+      "D": { "choice": "&lt;icon link=&quot;favicon.ico&quot;&gt;" }
+    }
+  },
+  "01_98": {
+    "chapter": "1",
+    "question": "Which of the following would you use to display a block of code in HTML?",
+    "choices": {
+      "A": { "choice": "&lt;pre&gt;", "correct": true },
+      "B": { "choice": "&lt;blockquote&gt;" },
+      "C": { "choice": "&lt;span&gt;" },
+      "D": { "choice": "&lt;main&gt;" }
+    }
+  },
+  "01_99": {
+    "chapter": "1",
+    "question": "Which is the correct syntax for an HTML comment?",
+    "choices": {
+      "A": { "choice": "&lt;!-- This is a comment --&gt;", "correct": true },
+      "B": { "choice": "// This is a comment" },
+      "C": { "choice": "# This is a comment" },
+      "D": { "choice": "/* This is a comment */" }
+    }
+  },
+  "01_100": {
+    "chapter": "1",
+    "question": "What is the main difference between the &lt;b&gt; and &lt;strong&gt; tags?",
+    "choices": {
+      "A": {
+        "choice": "&lt;strong&gt; indicates importance semantically; &lt;b&gt; is only for visual bolding.",
+        "correct": true
+      },
+      "B": { "choice": "They are always used together." },
+      "C": {
+        "choice": "&lt;b&gt; is for accessibility, &lt;strong&gt; is not."
+      },
+      "D": { "choice": "There is no difference." }
+    }
+  },
+  "01_101": {
+    "chapter": "1",
+    "question": "Which tag is used to provide multiple media formats for the &lt;audio&gt; or &lt;video&gt; element?",
+    "choices": {
+      "A": { "choice": "&lt;source&gt;", "correct": true },
+      "B": { "choice": "&lt;track&gt;" },
+      "C": { "choice": "&lt;media&gt;" },
+      "D": { "choice": "&lt;file&gt;" }
+    }
+  },
+  "01_102": {
+    "chapter": "1",
+    "question": "Which tag is used to add captions or subtitles to a video in HTML5?",
+    "choices": {
+      "A": { "choice": "&lt;track&gt;", "correct": true },
+      "B": { "choice": "&lt;caption&gt;" },
+      "C": { "choice": "&lt;subtitle&gt;" },
+      "D": { "choice": "&lt;text&gt;" }
+    }
+  },
+  "01_103": {
+    "chapter": "1",
+    "question": "What attribute on &lt;track&gt; specifies that captions should be shown by default?",
+    "choices": {
+      "A": { "choice": "default", "correct": true },
+      "B": { "choice": "active" },
+      "C": { "choice": "show" },
+      "D": { "choice": "enabled" }
+    }
+  },
+  "01_104": {
+    "chapter": "1",
+    "question": "Which element is recommended for embedding external content such as PDFs or SVGs?",
+    "choices": {
+      "A": { "choice": "&lt;object&gt;", "correct": true },
+      "B": { "choice": "&lt;embed&gt;" },
+      "C": { "choice": "&lt;iframe&gt;" },
+      "D": { "choice": "&lt;include&gt;" }
+    }
+  },
+  "01_105": {
+    "chapter": "1",
+    "question": "Which HTML5 element defines the main content area that is unique to the page?",
+    "choices": {
+      "A": { "choice": "&lt;main&gt;", "correct": true },
+      "B": { "choice": "&lt;body&gt;" },
+      "C": { "choice": "&lt;section&gt;" },
+      "D": { "choice": "&lt;div&gt;" }
+    }
+  },
+  "01_106": {
+    "chapter": "1",
+    "question": "Which element should be used to mark up a self-contained piece of content like a blog post or news article?",
+    "choices": {
+      "A": { "choice": "&lt;article&gt;", "correct": true },
+      "B": { "choice": "&lt;aside&gt;" },
+      "C": { "choice": "&lt;section&gt;" },
+      "D": { "choice": "&lt;nav&gt;" }
+    }
+  },
+  "01_107": {
+    "chapter": "1",
+    "question": "Which element is used for content that is only tangentially related to the main content (like a sidebar)?",
+    "choices": {
+      "A": { "choice": "&lt;aside&gt;", "correct": true },
+      "B": { "choice": "&lt;footer&gt;" },
+      "C": { "choice": "&lt;header&gt;" },
+      "D": { "choice": "&lt;figure&gt;" }
+    }
+  },
+  "01_108": {
+    "chapter": "1",
+    "question": "Which tag is used to embed an HTML page within another page (for example, to show an external website)?",
+    "choices": {
+      "A": { "choice": "&lt;iframe&gt;", "correct": true },
+      "B": { "choice": "&lt;object&gt;" },
+      "C": { "choice": "&lt;embed&gt;" },
+      "D": { "choice": "&lt;frame&gt;" }
+    }
+  },
+  "01_109": {
+    "chapter": "1",
+    "question": "Which element is best for grouping together related content within a document?",
+    "choices": {
+      "A": { "choice": "&lt;section&gt;", "correct": true },
+      "B": { "choice": "&lt;main&gt;" },
+      "C": { "choice": "&lt;nav&gt;" },
+      "D": { "choice": "&lt;span&gt;" }
+    }
+  },
+  "01_110": {
+    "chapter": "1",
+    "question": "Which semantic element should be used to wrap a set of navigation links?",
+    "choices": {
+      "A": { "choice": "&lt;nav&gt;", "correct": true },
+      "B": { "choice": "&lt;header&gt;" },
+      "C": { "choice": "&lt;aside&gt;" },
+      "D": { "choice": "&lt;main&gt;" }
+    }
+  },
+  "01_111": {
+    "chapter": "1",
+    "question": "Who is responsible for defining web standards such as HTML and CSS?",
+    "choices": {
+      "A": { "choice": "Microsoft" },
+      "B": { "choice": "Mozilla" },
+      "C": { "choice": "The World Wide Web Consortium", "correct": true },
+      "D": { "choice": "Google" }
+    }
+  },
+  "01_112": {
+    "chapter": "1",
+    "question": "True or False: Inline elements normally start on a new line.",
+    "choices": {
+      "A": { "choice": "True" },
+      "B": { "choice": "False", "correct": true }
+    }
+  },
+  "01_113": {
+    "chapter": "1",
+    "question": "Which tag defines emphasized text in HTML?",
+    "choices": {
+      "A": { "choice": "&lt;em&gt;", "correct": true },
+      "B": { "choice": "&lt;italic&gt;" },
+      "C": { "choice": "&lt;underline&gt;" },
+      "D": { "choice": "&lt;strong&gt;" }
+    }
+  }
+}
