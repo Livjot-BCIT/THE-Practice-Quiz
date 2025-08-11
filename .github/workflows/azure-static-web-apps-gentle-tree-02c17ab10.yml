@@ -1,0 +1,33 @@
+name: Azure Static Web Apps CI/CD (OIDC)
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get GitHub OIDC ID token
+        id: idtoken
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const id = await core.getIDToken(); // no require(); core is injected
+            return id;
+
+      - name: Deploy to Azure Static Web Apps
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          action: upload
+          github_id_token: ${{ steps.idtoken.outputs.result }}
+          app_location: "."         # your files live at repo root
+          api_location: ""          # no API
+          skip_app_build: true      # don't run Oryx
+          skip_api_build: true

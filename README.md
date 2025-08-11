@@ -6,26 +6,26 @@
 
 Features over a morbillion questions combined, made from compiling quizzes, lecture notes, text books, and exams. Let me know if anyone has some cool suggestions to add (Check roadmap before doing so please!).
 
-**Themes:**  Dark, Catalyst, Light, Rain 
-  → saves for next time!
-**Settings Panel:** (Help / Sound / Display / Index)
+- **Themes:**  Dark, Catalyst, Light, Rain 
+  - saves for next time!
+- **Settings Panel:** (Help / Sound / Display / Index)
   - Help: contains some not so quick tips
   - Sound: background music + click volume
   - Display: toggle background shapes/image/effects
   - Index: course list
   - Sidebar icons to help visually discern tabs
-**Quiz Engine:** chapter banks + special banks (Midterm/Final/custom)
+- **Quiz Engine:** chapter banks + special banks (Midterm/Final/custom)
   - Single, multi-select, and T/F
   - Images where and when needed for questions/answers
   - Shuffles your questions each time
-**Results & Review:** Big score text ft. "Restart" / "Review" buttons
+- **Results & Review:** Big score text ft. "Restart" / "Review" buttons
   - Review shows your picks vs. correct answers
   - “Show/Hide Explanation” buttons for each question.
   - Confetti for perfect scores (disabled via effects button)
-**Quiz Stats Panel:** date/time responsive
+- **Quiz Stats Panel:** date/time responsive
   - Remembers your last 20 attempts
   - Ability to clear one or all
-**Nice alerts:**
+- **Nice alerts:**
 - SweetAlert2 with theme-driven styles + toasts
 
 ---
