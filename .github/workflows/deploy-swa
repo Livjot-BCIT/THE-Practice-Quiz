@@ -19,15 +19,10 @@ jobs:
       - name: Deploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          # Add this secret in GitHub: Settings → Secrets and variables → Actions
-          # Name: AZURE_STATIC_WEB_APPS_API_TOKEN (value from Azure portal)
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-
-          repo_token: ${{ secrets.GITHUB_TOKEN }}   # PR comments, etc.
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
-
-          # You have a pure static site (no build step)
-          app_location: "/"                # where index.html lives
-          api_location: ""                 # no API
-          app_artifact_location: "/"       # the files to publish
-          skip_app_build: true             # <-- prevents Oryx from trying to build
+          app_location: "/"          # where index.html lives
+          api_location: ""           # no API
+          app_artifact_location: "/" # files to publish
+          skip_app_build: true       # don't try to build
