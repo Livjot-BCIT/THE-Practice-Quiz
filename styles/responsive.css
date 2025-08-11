@@ -103,7 +103,7 @@
   }
 
   #mainPage {
-    padding-bottom: 8dvh;
+    padding-bottom: 8dvh !important;
   }
 
   #quizContainer,
@@ -501,6 +501,10 @@
     padding: 15px;
     border-radius: 0;
     font-size: 1.2rem;
+  }
+
+  #mainPage {
+    padding-bottom: 8dvh;
   }
 
   .background-shapes {
