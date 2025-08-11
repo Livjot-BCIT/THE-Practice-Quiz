@@ -102,6 +102,10 @@
     font-size: 1.2rem;
   }
 
+  #mainPage {
+    margin-bottom: 5vh;
+  }
+
   #quizContainer,
   #quizContainer p,
   #quizContainer label {
