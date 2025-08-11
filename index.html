@@ -3,53 +3,1429 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="THE Practice Quiz" property="og:title" />
+    <meta
+      content="A quiz for all classes, featuring useless themes."
+      property="og:description"
+    />
+    <meta content="https://THEPraticeQuiz.ca" property="og:url" />
 
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/png" href="images/Logo.png" />
+
     <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/background.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/quiz.css" />
+    <!-- <link rel="stylesheet" href="./styles/responsive.css" /> -->
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/theme.css" />
+    <link rel="stylesheet" href="./styles/settings.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>THE Practice Quiz</title>
   </head>
-
   <body>
+    <div id="splashText"></div>
+
+    <!-- Settings -->
+    <div class="settings-menu">
+      <div
+        class="settings-tooltip-wrap"
+        style="position: relative; display: inline-block"
+      >
+        <button id="settingsToggle" class="settings-toggle">
+          <img
+            src="./images/Settings.png"
+            alt="Settings"
+            class="settings-icon"
+            data-icon="Settings"
+          />
+        </button>
+        <div id="catalystSpeechBubble" class="speech-bubble hidden">
+          Adjust background music volume in <b id="settip">Settings → Sound</b>
+          <em>(Click to remove)</em>
+          <div class="bubble-arrow"></div>
+        </div>
+        <div id="rainSpeechBubble" class="speech-bubble hidden">
+          <span class="bubble-intro">Adjust background volume in</span>
+          <b id="settip">Settings → Sound</b>
+          <em>(Click to remove)</em>
+          <div class="bubble-arrow"></div>
+        </div>
+      </div>
+      <div id="settingsContent" class="settings-content">
+        <div class="settings-flex">
+          <div class="settings-sidebar">
+            <button class="tab-icon-btn active" data-tab="helpTab">
+              <img
+                src="./images/Help.png"
+                alt="Help"
+                class="settings-icon"
+                data-icon="Help"
+              />
+            </button>
+            <button class="tab-icon-btn" data-tab="soundTab">
+              <img
+                src="./images/Sound.png"
+                alt="Sound"
+                class="settings-icon"
+                data-icon="Sound"
+              />
+            </button>
+            <button class="tab-icon-btn" data-tab="displayTab">
+              <img
+                src="./images/Display.png"
+                alt="Display"
+                class="settings-icon"
+                data-icon="Display"
+              />
+            </button>
+            <button class="tab-icon-btn" data-tab="indexTab">
+              <img
+                src="./images/Index.png"
+                alt="Index"
+                class="settings-icon"
+                data-icon="Index"
+              />
+            </button>
+          </div>
+          <div class="settings-main">
+            <!-- Top tabbar (browser-like) -->
+            <div class="tabs">
+              <button class="tab-button active" data-tab="helpTab">Help</button>
+              <button class="tab-button" data-tab="soundTab">Sound</button>
+              <button class="tab-button" data-tab="displayTab">Display</button>
+              <button class="tab-button" data-tab="indexTab">Index</button>
+            </div>
+
+            <!-- Tips Tab -->
+            <div id="helpTab" class="tab-content active help-content">
+              <h2>Not So Quick Tips</h2>
+              <ul>
+                <li>
+                  <strong>Color Theme:</strong> Switch themes in the footer.
+                </li>
+                <li><strong>Confetti:</strong> Triggers on 100% score!</li>
+                <li>
+                  <strong>Nav Button:</strong> Home takes you to the main page.
+                  The arrow changes based on the page: start quiz, submit,
+                  restart, or view results.
+                </li>
+                <li>
+                  <strong>!:</strong> Midterms and Finals have separate question
+                  banks, Chapters have separate question banks.
+                </li>
+                <li>
+                  <strong>*:</strong> Material used is from the shorter summer
+                  course.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Sound Tab -->
+            <div id="soundTab" class="tab-content">
+              <div class="volume-group">
+                <label class="volume-title">Background Music:</label>
+                <div class="volume-row">
+                  <span class="volume-mute-label">Mute</span>
+                  <span class="toggle-switch" id="muteBackground"></span>
+                </div>
+                <input
+                  type="range"
+                  id="backgroundVolume"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0.25"
+                  class="volume-slider"
+                />
+                <span id="backgroundVolumeValue" class="volume-percent"
+                  >50%</span
+                >
+                <audio
+                  id="backgroundSound"
+                  src="./audio/your-music.mp3"
+                  loop
+                ></audio>
+              </div>
+              <div class="volume-group">
+                <label class="volume-title">Menu Clicks:</label>
+                <div class="volume-row">
+                  <span class="volume-mute-label">Mute</span>
+                  <span class="toggle-switch" id="muteMenu"></span>
+                </div>
+                <input
+                  type="range"
+                  id="menuMusicVolume"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0.5"
+                  class="volume-slider"
+                />
+                <span id="menuMusicVolumeValue" class="volume-percent"
+                  >50%</span
+                >
+                <audio id="menuSound" src="./audio/menu-click.mp3"></audio>
+              </div>
+            </div>
+
+            <!-- Display Tab -->
+            <div id="displayTab" class="tab-content">
+              <div class="display-group">
+                <label class="display-title">Display Controls</label>
+                <div class="display-row">
+                  <span class="display-label">Background Shapes</span>
+                  <span class="toggle-switch" id="toggleShapes"></span>
+                </div>
+                <div class="display-row">
+                  <span class="display-label">Background Image</span>
+                  <span class="toggle-switch" id="toggleBgImage"></span>
+                </div>
+                <div class="display-row">
+                  <span class="display-label">Background Effects</span>
+                  <span class="toggle-switch" id="toggleBgEffects"></span>
+                </div>
+                <small class="display-desc"
+                  >Toggles apply instantly - refresh site if it doesn't work.
+                  <br />
+                  <br />
+                  Choices save for your next session!</small
+                >
+              </div>
+            </div>
+
+            <!-- Index Tab -->
+            <div id="indexTab" class="tab-content">
+              <h2>Index</h2>
+              <ul>
+                <li><strong>1510:</strong> — (Java) Programming Methods.</li>
+                <li>
+                  <strong>1537:</strong> — (Html, CSS, JS) Web Development 1.
+                </li>
+                <li>
+                  <strong>1712:</strong> — Business Analysis and System Design.
+                </li>
+                <li>
+                  <strong>2537:</strong> — (EJS, Advanced JS, APIs) Web
+                  Development 2.
+                </li>
+                <li><strong>2121:</strong> — Discrete Mathematics.</li>
+                <li><strong>2510:</strong> — Procedural Programming</li>
+                <li><strong>2522:</strong> — Object Oriented Programming 1</li>
+                <li><strong>2714:</strong> — Relational Database Systems</li>
+                <li>
+                  <strong>2721:</strong> — Computer Organization / Architecture
+                </li>
+                <!-- will add as i go on -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="content-wrapper">
+        <!-- Catalyst Background -->
+        <canvas id="canvas" class="background-video"></canvas>
+
+        <img
+          src="./images/AstrageldonBackgroundMask.png"
+          class="background-video2"
+          alt="galaxy"
+        />
+
+        <!-- Rain Background -->
+        <canvas id="rainCanvas"></canvas>
+
+        <img
+          id="rainBgImg"
+          class="rain-img"
+          src="images/RainBackground.png"
+          alt="Rain background"
+        />
+
+        <!-- Left column -->
+        <div class="side left"></div>
+
         <!-- Main Page -->
-        <div id="mainPage" class="container">
-        <h1>1510 Quiz Website</h1>
+        <div id="mainPage" class="container bg">
+          <div class="quiz-title-row">
+            <div class="star-dropdown-wrap custom-select">
+              <!-- Visible trigger -->
+              <div class="custom-select-trigger">
+                <span class="trigger-text"></span>
+                <span class="dropdown-arrow"></span>
+              </div>
 
-        <!-- Which exam are they studying for -->
-        <label>Exam:</label>
-        <ul class="exams" id="examsList"></ul>
-        
-        <!-- Which chapters -->
-        <div id="chapters">
-            <label>Chapters:</label>
+              <!-- Empty Replacement Dropdown -->
+              <div class="custom-options"></div>
+
+              <!-- Dropdown -->
+              <select id="quizTitleDropdown" class="quiz-title-select">
+                <option value="1510">1510</option>
+                <option value="1537">1537!</option>
+                <option value="1712">1712</option>
+                <option value="2537">2537!</option>
+                <option value="term" disabled>---T2---</option>
+                <option value="2121">2121*</option>
+                <option value="term">2510</option>
+                <option value="term">2522</option>
+                <option value="2714">2714</option>
+                <option value="2721">2721*</option>
+              </select>
+              <span class="dropdown-arrow"></span>
+              <!-- glowy pulse things -->
+              <svg viewBox="0 0 200 40" preserveAspectRatio="none">
+                <defs>
+                  <filter id="pulse-blur">
+                    <feGaussianBlur stdDeviation="3" />
+                  </filter>
+                </defs>
+                <!-- top edge pulse -->
+                <rect
+                  class="pulse-rect"
+                  x="1"
+                  y="1"
+                  width="198"
+                  height="38"
+                  rx="24"
+                  ry="24"
+                  fill="none"
+                  stroke="#825eff"
+                  stroke-width="4"
+                  filter="url(#pulse-blur)"
+                  stroke-dasharray="20 1000"
+                  stroke-dashoffset="-30"
+                  opacity="0"
+                >
+                  <animate
+                    attributeName="stroke-dashoffset"
+                    values="-30; -200; -190"
+                    keyTimes="0;0.45;1"
+                    dur="5s"
+                    repeatCount="indefinite"
+                  />
+                  <animate
+                    attributeName="opacity"
+                    values="0;1;1;0;0"
+                    keyTimes="0;0.1;0.45;0.5;1"
+                    dur="5s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
+                <!-- bottom edge pulse -->
+                <rect
+                  class="pulse-rect"
+                  x="1"
+                  y="1"
+                  width="198"
+                  height="38"
+                  rx="24"
+                  ry="24"
+                  fill="none"
+                  stroke="#825eff"
+                  stroke-width="4"
+                  filter="url(#pulse-blur)"
+                  stroke-dasharray="20 1000"
+                  stroke-dashoffset="-270"
+                  opacity="0"
+                >
+                  <animate
+                    attributeName="stroke-dashoffset"
+                    values="-270; -420; -430"
+                    keyTimes="0;0.45;1"
+                    dur="5s"
+                    repeatCount="indefinite"
+                  />
+                  <animate
+                    attributeName="opacity"
+                    values="0;1;1;0;0"
+                    keyTimes="0;0.1;0.45;0.5;1"
+                    dur="5s"
+                    repeatCount="indefinite"
+                  />
+                </rect>
+              </svg>
+              <svg viewBox="0 0 200 40" preserveAspectRatio="none">…</svg>
+            </div>
+            <span class="quiz-title-label">Practice Quiz</span>
+          </div>
+
+          <div class="background-shapes">
+            <div class="shape shape-circle one"></div>
+            <div class="shape shape-circle two"></div>
+            <div class="shape shape-circle three"></div>
+            <div class="shape shape-diamond one"></div>
+            <div class="shape shape-diamond two"></div>
+            <div class="shape shape-diamond three"></div>
+            <div class="shape shape-diamond four"></div>
+            <div class="shape shape-x one"></div>
+            <div class="shape shape-x two"></div>
+            <div class="shape shape-x three"></div>
+            <div class="shape shape-x four"></div>
+          </div>
+
+          <!-- Which exam are they studying for -->
+          <label id="examLabel">Exam:</label>
+          <ul class="exams" id="examsList"></ul>
+
+          <!-- Which chapters -->
+          <div id="chapters">
+            <label id="chaptersLabel">Chapters:</label>
             <ul class="chapters" id="chaptersList"></ul>
+          </div>
 
-        <!-- Q# -->
-        <div id="questions">
-            <label>Questions per attempt</label>
-            <select id="questionCount">
-            <option value="3">3</option>
-            <option value="5">5</option>
-            <option value="7">7</option>
-            </select>
+          <!-- Q# -->
+          <div id="questions">
+            <label>Questions per attempt:</label>
+            <div class="select-wrap">
+              <select id="questionCount">
+                <option value="1">10</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="40">40</option>
+                <option value="60">60</option>
+                <option value="80">80</option>
+                <option value="42069696661337">All the questions!</option>
+                <!-- Yes I am very mature -->
+              </select>
+              <span class="dropdown-arrow"></span>
+            </div>
+          </div>
+
+          <!-- Stats -->
+          <div id="quizStatsPanel" class="quiz-stats-panel"></div>
+
+          <!-- spacer for classes like (1712) that contain too little material  -->
+          <div id="quizEmptySpacer" style="display: none; height: 180px"></div>
+
+          <!-- Start Button -->
+          <button id="startQuizBtn" onclick="startQuiz()">Start Quiz</button>
+
+          <!-- Footer INSIDE mainPage -->
+          <footer class="quiz-footer" id="quizFooter">
+            <div class="footer-col themes-col">
+              <div class="footer-title">Themes</div>
+              <div class="theme-toggles-grid">
+                <!-- Dark -->
+                <label class="theme-toggle-label" data-theme="dark">
+                  <input type="checkbox" class="theme-toggle" />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Dark</div>
+                </label>
+                <!-- Catalyst -->
+                <label class="theme-toggle-label" data-theme="catalyst">
+                  <input
+                    type="checkbox"
+                    class="theme-toggle"
+                    id="footerBackgroundToggle"
+                  />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Catalyst</div>
+                </label>
+                <!-- Light -->
+                <label class="theme-toggle-label" data-theme="light">
+                  <input type="checkbox" class="theme-toggle" />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Light</div>
+                </label>
+                <!-- Halloween -->
+                <label class="theme-toggle-label" data-theme="halloween">
+                  <input type="checkbox" class="theme-toggle" />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Theme 4</div>
+                </label>
+                <!-- Rain -->
+                <label class="theme-toggle-label" data-theme="rain">
+                  <input
+                    type="checkbox"
+                    class="theme-toggle"
+                    id="rainBackgroundToggle"
+                  />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Rain</div>
+                </label>
+                <!-- Fireworks -->
+                <label class="theme-toggle-label">
+                  <input type="checkbox" class="theme-toggle" />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Theme 6</div>
+                </label>
+                <!-- Christmas Probably -->
+                <label class="theme-toggle-label">
+                  <input type="checkbox" class="theme-toggle" />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Theme 7</div>
+                </label>
+                <!-- RGB -->
+                <label class="theme-toggle-label">
+                  <input type="checkbox" class="theme-toggle" />
+                  <span class="toggle-slider"></span>
+                  <div class="theme-toggle-name">Theme 8</div>
+                </label>
+              </div>
+            </div>
+
+            <div class="footer-col devnotes-col">
+              <div class="footer-title">Dev Log</div>
+              <button id="devNotesBtn">Dev Notes</button>
+              <button id="copyrightBtn" class="credits-btn">Credits</button>
+            </div>
+
+            <div class="footer-col right-col">
+              <div class="footer-title">Version</div>
+              <a
+                href="https://github.com/yourusername/yourrepo"
+                target="_blank"
+                class="footer-icon-link"
+              >
+                <img
+                  src="./images/github-white.svg"
+                  alt="GitHub"
+                  class="footer-github-icon"
+                  data-icon="github"
+                />
+              </a>
+              <div class="version-wrap">
+                <small>v1.0.0</small>
+                <span class="info-badge" tabindex="0"
+                  >!
+                  <span class="info-tooltip"
+                    >@KingEnd on discord if anything is broken or if you have
+                    any suggestions!
+                  </span>
+                </span>
+              </div>
+            </div>
+          </footer>
+
+          <!-- Credits modal -->
+          <div id="creditsModal" class="modal">
+            <div class="large-modal-content">
+              <span class="close-modal" id="closeCreditsModal">&times;</span>
+              <div class="modal-title">Credits & Attributions</div>
+              <div class="notes-list">
+                <div class="credits-divider">
+                  <span class="divider-line"></span>
+                  <span class="divider-title">Themes</span>
+                  <span class="divider-line"></span>
+                </div>
+
+                <div class="notes-entry">
+                  <b>Catalyst:</b><br />
+                  Background by
+                  <a
+                    href="https://terrariamods.wiki.gg/wiki/Catalyst"
+                    target="_blank"
+                    rel="noopener"
+                    >Catalyst Team</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Dark:</b><br />
+                  Wallpaper by
+                  <a
+                    href="https://www.deviantart.com/kaminohunter/art/Wallpapers-Cyan-Abstract-Polygons-Black-BG-612085840"
+                    target="_blank"
+                    rel="noopener"
+                    >kaminohunter</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Rain:</b><br />
+                  Background by
+                  <a
+                    href="https://saurabhkgp.itch.io/"
+                    target="_blank"
+                    rel="noopener"
+                    >saukgp</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Rain:</b><br />
+                  Wallpaper "Zangetsu" from
+                  <a
+                    href="https://en.wikipedia.org/wiki/Bleach_(TV_series)"
+                    target="_blank"
+                    rel="noopener"
+                    >Bleach</a
+                  >
+                </div>
+
+                <div class="credits-divider">
+                  <span class="divider-line"></span>
+                  <span class="divider-title">Icons</span>
+                  <span class="divider-line"></span>
+                </div>
+
+                <div class="notes-entry">
+                  <b>Settings:</b> Settings icon created by Pixel perfect,
+                  <a
+                    href="https://www.flaticon.com/free-icons/settings"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Settings:</b> Help icon created by Freepik,
+                  <a
+                    href="https://www.flaticon.com/free-icons/question"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Settings:</b> Index icon created by Freepik,
+                  <a
+                    href="https://www.flaticon.com/free-icons/preview"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Settings:</b> Sound icon created by Bharat Icons,
+                  <a
+                    href="https://www.flaticon.com/free-icons/sound"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Settings:</b> Display icon created by Miftakhul Rizky,
+                  <a
+                    href="https://www.flaticon.com/free-icons/preview"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Navbar:</b> Home icon created by Freepik,
+                  <a
+                    href="https://www.flaticon.com/free-icons/home-button"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Navbar:</b> Submit icon created by Depot Visual,
+                  <a
+                    href="https://www.flaticon.com/free-icons/submit"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Navbar:</b> Restart icon created by Freepik,
+                  <a
+                    href="https://www.flaticon.com/free-icons/restart"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Navbar:</b> Start/Arrow icon created by Smashicons,
+                  <a
+                    href="https://www.flaticon.com/free-icons/next"
+                    target="_blank"
+                    rel="noopener"
+                    >Flaticon</a
+                  >
+                </div>
+
+                <div class="credits-divider">
+                  <span class="divider-line"></span>
+                  <span class="divider-title">Music</span>
+                  <span class="divider-line"></span>
+                </div>
+
+                <div class="notes-entry">
+                  <b>Catalyst Background Music:</b><br />
+                  "The Tale of a Cruel World" by
+                  <a
+                    href="https://www.youtube.com/watch?v=b8A_FGr4Pjo"
+                    target="_blank"
+                    rel="noopener"
+                    >DM DOKURO</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Rain Background Sound:</b><br />
+                  "Calming Rain" by
+                  <a
+                    href="https://pixabay.com/users/liecio-3298866/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=257596"
+                    target="_blank"
+                    rel="noopener"
+                    >LIECIO</a
+                  >
+                </div>
+
+                <div class="credits-divider">
+                  <span class="divider-line"></span>
+                  <span class="divider-title">Justin</span>
+                  <span class="divider-line"></span>
+                </div>
+                <img
+                  src="./images/Justin.png"
+                  alt="Justin"
+                  class="notes-entry"
+                />
+
+                <!-- Will add as needed -->
+              </div>
+              <div class="credits-footer">
+                All rights are reserved to the copyright owners.
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal for Dev Notes -->
+          <div id="devNotesModal" class="modal">
+            <div class="modal-content large-modal-content">
+              <span class="close-modal" id="closeDevModal">&times;</span>
+              <div class="modal-title">Dev Notes</div>
+              <div id="devNotesList" class="notes-list">
+                <!-- Will add more dev-note-row blocks as needed and prolly swap to a json pull -->
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-09-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added a pop up when you first visit the site as a quick
+                    guide (Better read it all and not skip it :> ) <br />
+                    Refactored and added many more comments to much of the
+                    javascript code. <br />
+                    Also refactored and added a few comments to the CSS.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-08-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                      <span class="tag tag-class">Class</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Finished "2721" - Computer Architecture, all 8 categories
+                    have question banks and explanations. <br />
+                    Tried to make questions more balanced and less blatant.
+                    <br />
+                    Added more Splashtext entries. <br />
+                    Added a "Coming soon" page for classes that I lack material
+                    to fill in.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-07-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                      <span class="tag tag-class">Class</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Finished "2537" - Web Development 2, all 4 categories have
+                    question banks and explanations, as well as the exam section
+                    having their own. <br />
+                    Finished "2121" - Discrete Mathematics, all 6 categories
+                    have their own question banks and explanations. <br />
+                    Fixed a major bug with the site not pulling multiple
+                    explanation banks if you chose multiple chapters. <br />
+                    Hopefully for the 3rd and final time, fixed and automated
+                    the pulling process of banks and explanations.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-06-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Multi select MCQ's now discern between correct and
+                    incorrect, for example: 1/2 will now add 1 to the total
+                    score and 2/2 will add 2 to the total score. <br />
+                    Bunch of minor bug and visual fixes regarding the quiz
+                    <br />
+                    Took a break to play Minecraft & Terraria with the homies,
+                    added a splashtext because I liked it.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-05-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                      <span class="tag tag-class">Class</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Finished "1537" - Web Development, all 8 categories have
+                    question banks and explanations, as well as the midterms and
+                    finals having their own. <br />
+                    Decreased size of chapter name upon hover and disabled it on
+                    mobile due to it blocking the lesson if too lengthy. <br />
+                    Added image support for questions and choices. <br />
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-04-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                      <span class="tag tag-class">Class</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Finished "1510" - Java class, all 8 chapters have question
+                    banks and explanations. <br />
+                    Known Bugs: <br />
+                    Chapter name upon hover won't exceed container edge, and
+                    will block the lesson if too lengthy.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-03-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Gave background images button in display a use. <br />
+                    Reworked some CSS. <br />
+                    Added the chapter/lesson's name upon hover (PC only). <br />
+                    Fixed a bug with Catalyst stars being oversized upon
+                    initalization. <br />
+                    Fixed classes with a bigger chapter list not having enough
+                    space on smaller devices. <br />
+                    Edited the quiz to support true and false questions and
+                    multiple answer type questions. <br />
+                    Fixed review screen and explanations so it can pull any
+                    chapters answers w/o me having to hardcode each 1
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-08-02-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Finished all the remaining media queries, supports like 5
+                    different queries. <br />
+                    Began adding chapters, exams, & banks to classes.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-31-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Finished Mobile query up to a max of 549px. <br />
+                    Will now work on 550px-849px.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-29-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">alpha</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Got a little sidetracked and fully finished/added "Rain"
+                    theme.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-28-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Fixed buttons, placement, and sizings of mobile review
+                    screen. <br />
+                    Increased size of review title on PC. <br />
+                    Fixed mobile results screen.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-27-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Catalyst stars, title glow, & confetti when 100% now get
+                    disabled upon disable effect button toggle <br />
+                    Made amount of stars generated on a smaller viewport 25% of
+                    original. <br />
+                    Finished main menu mobile media query <br />
+                    Started work on quiz screen mobile query, formatted
+                    questions better. <br />
+                    Fixed an issue with settings wheel showing during quiz on
+                    mobile.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-26-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Refactored some settings JS code. <br />
+                    Started giving disable effects button a function. <br />
+                    Will now disable the pulse around title, going to make it
+                    disable confetti & catalyst stars. <br />
+                    Dev Notes --> Dev Log
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-25-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Formatted almost all of main page for mobile view. <br />
+                    Adjusted quiz stats to grow and shrink as entries are added
+                    and is now under start quiz btn. <br />
+                    Adjusted settings to have a mobile friendly view and tried
+                    my best to not make it look congested. <br />
+                    Formatted footer and tweaked spacings. <br />
+                    Other minor adjustments (fonts, spacings, sizes). <br />
+                    Made quiz stats show full Date & Time on PC view and only
+                    the Date (no year) on mobile. <br />
+                    <i>Known Bugs:</i> <br />
+                    If you swap between views, the page requires a refresh to
+                    adjust quiz stats "Date" - Likely won't fix unless someone
+                    complains about it since I don't think anyone is swapping
+                    between mobile & pc views, non-issue.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-24-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added score tracker that tracks Date, Class, Time, Score.
+                    <br />
+                    Added an option to clear all history or individual scores.
+                    <br />
+                    Only shows the most recent 20 (Might change later?). <br />
+                    Tweaked scrollbars to be a bit easier on the eyes. <br />
+                    Fixed an issue with footer and start button going behind
+                    stats screen when swapping to a class with little material.
+                    <br />
+                    Started working on mobile media query (pls do this first if
+                    you make ur own site). <br />
+                    Finally gave placeholder title a name --> Version.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-23-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Animated the arrows on dropdown menus. <br />
+                    Made 1712 link to Felistachio's site. <br />
+                    Added a small text popup upon catalyst toggle so the user
+                    knows how to lower/mute bg music <br />
+                    Added a star icon to classes whose exams have separate
+                    questions banks <br />
+                    Said classes will also blur chapters/exams respectively
+                    <br />
+                    Fixed an issue with themes not displaying background
+                    circles. <br />
+                    Fixed an issue with the navbar timer not being centred.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-21-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">alpha</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Fully finished and finalized navbar. <br />
+                    Arrow button will now change functions depending on what
+                    screen youre on. <br />
+                    For example, home = start quiz, quiz = submit, results =
+                    restart, review = results. <br />
+                    Displays current date & time on main screen, starts a timer
+                    when taking quiz. <br />
+                    Added my discord @ incase anyone has suggestions or
+                    something is broken.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-20-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Started working on navbar. <br />
+                    Added 2 buttons, Copyright ©, & made it display current date
+                    and time (PST) <br />
+                    Need to make it change to a timer when taking the quiz.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-19-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Fully finished and finalized Dark theme <br />
+                    Fully finished and finalized Light theme. <br />
+                    Made "Themes" scrollable for future expansion of themes.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-18-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added support for changing type of quiz, E.X. swapping to
+                    1537 will now show different options as well as link to
+                    different data banks.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-16-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Fully finished and finalized Catalyst theme with background
+                    music. <br />
+                    Fully finished and finalized Settings menu. <br />
+                    Settings menu will now save the users input for their next
+                    session <br />
+                    Added Icons to settings menu for visual clarity.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-14-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Finalized Settings menu layout. <br />
+                    Added animations and icons to the menu to make it look
+                    nicer, and allow it match chosen theme. <br />
+                    Added an "Index" tab which tells you which number equates to
+                    which class E.X. "1510" = "Java" <br />
+                    FINALLY fixed the "Catalyst" background issue, you can now
+                    properly swap themes without having to unselect it. <br />
+                    Quick tips tab lets user know of some features/how to
+                    navigate. <br />
+                    Sound tab lets you disable background music that may come
+                    with themes & menu click noises. <br />
+                    Display tab lets you disable the background shapes if you
+                    find them distracting as well as extra effects like the
+                    animated glow around the title, confetti, stars in the
+                    catalyst background, and can also disable background images.
+                    <br />
+                    Effects option is currently not working & background images
+                    does not have a use yet.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-13-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Customized settings wheel to adjust according to chosen
+                    theme. <br />
+                    <i>Known Bugs:</i> <br />
+                    If you select Catalyst then another theme. The catalyst
+                    background persists despite being "untoggled"
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-11-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Created an animation for the settings wheel. <br />
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-10-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added a settings tab that displays tips and allows user to
+                    edit sound and some site ui to their liking. <br />
+                    Added a quicktips, sound, and display tabs to settings menu.
+                    <br />
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-10-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Got Dark & Light theme to start working, have to set proper
+                    colours for them.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-09-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added more functionality to the site. <br />
+                    Fixed gap, looks, and increased font size of generated
+                    questions. <br />
+                    Bolded The "A/B/C/D:" before the question to easily
+                    differentiate. <br />
+                    Added hover effect to radio button and sentence background
+                    to easily tell what question you're about to select. <br />
+                    Stylized Quiz result screen and added "Review Questions",
+                    "Back to home", and "Restart Quiz" buttons. <br />
+                    Can review questions you got wrong/right, yellow = selected
+                    option, green = right, red = wrong. <br />
+                    Restart Quiz lets you restart with the same choices as
+                    before <br />
+                    Stylized Review questions page. <br />
+                    Need to Fix title of review page to be bigger. <br />
+                    Need to add score tracking, add dark & light (weirdo)
+                    themes. <br />
+                    Lastly, Need to make mobile media queries. (do this first if
+                    you code your own site!)
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-07-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Created and styled a drop down in the title to change type
+                    of quiz. <br />
+                    Added some UI effects to make things look a bit nicer.
+                    <br />
+                    Broke mobile media query.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-07-06-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Restructured the entire website. Removed useless files and
+                    split/created files as needed. <br />
+                    Added footer with 3 columns, "Themes", "Dev Notes", and
+                    "Placeholder" (not sure on name yet). <br />
+                    90% Finished "Catalyst" theme (missing music) & overall site
+                    settings wheel. <br />
+                    Made fonts bigger and more readable. <br />
+                    Separated "Chapters" to create a new column after 4 options
+                    to reserve space and make clicking options more QOL. <br />
+                    Made UI changes for a hopefully more cleaner and nicer UI.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-04-25-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added a slider to the navbar to toggle the galaxy (Catalyst)
+                    theme. <br />
+                    Reworked Catalyst theme to manually draw each star in the
+                    background ontop of a png instead of being an mp4 video.
+                    <br />
+                    (Hopefully) optimized the bg stars in Catalyst to not be
+                    intensive on resources. <br />
+                    Created space and a line for a footer in the future.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-04-09-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added background Shapes. <br />
+                    Created a dynamicly generated selector for Exams & Chapters.
+                    <br />
+                    Added Question banks for Ch1 and Ch2 of Java for testing!
+                    <br />
+                    Got basic functionality to work, like starting quiz,
+                    submitting quiz, showing score.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-04-03-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Made a nice blue background, might add some shapes. <br />
+                    Made a sticky navbar at the bottom of the site. <br />
+                    Started working on a galaxy theme.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-03-19-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    Added an almost working background and mobile query that I
+                    will later break.
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
+                    -------2025-03-05-------
+                    <span class="dev-tags">
+                      <span class="tag tag-beta">Beta</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">Started work on the website!</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <button onclick="startQuiz()">Start Quiz</button>
+        <div id="quizScreen" class="container bg hidden">
+          <div id="quizContainer"></div>
+          <!-- <br /> -->
+          <button id="submit" onclick="submitQuiz()">Submit Quiz</button>
         </div>
 
-    <div id="quizScreen" class="container hidden">
-      <h2>Quiz</h2>
-      <div id="quizContainer"></div>
-      <br />
-      <button onclick="submitQuiz()">Submit Quiz</button>
+        <!-- Quiz Completion Page -->
+        <div id="resultsScreen" class="container bg hidden">
+          <h2 id="scoreText"></h2>
+          <div class="results-divider"></div>
+          <div class="results-buttons">
+            <button id="reviewBtn" onclick="startReview()">
+              Review Answers
+            </button>
+            <button id="restartQuizBtn" onclick="restartQuiz()">
+              Restart Quiz
+            </button>
+            <button id="goHomeBtn" onclick="goHome()">Back to Home</button>
+          </div>
+        </div>
+
+        <!-- Review Answers Page -->
+        <div id="reviewScreen" class="container bg hidden">
+          <h2>Review Your Answers</h2>
+          <div class="review-buttons">
+            <button id="backToScoreBtn" onclick="goToResults()">
+              ← Back to Score
+            </button>
+            <button id="restartQuizBtn2" onclick="restartQuiz()">
+              Restart Quiz
+            </button>
+            <button id="goHomeBtn2" onclick="goHome()">Back to Home →</button>
+          </div>
+          <div id="reviewList" class="review-list"></div>
+        </div>
+
+        <!-- Right column -->
+        <div class="side right"></div>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="navbar">
+        <!-- Outside Container -->
+        <span class="navbar-copyright">&copy; 2025 Livjot Mahendru</span>
+        <span class="navbar-discord">&#64;KingEnd on Discordッ</span>
+        <div class="navbar-inner">
+          <div class="navbar-left">
+            <a
+              href="#"
+              onclick="goHome()"
+              title="Go Home"
+              class="navbar-icon-link"
+            >
+              <img src="./images/Home.png" alt="Home" class="navbar-icon" />
+            </a>
+          </div>
+          <div class="navbar-center">
+            <span class="navbar-text" id="navbarCenter"></span>
+          </div>
+          <div class="navbar-right">
+            <a
+              href="#"
+              id="navbarActionBtn"
+              onclick="navbarAction()"
+              title="Action"
+              class="navbar-icon-link"
+            >
+              <img src="./images/Start.png" alt="Action" class="navbar-icon" />
+            </a>
+          </div>
+        </div>
+      </nav>
     </div>
 
-    <div id="resultsScreen" class="container hidden">
-      <h2>Quiz complete</h2>
-      <p id="scoreText"></p>
-      <button onclick="restartQuiz()">Restart</button>
-    </div>
+    <script src="./questiondata/quizConfig.js"></script>
 
-    <script src="./questiondata/test.js"></script>
-    <script src="./questiondata/test2.js"></script>
+    <!-- <script src="./questiondata/test.js"></script> -->
     <script src="./scripts/generator.js"></script>
+    <script src="./scripts/loadQuestions.js"></script>
+    <script src="./scripts/devModal.js"></script>
+    <script src="./scripts/settings.js"></script>
+    <script src="./scripts/audio.js"></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="./scripts/dropdown.js"></script>
+    <script src="./scripts/splash.js"></script>
+    <script src="./scripts/popup.js"></script>
+    <script src="./scripts/alerts.js"></script>
+
+    <script src="./scripts/Themes/themeChange.js"></script>
+    <script src="./scripts/Themes/darkBG.js"></script>
+    <script src="./scripts/Themes/catalystBG.js"></script>
+    <script src="./scripts/Themes/catalystStars.js"></script>
+    <script src="./scripts/Themes/lightBG.js"></script>
+    <script src="./scripts/Themes/rainBG.js"></script>
+    <script src="./scripts/Themes/rainFall.js"></script>
+
+    <script>
+      // Dev Notes Modal Logic
+      document.getElementById("devNotesBtn").onclick = function () {
+        document.getElementById("devNotesModal").style.display = "block";
+      };
+      document.querySelector(".close-modal").onclick = function () {
+        document.getElementById("devNotesModal").style.display = "none";
+      };
+      window.onclick = function (event) {
+        const modal = document.getElementById("devNotesModal");
+        if (event.target === modal) modal.style.display = "none";
+      };
+    </script>
+    <!-- confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
   </body>
 </html>
