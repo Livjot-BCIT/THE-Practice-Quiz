@@ -392,7 +392,9 @@ function loadQuestionsForChapters(chapters) {
       loadedCount++;
       if (loadedCount === chapters.length) {
         if (!questionsData.length) {
-          niceAlert("No questions currently exist for the selected chapter(s).");
+          niceAlert(
+            "No questions currently exist for the selected chapter(s)."
+          );
           goHome();
           return;
         }
@@ -485,9 +487,17 @@ function displayQuestions() {
       .join("");
 
     // Question image (if any)
-    const questionImageHtml = question.image
-      ? `<img src="${question.image}" alt="Question Image" class="quiz-question-img">`
-      : "";
+    let questionImageHtml = "";
+    if (question.images && Array.isArray(question.images)) {
+      questionImageHtml = question.images
+        .map(
+          (src) =>
+            `<img src="${src}" alt="Question Image" class="quiz-question-img">`
+        )
+        .join("");
+    } else if (question.image) {
+      questionImageHtml = `<img src="${question.image}" alt="Question Image" class="quiz-question-img">`;
+    }
 
     // Compose the block
     const questionDiv = document.createElement("div");
