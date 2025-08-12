@@ -129,7 +129,7 @@ const POPUP_CONFIG = {
   position: relative;
   z-index: 1;
   min-height: ${POPUP_CONFIG.MIN_HEIGHT_PX}px;
-  max-height: 80vh;
+  max-height: 70vh;
   border-radius: calc(${POPUP_CONFIG.RADIUS_PX}px - var(--ppb));
   background: ${POPUP_CONFIG.COLOR_BG};
   color: ${POPUP_CONFIG.COLOR_TEXT};

@@ -64,11 +64,11 @@
   }
 
   #indexTab ul {
-    padding-left: 0.6em !important;
+    padding-left: 0.5em !important;
   }
 
   #helpTab ul {
-    padding-left: 0.3em !important;
+    padding-left: 0.2em !important;
   }
 
   .devnotes-col {
@@ -103,10 +103,10 @@
 /* mom's phone */
 @media (min-width: 410px) and (max-width: 424px) {
   #indexTab ul {
-    padding-left: 0.6em !important;
+    padding-left: 0.5em !important;
   }
   #helpTab ul {
-    padding-left: 0.3em !important;
+    padding-left: 0.2em !important;
   }
 }
 
@@ -380,12 +380,12 @@
   .large-modal-content {
     background: var(--color-bg-alt);
     color: #fff;
-    margin: 25% auto 4%;
+    margin: 22% auto 4%;
     border-radius: 20px;
     width: 85%;
     max-width: 700px;
     min-height: 350px;
-    max-height: 500px;
+    max-height: 450px;
     box-shadow: 0 4px 32px 0 #111b;
     position: relative;
     display: flex;
@@ -395,12 +395,12 @@
   }
 
   .tag {
-    font-size: 0.6em;
+    font-size: 0.55em;  
     padding: 1px 7px;
   }
 
   .notes-date {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 
   .navbar-right,
