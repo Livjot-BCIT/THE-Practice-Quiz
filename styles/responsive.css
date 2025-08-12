@@ -138,11 +138,11 @@
   }
 
   #resultsScreen {
-    padding-bottom: 8dvh !important;
+    padding-bottom: 12dvh !important;
   }
 
   #reviewScreen {
-    padding-bottom: 20dvh !important;
+    padding-bottom: 24dvh !important;
   }
 
   #quizContainer,
@@ -417,6 +417,10 @@
   #resultsScreen #settingsToggle,
   #reviewScreen #settingsToggle {
     display: none !important;
+  }
+
+  #quizScreen button {
+    display: none;
   }
 
   .question input[type="radio"] {

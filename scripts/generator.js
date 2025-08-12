@@ -116,6 +116,7 @@ function loadChapters() {
 // -------- responsive columns helper --------
 // Pick a column width based on how many chapters there are
 function getColumnSize(chapterCount) {
+  if (chapterCount <= 4) return 4;
   if (chapterCount <= 6) return 3;
   if (chapterCount <= 8) return 4;
   if (chapterCount <= 10) return 5;
