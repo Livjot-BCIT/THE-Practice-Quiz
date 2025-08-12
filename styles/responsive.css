@@ -54,7 +54,6 @@
 
 /* ---- <= 391px tweaks ---- */
 @media (max-width: 391px) {
-
   .custom-option.disabled {
     font-size: 0.8em;
   }
@@ -395,12 +394,16 @@
   }
 
   .tag {
-    font-size: 0.55em;  
+    font-size: 0.55em;
     padding: 1px 7px;
   }
 
   .notes-date {
     font-size: 0.7em;
+  }
+
+  .navbar {
+    background-color: rgba(48, 48, 48, 0.4);
   }
 
   .navbar-right,
@@ -1130,6 +1133,10 @@
   .devnotes-col #copyrightBtn {
     margin-top: 0;
     width: 70%;
+  }
+
+  .navbar {
+    background-color: rgba(48, 48, 48, 0.4);
   }
 
   .navbar-copyright,
