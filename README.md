@@ -1,6 +1,6 @@
 # THE Practice Quiz
 
-[<Link>](https://thepracticequiz.ca/)
+<https://thepracticequiz.ca/>
 
 ## Features
 
