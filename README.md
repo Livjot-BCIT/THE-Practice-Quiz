@@ -4,7 +4,7 @@
 
 ## Features
 
-Features over a morbillion questions combined, made from compiling quizzes, lecture notes, text books, and exams. Let me know if anyone has some cool suggestions to add (Check roadmap before doing so please!).
+Features over a morbillion questions combined, made from compiling practice material, lecture notes, and text books. Let me know if anyone has some cool suggestions to add (Check roadmap before doing so please!).
 
 - **Themes:**  Dark, Catalyst, Light, Rain 
   - saves for next time!
