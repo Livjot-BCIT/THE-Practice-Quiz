@@ -1,6 +1,6 @@
 # THE Practice Quiz
 
-<Link>
+<https://thepracticequiz.ca/>
 
 ## Features
 
@@ -48,6 +48,7 @@ Features over a morbillion questions combined, Let me know if anyone has some co
 - More Themes :)
 - Menu Clicks
 - Warning for unfinished quiz + remembering current attempt
+- viewport for 27" screens
 
 ## Credits
 
