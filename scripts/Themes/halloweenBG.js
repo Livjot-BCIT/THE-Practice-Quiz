@@ -183,7 +183,9 @@
 
     try {
       await video.play();
-    } catch {}
+    } catch (err) {
+      console.log("Bats video play error:", err);
+    }
     running = true;
     drawFrame();
 
