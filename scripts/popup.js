@@ -1,6 +1,6 @@
 // popup.js — first-visit tips + “unskippable” follow-up
 
-// -------- quick config (edit me) --------
+// -------- quick config --------
 const POPUP_CONFIG = {
   // behavior
   CLOSE_THRESHOLD_MS: 8000, // if closed b4, show 2nd popup
@@ -287,7 +287,7 @@ const POPUP_CONFIG = {
       <div class="pp-content">
         <p>So... You've ended up here because you couldn't be bothered to fully
           <button class="pp-magic" type="button" data-magic="${magicWord}">${magicWord}</button>,
-          like, 7 bullet points? Well if it isn't the CONSEQUENCE of YOUR actions. Now we're going to sit here and wait.
+          like, 7 bullet points? Now we're going to sit here and wait.
           And in case you get bored, here's the bullet points again for you to review :&gt;
         </p>
         <ul>

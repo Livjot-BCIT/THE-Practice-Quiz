@@ -171,6 +171,9 @@
   background-image: url("../images/Rain.png");
   background-position: 50% calc(50% + 25px);
 }
+.theme-toggle-label[data-theme="halloween"] {
+  background-image: url("../images/HalloweenTheme.png");
+}
 
 .theme-toggle-label:hover,
 .theme-toggle:focus + .toggle-slider {

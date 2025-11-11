@@ -4,9 +4,9 @@
 
 ## Features
 
-Features over a morbillion questions combined, made from compiling quizzes, lecture notes, text books, and exams. Let me know if anyone has some cool suggestions to add (Check roadmap before doing so please!).
+Features over a morbillion questions combined, Let me know if anyone has some cool suggestions to add (Check roadmap before doing so please!).
 
-- **Themes:**  Dark, Catalyst, Light, Rain 
+- **Themes:**  Dark, Catalyst, Light, Rain, Halloween
   - saves for next time!
 - **Settings Panel:** (Help / Sound / Display / Index)
   - Help: contains some not so quick tips
@@ -42,6 +42,7 @@ Features over a morbillion questions combined, made from compiling quizzes, lect
 ---
 
 ## Roadmap
+- Optimization for the overall site
 - Timed Quizzes
 - Progression Tracker
 - More Themes :)
@@ -55,6 +56,7 @@ Features over a morbillion questions combined, made from compiling quizzes, lect
 - **Dark:** Wallpaper by [kaminohunter](https://www.deviantart.com/kaminohunter/art/Wallpapers-Cyan-Abstract-Polygons-Black-BG-612085840)
 - **Rain:** Background by [saukgp](https://saurabhkgp.itch.io/)
 - **Rain:** Wallpaper “Zangetsu” from [Bleach](https://en.wikipedia.org/wiki/Bleach_(TV_series))
+- **Halloween** Wallpaper "Pumpkaboo" by [Spencer Wright](https://www.flickr.com/photos/spencer77/5126910732)
 
 ### Icons
 - **Settings:** Settings icon by Pixel perfect — [Flaticon](https://www.flaticon.com/free-icons/settings)
@@ -73,7 +75,7 @@ Features over a morbillion questions combined, made from compiling quizzes, lect
 
 ### Shoutouts
 - **Felix aka Felistachio:** The homie that inspired me to make this site
-- **Aarshdeep:** The homie who for whatever reason has all the material in existance
+- **Aarshdeep:** The homie who for whatever reason has all the knowledge in existance
 - **Bhavnoor:** The homie who kept me mucho motivated through all this
 - **Nathan:** The tech support for the tech support
 

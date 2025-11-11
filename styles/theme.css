@@ -177,6 +177,190 @@ body.theme-rain {
   -webkit-backdrop-filter: blur(9px) saturate(1.18);
 }
 
+/* ---- halloween theme ---- */
+body.theme-halloween {
+  --color-bg-main: rgba(20,19,34,0.84);              
+  --color-bg-container: #141322;        
+  --color-bg-alt: #141322;
+
+  --color-accent: #ff7a00;             
+  --color-accent-hover: #ff9933;
+  --color-accent-focus: #ffd166;
+  --color-accent-border: #9c4a00;
+  --color-accent-selected: #ffd166;
+
+  --color-text: #f6f1e9;               
+  --color-text-muted: #c9c5bd;
+  --color-h1: #ffe8c2;
+  --color-shape: #1b1a2d;
+  --color-shape2: #26233e;
+
+  --color-quiz-selector: rgba(20,19,34,.88);
+  --color-question-count: rgba(20,19,34,.88);
+  --color-bg-drop: #9c4a00;
+  --rect-color: #ff7a00;
+}
+
+/* overlay container */
+.halloween-shapes {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 30;
+}
+
+/* each ghost */
+.halloween-shapes .h-shape {
+  position: absolute;
+  width: var(--size, 64px);
+  height: var(--size, 64px);
+  transform: translate(-50%, -50%);
+  opacity: var(--alpha, 0.26);
+  animation:
+    ghostMotion var(--dur, 18s) ease-in-out infinite,
+    ghostBreathe var(--breathe, 5.5s) ease-in-out infinite;
+}
+
+/* drift/bob */
+@keyframes ghostMotion {
+  0% {
+    transform:
+      translate(calc(var(--x, 50) * 1vw), calc(var(--y, 50) * 1vh))
+      translate(-50%, -50%)
+      translateX(calc(var(--amp, 12px) * -1))
+      translateY(0)
+      rotate(var(--r0, -3deg))
+      scale(1);
+  }
+  25% {
+    transform:
+      translate(calc(var(--x) * 1vw), calc(var(--y) * 1vh))
+      translate(-50%, -50%)
+      translateX(0)
+      translateY(-12px)
+      rotate(0deg)
+      scale(1);
+  }
+  50% {
+    transform:
+      translate(calc(var(--x) * 1vw), calc(var(--y) * 1vh))
+      translate(-50%, -50%)
+      translateX(calc(var(--amp)))
+      translateY(0)
+      rotate(var(--r1, 3deg))
+      scale(1);
+  }
+  75% {
+    transform:
+      translate(calc(var(--x) * 1vw), calc(var(--y) * 1vh))
+      translate(-50%, -50%)
+      translateX(0)
+      translateY(12px)
+      rotate(0deg)
+      scale(1);
+  }
+  100% {
+    transform:
+      translate(calc(var(--x) * 1vw), calc(var(--y) * 1vh))
+      translate(-50%, -50%)
+      translateX(calc(var(--amp) * -1))
+      translateY(0)
+      rotate(var(--r0, -3deg))
+      scale(1);
+  }
+}
+
+/* pause during despawn */
+.halloween-shapes .h-shape.is-frozen {
+  animation-play-state: paused, paused;
+}
+
+/* echo clone grow/fade */
+.halloween-shapes .h-shape .ghost-echo {
+  pointer-events: none;
+  opacity: 0.35;
+  transform-origin: 50% 50%;
+  animation: echo-pop 900ms ease-out forwards;
+}
+@keyframes echo-pop {
+  0%   { transform: scale(1.00); opacity: 0.45; }
+  30%  { transform: scale(1.20); opacity: 0.38; }
+  100% { transform: scale(1.70); opacity: 0; }
+}
+
+/* fade the original */
+.halloween-shapes .h-shape .ghost-main.fade-out {
+  animation: ghost-fade 650ms ease-in 250ms forwards;
+}
+@keyframes ghost-fade {
+  to { opacity: 0; filter: blur(1px); }
+}
+
+/* svg sizing */
+.halloween-shapes .h-shape > svg.ghost-main,
+.halloween-shapes .h-shape > svg.ghost-echo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+.halloween-shapes .h-shape > svg.ghost-echo {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+/* shiny variant */
+.halloween-shapes svg.ghost-main.is-shiny {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* subtle opacity breathing (optional look, but cheap) */
+@keyframes ghostBreathe {
+  0%, 100% { opacity: calc(var(--alpha, 0.26) * 0.85); }
+  50%      { opacity: calc(var(--alpha, 0.26) * 1.15); }
+}
+
+/* mouth swap (JS toggles .show-tongue on the svg) */
+.halloween-shapes svg.ghost-main .mouth-tongue { display: none; }
+.halloween-shapes svg.ghost-main.show-tongue .mouth-normal { display: none; }
+.halloween-shapes svg.ghost-main.show-tongue .mouth-tongue { display: inline; }
+
+/* arm swap during scare (JS toggles .is-despawning on the svg) */
+.halloween-shapes svg.ghost-main .boo-arms--out { display: none; }
+.halloween-shapes svg.ghost-main.is-despawning .boo-arms--out { display: inline; }
+.halloween-shapes svg.ghost-main.is-despawning .boo-arms--in  { display: none; }
+
+/* -- corner webs -- */
+.h-webs-layer{position:fixed;inset:0;pointer-events:none;z-index:2;}
+.h-web{position:absolute;width:22vmin;height:22vmin;opacity:.18;}
+.h-web--tr{top:0;right:0;}
+.h-web--bl{bottom:0;left:0;}
+
+.h-web svg{width:100%;height:100%;display:block;}
+.h-web .stroke{
+  stroke:rgba(255,255,255,.95);
+  stroke-width:1.5;
+  fill:none;
+  vector-effect:non-scaling-stroke;
+  filter:drop-shadow(0 0 2px rgba(255,255,255,.35));
+}
+
+/* tweak size/opacity 
+   .h-web{width:18vmin;height:18vmin;opacity:.22;} */
+
+/* bats overlay */
+.bats-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1001;
+}
+.bats-layer.hidden { display: none; }
+.bats-layer video { display: none; }
+.bats-layer canvas { width: 100%; height: 100%; display: block; }
+
+
 /* ---- global theme hooks ---- */
 body {
   background: var(--color-bg-main) !important;

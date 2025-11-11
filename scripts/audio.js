@@ -60,7 +60,7 @@ function playThemeMusic(theme) {
   }
 }
 
-// Handle global theme changes (call this from your theme logic!)
+// Handle global theme changes
 window.audioThemeManager = function (theme) {
   // If no music for this theme, fade out
   if (!TRACKS[theme]) {
@@ -74,5 +74,5 @@ window.audioThemeManager = function (theme) {
 };
 
 window.playMenuClick = function () {
-  // (add your menu SFX audio logic here in the future)
+  // (add menu SFX audio logic here in the future)
 };

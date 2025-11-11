@@ -15,7 +15,7 @@ const QUIZZES = [
     folderName: "web",
     chaptersFile: "./questiondata/chapters/webChapters.json",
     exams: ["Midterms", "Finals"],
-    midtermBank: "./questiondata/chapters/web/webMidterm.json",
+    // midtermBank: "./questiondata/chapters/web/webMidterm.json",
     finalBank: "./questiondata/chapters/web/webFinal.json",
     chapterFilenames: {
       1: "html.json",

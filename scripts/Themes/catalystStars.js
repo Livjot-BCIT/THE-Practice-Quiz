@@ -12,7 +12,7 @@ const { random, sin, cos, PI } = Math;
 
 // Load the background image
 const backgroundImage = new Image();
-backgroundImage.src = "images/AstrageldonBackground.png"; // Path to your image
+backgroundImage.src = "images/AstrageldonBackground.png"; 
 
 let stars = [];
 

@@ -11,16 +11,17 @@
     <meta content="website" property="og:type" />
     <meta content="https://thepracticequiz.ca/" property="og:url" />
     <meta
-      content="https://thepracticequiz.ca/images/chapters/term/404-2.png"
+      content="https://thepracticequiz.ca/images/halloween.png"
       property="og:image"
     />
     <meta
-      content="https://thepracticequiz.ca/images/chapters/term/404-2.png"
+      content="https://thepracticequiz.ca/images/halloween.png"
       property="og:image:secure_url"
     />
     <meta content="1200" property="og:image:width" />
     <meta content="630" property="og:image:height" />
-    <meta property="og:image:alt" content="They call me 007" />
+    <!-- <meta property="og:image:alt" content="They call me 007" /> -->
+         <meta property="og:image:alt" content="happy halloween" />
     <meta content="The Practice Quiz" property="og:site_name" />
     <link rel="icon" type="image/png" href="images/Logo.png" />
     <link rel="canonical" href="https://thepracticequiz.ca/" />
@@ -147,8 +148,7 @@
                   banks, Chapters have separate question banks.
                 </li>
                 <li>
-                  <strong>*:</strong> Material used is from the shorter summer
-                  course.
+                  <strong>*:</strong> Pacing is based off shorter summer course.
                 </li>
               </ul>
             </div>
@@ -277,6 +277,24 @@
           alt="Rain background"
         />
 
+        <!-- Halloween -->
+        <div id="batsLayer" class="bats-layer hidden">
+          <video
+            id="batsVideo"
+            src="./images/videos/bats.mp4"
+            muted
+            playsinline
+            preload="auto"
+          ></video>
+          <canvas id="batsCanvas"></canvas>
+        </div>
+
+        <div
+          id="halloweenShapes"
+          class="halloween-shapes"
+          style="display: none"
+        ></div>
+
         <!-- Left column -->
         <div class="side left"></div>
 
@@ -288,17 +306,18 @@
               <div class="custom-select-trigger">
                 <span class="trigger-text"></span>
                 <span class="dropdown-arrow"></span>
-              </div>
+              </div>  
 
               <!-- Empty Replacement Dropdown -->
               <div class="custom-options"></div>
 
               <!-- Dropdown -->
               <select id="quizTitleDropdown" class="quiz-title-select">
-                <option value="1510">1510</option>
+                <option value="1510">1510J</option>
                 <option value="1537">1537!</option>
                 <option value="1712">1712</option>
-                <option value="2537">2537!</option>
+                <!-- <option value="2537">2537!</option> -->
+                <option value="term">2537</option>
                 <option value="term" disabled>---T2---</option>
                 <option value="2121">2121*</option>
                 <option value="term">2510</option>
@@ -465,7 +484,7 @@
                 <label class="theme-toggle-label" data-theme="halloween">
                   <input type="checkbox" class="theme-toggle" />
                   <span class="toggle-slider"></span>
-                  <div class="theme-toggle-name">Theme 4</div>
+                  <div class="theme-toggle-name">Halloween</div>
                 </label>
                 <!-- Rain -->
                 <label class="theme-toggle-label" data-theme="rain">
@@ -478,23 +497,23 @@
                   <div class="theme-toggle-name">Rain</div>
                 </label>
                 <!-- Fireworks -->
-                <label class="theme-toggle-label">
+                <!-- <label class="theme-toggle-label">
                   <input type="checkbox" class="theme-toggle" />
                   <span class="toggle-slider"></span>
                   <div class="theme-toggle-name">Theme 6</div>
-                </label>
+                </label> -->
                 <!-- Christmas Probably -->
-                <label class="theme-toggle-label">
+                <!-- <label class="theme-toggle-label">
                   <input type="checkbox" class="theme-toggle" />
                   <span class="toggle-slider"></span>
                   <div class="theme-toggle-name">Theme 7</div>
-                </label>
+                </label> -->
                 <!-- RGB -->
-                <label class="theme-toggle-label">
+                <!-- <label class="theme-toggle-label">
                   <input type="checkbox" class="theme-toggle" />
                   <span class="toggle-slider"></span>
                   <div class="theme-toggle-name">Theme 8</div>
-                </label>
+                </label> -->
               </div>
             </div>
 
@@ -584,6 +603,28 @@
                     target="_blank"
                     rel="noopener"
                     >Bleach</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Halloween:</b><br />
+                  Transition "Bats" by Ahmed Ali,
+                  <a
+                    href="https://www.vecteezy.com/video/34638635-scary-bats-flying-with-green-screen-background-free-video"
+                    target="_blank"
+                    rel="noopener"
+                    >Vecteezy</a
+                  >
+                </div>
+
+                <div class="notes-entry">
+                  <b>Halloween:</b><br />
+                  Wallpaper "Pumpkaboo" by
+                  <a
+                    href="https://www.flickr.com/photos/spencer77/5126910732"
+                    target="_blank"
+                    rel="noopener"
+                    >Spencer Wright</a
                   >
                 </div>
 
@@ -740,6 +781,29 @@
 
                 <div class="dev-note-row">
                   <div class="notes-date">
+                    -------2025-10-31-------
+                    <span class="dev-tags">
+                      <span class="tag tag-alpha">Alpha</span>
+                      <span class="tag tag-version">1.1.0</span>
+                    </span>
+                  </div>
+                  <div class="notes-entry">
+                    <b>Version 1.1.0</b> - A new theme + fixes! <br />
+
+                    <b>Features:</b> <br />
+                    - Halloween Theme!!! <br />
+                    - Optimization for mobile devices. <br />
+
+                    <b>Things to fix:</b> <br />
+                    - Removed some classes and questions in order to adhere to BCIT policy (They will be back soon!) <br />
+                    - Optimization for the overall site coming next. <br />
+                    - Fix music volume not being adjustable on apple devices. <br />
+                    - Better quality questions. <br />
+                  </div>
+                </div>
+
+                <div class="dev-note-row">
+                  <div class="notes-date">
                     -------2025-08-11-------
                     <span class="dev-tags">
                       <span class="tag tag-update">Update</span>
@@ -807,8 +871,8 @@
                     Tried to make questions more balanced and less blatant.
                     <br />
                     Added more Splashtext entries. <br />
-                    Added a "Coming soon" page for classes that I lack material
-                    to fill in.
+                    Added a "Coming soon" page for classes that I haven't filled
+                    in.
                   </div>
                 </div>
 
@@ -1474,6 +1538,7 @@
     <script src="./scripts/Themes/lightBG.js"></script>
     <script src="./scripts/Themes/rainBG.js"></script>
     <script src="./scripts/Themes/rainFall.js"></script>
+    <script src="./scripts/Themes/halloweenBG.js"></script>
 
     <script>
       // Dev Notes Modal Logic

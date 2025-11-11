@@ -357,11 +357,13 @@ body {
   cursor: pointer;
   font-weight: 500;
 }
+
 .star-dropdown-wrap.custom-select .custom-option:hover,
 .star-dropdown-wrap.custom-select .custom-option.selected {
   background: var(--color-accent);
   color: #fff;
 }
+
 .custom-options .custom-option.disabled {
   color: var(--color-text-muted) !important;
   pointer-events: none;

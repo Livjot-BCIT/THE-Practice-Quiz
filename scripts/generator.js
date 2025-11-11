@@ -402,6 +402,10 @@ const TERM_IMAGES = [
   { src: "images/chapters/term/404-4.png", alt: "X and Y's Betrayal" },
   { src: "images/chapters/term/404-5.png", alt: "I be coolin bra" },
   { src: "images/chapters/term/404-6.png", alt: "Good Ole TCP" },
+  { src: "images/chapters/term/404-7.png", alt: "Candy bars." },
+  { src: "images/chapters/term/404-8.png", alt: "I'm simply at a loss" },
+  { src: "images/chapters/term/404-9.png", alt: "Rats" },
+  { src: "images/chapters/term/404-10.png", alt: "Insert brain damage here" }
 ];
 
 const TERM_MESSAGES = [

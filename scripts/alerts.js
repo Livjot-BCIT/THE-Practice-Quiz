@@ -6,7 +6,7 @@ const defaultSwal = {
     cancelButton: 'quiz-swal-cancel',
     icon: 'quiz-swal-icon'
   },
-  buttonsStyling: false, // let our CSS style the buttons
+  buttonsStyling: false, // let CSS style the buttons
   background: getCSS('--color-bg-alt'),
   color: getCSS('--color-text')
 };
