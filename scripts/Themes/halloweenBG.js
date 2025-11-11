@@ -181,29 +181,11 @@
     resizeCanvas();
     window.addEventListener("resize", onResize, { passive: true });
 
-    video.muted = true; // ensure muted for autoplay
-    video.playbackRate = PREFERS_REDUCED ? 1.5 : 1.5;
-
-    const playVideo = async () => {
-      try {
-        await video.play();
-      } catch (err) {
-        console.warn("Bats video failed to autoplay, trying again:", err);
-        // fallback: trigger play on first user interaction
-        const clickHandler = () => {
-          video.play();
-          window.removeEventListener("click", clickHandler);
-        };
-        window.addEventListener("click", clickHandler);
-      }
-    };
-
-    if (video.readyState >= 2) {
-      playVideo();
-    } else {
-      video.addEventListener("loadedmetadata", playVideo, { once: true });
+    try {
+      await video.play();
+    } catch (err) {
+      console.log("Bats video play error:", err);
     }
-
     running = true;
     drawFrame();
 
